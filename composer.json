@@ -1,0 +1,9 @@
+{
+    "name": "simplehtmldom/simplehtmldom",
+    "autoload": {
+        "psr-4": {
+            "Simplehtmldom\\Simplehtmldom\\": "vendor/"
+        }
+    },
+    "require": {}
+}
