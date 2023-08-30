@@ -1,6 +1,6 @@
 @charset "UTF-8";
 :root {
-  --bs-blue: #009ef6;
+  --bs-blue: #39702c;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -30696,7 +30696,7 @@ textarea.form-control-lg {
 }
 :root {
   --bs-light-primary:#F1FAFF;
-  --bs-active-primary:#0095E8;
+  --bs-active-primary:#39702c;
   --bs-light-success:#E8FFF3;
   --bs-active-success:#47BE7D;
   --bs-light-info:#F8F5FF;
@@ -30796,7 +30796,7 @@ textarea.form-control-lg {
   --bg-color: 0, 158, 247 !important;
 }
 .bg-primary.hoverable:hover {
-  background-color: #0095E8 !important;
+  background-color: #39702c !important;
 }
 
 .bg-hover-light-primary {
@@ -37550,8 +37550,8 @@ a:hover {
 }
 .btn-check:checked + .btn.btn-primary, .btn-check:active + .btn.btn-primary, .btn.btn-primary:focus:not(.btn-active), .btn.btn-primary:hover:not(.btn-active), .btn.btn-primary:active:not(.btn-active), .btn.btn-primary.active, .btn.btn-primary.show, .show > .btn.btn-primary {
   color: #FFFFFF;
-  border-color: #0095E8;
-  background-color: #0095E8 !important;
+  border-color: #39702c;
+  background-color: #39702c !important;
 }
 .btn-check:checked + .btn.btn-primary i,
 .btn-check:checked + .btn.btn-primary .svg-icon, .btn-check:active + .btn.btn-primary i,
@@ -47357,11 +47357,11 @@ label.rating-label:hover ~ .rating-label > i, label.rating-label:hover ~ .rating
   }
 }
 .landing-dark-bg {
-  background-color: #13263C;
+  background-color: #91752C;
 }
 
 .landing-dark-color {
-  color: #13263C;
+  color: #91752C;
 }
 
 .landing-dark-border {
