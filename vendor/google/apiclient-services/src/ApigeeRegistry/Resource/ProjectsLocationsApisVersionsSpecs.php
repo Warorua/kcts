@@ -34,7 +34,7 @@ use Google\Service\ApigeeRegistry\TestIamPermissionsResponse;
  * Typical usage is:
  *  <code>
  *   $apigeeregistryService = new Google\Service\ApigeeRegistry(...);
- *   $specs = $apigeeregistryService->specs;
+ *   $specs = $apigeeregistryService->projects_locations_apis_versions_specs;
  *  </code>
  */
 class ProjectsLocationsApisVersionsSpecs extends \Google\Service\Resource
@@ -189,6 +189,9 @@ class ProjectsLocationsApisVersionsSpecs extends \Google\Service\Resource
    * @param string $name Required. The name of the spec to list revisions for.
    * @param array $optParams Optional parameters.
    *
+   * @opt_param string filter An expression that can be used to filter the list.
+   * Filters use the Common Expression Language and can refer to all message
+   * fields.
    * @opt_param int pageSize The maximum number of revisions to return per page.
    * @opt_param string pageToken The page token, received from a previous
    * ListApiSpecRevisions call. Provide this to retrieve the subsequent page.
@@ -259,7 +262,8 @@ class ProjectsLocationsApisVersionsSpecs extends \Google\Service\Resource
    * Adds a tag to a specified revision of a spec. (specs.tagRevision)
    *
    * @param string $name Required. The name of the spec to be tagged, including
-   * the revision ID.
+   * the revision ID is optional. If a revision is not specified, it will tag the
+   * latest revision.
    * @param TagApiSpecRevisionRequest $postBody
    * @param array $optParams Optional parameters.
    * @return ApiSpec

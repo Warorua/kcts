@@ -9,6 +9,62 @@ This projects adheres to [Keep a CHANGELOG](http://keepachangelog.com/) and uses
 
 _Nothing yet._
 
+## [1.1.0] - 2023-08-19
+
+### Added
+* `Yoast\PHPUnitPolyfills\Polyfills\AssertObjectProperty` trait to polyfill the `Assert::assertObjectHasProperty()` and `Assert::assertObjectNotHasProperty()` methods as backported from PHPUnit 10.1.0 to PHPUnit 9.6.11. PR [#135].
+
+### Changed
+* General housekeeping.
+
+[#135]: https://github.com/Yoast/PHPUnit-Polyfills/pull/135
+
+
+## [1.0.5] - 2023-03-31
+
+### Fixed
+* A custom `$message` parameter passed to an assertion, will no longer overrule an emulated "assertion failed" message, but will be prefixed to it instead. PR [#97]
+    This applies to the following polyfills:
+    - `assertIsClosedResource()`
+    - `assertIsNotClosedResource()`
+    - `assertIsReadable()`
+    - `assertNotIsReadable()`
+    - `assertIsWritable()`
+    - `assertNotIsWritable()`
+    - `assertDirectoryExists()`
+    - `assertDirectoryNotExists()`
+    - `assertStringNotContainsString()`
+    - `assertStringNotContainsStringIgnoringCase()`
+
+### Changed
+* The `develop` branch has been removed. Development will now take place in the `1.x` and `2.x` branches.
+* README: links to the PHPUnit manual now point explicitly to the PHPUnit 9.x documentation. PR [#94]
+* README: new sub-section about PHPUnit version support. PR [#99]
+* README: various minor improvements. PRs [#92], [#93]
+* General housekeeping.
+
+[#92]: https://github.com/Yoast/PHPUnit-Polyfills/pull/92
+[#93]: https://github.com/Yoast/PHPUnit-Polyfills/pull/93
+[#94]: https://github.com/Yoast/PHPUnit-Polyfills/pull/94
+[#97]: https://github.com/Yoast/PHPUnit-Polyfills/pull/97
+[#99]: https://github.com/Yoast/PHPUnit-Polyfills/pull/99
+
+
+## [1.0.4] - 2022-11-16
+
+This is a maintenance release.
+
+### Changed
+* The `Yoast\PHPUnitPolyfills\Autoload` class is now `final`. PR [#77].
+* README: clear up minor language confusion. Props [Phil E. Taylor] and [fredericgboutin-yapla] for pointing it out.
+* README: fix links which were broken due to an upstream branch rename. PR [#80].
+* Verified PHP 8.2 compatibility.
+* General housekeeping.
+
+[#77]: https://github.com/Yoast/PHPUnit-Polyfills/pull/77
+[#80]: https://github.com/Yoast/PHPUnit-Polyfills/pull/80
+
+
 ## [1.0.3] - 2021-11-23
 
 ### Changed
@@ -111,6 +167,9 @@ Initial release.
 
 
 [Unreleased]: https://github.com/Yoast/PHPUnit-Polyfills/compare/main...HEAD
+[1.1.0]: https://github.com/Yoast/PHPUnit-Polyfills/compare/1.0.5...1.1.0
+[1.0.5]: https://github.com/Yoast/PHPUnit-Polyfills/compare/1.0.4...1.0.5
+[1.0.4]: https://github.com/Yoast/PHPUnit-Polyfills/compare/1.0.3...1.0.4
 [1.0.3]: https://github.com/Yoast/PHPUnit-Polyfills/compare/1.0.2...1.0.3
 [1.0.2]: https://github.com/Yoast/PHPUnit-Polyfills/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/Yoast/PHPUnit-Polyfills/compare/1.0.0...1.0.1
@@ -119,8 +178,10 @@ Initial release.
 [0.1.0]: https://github.com/Yoast/PHPUnit-Polyfills/compare/e8f8b7a73737aa9a5974bd9c73d2bd8d09f69873...0.1.0
 
 [Alain Schlesser]: https://github.com/schlessera
+[fredericgboutin-yapla]: https://github.com/fredericgboutin-yapla
 [Gary Jones]: https://github.com/GaryJones
 [Marc Siegrist]: https://github.com/mergeMarc
 [Mark Baker]: https://github.com/MarkBaker
 [Pascal Birchler]: https://github.com/swissspidy
+[Phil E. Taylor]: https://github.com/PhilETaylor
 [Pierre Gordon]: https://github.com/pierlon

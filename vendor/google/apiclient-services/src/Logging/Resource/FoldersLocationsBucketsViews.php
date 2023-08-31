@@ -26,7 +26,7 @@ use Google\Service\Logging\LoggingEmpty;
  * Typical usage is:
  *  <code>
  *   $loggingService = new Google\Service\Logging(...);
- *   $views = $loggingService->views;
+ *   $views = $loggingService->folders_locations_buckets_views;
  *  </code>
  */
 class FoldersLocationsBucketsViews extends \Google\Service\Resource
@@ -71,7 +71,7 @@ class FoldersLocationsBucketsViews extends \Google\Service\Resource
     return $this->call('delete', [$params], LoggingEmpty::class);
   }
   /**
-   * Gets a view on a log bucket.. (views.get)
+   * Gets a view on a log bucket. (views.get)
    *
    * @param string $name Required. The resource name of the policy: "projects/[PRO
    * JECT_ID]/locations/[LOCATION_ID]/buckets/[BUCKET_ID]/views/[VIEW_ID]" For

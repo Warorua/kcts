@@ -58,6 +58,7 @@ include '../includes/plain_head.php';
 					<div class="w-lg-600px p-10 p-lg-15 mx-auto">
 						<!--begin::Form-->
 						<form class="form w-100" novalidate="novalidate" id="kt_sign_up_form" action="register" method="POST">
+							<input name="signup" value="" type="hidden" />
 							<!--begin::Heading-->
 							<div class="mb-10 text-center">
 								<!--begin::Title-->

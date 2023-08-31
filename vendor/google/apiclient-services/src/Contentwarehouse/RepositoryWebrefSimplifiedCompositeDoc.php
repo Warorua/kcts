@@ -17,18 +17,19 @@
 
 namespace Google\Service\Contentwarehouse;
 
-class RepositoryWebrefSimplifiedCompositeDoc extends \Google\Model
+class RepositoryWebrefSimplifiedCompositeDoc extends \Google\Collection
 {
+  protected $collection_key = 'forwardingDups';
   protected $anchorsType = RepositoryWebrefSimplifiedAnchors::class;
   protected $anchorsDataType = '';
   protected $cdocContainerType = Proto2BridgeMessageSet::class;
   protected $cdocContainerDataType = '';
   protected $documentMentionSpansType = RepositoryWebrefRefconDocumentMentionSpans::class;
   protected $documentMentionSpansDataType = '';
+  protected $forwardingDupsType = RepositoryWebrefSimplifiedForwardingDup::class;
+  protected $forwardingDupsDataType = 'array';
   protected $matchingMetadataType = RepositoryWebrefPreprocessingUrlMatchingMetadata::class;
   protected $matchingMetadataDataType = '';
-  protected $obsoleteAnchorsWithoutInterwikiType = RepositoryWebrefSimplifiedAnchors::class;
-  protected $obsoleteAnchorsWithoutInterwikiDataType = '';
   protected $refconDocumentMetadataType = RepositoryWebrefRefconRefconDocumentMetadata::class;
   protected $refconDocumentMetadataDataType = '';
   /**
@@ -39,8 +40,10 @@ class RepositoryWebrefSimplifiedCompositeDoc extends \Google\Model
    * @var string
    */
   public $url;
-  protected $webrefOutlinksType = Proto2BridgeMessageSet::class;
-  protected $webrefOutlinksDataType = '';
+  protected $webrefOutlinkInfosType = RepositoryWebrefWebrefOutlinkInfos::class;
+  protected $webrefOutlinkInfosDataType = '';
+  protected $webrefOutlinksLegacyType = Proto2BridgeMessageSet::class;
+  protected $webrefOutlinksLegacyDataType = '';
 
   /**
    * @param RepositoryWebrefSimplifiedAnchors
@@ -85,6 +88,20 @@ class RepositoryWebrefSimplifiedCompositeDoc extends \Google\Model
     return $this->documentMentionSpans;
   }
   /**
+   * @param RepositoryWebrefSimplifiedForwardingDup[]
+   */
+  public function setForwardingDups($forwardingDups)
+  {
+    $this->forwardingDups = $forwardingDups;
+  }
+  /**
+   * @return RepositoryWebrefSimplifiedForwardingDup[]
+   */
+  public function getForwardingDups()
+  {
+    return $this->forwardingDups;
+  }
+  /**
    * @param RepositoryWebrefPreprocessingUrlMatchingMetadata
    */
   public function setMatchingMetadata(RepositoryWebrefPreprocessingUrlMatchingMetadata $matchingMetadata)
@@ -97,20 +114,6 @@ class RepositoryWebrefSimplifiedCompositeDoc extends \Google\Model
   public function getMatchingMetadata()
   {
     return $this->matchingMetadata;
-  }
-  /**
-   * @param RepositoryWebrefSimplifiedAnchors
-   */
-  public function setObsoleteAnchorsWithoutInterwiki(RepositoryWebrefSimplifiedAnchors $obsoleteAnchorsWithoutInterwiki)
-  {
-    $this->obsoleteAnchorsWithoutInterwiki = $obsoleteAnchorsWithoutInterwiki;
-  }
-  /**
-   * @return RepositoryWebrefSimplifiedAnchors
-   */
-  public function getObsoleteAnchorsWithoutInterwiki()
-  {
-    return $this->obsoleteAnchorsWithoutInterwiki;
   }
   /**
    * @param RepositoryWebrefRefconRefconDocumentMetadata
@@ -155,18 +158,32 @@ class RepositoryWebrefSimplifiedCompositeDoc extends \Google\Model
     return $this->url;
   }
   /**
+   * @param RepositoryWebrefWebrefOutlinkInfos
+   */
+  public function setWebrefOutlinkInfos(RepositoryWebrefWebrefOutlinkInfos $webrefOutlinkInfos)
+  {
+    $this->webrefOutlinkInfos = $webrefOutlinkInfos;
+  }
+  /**
+   * @return RepositoryWebrefWebrefOutlinkInfos
+   */
+  public function getWebrefOutlinkInfos()
+  {
+    return $this->webrefOutlinkInfos;
+  }
+  /**
    * @param Proto2BridgeMessageSet
    */
-  public function setWebrefOutlinks(Proto2BridgeMessageSet $webrefOutlinks)
+  public function setWebrefOutlinksLegacy(Proto2BridgeMessageSet $webrefOutlinksLegacy)
   {
-    $this->webrefOutlinks = $webrefOutlinks;
+    $this->webrefOutlinksLegacy = $webrefOutlinksLegacy;
   }
   /**
    * @return Proto2BridgeMessageSet
    */
-  public function getWebrefOutlinks()
+  public function getWebrefOutlinksLegacy()
   {
-    return $this->webrefOutlinks;
+    return $this->webrefOutlinksLegacy;
   }
 }
 

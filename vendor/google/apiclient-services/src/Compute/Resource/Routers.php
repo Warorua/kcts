@@ -17,6 +17,7 @@
 
 namespace Google\Service\Compute\Resource;
 
+use Google\Service\Compute\NatIpInfoResponse;
 use Google\Service\Compute\Operation;
 use Google\Service\Compute\Router;
 use Google\Service\Compute\RouterAggregatedList;
@@ -133,8 +134,7 @@ class Routers extends \Google\Service\Resource
     return $this->call('delete', [$params], Operation::class);
   }
   /**
-   * Returns the specified Router resource. Gets a list of available routers by
-   * making a list() request. (routers.get)
+   * Returns the specified Router resource. (routers.get)
    *
    * @param string $project Project ID for this request.
    * @param string $region Name of the region for this request.
@@ -147,6 +147,26 @@ class Routers extends \Google\Service\Resource
     $params = ['project' => $project, 'region' => $region, 'router' => $router];
     $params = array_merge($params, $optParams);
     return $this->call('get', [$params], Router::class);
+  }
+  /**
+   * Retrieves runtime NAT IP information. (routers.getNatIpInfo)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $router Name of the Router resource to query for Nat IP
+   * information. The name should conform to RFC1035.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string natName Name of the nat service to filter the NAT IP
+   * information. If it is omitted, all nats for this router will be returned.
+   * Name should conform to RFC1035.
+   * @return NatIpInfoResponse
+   */
+  public function getNatIpInfo($project, $region, $router, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'router' => $router];
+    $params = array_merge($params, $optParams);
+    return $this->call('getNatIpInfo', [$params], NatIpInfoResponse::class);
   }
   /**
    * Retrieves runtime Nat mapping information of VM endpoints.
@@ -194,6 +214,9 @@ class Routers extends \Google\Service\Resource
    * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
    * get the next page of results in subsequent list requests. Acceptable values
    * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string natName Name of the nat service to filter the Nat Mapping
+   * information. If it is omitted, all nats for this router will be returned.
+   * Name should conform to RFC1035.
    * @opt_param string orderBy Sorts list results by a certain order. By default,
    * results are returned in alphanumerical order based on the resource name. You
    * can also sort results in descending order based on the creation timestamp

@@ -24,6 +24,14 @@ class CallSettings extends \Google\Model
    */
   public $accessLock;
   /**
+   * @var string
+   */
+  public $accessType;
+  /**
+   * @var bool
+   */
+  public $allowJoiningBeforeHost;
+  /**
    * @var bool
    */
   public $attendanceReportEnabled;
@@ -35,6 +43,10 @@ class CallSettings extends \Google\Model
    * @var bool
    */
   public $chatLock;
+  /**
+   * @var bool
+   */
+  public $coActivityLock;
   /**
    * @var bool
    */
@@ -69,6 +81,34 @@ class CallSettings extends \Google\Model
   public function getAccessLock()
   {
     return $this->accessLock;
+  }
+  /**
+   * @param string
+   */
+  public function setAccessType($accessType)
+  {
+    $this->accessType = $accessType;
+  }
+  /**
+   * @return string
+   */
+  public function getAccessType()
+  {
+    return $this->accessType;
+  }
+  /**
+   * @param bool
+   */
+  public function setAllowJoiningBeforeHost($allowJoiningBeforeHost)
+  {
+    $this->allowJoiningBeforeHost = $allowJoiningBeforeHost;
+  }
+  /**
+   * @return bool
+   */
+  public function getAllowJoiningBeforeHost()
+  {
+    return $this->allowJoiningBeforeHost;
   }
   /**
    * @param bool
@@ -111,6 +151,20 @@ class CallSettings extends \Google\Model
   public function getChatLock()
   {
     return $this->chatLock;
+  }
+  /**
+   * @param bool
+   */
+  public function setCoActivityLock($coActivityLock)
+  {
+    $this->coActivityLock = $coActivityLock;
+  }
+  /**
+   * @return bool
+   */
+  public function getCoActivityLock()
+  {
+    return $this->coActivityLock;
   }
   /**
    * @param bool

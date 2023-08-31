@@ -33,11 +33,17 @@ class SnippetExtraInfo extends \Google\Collection
   /**
    * @var bool
    */
+  public $disableNg3Scoring;
+  /**
+   * @var bool
+   */
   public $disableQueryFeatures;
   /**
    * @var int
    */
   public $snippetBrainSelectedCandidateIndex;
+  protected $snippetsbrainModelInfoType = SnippetExtraInfoSnippetsBrainModelInfo::class;
+  protected $snippetsbrainModelInfoDataType = '';
 
   /**
    * @param SnippetExtraInfoSnippetCandidateInfo[]
@@ -84,6 +90,20 @@ class SnippetExtraInfo extends \Google\Collection
   /**
    * @param bool
    */
+  public function setDisableNg3Scoring($disableNg3Scoring)
+  {
+    $this->disableNg3Scoring = $disableNg3Scoring;
+  }
+  /**
+   * @return bool
+   */
+  public function getDisableNg3Scoring()
+  {
+    return $this->disableNg3Scoring;
+  }
+  /**
+   * @param bool
+   */
   public function setDisableQueryFeatures($disableQueryFeatures)
   {
     $this->disableQueryFeatures = $disableQueryFeatures;
@@ -108,6 +128,20 @@ class SnippetExtraInfo extends \Google\Collection
   public function getSnippetBrainSelectedCandidateIndex()
   {
     return $this->snippetBrainSelectedCandidateIndex;
+  }
+  /**
+   * @param SnippetExtraInfoSnippetsBrainModelInfo
+   */
+  public function setSnippetsbrainModelInfo(SnippetExtraInfoSnippetsBrainModelInfo $snippetsbrainModelInfo)
+  {
+    $this->snippetsbrainModelInfo = $snippetsbrainModelInfo;
+  }
+  /**
+   * @return SnippetExtraInfoSnippetsBrainModelInfo
+   */
+  public function getSnippetsbrainModelInfo()
+  {
+    return $this->snippetsbrainModelInfo;
   }
 }
 

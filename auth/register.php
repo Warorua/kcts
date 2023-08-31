@@ -22,11 +22,11 @@ function redirect($url)
 }
 
 if (isset($_POST['signup'])) {
-    $firstname = $_POST['firstname'];
-    $lastname = $_POST['lastname'];
+    $firstname = $_POST['first-name'];
+    $lastname = $_POST['last-name'];
     $email = $_POST['email'];
     $password = $_POST['password'];
-    $repassword = $_POST['repassword'];
+    $repassword = $_POST['confirm-password'];
     $contact_info = '';
     $source = 'C0';
 

@@ -12,7 +12,7 @@ class TweetClientTest extends BaseClientTest
     {
         $client = new TweetClient(bearerToken: $_ENV['TWITTER_BEARER_TOKEN']);
 
-        $response = $client->getTweet('1564986319981498368');
+        $response = $client->getTweet('1589452392348930048');
 
         $this->assertInstanceOf(Tweet::class, $response);
         $this->assertSame('1564986319981498368', $response->getId());
@@ -24,7 +24,7 @@ class TweetClientTest extends BaseClientTest
     {
         $client = new TweetClient(bearerToken: $_ENV['TWITTER_BEARER_TOKEN']);
 
-        $response = $client->getTweets(['1565628118001455105', '1565999511536914433']);
+        $response = $client->getTweets(['1589452392348930048', '1565999511536914433']);
 
         $this->assertInstanceOf(Tweets::class, $response);
         $this->assertSame('1565628118001455105', $response->all()[0]->getId());
@@ -38,10 +38,13 @@ class TweetClientTest extends BaseClientTest
     {
         $client = new TweetClient(bearerToken: $_ENV['TWITTER_BEARER_TOKEN']);
 
-        $response = $client->getTimeline('12', 10);
+        $response = $client->getTimeline('1558929312547577858', 5);
 
         $this->assertInstanceOf(Tweets::class, $response);
-        $this->assertCount(10, $response->all());
+        $this->assertCount(5, $response->all());
+
+        die(var_dump($response->all()[0]));
+
         $this->assertTweetFieldsAreSet($response->all()[0]);
     }
 

@@ -2,8 +2,11 @@
 
 namespace Noweh\TwitterApi;
 
-use Exception;
-
+/**
+ * Class Retweet Controller
+ * @see <a href="https://developer.twitter.com/en/docs/twitter-api/tweets/retweets/api-reference">Tweet Retweet</a>
+ * @author Julien Schmitt
+ */
 class Retweet extends AbstractController
 {
     /**
@@ -13,11 +16,8 @@ class Retweet extends AbstractController
     public function __construct(array $settings)
     {
         parent::__construct($settings);
-
-        if (!isset($settings['account_id'])) {
-            throw new Exception('Incomplete settings passed. Expected "account_id"');
-        }
-
-        $this->setEndpoint('users/' . $settings['account_id'] . '/retweets');
+        $this->setEndpoint('users/' . $this->account_id . '/retweets');
+        $this->setHttpRequestMethod('POST');
+        $this->setAuthMode(1);
     }
 }

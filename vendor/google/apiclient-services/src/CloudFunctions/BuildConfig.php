@@ -26,6 +26,10 @@ class BuildConfig extends \Google\Model
   /**
    * @var string
    */
+  public $dockerRegistry;
+  /**
+   * @var string
+   */
   public $dockerRepository;
   /**
    * @var string
@@ -46,6 +50,10 @@ class BuildConfig extends \Google\Model
   /**
    * @var string
    */
+  public $sourceToken;
+  /**
+   * @var string
+   */
   public $workerPool;
 
   /**
@@ -61,6 +69,20 @@ class BuildConfig extends \Google\Model
   public function getBuild()
   {
     return $this->build;
+  }
+  /**
+   * @param string
+   */
+  public function setDockerRegistry($dockerRegistry)
+  {
+    $this->dockerRegistry = $dockerRegistry;
+  }
+  /**
+   * @return string
+   */
+  public function getDockerRegistry()
+  {
+    return $this->dockerRegistry;
   }
   /**
    * @param string
@@ -145,6 +167,20 @@ class BuildConfig extends \Google\Model
   public function getSourceProvenance()
   {
     return $this->sourceProvenance;
+  }
+  /**
+   * @param string
+   */
+  public function setSourceToken($sourceToken)
+  {
+    $this->sourceToken = $sourceToken;
+  }
+  /**
+   * @return string
+   */
+  public function getSourceToken()
+  {
+    return $this->sourceToken;
   }
   /**
    * @param string

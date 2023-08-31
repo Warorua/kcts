@@ -25,13 +25,19 @@ use Google\Service\CloudSupport\ListCommentsResponse;
  * Typical usage is:
  *  <code>
  *   $cloudsupportService = new Google\Service\CloudSupport(...);
- *   $comments = $cloudsupportService->comments;
+ *   $comments = $cloudsupportService->cases_comments;
  *  </code>
  */
 class CasesComments extends \Google\Service\Resource
 {
   /**
-   * Add a new comment to the specified Case. (comments.create)
+   * Add a new comment to the specified Case. The comment object must have the
+   * following fields set: body. Here is an example of calling this endpoint using
+   * cURL: ```shell case="projects/some-project/cases/43591344" curl \ --request
+   * POST \ --header "Authorization: Bearer $(gcloud auth print-access-token)" \
+   * --header 'Content-Type: application/json' \ --data '{ "body": "This is a test
+   * comment." }' \ "https://cloudsupport.googleapis.com/v2/$case/comments" ```
+   * (comments.create)
    *
    * @param string $parent Required. The resource name of Case to which this
    * comment should be added.
@@ -46,7 +52,11 @@ class CasesComments extends \Google\Service\Resource
     return $this->call('create', [$params], Comment::class);
   }
   /**
-   * Retrieve all Comments associated with the Case object.
+   * Retrieve all comments associated with the Case object. Here is an example of
+   * calling this endpoint using cURL: ```shell case="projects/cloud-support-qa-
+   * premium/cases/43595344" curl \ --header "Authorization: Bearer $(gcloud auth
+   * print-access-token)" \
+   * "https://cloudsupport.googleapis.com/v2/$case/comments" ```
    * (comments.listCasesComments)
    *
    * @param string $parent Required. The resource name of Case object for which

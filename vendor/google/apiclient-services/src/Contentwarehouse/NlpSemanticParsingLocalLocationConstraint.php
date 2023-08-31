@@ -25,10 +25,16 @@ class NlpSemanticParsingLocalLocationConstraint extends \Google\Model
   protected $chainMemberDataType = '';
   protected $cuisineType = NlpSemanticParsingLocalCuisineConstraint::class;
   protected $cuisineDataType = '';
+  protected $evcsConnectorConstraintType = NlpSemanticParsingLocalEvChargingStationConnectorConstraint::class;
+  protected $evcsConnectorConstraintDataType = '';
+  protected $evcsPaymentConstraintType = NlpSemanticParsingLocalEvChargingStationPaymentConstraint::class;
+  protected $evcsPaymentConstraintDataType = '';
   protected $evcsSpeedConstraintType = NlpSemanticParsingLocalEvChargingStationSpeedConstraint::class;
   protected $evcsSpeedConstraintDataType = '';
   protected $gcidConstraintType = NlpSemanticParsingLocalGcidConstraint::class;
   protected $gcidConstraintDataType = '';
+  protected $healthInsuranceType = NlpSemanticParsingLocalHealthInsuranceConstraint::class;
+  protected $healthInsuranceDataType = '';
   protected $hyperReliableDataType = NlpSemanticParsingLocalHyperReliableData::class;
   protected $hyperReliableDataDataType = '';
   protected $menuItemType = NlpSemanticParsingLocalMenuItem::class;
@@ -121,6 +127,34 @@ class NlpSemanticParsingLocalLocationConstraint extends \Google\Model
     return $this->cuisine;
   }
   /**
+   * @param NlpSemanticParsingLocalEvChargingStationConnectorConstraint
+   */
+  public function setEvcsConnectorConstraint(NlpSemanticParsingLocalEvChargingStationConnectorConstraint $evcsConnectorConstraint)
+  {
+    $this->evcsConnectorConstraint = $evcsConnectorConstraint;
+  }
+  /**
+   * @return NlpSemanticParsingLocalEvChargingStationConnectorConstraint
+   */
+  public function getEvcsConnectorConstraint()
+  {
+    return $this->evcsConnectorConstraint;
+  }
+  /**
+   * @param NlpSemanticParsingLocalEvChargingStationPaymentConstraint
+   */
+  public function setEvcsPaymentConstraint(NlpSemanticParsingLocalEvChargingStationPaymentConstraint $evcsPaymentConstraint)
+  {
+    $this->evcsPaymentConstraint = $evcsPaymentConstraint;
+  }
+  /**
+   * @return NlpSemanticParsingLocalEvChargingStationPaymentConstraint
+   */
+  public function getEvcsPaymentConstraint()
+  {
+    return $this->evcsPaymentConstraint;
+  }
+  /**
    * @param NlpSemanticParsingLocalEvChargingStationSpeedConstraint
    */
   public function setEvcsSpeedConstraint(NlpSemanticParsingLocalEvChargingStationSpeedConstraint $evcsSpeedConstraint)
@@ -147,6 +181,20 @@ class NlpSemanticParsingLocalLocationConstraint extends \Google\Model
   public function getGcidConstraint()
   {
     return $this->gcidConstraint;
+  }
+  /**
+   * @param NlpSemanticParsingLocalHealthInsuranceConstraint
+   */
+  public function setHealthInsurance(NlpSemanticParsingLocalHealthInsuranceConstraint $healthInsurance)
+  {
+    $this->healthInsurance = $healthInsurance;
+  }
+  /**
+   * @return NlpSemanticParsingLocalHealthInsuranceConstraint
+   */
+  public function getHealthInsurance()
+  {
+    return $this->healthInsurance;
   }
   /**
    * @param NlpSemanticParsingLocalHyperReliableData

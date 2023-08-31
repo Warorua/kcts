@@ -12,6 +12,8 @@ class TweetClient extends BaseClient
     {
         $response = $this->get('tweets/' . $id, [
             'tweet.fields' => $this->tweetFields,
+            'expansions' => $this->expansions,
+            'media.fields' => $this->mediaFields,
         ]);
 
         return new Tweet($response->getData());
@@ -21,6 +23,8 @@ class TweetClient extends BaseClient
     {
         $response = $this->get('tweets', [
             'tweet.fields' => $this->tweetFields,
+            'expansions' => $this->expansions,
+            'media.fields' => $this->mediaFields,
             'pagination_token' => $paginationToken,
             'ids' => implode(',', $tweetIds),
         ]);
@@ -32,6 +36,8 @@ class TweetClient extends BaseClient
     {
         $response = $this->get('tweets/' . $id . '/quote_tweets', [
             'tweet.fields' => $this->tweetFields,
+            'expansions' => $this->expansions,
+            'media.fields' => $this->mediaFields,
             'max_results' => $maxResults,
             'pagination_token' => $paginationToken,
         ]);
@@ -65,6 +71,8 @@ class TweetClient extends BaseClient
     {
         $response = $this->get('users/' . $userId . '/tweets', [
             'tweet.fields' => $this->tweetFields,
+            'expansions' => $this->expansions,
+            'media.fields' => $this->mediaFields,
             'max_results' => $maxResults,
             'pagination_token' => $paginationToken,
         ]);
@@ -76,6 +84,8 @@ class TweetClient extends BaseClient
     {
         $response = $this->get('users/' . $userId . '/timelines/reverse_chronological', [
             'tweet.fields' => $this->tweetFields,
+            'expansions' => $this->expansions,
+            'media.fields' => $this->mediaFields,
             'max_results' => $maxResults,
             'pagination_token' => $paginationToken,
             'tweet_mode' => 'extended',
@@ -88,6 +98,8 @@ class TweetClient extends BaseClient
     {
         $response = $this->get('users/' . $userId . '/mentions', [
             'tweet.fields' => $this->tweetFields,
+            'expansions' => $this->expansions,
+            'media.fields' => $this->mediaFields,
             'max_results' => $maxResults,
             'pagination_token' => $paginationToken,
         ]);

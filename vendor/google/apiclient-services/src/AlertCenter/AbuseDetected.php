@@ -24,10 +24,6 @@ class AbuseDetected extends \Google\Model
   /**
    * @var string
    */
-  public $alertDescriptor;
-  /**
-   * @var string
-   */
   public $product;
   /**
    * @var string
@@ -36,7 +32,7 @@ class AbuseDetected extends \Google\Model
   /**
    * @var string
    */
-  public $summary;
+  public $variationType;
 
   /**
    * @param EntityList
@@ -51,20 +47,6 @@ class AbuseDetected extends \Google\Model
   public function getAdditionalDetails()
   {
     return $this->additionalDetails;
-  }
-  /**
-   * @param string
-   */
-  public function setAlertDescriptor($alertDescriptor)
-  {
-    $this->alertDescriptor = $alertDescriptor;
-  }
-  /**
-   * @return string
-   */
-  public function getAlertDescriptor()
-  {
-    return $this->alertDescriptor;
   }
   /**
    * @param string
@@ -97,16 +79,16 @@ class AbuseDetected extends \Google\Model
   /**
    * @param string
    */
-  public function setSummary($summary)
+  public function setVariationType($variationType)
   {
-    $this->summary = $summary;
+    $this->variationType = $variationType;
   }
   /**
    * @return string
    */
-  public function getSummary()
+  public function getVariationType()
   {
-    return $this->summary;
+    return $this->variationType;
   }
 }
 

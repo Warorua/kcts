@@ -26,7 +26,7 @@ use Google\Service\NetworkServices\TcpRoute;
  * Typical usage is:
  *  <code>
  *   $networkservicesService = new Google\Service\NetworkServices(...);
- *   $tcpRoutes = $networkservicesService->tcpRoutes;
+ *   $tcpRoutes = $networkservicesService->projects_locations_tcpRoutes;
  *  </code>
  */
 class ProjectsLocationsTcpRoutes extends \Google\Service\Resource
@@ -40,7 +40,7 @@ class ProjectsLocationsTcpRoutes extends \Google\Service\Resource
    * @param array $optParams Optional parameters.
    *
    * @opt_param string tcpRouteId Required. Short name of the TcpRoute resource to
-   * be created. E.g. TODO(Add an example).
+   * be created.
    * @return Operation
    */
   public function create($parent, TcpRoute $postBody, $optParams = [])

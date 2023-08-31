@@ -33,7 +33,12 @@ class Media extends \Google\Service\Resource
 {
   /**
    * Download a file attachment on a case. Note: HTTP requests must append
-   * "?alt=media" to the URL. (media.download)
+   * "?alt=media" to the URL. Here is an example of calling this endpoint using
+   * cURL: ```shell name="projects/some-
+   * project/cases/43594844/attachments/0674M00000WijAnZAJ" curl \ --header
+   * "Authorization: Bearer $(gcloud auth print-access-token)" \
+   * "https://cloudsupport.googleapis.com/v2/$name:download?alt=media" ```
+   * (media.download)
    *
    * @param string $name The resource name of the attachment to be downloaded.
    * @param array $optParams Optional parameters.
@@ -46,10 +51,17 @@ class Media extends \Google\Service\Resource
     return $this->call('download', [$params], MediaModel::class);
   }
   /**
-   * Create a file attachment on a case or Cloud resource. (media.upload)
+   * Create a file attachment on a case or Cloud resource. The attachment object
+   * must have the following fields set: filename. Here is an example of calling
+   * this endpoint using cURL: ```shell echo "This text is in a file I'm uploading
+   * using CSAPI." \ > "./example_file.txt" case="projects/some-
+   * project/cases/43594844" curl \ --header "Authorization: Bearer $(gcloud auth
+   * print-access-token)" \ --data-binary @"./example_file.txt" \ "https://cloudsu
+   * pport.googleapis.com/upload/v2beta/$case/attachments?attachment.filename=uplo
+   * aded_via_curl.txt" ``` (media.upload)
    *
-   * @param string $parent Required. The resource name of the case to which
-   * attachment should be attached.
+   * @param string $parent Required. The resource name of the case (or case
+   * parent) to which the attachment should be attached.
    * @param CreateAttachmentRequest $postBody
    * @param array $optParams Optional parameters.
    * @return Attachment

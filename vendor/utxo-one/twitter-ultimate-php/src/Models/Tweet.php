@@ -44,7 +44,7 @@ class Tweet extends BaseModel
         return (isset($this->data['source']) ? $this->data['source'] : null);
     }
 
-    public function isWithheld(): ?bool
+    public function isWithheld(): ?array
     {
         return (isset($this->data['withheld']) ? $this->data['withheld'] : null);
     }
@@ -88,4 +88,15 @@ class Tweet extends BaseModel
     {
         return (isset($this->data['attachments']) ? $this->data['attachments'] : null);
     }
+
+    public function getMedia(): ?array
+    {
+        return (isset($this->includes['media']) ? $this->includes['media'] : null);
+    }
+
+    public function getIncludes(): ?array
+    {
+        return (isset($this->includes) && !empty($this->includes) ? $this->includes : null);
+    }
+
 }
