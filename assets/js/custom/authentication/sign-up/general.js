@@ -114,7 +114,7 @@ var KTSignupGeneral = function() {
 
                         // Show message popup. For more info check the plugin's official documentation: https://sweetalert2.github.io/
                         Swal.fire({
-                            text: "You have successfully reset your password!",
+                            text: "You have successfully created your account!",
                             icon: "success",
                             buttonsStyling: false,
                             confirmButtonText: "Ok, got it!",
@@ -125,7 +125,7 @@ var KTSignupGeneral = function() {
                             if (result.isConfirmed) { 
                                 form.reset();  // reset form                    
                                 passwordMeter.reset();  // reset password meter
-                                //form.submit();
+                                form.submit();
                             }
                         });
                     }, 1500);   						
