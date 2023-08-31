@@ -1,98 +1,94 @@
 <?php
-	use PHPMailer\PHPMailer\PHPMailer;
-	use PHPMailer\PHPMailer\Exception;
 
-	include '../includes/conn.php';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-    function redirect($url)
+include '../includes/conn.php';
+
+function redirect($url)
 {
-    if (!headers_sent())
-    {    
-        header('Location: '.$url);
+    if (!headers_sent()) {
+        header('Location: ' . $url);
         exit;
-        }
-    else
-        {  
+    } else {
         echo '<script type="text/javascript">';
-        echo 'window.location.href="'.$url.'";';
+        echo 'window.location.href="' . $url . '";';
         echo '</script>';
         echo '<noscript>';
-        echo '<meta http-equiv="refresh" content="0;url='.$url.'" />';
-        echo '</noscript>'; exit;
+        echo '<meta http-equiv="refresh" content="0;url=' . $url . '" />';
+        echo '</noscript>';
+        exit;
     }
 }
 
-	if(isset($_POST['signup'])){
-		$firstname = $_POST['firstname'];
-		$lastname = $_POST['lastname'];
-		$email = $_POST['email'];
-		$password = $_POST['password'];
-		$repassword = $_POST['repassword'];
-        $contact_info = '';
-        $source = 'C0';
-		
-		$_SESSION['firstname'] = $firstname;
-		$_SESSION['lastname'] = $lastname;
-		$_SESSION['email'] = $email;	
-		$_SESSION['contact_info'] = $contact_info;
-	
+if (isset($_POST['signup'])) {
+    $firstname = $_POST['firstname'];
+    $lastname = $_POST['lastname'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    $repassword = $_POST['repassword'];
+    $contact_info = '';
+    $source = 'C0';
 
-		if($password != $repassword){
-			$_SESSION['error'] = 'Passwords did not match';
-			header('location: '.$parent_url.'/v2/new#');
-		}
-		
-		else{
-			$conn = $pdo->open();
+    $_SESSION['firstname'] = $firstname;
+    $_SESSION['lastname'] = $lastname;
+    $_SESSION['email'] = $email;
+    $_SESSION['contact_info'] = $contact_info;
 
-			 //check whether email is related to other account
- $stmt = $conn->prepare("SELECT COUNT(*) AS numrows FROM users WHERE email=:email");
- $stmt->execute(['email'=>$email]);
- $row = $stmt->fetch();
- if($row['numrows'] > 0){
-    $stmt = $conn->prepare("SELECT * FROM users WHERE email=:email");
-    $stmt->execute(['email'=>$email]);
-    $row = $stmt->fetch();  
 
-     if($row['source'] == 'G0'){
-      $_SESSION['error'] = 'User already registered with Google.';
-      unset($_SESSION['access_token']);
-      redirect($parent_url.'/v2/new');
-     
-     }elseif($row['source'] == 'F0'){
-         $_SESSION['error'] = 'User already registered with Facebook.';
-         unset($_SESSION['access_token']);
-         redirect($parent_url.'/v2/new');
-     }elseif($row['source'] == 'T0'){
-        $_SESSION['error'] = 'User already registered with Twitter.';
-        unset($_SESSION['access_token']);
-        redirect($parent_url.'/v2/new');
-    }else{
-         $_SESSION['error'] = 'User already registered.';
-         unset($_SESSION['access_token']);
-         redirect($parent_url.'/v2/new');
-     }
- }
- ////////////////////////////////////////////////////////////////////////////////////////
-			else{
-				$now = date('Y-m-d');
-				$password = password_hash($password, PASSWORD_DEFAULT);
+    if ($password != $repassword) {
+        $_SESSION['error'] = 'Passwords did not match';
+        header('location: ' . $parent_url . '/v2/new#');
+    } else {
+        $conn = $pdo->open();
 
-				//generate code
-				$set='123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-				$code=substr(str_shuffle($set), 0, 12);
+        //check whether email is related to other account
+        $stmt = $conn->prepare("SELECT COUNT(*) AS numrows FROM users WHERE email=:email");
+        $stmt->execute(['email' => $email]);
+        $row = $stmt->fetch();
+        if ($row['numrows'] > 0) {
+            $stmt = $conn->prepare("SELECT * FROM users WHERE email=:email");
+            $stmt->execute(['email' => $email]);
+            $row = $stmt->fetch();
 
-                
+            if ($row['source'] == 'G0') {
+                $_SESSION['error'] = 'User already registered with Google.';
+                unset($_SESSION['access_token']);
+                redirect($parent_url . '/v2/new');
+            } elseif ($row['source'] == 'F0') {
+                $_SESSION['error'] = 'User already registered with Facebook.';
+                unset($_SESSION['access_token']);
+                redirect($parent_url . '/v2/new');
+            } elseif ($row['source'] == 'T0') {
+                $_SESSION['error'] = 'User already registered with Twitter.';
+                unset($_SESSION['access_token']);
+                redirect($parent_url . '/v2/new');
+            } else {
+                $_SESSION['error'] = 'User already registered.';
+                unset($_SESSION['access_token']);
+                redirect($parent_url . '/v2/new');
+            }
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////
+        else {
+            $now = date('Y-m-d');
+            $password = password_hash($password, PASSWORD_DEFAULT);
 
-				try{
-					$stmt = $conn->prepare("INSERT INTO users (source, email, contact_info, password, firstname, lastname, activate_code, created_on) VALUES (:source, :email, :contact_info, :password, :firstname, :lastname, :code, :now)");
-					$stmt->execute(['source'=>$source, 'email'=>$email, 'contact_info'=>$contact_info, 'password'=>$password, 'firstname'=>$firstname, 'lastname'=>$lastname, 'code'=>$code, 'now'=>$now]);
-					$userid = $conn->lastInsertId();
+            //generate code
+            $set = '123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+            $code = substr(str_shuffle($set), 0, 12);
 
-					$message = '
+
+
+            try {
+                $stmt = $conn->prepare("INSERT INTO users (source, email, contact_info, password, firstname, lastname, activate_code, created_on) VALUES (:source, :email, :contact_info, :password, :firstname, :lastname, :code, :now)");
+                $stmt->execute(['source' => $source, 'email' => $email, 'contact_info' => $contact_info, 'password' => $password, 'firstname' => $firstname, 'lastname' => $lastname, 'code' => $code, 'now' => $now]);
+                $userid = $conn->lastInsertId();
+
+                $message = '
                     <!--begin::Email template-->
- <style>html,body { padding:0; margin:0; font-family: Inter, Helvetica, "sans-serif"; } a:hover { color: #009ef7; }</style>
- <div id="#kt_app_body_content" style="background-color:#F7F2EF; font-family:Arial,Helvetica,sans-serif; line-height: 1.5; min-height: 100%; font-weight: normal; font-size: 15px; color: #2F3044; margin:0; padding:0; width:100%;">
+     <style>html,body { padding:0; margin:0; font-family: Inter, Helvetica, "sans-serif"; } a:hover { color: #009ef7; }</style>
+     <div id="#kt_app_body_content" style="background-color:#F7F2EF; font-family:Arial,Helvetica,sans-serif; line-height: 1.5; min-height: 100%; font-weight: normal; font-size: 15px; color: #2F3044; margin:0; padding:0; width:100%;">
      <div style="background-color:#ffffff; padding: 45px 0 34px 0; border-radius: 24px; margin:40px auto; max-width: 600px;">
          <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" height="auto" style="border-collapse:collapse">
              <tbody>
@@ -114,14 +110,14 @@
                              <!--end:Media-->
                              <!--begin:Text-->
                              <div style="font-size: 14px; font-weight: 500; margin-bottom: 27px; font-family:Arial,Helvetica,sans-serif;">
-                                 <p style="margin-bottom:9px; color:#181C32; font-size: 22px; font-weight:700">Hey '.$firstname.', thanks for signing up!</p>
+                                 <p style="margin-bottom:9px; color:#181C32; font-size: 22px; font-weight:700">Hey ' . $firstname . ', thanks for signing up!</p>
                                  <p style="margin-bottom:2px; color:#7E8299">Lots of people make mistakes while creating</p>
                                  <p style="margin-bottom:2px; color:#7E8299">paragraphs. Some writers just put whitespace in</p>
                                  <p style="margin-bottom:2px; color:#7E8299">their text in random places</p>
                              </div>
                              <!--end:Text-->
                              <!--begin:Action-->
-                             <a href="https://techkira.net/auth/activate.php?code='.$code.'&user='.$userid.'" target="_blank" style="background-color:#50CD89; border-radius:6px;display:inline-block; padding:11px 19px; color: #FFFFFF; font-size: 14px; font-weight:500;">Activate Account</a>
+                             <a href="https://techkira.net/auth/activate.php?code=' . $code . '&user=' . $userid . '" target="_blank" style="background-color:#50CD89; border-radius:6px;display:inline-block; padding:11px 19px; color: #FFFFFF; font-size: 14px; font-weight:500;">Activate Account</a>
                              <!--begin:Action-->
                          </div>
                          <!--end:Email content-->
@@ -248,72 +244,63 @@
              </tbody>
          </table>
      </div>
- </div>
+     </div>
 					';
 
-					//Load phpmailer
-		    		require '../vendor/autoload.php';
+                //Load phpmailer
+                require '../vendor/autoload.php';
 
-		    		$mail = new PHPMailer(true);                             
-				    try {
-				        //Server settings
-						
-				        $mail->isSMTP();                                     
-				        $mail->Host = gethostbyname('mail.techkira.net');                  
-				        $mail->SMTPAuth = true;                               
-				        $mail->Username = 'kotnova.mailer@techkira.net';     
-				        $mail->Password = '9ATYY4s-SoxV';                    
-				        $mail->SMTPOptions = array(
-				            'ssl' => array(
-				            'verify_peer' => false,
-				            'verify_peer_name' => false,
-				            'allow_self_signed' => true
-				            )
-				        );                         
-				        $mail->SMTPSecure = 'tls';                           
-				        $mail->Port = 587;                                   
+                $mail = new PHPMailer(true);
+                try {
+                    //Server settings
 
-				        $mail->setFrom('kotnova.mailer@techkira.net');
-				        
-				        //Recipients
-				        $mail->addAddress($email);              
-				        $mail->addReplyTo('mailer.auto_system@techkira.net');
-				       
-				        //Content
-				        $mail->isHTML(true);                                  
-				        $mail->Subject = 'Faraji Properties.';
-				        $mail->Body    = $message;
+                    $mail->isSMTP();
+                    $mail->Host = gethostbyname('mail.techkira.net');
+                    $mail->SMTPAuth = true;
+                    $mail->Username = 'kotnova.mailer@techkira.net';
+                    $mail->Password = '9ATYY4s-SoxV';
+                    $mail->SMTPOptions = array(
+                        'ssl' => array(
+                            'verify_peer' => false,
+                            'verify_peer_name' => false,
+                            'allow_self_signed' => true
+                        )
+                    );
+                    $mail->SMTPSecure = 'tls';
+                    $mail->Port = 587;
 
-				        $mail->send();
+                    $mail->setFrom('kotnova.mailer@techkira.net');
 
-				        unset($_SESSION['firstname']);
-				        unset($_SESSION['lastname']);
-				        unset($_SESSION['email']);
+                    //Recipients
+                    $mail->addAddress($email);
+                    $mail->addReplyTo('mailer.auto_system@techkira.net');
 
-				        {$_SESSION['success'] = 'Account created. Check your email to activate.';
-				        header('location: https://techkira.net/v2/new#');}
+                    //Content
+                    $mail->isHTML(true);
+                    $mail->Subject = 'Faraji Properties.';
+                    $mail->Body    = $message;
 
-				    } 
-									
-				    catch (Exception $e) {
-				        $_SESSION['error'] = 'Message could not be sent. Mailer Error: '.$mail->ErrorInfo;
-				        header('location: https://techkira.net/v2/new#');
-				    }
+                    $mail->send();
 
-				}
-				catch(PDOException $e){
-					$_SESSION['error'] = $e->getMessage();
-					header('location: register.php');
-				}
+                    unset($_SESSION['firstname']);
+                    unset($_SESSION['lastname']);
+                    unset($_SESSION['email']); {
+                        $_SESSION['success'] = 'Account created. Check your email to activate.';
+                        header('location: https://techkira.net/v2/new#');
+                    }
+                } catch (Exception $e) {
+                    $_SESSION['error'] = 'Message could not be sent. Mailer Error: ' . $mail->ErrorInfo;
+                    header('location: https://techkira.net/v2/new#');
+                }
+            } catch (PDOException $e) {
+                $_SESSION['error'] = $e->getMessage();
+                header('location: register.php');
+            }
 
-				$pdo->close();
-
-			}
-
-		}
-
-	}
-	else{
-		$_SESSION['error'] = 'Complete filling the signup form first';
-		header('location: https://techkira.net/v2/new#');
-	}
+            $pdo->close();
+        }
+    }
+} else {
+    $_SESSION['error'] = 'Complete filling the signup form first';
+    header('location: https://techkira.net/v2/new#');
+}
