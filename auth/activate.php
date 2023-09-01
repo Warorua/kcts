@@ -1,8 +1,9 @@
 <?php include '../includes/conn.php'; ?>
 <?php
 
-function alert_danger($error_head, $error_body){
-    $alert_danger_box = '
+function alert_danger($error_head, $error_body)
+{
+	$alert_danger_box = '
 <!--begin::Alert-->
 <div class="py-5">
 <div class="rounded border p-10 pb-0 d-flex flex-column align-items-center">
@@ -16,8 +17,8 @@ function alert_danger($error_head, $error_body){
                                 </span>
                                 <!--end::Svg Icon-->
                                 <div class="d-flex flex-column">
-                                    <h4 class="mb-1 text-danger">'.$error_head.'</h4>
-                                    <span>'.$error_body.'</span>
+                                    <h4 class="mb-1 text-danger">' . $error_head . '</h4>
+                                    <span>' . $error_body . '</span>
                                 </div>
                             </div>
       </div>
@@ -27,12 +28,13 @@ function alert_danger($error_head, $error_body){
 
 ';
 
-return $alert_danger_box;
+	return $alert_danger_box;
 }
 
 
-function alert_success($error_head, $error_body){
-$alert_success_box = '
+function alert_success($error_head, $error_body)
+{
+	$alert_success_box = '
 
 <!--begin::Alert-->
 <div class="py-5">
@@ -47,8 +49,8 @@ $alert_success_box = '
                                 </span>
                                 <!--end::Svg Icon-->
                                 <div class="d-flex flex-column">
-                                    <h4 class="mb-1 text-primary">'.$error_head.'</h4>
-                                    <span>'.$error_body.'</span>
+                                    <h4 class="mb-1 text-primary">' . $error_head . '</h4>
+                                    <span>' . $error_body . '</span>
                                 </div>
                             </div>
       </div>
@@ -58,7 +60,7 @@ $alert_success_box = '
 
 ';
 
-return $alert_success_box;
+	return $alert_success_box;
 }
 
 /*
@@ -80,145 +82,136 @@ $wrapper_box = '
 </div>
 <!--end::Wrapper-->
 '; */
-	$output = '';
-	if(!isset($_GET['code']) OR !isset($_GET['user'])){
-        $error_head = 'Activation Error!';
-        $error_body = 'Code to activate account not found.';
-        //$wrapper_head =
-		$output .= alert_danger($error_head, $error_body);
-	}
-	else{
-		$conn = $pdo->open();
+$output = '';
+if (!isset($_GET['code']) or !isset($_GET['user'])) {
+	$error_head = 'Activation Error!';
+	$error_body = 'Code to activate account not found.';
+	//$wrapper_head =
+	$output .= alert_danger($error_head, $error_body);
+} else {
+	$conn = $pdo->open();
 
-		$stmt = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM users WHERE activate_code=:code AND id=:id");
-		$stmt->execute(['code'=>$_GET['code'], 'id'=>$_GET['user']]);
-		$row = $stmt->fetch();
+	$stmt = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM users WHERE activate_code=:code AND id=:id");
+	$stmt->execute(['code' => $_GET['code'], 'id' => $_GET['user']]);
+	$row = $stmt->fetch();
 
-		if($row['numrows'] > 0){
-			if($row['status']){
-                $error_head = 'Activation Error!';
-        $error_body = ' Account already activated.';
-        //$wrapper_head =
+	if ($row['numrows'] > 0) {
+		if ($row['status']) {
+			$error_head = 'Activation Error!';
+			$error_body = ' Account already activated.';
+			//$wrapper_head =
+			$output .= alert_danger($error_head, $error_body);
+		} else {
+			try {
+				$stmt = $conn->prepare("UPDATE users SET status=:status WHERE id=:id");
+				$stmt->execute(['status' => 1, 'id' => $row['id']]);
+				$error_head = 'Activation Successful!';
+				$error_body = 'Account activated - Email: <b>' . $row['email'] . '</b>';
+				//$wrapper_head = 
+				$output .= alert_success($error_head, $error_body);
+			} catch (PDOException $e) {
+				$error_head = 'Activation Error!';
+				$error_body = $e->getMessage();
+				//$wrapper_head =
 				$output .= alert_danger($error_head, $error_body);
 			}
-			else{
-				try{
-					$stmt = $conn->prepare("UPDATE users SET status=:status WHERE id=:id");
-					$stmt->execute(['status'=>1, 'id'=>$row['id']]);
-                    $error_head = 'Activation Successful!';
-        $error_body = 'Account activated - Email: <b>'.$row['email'].'</b>';
-        //$wrapper_head = 
-					$output .= alert_success($error_head, $error_body);
-				}
-				catch(PDOException $e){
-                    $error_head = 'Activation Error!';
-        $error_body = $e->getMessage();
-        //$wrapper_head =
-					$output .= alert_danger($error_head, $error_body);
-				}
-
-			}
-			
 		}
-		else{
-            $error_head = 'Activation Error!';
-        $error_body = 'Cannot activate account. Wrong code.';
-        //$wrapper_head =
-			$output .= alert_danger($error_head, $error_body);
-		}
-
-		$pdo->close();
+	} else {
+		$error_head = 'Activation Error!';
+		$error_body = 'Cannot activate account. Wrong code.';
+		//$wrapper_head =
+		$output .= alert_danger($error_head, $error_body);
 	}
+
+	$pdo->close();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
-	<!--begin::Head-->
-	
-<!--authentication/general/welcome.html :58:30-->
-<!-- Kejanie.com --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Kejanie.com -->
-<head>
-		<title>Metronic - the world's #1 selling Bootstrap Admin Theme Ecosystem for HTML, Vue, React, Angular &amp; Laravel by KCTS</title>
-		<meta charset="utf-8" />
-		<meta name="description" content="The most advanced Bootstrap Admin Theme on Themeforest trusted by 94,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue &amp; Laravel versions. Grab your copy now and get life-time updates for free." />
-		<meta name="keywords" content="" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta property="og:locale" content="en_US" />
-		<meta property="og:type" content="article" />
-		<meta property="og:title" content="Metronic - Bootstrap 5 HTML, VueJS, React, Angular &amp; Laravel Admin Dashboard Theme" />
-		<meta property="og:url" content="https://techkira.net/metronic" />
-		<meta property="og:site_name" content="KCTS | Metronic" />
-		<link rel="canonical" href="https://preview.techkira.net/metronic8" />
-		<link rel="shortcut icon" href="../assets/media/logos/favicon.ico" />
-		<!--begin::Fonts-->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
-		<!--end::Fonts-->
-        <!--begin::Vendor Stylesheets(used by this page)-->
-		<link href="../assets/plugins/custom/prismjs/prismjs.bundle.css" rel="stylesheet" type="text/css" />
-		<!--end::Vendor Stylesheets-->
-		<!--begin::Global Stylesheets Bundle(used by all pages)-->
-		<link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
-		<link href="../assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
-		<!--end::Global Stylesheets Bundle-->
-		<!--Begin::Google Tag Manager -->
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src= '../https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-MDKZXTL');</script>
-		<!--End::Google Tag Manager -->
-	</head>
-	<!--end::Head-->
-	<!--begin::Body-->
-	<body id="kt_body" class="auth-bg">
-		<!--Begin::Google Tag Manager (noscript) -->
-		<noscript>
-			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDKZXTL" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-		</noscript>
-		<!--End::Google Tag Manager (noscript) -->
-		<!--begin::Main-->
-		<!--begin::Root-->
-		<div class="d-flex flex-column flex-root">
-			<!--begin::Authentication - Signup Welcome Message -->
-			<div class="d-flex flex-column flex-column-fluid">
-				<!--begin::Content-->
-				<div class="d-flex flex-column flex-column-fluid text-center p-10 py-lg-15">
-					<!--begin::Logo-->
-					<a href="../../index.html" class="mb-10 pt-lg-10">
-						<img alt="Logo" src="https://techkira.net/assets/media/logos/logo_full_bold.png" class="h-60px mb-6" />
-					</a>
-					<!--end::Logo-->
-                    <!--begin::Alert-->
-           <?php echo $output; ?>
-					<!--end::Wrapper-->
-					<!--begin::Illustration-->
-					<div class="d-flex flex-row-auto bgi-no-repeat bgi-position-x-center bgi-size-contain bgi-position-y-bottom min-h-100px min-h-lg-350px" style="background-image: url(/metronic8/demo9/assets/media/illustrations/sigma-1/17.png"></div>
-					<!--end::Illustration-->
-				</div>
-				<!--end::Content-->
-				<!--begin::Footer-->
-				<div class="d-flex flex-center flex-column-auto p-10">
-					<!--begin::Links-->
-					<div class="d-flex align-items-center fw-bold fs-6">
-						<a href="https://techkira.net/" class="text-muted text-hover-primary px-2">About</a>
-						<a href="mailto:support@techkira.net" class="text-muted text-hover-primary px-2">Contact</a>
-						<a href="https://1.envato.market/EA4JP" class="text-muted text-hover-primary px-2">Contact Us</a>
-					</div>
-					<!--end::Links-->
-				</div>
-				<!--end::Footer-->
-			</div>
-			<!--end::Authentication - Signup Welcome Message-->
-		</div>
-		<!--end::Root-->
-		<!--end::Main-->
-		<!--begin::Javascript-->
-        <!--begin::Vendors Javascript(used by this page)-->
-		<script src="../assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
-		<!--end::Vendors Javascript-->
-		<script>var hostUrl = "../assets/index.html";</script>
-		<!--begin::Global Javascript Bundle(used by all pages)-->
-		<script src="../assets/plugins/global/plugins.bundle.js"></script>
-		<script src="../assets/js/scripts.bundle.js"></script>
-		<!--end::Global Javascript Bundle-->
-		<!--end::Javascript-->
-	</body>
-	<!--end::Body-->
+<!--begin::Head-->
 
 <!--authentication/general/welcome.html :58:30-->
+<!-- Kejanie.com -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Kejanie.com -->
+
+<head>
+	<title>KCTS | Kakamega County Tracking System</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="Explore government projects, procurement activities, and insightful reports from various counties in one convenient platform. Stay informed and engaged with our comprehensive information hub." />
+	<meta name="keywords" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="KCTS | Kakamega County Tracking System" />
+	<meta property="og:url" content="https://techkira.net" />
+	<meta property="og:site_name" content="KCTS | Kakamega County Tracking System" />
+	<link rel="canonical" href="https://preview.techkira.net/metronic8" />
+	<link rel="shortcut icon" href="../assets/media/logos/logo-3.png" />
+	<!--begin::Fonts-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+	<!--end::Fonts-->
+	<!--begin::Vendor Stylesheets(used by this page)-->
+	<link href="../assets/plugins/custom/prismjs/prismjs.bundle.css" rel="stylesheet" type="text/css" />
+	<!--end::Vendor Stylesheets-->
+	<!--begin::Global Stylesheets Bundle(used by all pages)-->
+	<link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+	<!--end::Global Stylesheets Bundle-->
+</head>
+<!--end::Head-->
+<!--begin::Body-->
+
+<body id="kt_body" class="auth-bg">
+	<!--begin::Main-->
+	<!--begin::Root-->
+	<div class="d-flex flex-column flex-root">
+		<!--begin::Authentication - Signup Welcome Message -->
+		<div class="d-flex flex-column flex-column-fluid">
+			<!--begin::Content-->
+			<div class="d-flex flex-column flex-column-fluid text-center p-10 py-lg-15">
+				<!--begin::Logo-->
+				<a href="../../index.html" class="mb-10 pt-lg-10">
+					<img alt="Logo" src="https://techkira.net/assets/media/logos/logo-3.png" class="h-100px mb-6" />
+				</a>
+				<!--end::Logo-->
+				<!--begin::Alert-->
+				<?php echo $output; ?>
+				<!--end::Wrapper-->
+				<!--begin::Illustration-->
+				<div class="d-flex flex-row-auto bgi-no-repeat bgi-position-x-center bgi-size-contain bgi-position-y-bottom min-h-100px min-h-lg-350px" style="background-image: url(/metronic8/demo9/assets/media/illustrations/sigma-1/17.png"></div>
+				<!--end::Illustration-->
+			</div>
+			<!--end::Content-->
+			<!--begin::Footer-->
+			<div class="d-flex flex-center flex-column-auto p-10">
+				<!--begin::Links-->
+				<div class="d-flex align-items-center fw-bold fs-6">
+					<a href="https://techkira.net/" class="text-muted text-hover-primary px-2">About</a>
+					<a href="mailto:support@techkira.net" class="text-muted text-hover-primary px-2">Contact</a>
+				</div>
+				<!--end::Links-->
+			</div>
+			<!--end::Footer-->
+		</div>
+		<!--end::Authentication - Signup Welcome Message-->
+	</div>
+	<!--end::Root-->
+	<!--end::Main-->
+	<!--begin::Javascript-->
+	<!--begin::Vendors Javascript(used by this page)-->
+	<script src="../assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
+	<!--end::Vendors Javascript-->
+	<script>
+		var hostUrl = "../assets/index.html";
+	</script>
+	<!--begin::Global Javascript Bundle(used by all pages)-->
+	<script src="../assets/plugins/global/plugins.bundle.js"></script>
+	<script src="../assets/js/scripts.bundle.js"></script>
+	<!--end::Global Javascript Bundle-->
+	<!--end::Javascript-->
+</body>
+<!--end::Body-->
+
+<!--authentication/general/welcome.html :58:30-->
+
 </html>
