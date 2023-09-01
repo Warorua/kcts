@@ -1,5 +1,5 @@
 <?php
-include './assets/head.php';
+include './includes/head.php';
 ?>
 	<!--end::Head-->
 	<!--begin::Body-->

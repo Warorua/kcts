@@ -1,57 +1,62 @@
 <?php
 $start_time = microtime(true);
-if(file_exists('../vendor/autoload.php')){
+if (file_exists('../vendor/autoload.php')) {
 	$filePath = '../';
-}elseif(file_exists('../../vendor/autoload.php')){
+} elseif (file_exists('../../vendor/autoload.php')) {
 	$filePath = '../../';
-}else{
- $filePath = './';
+} else {
+	$filePath = './';
 }
 
-include $filePath.'includes/conn.php';
-include $filePath.'includes/session.php';
-require $filePath.'vendor/autoload.php';
-include $filePath.'includes/api_config.php';
+include $filePath . 'includes/conn.php';
+//include $filePath . 'includes/session.php';
+require $filePath . 'vendor/autoload.php';
+//include $filePath . 'includes/api_config.php';
 ?>
 
+<!DOCTYPE html>
+<html lang="en">
+<!--begin::Head-->
+
+<!--index.html :55:58-->
+<!-- Kejanie.com -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Kejanie.com -->
+
 <head>
-	<title>KCTS</title>
+	<title>KCTS | Kakamega County Tracking System</title>
 	<meta charset="utf-8" />
-	<meta charset="utf-8" />
-    <meta name="msapplication-TileColor" content="#ff5f6d" />
-    <meta name="theme-color" content="#ff5f6d" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="index, follow" />
-    <meta data-hid="charset" charset="utf-8" />
-    <meta data-hid="mobile-web-app-capable" name="mobile-web-app-capable" content="yes" />
-    <meta data-hid="apple-mobile-web-app-title" name="apple-mobile-web-app-title" content="KCTS" />
-	<meta name="description" content="Grow and manage your Twitter account. Let us give you content for your Twitter account. Mass like tweets and replies. Mass delete old tweets from your account. Mass follow accounts on Twitter. Get to use a source label of your choice." />
-	<meta name="keywords" content="Twitter, gain followers, twitter grow, likes, follows, tweets, auto-follow, auto-reply, twitter manage, follow for follow, KOT, Kenyans on twitter, Kenyan twitter" />
+	<meta name="description" content="Explore government projects, procurement activities, and insightful reports from various counties in one convenient platform. Stay informed and engaged with our comprehensive information hub." />
+	<meta name="keywords" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="KCTS - Grow and manage your Twitter account with the KCTS Twitter Artificial Intelligence" />
-	<meta property="og:url" content="https://techkira.net/" />
-	<meta property="og:site_name" content="KCTS" />
-	<meta name="twitter:title" content="The Twitter Manager and Growth Expert">
-	<meta name="twitter:description" content="KCTS - Grow and manage your Twitter account with the KCTS Twitter Artificial Intelligence">
-	<meta name="twitter:image" content="https://techkira.net/assets/media/logos/icon_b.png">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:url" content="https://www.techkira.net" />
-	<meta name="twitter:site" content="@KCTSa" />
-	<link rel="canonical" href="https://techkira.net/" />
-	<link rel="shortcut icon" href="../assets/media/logos/icon_b.png" />
+	<meta property="og:title" content="KCTS | Kakamega County Tracking System" />
+	<meta property="og:url" content="https://techkira.net" />
+	<meta property="og:site_name" content="KCTS | Kakamega County Tracking System" />
+	<link rel="canonical" href="https://kakamega.techkira.net" />
+	<link rel="shortcut icon" href="<?php echo $filePath ?>assets/media/logos/logo-3.png" />
+	<!--begin::Fonts-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+	<!--end::Fonts-->
+	<!--begin::Page Vendor Stylesheets(used by this page)-->
+	<link href="<?php echo $filePath ?>assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $filePath ?>assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+	<!--end::Page Vendor Stylesheets-->
+	<!--begin::Global Stylesheets Bundle(used by all pages)-->
+	<link href="<?php echo $filePath ?>assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $filePath ?>assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+	<!--end::Global Stylesheets Bundle-->
 	<!--begin::Fonts-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
 	<!--end::Fonts-->
 	<!--begin::Vendor Stylesheets(used by this page)-->
-	<link href="../assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
-	<link href="../assets/plugins/custom/vis-timeline/vis-timeline.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $filePath ?>assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $filePath ?>assets/plugins/custom/vis-timeline/vis-timeline.bundle.css" rel="stylesheet" type="text/css" />
 
 	<!--end::Vendor Stylesheets-->
 	<!--begin::Global Stylesheets Bundle(used by all pages)-->
-	<link href="../assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
-	<link href="../assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $filePath ?>assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $filePath ?>assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 	<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
 
 	<!--end::Global Stylesheets Bundle-->

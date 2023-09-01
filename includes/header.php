@@ -1,3 +1,11 @@
+<?php
+if(!isset($dashHeadTitle)){
+    $dashHeadTitle = 'Dashboard';
+}
+if(!isset($dashHeadDesc)){
+    $dashHeadDesc = 'Create a store with #YDR-124-346 code';
+}
+?>
 <div id="kt_header" class="header py-6 py-lg-0" data-kt-sticky="true" data-kt-sticky-name="header" data-kt-sticky-offset="{lg: '300px'}">
     <!--begin::Container-->
     <div class="header-container container-xxl">
@@ -5,8 +13,8 @@
         <div class="page-title d-flex flex-column align-items-start justify-content-center flex-wrap me-lg-20 py-3 py-lg-0 me-3">
             <!--begin::Heading-->
             <h1 class="d-flex flex-column text-dark fw-bolder my-1">
-                <span class="text-white fs-1">Dashboard</span>
-                <small class="text-gray-100 fs-6 fw-normal pt-2">Create a store with #YDR-124-346 code</small>
+                <span class="text-white fs-1"><?php echo $dashHeadTitle ?></span>
+                <small class="text-gray-100 fs-6 fw-normal pt-2"><?php echo $dashHeadDesc ?></small>
             </h1>
             <!--end::Heading-->
         </div>
@@ -33,7 +41,7 @@
                         <!--end::Svg Icon-->
                         <!--end::Icon-->
                         <!--begin::Input-->
-                        <input type="text" class="form-control custom-form-control ps-13" name="search" value="" placeholder="Find Goods" data-kt-search-element="input" />
+                        <input type="text" class="form-control custom-form-control ps-13" name="search" value="" placeholder="Find Service" data-kt-search-element="input" />
                         <!--end::Input-->
                         <!--begin::Spinner-->
                         <span class="position-absolute top-50 end-0 translate-middle-y lh-0 d-none me-5" data-kt-search-element="spinner">
