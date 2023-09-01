@@ -216,7 +216,7 @@ $message = '
                     $mail->isSMTP();                                     
                     $mail->Host = gethostbyname('mail.techkira.net');                  
                     $mail->SMTPAuth = true;                               
-                    $mail->Username = 'kotnova.mailer@techkira.net';     
+                    $mail->Username = 'mailer.kakamega@techkira.net';     
                     $mail->Password = '9ATYY4s-SoxV';                    
                     $mail->SMTPOptions = array(
                         'ssl' => array(
@@ -228,7 +228,7 @@ $message = '
                     $mail->SMTPSecure = 'tls';                           
                     $mail->Port = 587;                                   
 
-                    $mail->setFrom('kotnova.mailer@techkira.net');
+                    $mail->setFrom('mailer.kakamega@techkira.net');
                     
                     //Recipients
                     $mail->addAddress($user_email);              
@@ -452,7 +452,7 @@ $message = '
                         $mail->isSMTP();                                     
                         $mail->Host = gethostbyname('mail.techkira.net');                  
                         $mail->SMTPAuth = true;                               
-                        $mail->Username = 'kotnova.mailer@techkira.net';     
+                        $mail->Username = 'mailer.kakamega@techkira.net';     
                         $mail->Password = '9ATYY4s-SoxV';                    
                         $mail->SMTPOptions = array(
                             'ssl' => array(
@@ -464,7 +464,7 @@ $message = '
                         $mail->SMTPSecure = 'tls';                           
                         $mail->Port = 587;                                   
     
-                        $mail->setFrom('kotnova.mailer@techkira.net');
+                        $mail->setFrom('mailer.kakamega@techkira.net');
                         
                         //Recipients
                         $mail->addAddress($user_email);              

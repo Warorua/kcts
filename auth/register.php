@@ -3,6 +3,10 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+require '../vendor/autoload.php';
+require '../vendor/phpmailer/phpmailer/src/Exception.php';
+require '../vendor/phpmailer/phpmailer/src/SMTP.php';
+require '../vendor/phpmailer/phpmailer/src/PHPMailer.php';
 include '../includes/conn.php';
 
 function redirect($url)
@@ -29,6 +33,8 @@ if (isset($_POST['signup'])) {
     $repassword = $_POST['confirm-password'];
     $contact_info = '';
     $source = 'C0';
+   
+    //die(json_encode($_POST));
 
     $_SESSION['firstname'] = $firstname;
     $_SESSION['lastname'] = $lastname;
@@ -81,9 +87,12 @@ if (isset($_POST['signup'])) {
 
 
             try {
+                $userid = 0;
+                //*
                 $stmt = $conn->prepare("INSERT INTO users (source, email, contact_info, password, firstname, lastname, activate_code, created_on) VALUES (:source, :email, :contact_info, :password, :firstname, :lastname, :code, :now)");
                 $stmt->execute(['source' => $source, 'email' => $email, 'contact_info' => $contact_info, 'password' => $password, 'firstname' => $firstname, 'lastname' => $lastname, 'code' => $code, 'now' => $now]);
                 $userid = $conn->lastInsertId();
+                //*/
 
                 $message = '
                     <!--begin::Email template-->
@@ -248,7 +257,7 @@ if (isset($_POST['signup'])) {
 					';
 
                 //Load phpmailer
-                require '../vendor/autoload.php';
+
 
                 $mail = new PHPMailer(true);
                 try {
@@ -257,7 +266,7 @@ if (isset($_POST['signup'])) {
                     $mail->isSMTP();
                     $mail->Host = gethostbyname('mail.techkira.net');
                     $mail->SMTPAuth = true;
-                    $mail->Username = 'kotnova.mailer@techkira.net';
+                    $mail->Username = 'mailer.kakamega@techkira.net';
                     $mail->Password = '9ATYY4s-SoxV';
                     $mail->SMTPOptions = array(
                         'ssl' => array(
@@ -269,7 +278,7 @@ if (isset($_POST['signup'])) {
                     $mail->SMTPSecure = 'tls';
                     $mail->Port = 587;
 
-                    $mail->setFrom('kotnova.mailer@techkira.net');
+                    $mail->setFrom('mailer.kakamega@techkira.net');
 
                     //Recipients
                     $mail->addAddress($email);
@@ -277,7 +286,7 @@ if (isset($_POST['signup'])) {
 
                     //Content
                     $mail->isHTML(true);
-                    $mail->Subject = 'Faraji Properties.';
+                    $mail->Subject = 'KCTS';
                     $mail->Body    = $message;
 
                     $mail->send();

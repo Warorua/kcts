@@ -123,7 +123,7 @@ var KTSignupGeneral = function() {
                             }
                         }).then(function (result) {
                             if (result.isConfirmed) { 
-                                form.reset();  // reset form                    
+                                //form.reset();  // reset form                    
                                 passwordMeter.reset();  // reset password meter
                                 form.submit();
                             }
