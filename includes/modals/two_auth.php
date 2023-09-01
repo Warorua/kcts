@@ -1,10 +1,21 @@
 <?php
-require '../vendor/autoload.php';
+if(file_exists('../vendor/autoload.php')){
+	$filePath = '../';
+}elseif(file_exists('../../vendor/autoload.php')){
+	$filePath = '../../';
+}else{
+ $filePath = './';
+}
+
+require $filePath.'vendor/autoload.php';
 
 $totp = PedroSancao\OTP\TOTP::create();
 
 // example using Google API, it's recommended to use a local library
-$uri_auth = $totp->getUri($user_email, 'Kotnova');
+if(!isset($user_email)){
+	$user_email = 'user001';
+}
+$uri_auth = $totp->getUri($user_email, 'KCTS');
 $src_auth = 'https://chart.googleapis.com/chart?chs=200x200&chld=M|0&cht=qr&chl=' . urlencode($uri_auth);
 
 $secret = $totp->getRawSecret();

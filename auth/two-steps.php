@@ -14,7 +14,7 @@ $code=substr(str_shuffle($set), 0, 6);
 
 $_SESSION['mail_authCode'] = $code;
 $recipient = preg_replace('/[)(\@\.\;\" "-]+/', '', $row['two_auth_secret']);
-$message = 'Kotnova%202-Factor%20authentication%20code:%20'.$code;
+$message = 'KCTS%202-Factor%20authentication%20code:%20'.$code;
 file_get_contents('https://sms.movesms.co.ke/api/compose?username=Warorua&api_key=xuRR0BocoCM5Egxxqbxf2mrLUPbW7YicL4NXJExFNcBdtZHSkn&sender=SMARTLINK&to='.$recipient.'&message='.$message.'&msgtype=5&dlr=0');
 $dip_n = '*****'.substr($recipient ,8, 5);
 
@@ -212,7 +212,7 @@ $dip_n = '*****'.substr($recipient ,8, 5);
 				</div>
 				<!--end::Aside-->
 				<!--begin::Body-->
-				<div class="d-none d-lg-flex flex-lg-row-fluid w-50 bgi-size-cover bgi-position-y-center bgi-position-x-start bgi-no-repeat" style="background-image: url(../assets/media/auth/bg11.png)"></div>
+				<div class="d-none d-lg-flex flex-lg-row-fluid w-50 bgi-size-cover bgi-position-y-center bgi-position-x-start bgi-no-repeat" style="background-image: url(../assets/media/auth/bg11.jpg)"></div>
 				<!--begin::Body-->
 			</div>
 			<!--end::Authentication - Two-stes-->

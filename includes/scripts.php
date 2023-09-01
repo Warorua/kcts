@@ -6,72 +6,87 @@
 <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
 
 <script>
-	var hostUrl = "../assets/index.html";
+	var hostUrl = "<?php echo $filePath ?>assets/index.html";
 </script>
 
-
+<?php
+if (file_exists('../assets/js/scripts.bundle.js')) {
+	$filePath = '../';
+} elseif (file_exists('../../assets/js/scripts.bundle.js')) {
+	$filePath = '../../';
+} else {
+	$filePath = './';
+}
+?>
 
 <!--begin::Global Javascript Bundle(used by all pages)-->
-<script src="../assets/plugins/global/plugins.bundle.js"></script>
-<script src="../assets/js/scripts.bundle.js"></script>
+<script src="<?php echo $filePath ?>assets/plugins/global/plugins.bundle.js"></script>
+<script src="<?php echo $filePath ?>assets/js/scripts.bundle.js"></script>
 <!--end::Global Javascript Bundle-->
 <!--begin::Vendors Javascript(used by this page)-->
-<script src="../assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
-<script src="../assets/plugins/custom/datatables/datatables.bundle.js"></script>
-<script src="../assets/plugins/custom/leaflet/leaflet.bundle.js"></script>
+<script src="<?php echo $filePath ?>assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+<script src="<?php echo $filePath ?>assets/plugins/custom/datatables/datatables.bundle.js"></script>
+<script src="<?php echo $filePath ?>assets/plugins/custom/leaflet/leaflet.bundle.js"></script>
 <!--end::Vendors Javascript-->
 <!--begin::Custom Javascript(account overview page)-->
-<script src="../assets/js/custom/pages/general/contact.js"></script>
-<script src="../assets/js/custom/apps/user-management/users/list/table.js"></script>
-<script src="../assets/js/custom/apps/user-management/users/list/export-users.js"></script>
-<script src="../assets/js/custom/apps/user-management/users/list/add.js"></script>
-<script src="../assets/js/custom/pages/user-profile/followers.js"></script>
-<script src="../assets/js/widgets.bundle.js"></script>
-<script src="../assets/js/custom/widgets.js"></script>
-<script src="../assets/js/custom/apps/chat/chat.js"></script>
-<script src="../assets/js/custom/utilities/modals/create-project/type.js"></script>
-<script src="../assets/js/custom/utilities/modals/create-project/budget.js"></script>
-<script src="../assets/js/custom/utilities/modals/create-project/settings.js"></script>
-<script src="../assets/js/custom/utilities/modals/create-project/team.js"></script>
-<script src="../assets/js/custom/utilities/modals/create-project/targets.js"></script>
-<script src="../assets/js/custom/utilities/modals/create-project/files.js"></script>
-<script src="../assets/js/custom/utilities/modals/create-project/complete.js"></script>
-<script src="../assets/js/custom/utilities/modals/create-project/main.js"></script>
-<script src="../assets/js/custom/utilities/modals/create-app.js"></script>
-<script src="../assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-<script src="../assets/js/custom/utilities/modals/offer-a-deal/type.js"></script>
-<script src="../assets/js/custom/utilities/modals/offer-a-deal/details.js"></script>
-<script src="../assets/js/custom/utilities/modals/offer-a-deal/finance.js"></script>
-<script src="../assets/js/custom/utilities/modals/offer-a-deal/complete.js"></script>
-<script src="../assets/js/custom/utilities/modals/offer-a-deal/main.js"></script>
-<script src="../assets/js/custom/utilities/modals/users-search.js"></script>
-<script src="../assets/js/custom/pages/social/feeds.js"></script>
-<script src="../assets/plugins/custom/fslightbox/fslightbox.bundle.js"></script>
-<script src="../assets/plugins/custom/typedjs/typedjs.bundle.js"></script>
-<script src="../assets/js/custom/apps/ecommerce/sales/listing.js"></script>
-<script src="../assets/plugins/custom/formrepeater/formrepeater.bundle.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/pages/general/contact.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/apps/user-management/users/list/table.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/apps/user-management/users/list/export-users.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/apps/user-management/users/list/add.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/pages/user-profile/followers.js"></script>
+<script src="<?php echo $filePath ?>assets/js/widgets.bundle.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/widgets.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/apps/chat/chat.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-project/type.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-project/budget.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-project/settings.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-project/team.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-project/targets.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-project/files.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-project/complete.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-project/main.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-app.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/offer-a-deal/type.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/offer-a-deal/details.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/offer-a-deal/finance.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/offer-a-deal/complete.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/offer-a-deal/main.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/users-search.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/pages/social/feeds.js"></script>
+<script src="<?php echo $filePath ?>assets/plugins/custom/fslightbox/fslightbox.bundle.js"></script>
+<script src="<?php echo $filePath ?>assets/plugins/custom/typedjs/typedjs.bundle.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/apps/ecommerce/sales/listing.js"></script>
+<script src="<?php echo $filePath ?>assets/plugins/custom/formrepeater/formrepeater.bundle.js"></script>
 <!--end::Custom Javascript-->
 
 <!--begin::Custom Javascript(account.setting by this page)-->
-<script src="../assets/js/custom/account/settings/signin-methods.js"></script>
-<script src="../assets/js/custom/account/settings/profile-details.js"></script>
-<script src="../assets/js/custom/account/settings/deactivate-account.js"></script>
-<script src="../assets/js/custom/utilities/modals/two-factor-authentication.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/account/settings/signin-methods.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/account/settings/profile-details.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/account/settings/deactivate-account.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/two-factor-authentication.js"></script>
 
 
+<script src="<?php echo $filePath ?>assets/js/widgets.bundle.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/widgets.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/apps/chat/chat.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/intro.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-app.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/users-search.js"></script>
 <!--begin::Custom Javascript(account.security by this page)-->
-<script src="../assets/js/custom/account/security/security-summary.js"></script>
-<script src="../assets/js/custom/account/security/license-usage.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/account/security/security-summary.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/account/security/license-usage.js"></script>
 
 <!--begin::Custom Javascript(account.billing by this page)-->
-<script src="../assets/js/custom/utilities/modals/new-card.js"></script>
-<script src="../assets/js/custom/utilities/modals/new-address.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/new-card.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/new-address.js"></script>
 
 <!--begin::Custom Javascript(account.referrals by this page)-->
-<script src="../assets/js/custom/account/referrals/referral-program.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/account/referrals/referral-program.js"></script>
 
 <!--begin::Custom Javascript(account.logs by this page)-->
-<script src="../assets/js/custom/account/api-keys/api-keys.js"></script>
+<script src="<?php echo $filePath ?>assets/js/custom/account/api-keys/api-keys.js"></script>
 
 
 
@@ -113,7 +128,7 @@
 		})
 	});
 </script>
-<?php include '../includes/ajax_calls.php' ?>
+<?php include $filePath . 'includes/ajax_calls.php' ?>
 
 <?php
 if (isset($profile_stats_graph_data)) {
@@ -261,7 +276,7 @@ $tx_ref = substr(str_shuffle($set), 0, 36);
 </script>
 
 <?php
-$conn = $pdo->open();
+/*
 $stmt = $conn->prepare("SELECT * FROM engine_monitor WHERE user=:user");
 $stmt->execute(['user' => $user['t_id']]);
 $dt_1 = $stmt->fetchAll();
@@ -300,6 +315,7 @@ $follow_perc = ($follow * 100) / 400;
 $tweet_perc = ($tweets * 100) / 2400;
 $like_perc = ($likes * 100) / 5000;
 $dm_perc = ($dm * 100) / 1000;
+*/
 ?>
 
 <script>
@@ -524,7 +540,7 @@ $dm_perc = ($dm * 100) / 1000;
 				}
 			},
 			customizations: {
-				title: "Kotnova",
+				title: "KCTS",
 				description: "Refill your gas points",
 				logo: "https://techkira.net/assets/media/logos/icon.png",
 			},
@@ -597,8 +613,8 @@ $dm_perc = ($dm * 100) / 1000;
 
 	});
 
-		///////////////////////////////////CREATE CAMPAIGN
-		$(document).on('submit', '#kt_convert_points', function(e) {
+	///////////////////////////////////CREATE CAMPAIGN
+	$(document).on('submit', '#kt_convert_points', function(e) {
 		e.preventDefault();
 
 		formData = new FormData(this);

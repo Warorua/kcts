@@ -119,7 +119,7 @@
 		                                                <!--end::Svg Icon-->
 		                                                <span class="d-block fw-semibold text-start">
 		                                                    <span class="text-dark fw-bold d-block fs-3">Wallet</span>
-		                                                    <span class="text-muted fw-semibold fs-6">Settle convertion to Kotnova points wallet.</span>
+		                                                    <span class="text-muted fw-semibold fs-6">Settle convertion to KCTS points wallet.</span>
 		                                                </span>
 		                                            </label>
 		                                            <!--end::Option-->

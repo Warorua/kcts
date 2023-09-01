@@ -3,7 +3,7 @@
         'name' => 'google/apiclient',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'c4147bc64738fb1e1a09e098cab96fd821150a87',
+        'reference' => '14e18f23c5a125f2d2fa35d02e23f28318b5ccba',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(
@@ -132,7 +132,7 @@
         'google/apiclient' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'c4147bc64738fb1e1a09e098cab96fd821150a87',
+            'reference' => '14e18f23c5a125f2d2fa35d02e23f28318b5ccba',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(

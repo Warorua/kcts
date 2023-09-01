@@ -53,7 +53,7 @@
 							} else {
 								$_SESSION['user_id'] = $row['id'];
 								$_SESSION['info'] = $row['email'];
-								header('location: https://techkira.net/account/user');
+								header('location: https://techkira.net/dashboard');
 							}
 
 							

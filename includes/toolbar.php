@@ -2,7 +2,7 @@
 if (isset($page_title)) {
     $page_title = $page_title;
 } else {
-    $page_title = 'Kotnova';
+    $page_title = 'KCTS';
 }
 
 if (isset($page_sub_1)) {

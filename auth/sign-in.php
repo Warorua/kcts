@@ -58,8 +58,9 @@ include '../includes/plain_head.php';
 						<!--begin::Wrapper-->
 						<div class="w-lg-500px p-10 p-lg-15 mx-auto">
 							<!--begin::Form-->
-							<form class="form w-100" novalidate="novalidate" id="kt_sign_in_form" action="verify.php" method="POST">
-								<!--begin::Heading-->
+							<form class="form w-100" novalidate="novalidate" id="kt_sign_in_form" action="verify" method="POST">
+								<input type="hidden" name="login" value="" />
+							<!--begin::Heading-->
 								<div class="text-center mb-10">
 									<!--begin::Title-->
 									<h1 class="text-dark mb-3">Sign In to Kakamega County Tracking System</h1>
@@ -88,7 +89,7 @@ include '../includes/plain_head.php';
 										<label class="form-label fw-bolder text-dark fs-6 mb-0">Password</label>
 										<!--end::Label-->
 										<!--begin::Link-->
-										<a href="password-reset.html" class="link-primary fs-6 fw-bolder">Forgot Password ?</a>
+										<a href="password" class="link-primary fs-6 fw-bolder">Forgot Password ?</a>
 										<!--end::Link-->
 									</div>
 									<!--end::Wrapper-->

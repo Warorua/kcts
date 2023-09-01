@@ -4,7 +4,7 @@
                         <!--begin::Copyright-->
                         <div class="text-dark order-2 order-md-1">
                             <span class="text-muted fw-semibold me-1">2022&copy;</span>
-                            <a href="https://techkira.net/" target="_blank" class="text-gray-800 text-hover-primary">Kotnova</a>
+                            <a href="https://techkira.net/" target="_blank" class="text-gray-800 text-hover-primary">KCTS</a>
                         </div>
                         <!--end::Copyright-->
                         <!--begin::Menu-->

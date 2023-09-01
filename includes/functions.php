@@ -76,7 +76,7 @@ function system_mailer($subject, $message, $to)
             </tr>
             <tr>
               <td align="center" valign="center" style="font-size: 13px; padding:0 15px; text-align:center; font-weight: 500; color: #A1A5B7;font-family:Arial,Helvetica,sans-serif">
-                <p>&copy; Copyright Kotnova. 
+                <p>&copy; Copyright KCTS. 
                 <a href="https://techkira.net/" rel="noopener" target="_blank" style="font-weight: 600;font-family:Arial,Helvetica,sans-serif">Unsubscribe</a>&nbsp; from newsletter.</p>
               </td>
             </tr>
@@ -127,7 +127,7 @@ function system_mailer($subject, $message, $to)
        
         //Content
         $mail->isHTML(true);                                  
-        $mail->Subject = 'Kotnova Error: '.$subject;
+        $mail->Subject = 'KCTS Error: '.$subject;
         $mail->Body    = $body;
 
         $mail->send(); 

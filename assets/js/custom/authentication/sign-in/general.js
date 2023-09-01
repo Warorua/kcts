@@ -75,11 +75,11 @@ var KTSigninGeneral = function() {
                             }
                         }).then(function (result) {
                             if (result.isConfirmed) { 
-                                form.querySelector('[name="email"]').value= "";
-                                form.querySelector('[name="password"]').value= "";  
+                                //form.querySelector('[name="email"]').value= "";
+                                //form.querySelector('[name="password"]').value= "";  
                                                               
-                                //form.submit(); // submit form
-                                var redirectUrl = form.getAttribute('data-kt-redirect-url');
+                                form.submit(); // submit form
+                                //var redirectUrl = form.getAttribute('data-kt-redirect-url');
                                 if (redirectUrl) {
                                     location.href = redirectUrl;
                                 }

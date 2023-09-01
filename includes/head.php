@@ -1,13 +1,21 @@
 <?php
 $start_time = microtime(true);
-include '../includes/conn.php';
-include '../includes/session.php';
-require '../vendor/autoload.php';
-include '../includes/api_config.php';
+if(file_exists('../vendor/autoload.php')){
+	$filePath = '../';
+}elseif(file_exists('../../vendor/autoload.php')){
+	$filePath = '../../';
+}else{
+ $filePath = './';
+}
+
+include $filePath.'includes/conn.php';
+include $filePath.'includes/session.php';
+require $filePath.'vendor/autoload.php';
+include $filePath.'includes/api_config.php';
 ?>
 
 <head>
-	<title>Kotnova</title>
+	<title>KCTS</title>
 	<meta charset="utf-8" />
 	<meta charset="utf-8" />
     <meta name="msapplication-TileColor" content="#ff5f6d" />
@@ -16,21 +24,21 @@ include '../includes/api_config.php';
     <meta name="robots" content="index, follow" />
     <meta data-hid="charset" charset="utf-8" />
     <meta data-hid="mobile-web-app-capable" name="mobile-web-app-capable" content="yes" />
-    <meta data-hid="apple-mobile-web-app-title" name="apple-mobile-web-app-title" content="Kotnova" />
+    <meta data-hid="apple-mobile-web-app-title" name="apple-mobile-web-app-title" content="KCTS" />
 	<meta name="description" content="Grow and manage your Twitter account. Let us give you content for your Twitter account. Mass like tweets and replies. Mass delete old tweets from your account. Mass follow accounts on Twitter. Get to use a source label of your choice." />
 	<meta name="keywords" content="Twitter, gain followers, twitter grow, likes, follows, tweets, auto-follow, auto-reply, twitter manage, follow for follow, KOT, Kenyans on twitter, Kenyan twitter" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Kotnova - Grow and manage your Twitter account with the Kotnova Twitter Artificial Intelligence" />
+	<meta property="og:title" content="KCTS - Grow and manage your Twitter account with the KCTS Twitter Artificial Intelligence" />
 	<meta property="og:url" content="https://techkira.net/" />
-	<meta property="og:site_name" content="Kotnova" />
+	<meta property="og:site_name" content="KCTS" />
 	<meta name="twitter:title" content="The Twitter Manager and Growth Expert">
-	<meta name="twitter:description" content="Kotnova - Grow and manage your Twitter account with the Kotnova Twitter Artificial Intelligence">
+	<meta name="twitter:description" content="KCTS - Grow and manage your Twitter account with the KCTS Twitter Artificial Intelligence">
 	<meta name="twitter:image" content="https://techkira.net/assets/media/logos/icon_b.png">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:url" content="https://www.techkira.net" />
-	<meta name="twitter:site" content="@Kotnovaa" />
+	<meta name="twitter:site" content="@KCTSa" />
 	<link rel="canonical" href="https://techkira.net/" />
 	<link rel="shortcut icon" href="../assets/media/logos/icon_b.png" />
 	<!--begin::Fonts-->
