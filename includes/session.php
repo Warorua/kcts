@@ -26,7 +26,7 @@ if(isset($_GET['bot_id'])){
 		 $parent_url.'/assets/media/stock/600x600/img-48.jpg',
 		 $parent_url.'/assets/media/stock/600x600/img-45.jpg'
 	);
-	$user_image = $opt_img[rand(0, count($opt_img) - 1)];
+	$user_image = $parent_url.'/assets/media/stock/600x600/img-'.rand(9,46).'.jpg';
 	}else{
 		$user_image = $user['photo'];
 	}
@@ -51,7 +51,7 @@ if(isset($_GET['bot_id'])){
 	
 	//address validation
 	if(isset($user['address']) == ' '){
-		$user_address = 'Planet Earth';
+		$user_address = 'Kakamega County';
 	}else{
 		$user_address = $user['address'];
 	}

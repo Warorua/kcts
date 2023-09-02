@@ -1,4 +1,6 @@
 <?php
+$dashHeadTitle = 'Profile';
+$dashHeadDesc = $user_firstname."'s profile dashboard";
 $user_metrics = [];
 $user_metrics['data']['verified'] = false;
 if ($user_metrics['data']['verified']) {
@@ -6,14 +8,14 @@ if ($user_metrics['data']['verified']) {
     $verif_info = 'Twitter Verified';
 } else {
     $verif_icon = 'svg-icon-warning';
-    $verif_info = 'KOT Verified';
+    $verif_info = 'KCTS Verified';
 }
 ?>
 <div class="d-flex flex-wrap flex-sm-nowrap mb-3">
     <!--begin: Pic-->
     <div class="me-7 mb-4">
         <div class="symbol symbol-100px symbol-lg-160px symbol-fixed position-relative">
-            <img src="https://localhost/kakmega/assets/media/logos/logo-3.png" alt="image" />
+            <img src="<?php echo $user_image ?>" alt="image" />
             <div class="position-absolute translate-middle bottom-0 start-100 mb-6 bg-success rounded-circle border border-4 border-body h-20px w-20px">
             </div>
         </div>
@@ -27,7 +29,7 @@ if ($user_metrics['data']['verified']) {
             <div class="d-flex flex-column">
                 <!--begin::Name-->
                 <div class="d-flex align-items-center mb-2">
-                    <a href="#" class="text-gray-900 text-hover-primary fs-2 fw-bold me-1"><?php echo $user['firstname'] ?></a>
+                    <a href="#" class="text-gray-900 text-hover-primary fs-2 fw-bold me-1"><?php echo $user_fullname ?></a>
                     <a data-bs-toggle="tooltip" data-bs-placement="top" title="<?php echo $verif_info ?>">
                         <!--begin::Svg Icon | path: icons/duotune/general/gen026.svg-->
                         <span class="svg-icon svg-icon-1 <?php echo $verif_icon ?>">

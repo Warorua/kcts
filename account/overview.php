@@ -1,6 +1,7 @@
 <?php
 include '../includes/head.php';
-
+$dashHeadTitle = 'Profile';
+$dashHeadDesc = $user_firstname."'s profile dashboard";
 
 ?>
 <!--end::Head-->
