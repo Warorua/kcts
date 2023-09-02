@@ -277,6 +277,7 @@ include '../includes/head.php';
                                     <!--end::Body-->
                                 </div>
                                 <!--end:List Widget 3-->
+                                
                             </div>
                             <!--end::Col-->
                         </div>
