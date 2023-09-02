@@ -28,7 +28,7 @@
                     </span>
                     <div class="menu-sub menu-sub-dropdown w-225px w-lg-250px px-1 py-4">
                         <div class="menu-item">
-                            <a class="menu-link active" href="../dashboard">
+                            <a class="menu-link active" href="<?php echo $filePath ?>dashboard">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
@@ -72,7 +72,7 @@
                                     </span>
                                     <div class="menu-sub menu-sub-accordion">
                                         <div class="menu-item">
-                                            <a class="menu-link" href="../apps/user-management/users/list.php">
+                                            <a class="menu-link" href="<?php echo $filePath ?>apps/user-management/users/list.php">
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
@@ -80,7 +80,7 @@
                                             </a>
                                         </div>
                                         <div class="menu-item">
-                                            <a class="menu-link" href="../apps/user-management/users/view.php">
+                                            <a class="menu-link" href="<?php echo $filePath ?>apps/user-management/users/view.php">
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
@@ -99,7 +99,7 @@
                                     </span>
                                     <div class="menu-sub menu-sub-accordion">
                                         <div class="menu-item">
-                                            <a class="menu-link" href="../apps/user-management/roles/list.php">
+                                            <a class="menu-link" href="<?php echo $filePath ?>apps/user-management/roles/list.php">
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
@@ -107,7 +107,7 @@
                                             </a>
                                         </div>
                                         <div class="menu-item">
-                                            <a class="menu-link" href="../apps/user-management/roles/view.php">
+                                            <a class="menu-link" href="<?php echo $filePath ?>apps/user-management/roles/view.php">
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
@@ -117,7 +117,7 @@
                                     </div>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="../apps/user-management/permissions.php">
+                                    <a class="menu-link" href="<?php echo $filePath ?>apps/user-management/permissions.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -153,7 +153,7 @@
                             </span>
                             <div class="menu-sub menu-sub-accordion menu-active-bg">
                                 <div class="menu-item">
-                                    <a class="menu-link" href="../procurement/proc1.php">
+                                    <a class="menu-link" href="<?php echo $filePath ?>procurement/proc1.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -196,7 +196,7 @@
                             </span>
                             <div class="menu-sub menu-sub-accordion">
                                 <div class="menu-item">
-                                    <a class="menu-link" href="../projects/list.php">
+                                    <a class="menu-link" href="<?php echo $filePath ?>projects/list.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -204,7 +204,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="../projects/project.php">
+                                    <a class="menu-link" href="<?php echo $filePath ?>projects/project.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -212,7 +212,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="../projects/targets.php">
+                                    <a class="menu-link" href="<?php echo $filePath ?>projects/targets.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -220,7 +220,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="../projects/budget.php">
+                                    <a class="menu-link" href="<?php echo $filePath ?>projects/budget.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -228,7 +228,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="../projects/users.php">
+                                    <a class="menu-link" href="<?php echo $filePath ?>projects/users.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -236,7 +236,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="../projects/files.php">
+                                    <a class="menu-link" href="<?php echo $filePath ?>projects/files.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -244,7 +244,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="../projects/activity.php">
+                                    <a class="menu-link" href="<?php echo $filePath ?>projects/activity.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -252,7 +252,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="../projects/settings.php">
+                                    <a class="menu-link" href="<?php echo $filePath ?>projects/settings.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -278,7 +278,7 @@
                     </span>
                     <div class="menu-sub menu-sub-dropdown w-225px w-lg-250px px-1 py-4">
                     <div class="menu-item">
-                                    <a class="menu-link" href="../report/report1.php">
+                                    <a class="menu-link" href="<?php echo $filePath ?>report/report1.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
