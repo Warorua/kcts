@@ -161,6 +161,7 @@ include './includes/head.php';
 											</div>
 											<!--end::Card-->
 										</div>
+										
 										<!--end::Col-->
 										<!--begin::Col-->
 										<div class="col-6">
