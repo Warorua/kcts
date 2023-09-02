@@ -6,7 +6,7 @@ if(isset($_SESSION['user_id'])){
 
 }else{
   $_SESSION['error'] = 'Login first to access the dashboard!';
-  header('location: '.__DIR__."/v2/login");
+  header('location: '.$filePath."v2/login");
 }
 
 //$t_user = $user_client->getUserById($user['t_id']);
