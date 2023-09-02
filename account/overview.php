@@ -468,7 +468,7 @@ $dashHeadDesc = $user_firstname."'s profile dashboard";
 				}
 			});
 			var typed = new Typed("#swal2-title", {
-				strings: ["negotiating with Twitter...", "bargaining...", "pleading...", "arguing...", "receiving data..."],
+				strings: ["restarting the engine...", "bargaining...", "profiling...", "arguing...", "receiving data..."],
 				typeSpeed: 30,
 				showCursor: false,
 				loop: true,
@@ -479,7 +479,7 @@ $dashHeadDesc = $user_firstname."'s profile dashboard";
 	</script>
 	<script>
 		var typed = new Typed("#swal2-title", {
-			strings: ["negotiating with Twitter...", "bargaining...", "pleading...", "arguing...", "receiving data..."],
+			strings: ["restarting the engine...", "bargaining...", "profiling...", "arguing...", "receiving data..."],
 			typeSpeed: 30,
 			showCursor: false,
 			loop: true,

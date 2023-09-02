@@ -28,11 +28,6 @@ $dashHeadDesc = $user_firstname."'s profile dashboard";
 		}
 	</script>
 	<!--end::Theme mode setup on page load-->
-	<!--Begin::Google Tag Manager (noscript) -->
-	<noscript>
-		<iframe src="https://www.googletagmanager.com/ns.php?id=GTM-MDKZXTL" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-	</noscript>
-	<!--End::Google Tag Manager (noscript) -->
 	<!--begin::Main-->
 	<!--begin::Root-->
 	<div class="d-flex flex-column flex-root">
