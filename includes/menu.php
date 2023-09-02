@@ -1,7 +1,7 @@
 <div id="kt_aside" class="aside" data-kt-drawer="true" data-kt-drawer-name="aside" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="auto" data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_aside_toggle">
     <!--begin::Logo-->
     <div class="aside-logo flex-column-auto pt-10 pt-lg-20" id="kt_aside_logo">
-        <a href="index.html">
+        <a href="index.php">
             <img alt="Logo" src="<?php echo $filePath ?>assets/media/logos/logo-3.png" class="h-80px" />
         </a>
     </div>
@@ -72,7 +72,7 @@
                                     </span>
                                     <div class="menu-sub menu-sub-accordion">
                                         <div class="menu-item">
-                                            <a class="menu-link" href="apps/user-management/users/list.html">
+                                            <a class="menu-link" href="../apps/user-management/users/list.php">
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
@@ -80,7 +80,7 @@
                                             </a>
                                         </div>
                                         <div class="menu-item">
-                                            <a class="menu-link" href="apps/user-management/users/view.html">
+                                            <a class="menu-link" href="../apps/user-management/users/view.php">
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
@@ -99,7 +99,7 @@
                                     </span>
                                     <div class="menu-sub menu-sub-accordion">
                                         <div class="menu-item">
-                                            <a class="menu-link" href="apps/user-management/roles/list.html">
+                                            <a class="menu-link" href="../apps/user-management/roles/list.php">
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
@@ -107,7 +107,7 @@
                                             </a>
                                         </div>
                                         <div class="menu-item">
-                                            <a class="menu-link" href="apps/user-management/roles/view.html">
+                                            <a class="menu-link" href="../apps/user-management/roles/view.php">
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
@@ -117,7 +117,7 @@
                                     </div>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="apps/user-management/permissions.html">
+                                    <a class="menu-link" href="../apps/user-management/permissions.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -161,7 +161,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="pages/sitemap.html">
+                                    <a class="menu-link" href="pages/sitemap.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -196,7 +196,7 @@
                             </span>
                             <div class="menu-sub menu-sub-accordion">
                                 <div class="menu-item">
-                                    <a class="menu-link" href="apps/projects/list.html">
+                                    <a class="menu-link" href="../projects/list.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -204,7 +204,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="apps/projects/project.html">
+                                    <a class="menu-link" href="../projects/project.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -212,7 +212,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="apps/projects/targets.html">
+                                    <a class="menu-link" href="../projects/targets.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -220,7 +220,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="apps/projects/budget.html">
+                                    <a class="menu-link" href="../projects/budget.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -228,7 +228,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="apps/projects/users.html">
+                                    <a class="menu-link" href="../projects/users.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -236,7 +236,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="apps/projects/files.html">
+                                    <a class="menu-link" href="../projects/files.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -244,7 +244,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="apps/projects/activity.html">
+                                    <a class="menu-link" href="../projects/activity.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
@@ -252,7 +252,7 @@
                                     </a>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="apps/projects/settings.html">
+                                    <a class="menu-link" href="../projects/settings.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
