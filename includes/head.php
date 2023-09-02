@@ -9,9 +9,15 @@ if (file_exists('../vendor/autoload.php')) {
 }
 
 include $filePath . 'includes/conn.php';
-//include $filePath . 'includes/session.php';
+include $filePath . 'includes/session.php';
 require $filePath . 'vendor/autoload.php';
-//include $filePath . 'includes/api_config.php';
+include $filePath . 'includes/api_config.php';
+if (isset($_SESSION['user_id'])) {
+	$ajax_user_id = $_SESSION['user_id'];
+} else {
+	$ajax_user_id = 1;
+}
+
 ?>
 
 <!DOCTYPE html>

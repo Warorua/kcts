@@ -313,4 +313,4 @@ $stmt->execute(['id' => 1]);
 $system = $stmt->fetch();
 
 //localhost
-$_SESSION['user_id'] = 2;
+//$_SESSION['user_id'] = 2;

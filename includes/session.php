@@ -17,6 +17,8 @@ if(isset($_GET['bot_id'])){
 	$stmt->execute(['id'=>$_SESSION['user_id']]);
 	$user = $stmt->fetch();
 
+	//echo json_encode($_SESSION['user_id']);
+
 	if($user['photo'] == ''){
 		$opt_img = array(
 		 $parent_url.'/assets/media/stock/600x600/img-47.jpg',

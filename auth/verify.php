@@ -52,7 +52,7 @@
 								header('location: ./two-steps.php');
 							} else {
 								$_SESSION['user_id'] = $row['id'];
-								$_SESSION['info'] = $row['email'];
+								$_SESSION['info'] = 'Hello, '.$row['firstname'];
 								header('location: https://techkira.net/dashboard');
 							}
 

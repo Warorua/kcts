@@ -1251,5 +1251,5 @@ $dm_perc = ($dm * 100) / 1000;
 
 	$('a[href="..<?php echo str_replace('/twitter', '', $_SERVER['REQUEST_URI']) ?>"]').addClass('active');
 </script>
-<?php include '../includes/alert.php' ?>
+<?php include $filePath. 'includes/alert.php' ?>
 <script src="https://checkout.flutterwave.com/v3.js"></script>

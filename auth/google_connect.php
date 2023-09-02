@@ -1,6 +1,7 @@
 <?php
 //$_SESSION['error'] = $status_info = "Test 001";
 require_once '../vendor/autoload.php';
+require_once '../vendor/google/apiclient-services/autoload.php';
   
 // init configuration
 $clientID = '443937688346-lfidv45nreo118dnou1c2s2pd9ba1e5k.apps.googleusercontent.com';
