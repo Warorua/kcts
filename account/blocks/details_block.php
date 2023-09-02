@@ -144,7 +144,7 @@ if ($user_metrics['data']['verified']) {
                         </div>
                         <!--end::Number-->
                         <!--begin::Label-->
-                        <div class="fw-semibold fs-6 text-gray-400">Followers</div>
+                        <div class="fw-semibold fs-6 text-gray-400">Charge</div>
                         <!--end::Label-->
                     </div>
                     <!--end::Stat-->
@@ -164,7 +164,7 @@ if ($user_metrics['data']['verified']) {
                         </div>
                         <!--end::Number-->
                         <!--begin::Label-->
-                        <div class="fw-semibold fs-6 text-gray-400">Following</div>
+                        <div class="fw-semibold fs-6 text-gray-400">TAltitude</div>
                         <!--end::Label-->
                     </div>
                     <!--end::Stat-->
@@ -185,7 +185,7 @@ if ($user_metrics['data']['verified']) {
                         </div>
                         <!--end::Number-->
                         <!--begin::Label-->
-                        <div class="fw-semibold fs-6 text-gray-400">Tweet count</div>
+                        <div class="fw-semibold fs-6 text-gray-400">DCount</div>
                         <!--end::Label-->
                     </div>
                     <!--end::Stat-->
