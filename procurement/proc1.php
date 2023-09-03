@@ -171,7 +171,7 @@ include '../includes/head.php';
                                             <!--end::Checkbox-->
                                             <!--begin::Description-->
                                             <div class="flex-grow-1">
-                                                <a href="#" class="text-gray-800 text-hover-primary fw-bolder fs-6">Create FireStone Logo</a>
+                                                <a href="#" class="text-gray-800 text-hover-primary fw-bolder fs-6">Agriculture Livestock Fisheries and cooperatives</a>
                                                 <span class="text-muted fw-bold d-block">Due in 2 Days</span>
                                             </div>
                                             <!--end::Description-->
@@ -190,7 +190,7 @@ include '../includes/head.php';
                                             <!--end::Checkbox-->
                                             <!--begin::Description-->
                                             <div class="flex-grow-1">
-                                                <a href="#" class="text-gray-800 text-hover-primary fw-bolder fs-6">Stakeholder Meeting</a>
+                                                <a href="#" class="text-gray-800 text-hover-primary fw-bolder fs-6">Lands Housing Urban Areas and Physical Planning</a>
                                                 <span class="text-muted fw-bold d-block">Due in 3 Days</span>
                                             </div>
                                             <!--end::Description-->
@@ -209,7 +209,7 @@ include '../includes/head.php';
                                             <!--end::Checkbox-->
                                             <!--begin::Description-->
                                             <div class="flex-grow-1">
-                                                <a href="#" class="text-gray-800 text-hover-primary fw-bolder fs-6">Scoping &amp; Estimations</a>
+                                                <a href="#" class="text-gray-800 text-hover-primary fw-bolder fs-6">Social service sport youth gender culture</a>
                                                 <span class="text-muted fw-bold d-block">Due in 5 Days</span>
                                             </div>
                                             <!--end::Description-->
@@ -228,7 +228,7 @@ include '../includes/head.php';
                                             <!--end::Checkbox-->
                                             <!--begin::Description-->
                                             <div class="flex-grow-1">
-                                                <a href="#" class="text-gray-800 text-hover-primary fw-bolder fs-6">KPI App Showcase</a>
+                                                <a href="#" class="text-gray-800 text-hover-primary fw-bolder fs-6">Health Services</a>
                                                 <span class="text-muted fw-bold d-block">Due in 2 Days</span>
                                             </div>
                                             <!--end::Description-->
@@ -247,7 +247,7 @@ include '../includes/head.php';
                                             <!--end::Checkbox-->
                                             <!--begin::Description-->
                                             <div class="flex-grow-1">
-                                                <a href="#" class="text-gray-800 text-hover-primary fw-bolder fs-6">Project Meeting</a>
+                                                <a href="#" class="text-gray-800 text-hover-primary fw-bolder fs-6">Trade Industrialization and Tourism</a>
                                                 <span class="text-muted fw-bold d-block">Due in 12 Days</span>
                                             </div>
                                             <!--end::Description-->
@@ -266,7 +266,7 @@ include '../includes/head.php';
                                             <!--end::Checkbox-->
                                             <!--begin::Description-->
                                             <div class="flex-grow-1">
-                                                <a href="#" class="text-gray-800 text-hover-primary fw-bolder fs-6">Customers Update</a>
+                                                <a href="#" class="text-gray-800 text-hover-primary fw-bolder fs-6">Water Environment Natural Resources and Climate change</a>
                                                 <span class="text-muted fw-bold d-block">Due in 1 week</span>
                                             </div>
                                             <!--end::Description-->
