@@ -54,13 +54,13 @@ include '../includes/head.php';
 						<!--begin::Container-->
 						<div class="container-xxl" id="kt_content_container">
 							<!--begin::Navbar-->
-							<div class="card mb-10">
+							<div class="card mb-6 mb-xl-9">
 								<div class="card-body pt-9 pb-0">
 									<!--begin::Details-->
 									<div class="d-flex flex-wrap flex-sm-nowrap mb-6">
 										<!--begin::Image-->
 										<div class="d-flex flex-center flex-shrink-0 bg-light rounded w-100px h-100px w-lg-150px h-lg-150px me-7 mb-4">
-											<img class="mw-50px mw-lg-75px" src="../assets/media/svg/brand-logos/volicity-9.svg" alt="image" />
+											<img class="mw-50px mw-lg-75px" src="../assets/media/svg/brand-logos/volicity-9.svg" alt="image">
 										</div>
 										<!--end::Image-->
 										<!--begin::Wrapper-->
@@ -71,103 +71,17 @@ include '../includes/head.php';
 												<div class="d-flex flex-column">
 													<!--begin::Status-->
 													<div class="d-flex align-items-center mb-1">
-														<a href="#" class="text-gray-800 text-hover-primary fs-2 fw-bolder me-3">CRM Dashboard</a>
+														<a href="#" class="text-gray-800 text-hover-primary fs-2 fw-bolder me-3">Project Dashboard</a>
 														<span class="badge badge-light-success me-auto">In Progress</span>
 													</div>
 													<!--end::Status-->
 													<!--begin::Description-->
-													<div class="d-flex flex-wrap fw-bold mb-4 fs-5 text-gray-400">#1 Tool to get started with Web Apps any Kind &amp; size</div>
+													<div class="d-flex flex-wrap fw-bold mb-4 fs-5 text-gray-400">Enhancement of healthcare accessibility in Kakamega County</div>
 													<!--end::Description-->
 												</div>
 												<!--end::Details-->
 												<!--begin::Actions-->
-												<div class="d-flex mb-4">
-													<a href="#" class="btn btn-sm btn-bg-light btn-active-color-primary me-3" data-bs-toggle="modal" data-bs-target="#kt_modal_users_search">Add User</a>
-													<a href="#" class="btn btn-sm btn-primary me-3" data-bs-toggle="modal" data-bs-target="#kt_modal_new_target">Add Target</a>
-													<!--begin::Menu-->
-													<div class="me-0">
-														<button class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-															<i class="bi bi-three-dots fs-3"></i>
-														</button>
-														<!--begin::Menu 3-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
-															<!--begin::Heading-->
-															<div class="menu-item px-3">
-																<div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Payments</div>
-															</div>
-															<!--end::Heading-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3">Create Invoice</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link flex-stack px-3">Create Payment 
-																<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Specify a target name for future usage and reference"></i></a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3">Generate Bill</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-end">
-																<a href="#" class="menu-link px-3">
-																	<span class="menu-title">Subscription</span>
-																	<span class="menu-arrow"></span>
-																</a>
-																<!--begin::Menu sub-->
-																<div class="menu-sub menu-sub-dropdown w-175px py-4">
-																	<!--begin::Menu item-->
-																	<div class="menu-item px-3">
-																		<a href="#" class="menu-link px-3">Plans</a>
-																	</div>
-																	<!--end::Menu item-->
-																	<!--begin::Menu item-->
-																	<div class="menu-item px-3">
-																		<a href="#" class="menu-link px-3">Billing</a>
-																	</div>
-																	<!--end::Menu item-->
-																	<!--begin::Menu item-->
-																	<div class="menu-item px-3">
-																		<a href="#" class="menu-link px-3">Statements</a>
-																	</div>
-																	<!--end::Menu item-->
-																	<!--begin::Menu separator-->
-																	<div class="separator my-2"></div>
-																	<!--end::Menu separator-->
-																	<!--begin::Menu item-->
-																	<div class="menu-item px-3">
-																		<div class="menu-content px-3">
-																			<!--begin::Switch-->
-																			<label class="form-check form-switch form-check-custom form-check-solid">
-																				<!--begin::Input-->
-																				<input class="form-check-input w-30px h-20px" type="checkbox" value="1" checked="checked" name="notifications" />
-																				<!--end::Input-->
-																				<!--end::Label-->
-																				<span class="form-check-label text-muted fs-6">Recuring</span>
-																				<!--end::Label-->
-																			</label>
-																			<!--end::Switch-->
-																		</div>
-																	</div>
-																	<!--end::Menu item-->
-																</div>
-																<!--end::Menu sub-->
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3 my-1">
-																<a href="#" class="menu-link px-3">Settings</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu 3-->
-													</div>
-													<!--end::Menu-->
-												</div>
+												
 												<!--end::Actions-->
 											</div>
 											<!--end::Head-->
@@ -179,7 +93,7 @@ include '../includes/head.php';
 													<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-6 mb-3">
 														<!--begin::Number-->
 														<div class="d-flex align-items-center">
-															<div class="fs-4 fw-bolder">29 Jan, 2022</div>
+															<div class="fs-4 fw-bolder">29 Jan, 2024</div>
 														</div>
 														<!--end::Number-->
 														<!--begin::Label-->
@@ -191,19 +105,11 @@ include '../includes/head.php';
 													<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-6 mb-3">
 														<!--begin::Number-->
 														<div class="d-flex align-items-center">
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr065.svg-->
-															<span class="svg-icon svg-icon-3 svg-icon-danger me-2">
-																<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																	<rect opacity="0.5" x="11" y="18" width="13" height="2" rx="1" transform="rotate(-90 11 18)" fill="currentColor" />
-																	<path d="M11.4343 15.4343L7.25 11.25C6.83579 10.8358 6.16421 10.8358 5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75L11.2929 18.2929C11.6834 18.6834 12.3166 18.6834 12.7071 18.2929L18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25C17.8358 10.8358 17.1642 10.8358 16.75 11.25L12.5657 15.4343C12.2533 15.7467 11.7467 15.7467 11.4343 15.4343Z" fill="currentColor" />
-																</svg>
-															</span>
-															<!--end::Svg Icon-->
-															<div class="fs-4 fw-bolder" data-kt-countup="true" data-kt-countup-value="75">0</div>
+															<div class="fs-4 fw-bolder counted" data-kt-countup="true" data-kt-countup-value="75">75</div>
 														</div>
 														<!--end::Number-->
 														<!--begin::Label-->
-														<div class="fw-bold fs-6 text-gray-400">Open Tasks</div>
+														<div class="fw-bold fs-6 text-gray-400">Lurambi</div>
 														<!--end::Label-->
 													</div>
 													<!--end::Stat-->
@@ -214,12 +120,12 @@ include '../includes/head.php';
 															<!--begin::Svg Icon | path: icons/duotune/arrows/arr066.svg-->
 															<span class="svg-icon svg-icon-3 svg-icon-success me-2">
 																<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																	<rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="currentColor" />
-																	<path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z" fill="currentColor" />
+																	<rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="currentColor"></rect>
+																	<path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z" fill="currentColor"></path>
 																</svg>
 															</span>
 															<!--end::Svg Icon-->
-															<div class="fs-4 fw-bolder" data-kt-countup="true" data-kt-countup-value="15000" data-kt-countup-prefix="$">0</div>
+															<div class="fs-4 fw-bolder counted" data-kt-countup="true" data-kt-countup-value="15000" data-kt-countup-prefix="$">$15,000</div>
 														</div>
 														<!--end::Number-->
 														<!--begin::Label-->
@@ -232,48 +138,23 @@ include '../includes/head.php';
 												<!--begin::Users-->
 												<div class="symbol-group symbol-hover mb-3">
 													<!--begin::User-->
-													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Alan Warden">
+													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="" data-bs-original-title="Alan Warden">
 														<span class="symbol-label bg-warning text-inverse-warning fw-bolder">A</span>
 													</div>
 													<!--end::User-->
-													<!--begin::User-->
-													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Michael Eberon">
-														<img alt="Pic" src="../assets/media/avatars/300-11.jpg" />
+    												<!--begin::User-->
+													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="" data-bs-original-title="Alan Warden">
+														<span class="symbol-label bg-warning text-inverse-warning fw-bolder">S</span>
 													</div>
 													<!--end::User-->
-													<!--begin::User-->
-													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Michelle Swanston">
-														<img alt="Pic" src="../assets/media/avatars/300-7.jpg" />
-													</div>
-													<!--end::User-->
-													<!--begin::User-->
-													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Francis Mitcham">
-														<img alt="Pic" src="../assets/media/avatars/300-20.jpg" />
-													</div>
-													<!--end::User-->
-													<!--begin::User-->
-													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Susan Redwood">
-														<span class="symbol-label bg-primary text-inverse-primary fw-bolder">S</span>
-													</div>
-													<!--end::User-->
-													<!--begin::User-->
-													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Melody Macy">
-														<img alt="Pic" src="../assets/media/avatars/300-2.jpg" />
-													</div>
-													<!--end::User-->
-													<!--begin::User-->
-													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Perry Matthew">
-														<span class="symbol-label bg-info text-inverse-info fw-bolder">P</span>
-													</div>
-													<!--end::User-->
-													<!--begin::User-->
-													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Barry Walter">
-														<img alt="Pic" src="../assets/media/avatars/300-12.jpg" />
+   													 <!--begin::User-->
+													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="" data-bs-original-title="Alan Warden">
+														<span class="symbol-label bg-warning text-inverse-warning fw-bolder">A</span>
 													</div>
 													<!--end::User-->
 													<!--begin::All users-->
 													<a href="#" class="symbol symbol-35px symbol-circle" data-bs-toggle="modal" data-bs-target="#kt_modal_view_users">
-														<span class="symbol-label bg-dark text-inverse-dark fs-8 fw-bolder" data-bs-toggle="tooltip" data-bs-trigger="hover" title="View more users">+42</span>
+														<span class="symbol-label bg-dark text-inverse-dark fs-8 fw-bolder" data-bs-toggle="tooltip" data-bs-trigger="hover" title="" data-bs-original-title="View more users">+2</span>
 													</a>
 													<!--end::All users-->
 												</div>
@@ -289,37 +170,37 @@ include '../includes/head.php';
 									<ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bolder">
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="project.html">Overview</a>
+											<a class="nav-link text-active-primary py-5 me-6 " href="project.php">Overview</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="targets.html">Targets</a>
+											<a class="nav-link text-active-primary py-5 me-6 " href="targets.php">Project Gallery</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6 active" href="budget.html">Budget</a>
+											<a class="nav-link text-active-primary py-5 me-6 active" href="budget.php">Communication</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="users.html">Users</a>
+											<a class="nav-link text-active-primary py-5 me-6" href="users.php">Recommendations</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="files.html">Files</a>
+											<a class="nav-link text-active-primary py-5 me-6" href="files.php">Files</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="activity.html">Activity</a>
+											<a class="nav-link text-active-primary py-5 me-6" href="activity.php">Activity</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="settings.html">Settings</a>
+											<a class="nav-link text-active-primary py-5 me-6" href="settings.php">Settings</a>
 										</li>
 										<!--end::Nav item-->
 									</ul>
@@ -334,212 +215,306 @@ include '../includes/head.php';
 									<!--begin::Card header-->
 									<div class="card-header">
 										<!--begin::Card header-->
-										<div class="card-title fs-3 fw-bolder">Project Budget</div>
+										<div class="card-title fs-3 fw-bolder">Communication</div>
 										<!--end::Card header-->
 									</div>
 									<!--end::Card header-->
 									<!--begin::Card body-->
 									<div class="card-body">
 										<!--begin::Row-->
-										<div class="row mb-8">
-											<!--begin::Col-->
-											<div class="col-xl-3">
-												<div class="fs-6 fw-bold mt-2 mb-3">Current Status</div>
-											</div>
-											<!--end::Col-->
-											<!--begin::Col-->
-											<div class="col-xl-9">
-												<!--begin::Progress-->
-												<div class="d-flex flex-column">
-													<div class="d-flex justify-content-between w-100 fs-4 fw-bolder mb-3">
-														<span>Budget</span>
-														<span>$22,300 of 36,000 Used</span>
+										<div class="card card-flush mb-10">
+											<!--begin::Card header-->
+											<div class="card-header pt-9">
+												<!--begin::Author-->
+												<div class="d-flex align-items-center">
+													<!--begin::Avatar-->
+													<div class="symbol symbol-50px me-5">
+														<img src="../../assets/media/avatars/300-7.jpg" class="" alt="">
 													</div>
-													<div class="h-8px bg-light rounded mb-3">
-														<div class="bg-success rounded h-8px" role="progressbar" style="width: 68%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+													<!--end::Avatar-->
+													<!--begin::Info-->
+													<div class="flex-grow-1">
+														<!--begin::Name-->
+														<a href="#" class="text-gray-800 text-hover-primary fs-4 fw-bold">Sam Smith</a>
+														<!--end::Name-->
+														<!--begin::Date-->
+														<span class="text-gray-400 fw-semibold d-block">Yestarday at 5:06 PM</span>
+														<!--end::Date-->
 													</div>
-													<div class="fw-bold text-gray-600">14 Targets are remaining</div>
+													<!--end::Info-->
 												</div>
-												<!--end::Progress-->
-											</div>
-											<!--end::Col-->
-										</div>
-										<!--end::Row-->
-										<!--begin::Row-->
-										<div class="row mb-8">
-											<!--begin::Col-->
-											<div class="col-xl-3">
-												<div class="fs-6 fw-bold mt-2 mb-3">Usage Character</div>
-											</div>
-											<!--end::Col-->
-											<!--begin::Col-->
-											<div class="col-xl-9">
-												<!--begin::Row-->
-												<div class="row g-9" data-kt-buttons="true" data-kt-buttons-target="[data-kt-button]">
-													<!--begin::Col-->
-													<div class="col-md-4 col-lg-12 col-xxl-4">
-														<label class="btn btn-outline btn-outline-dashed btn-outline-default active d-flex text-start p-6" data-kt-button="true">
-															<!--begin::Radio button-->
-															<span class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
-																<input class="form-check-input" type="radio" name="usage" value="1" checked="checked" />
+												<!--end::Author-->
+												<!--begin::Card toolbar-->
+												<div class="card-toolbar">
+													<!--begin::Menu wrapper-->
+													<div class="m-0">
+														<!--begin::Menu toggle-->
+														<button class="btn btn-icon btn-color-gray-400 btn-active-color-primary me-n4" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">
+															<!--begin::Svg Icon | path: icons/duotune/general/gen023.svg-->
+															<span class="svg-icon svg-icon-1">
+																<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="4" fill="currentColor"></rect>
+																	<rect x="11" y="11" width="2.6" height="2.6" rx="1.3" fill="currentColor"></rect>
+																	<rect x="15" y="11" width="2.6" height="2.6" rx="1.3" fill="currentColor"></rect>
+																	<rect x="7" y="11" width="2.6" height="2.6" rx="1.3" fill="currentColor"></rect>
+																</svg>
 															</span>
-															<!--end::Radio button-->
-															<span class="ms-5">
-																<span class="fs-4 fw-bolder mb-1 d-block">Precise Usage</span>
-																<span class="fw-bold fs-7 text-gray-600">Withdraw money to your bank account per transaction under $50,000 budget</span>
-															</span>
-														</label>
+															<!--end::Svg Icon-->
+														</button>
+														<!--end::Menu toggle-->
+														<!--begin::Menu 2-->
+														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px" data-kt-menu="true">
+															<!--begin::Menu item-->
+															<div class="menu-item px-3">
+																<div class="menu-content fs-6 text-dark fw-bold px-3 py-4">Quick Actions</div>
+															</div>
+															<!--end::Menu item-->
+															<!--begin::Menu separator-->
+															<div class="separator mb-3 opacity-75"></div>
+															<!--end::Menu separator-->
+															<!--begin::Menu item-->
+															<div class="menu-item px-3">
+																<a href="#" class="menu-link px-3">New Ticket</a>
+															</div>
+															<!--end::Menu item-->
+															<!--begin::Menu item-->
+															<div class="menu-item px-3">
+																<a href="#" class="menu-link px-3">New Customer</a>
+															</div>
+															<!--end::Menu item-->
+															<!--begin::Menu item-->
+															<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-start">
+																<!--begin::Menu item-->
+																<a href="#" class="menu-link px-3">
+																	<span class="menu-title">New Group</span>
+																	<span class="menu-arrow"></span>
+																</a>
+																<!--end::Menu item-->
+																<!--begin::Menu sub-->
+																<div class="menu-sub menu-sub-dropdown w-175px py-4">
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="menu-link px-3">Admin Group</a>
+																	</div>
+																	<!--end::Menu item-->
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="menu-link px-3">Staff Group</a>
+																	</div>
+																	<!--end::Menu item-->
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3">
+																		<a href="#" class="menu-link px-3">Member Group</a>
+																	</div>
+																	<!--end::Menu item-->
+																</div>
+																<!--end::Menu sub-->
+															</div>
+															<!--end::Menu item-->
+															<!--begin::Menu item-->
+															<div class="menu-item px-3">
+																<a href="#" class="menu-link px-3">New Contact</a>
+															</div>
+															<!--end::Menu item-->
+															<!--begin::Menu separator-->
+															<div class="separator mt-3 opacity-75"></div>
+															<!--end::Menu separator-->
+															<!--begin::Menu item-->
+															<div class="menu-item px-3">
+																<div class="menu-content px-3 py-3">
+																	<a class="btn btn-primary btn-sm px-4" href="#">Generate Reports</a>
+																</div>
+															</div>
+															<!--end::Menu item-->
+														</div>
+														<!--end::Menu 2-->
 													</div>
-													<!--end::Col-->
-													<!--begin::Col-->
-													<div class="col-md-4 col-lg-12 col-xxl-4">
-														<label class="btn btn-outline btn-outline-dashed btn-outline-default d-flex text-start p-6" data-kt-button="true">
-															<!--begin::Radio button-->
-															<span class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
-																<input class="form-check-input" type="radio" name="usage" value="2" />
-															</span>
-															<!--end::Radio button-->
-															<span class="ms-5">
-																<span class="fs-4 fw-bolder mb-1 d-block">Normal Usage</span>
-																<span class="fw-bold fs-7 text-gray-600">Withdraw money to your bank account per transaction under $50,000 budget</span>
-															</span>
-														</label>
-													</div>
-													<!--end::Col-->
-													<!--begin::Col-->
-													<div class="col-md-4 col-lg-12 col-xxl-4">
-														<label class="btn btn-outline btn-outline-dashed btn-outline-default d-flex text-start p-6" data-kt-button="true">
-															<!--begin::Radio button-->
-															<span class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
-																<input class="form-check-input" type="radio" name="usage" value="3" />
-															</span>
-															<!--end::Radio button-->
-															<span class="ms-5">
-																<span class="fs-4 fw-bolder mb-1 d-block">Extreme Usage</span>
-																<span class="fw-bold fs-7 text-gray-600">Withdraw money to your bank account per transaction under $50,000 budget</span>
-															</span>
-														</label>
-													</div>
-													<!--end::Col-->
+													<!--end::Menu wrapper-->
 												</div>
-												<!--end::Row-->
+												<!--end::Card toolbar-->
 											</div>
-											<!--end::Col-->
-										</div>
-										<!--end::Row-->
-										<!--begin::Row-->
-										<div class="row mb-8">
-											<!--begin::Col-->
-											<div class="col-xl-3">
-												<div class="fs-6 fw-bold mt-2 mb-3">Budget Notes</div>
+											<!--end::Card header-->
+											<!--begin::Card body-->
+											<div class="card-body">
+												<!--begin::Post content-->
+												<div class="fs-6 fw-normal text-gray-700">I have uploaded the images and all the required documents for the project. Let me know if anything else is required.</div>
+												<!--end::Post content-->
 											</div>
-											<!--end::Col-->
-											<!--begin::Col-->
-											<div class="col-xl-9">
-												<textarea name="notes" class="form-control form-control-solid" rows="5">Organize your thoughts with an outline. Here’s the outlining strategy I use. I promise it works like a charm. Not only will it make writing your blog post easier, it’ll help you make your message</textarea>
-											</div>
-											<!--end::Col-->
-										</div>
-										<!--end::Row-->
-										<!--begin::Row-->
-										<div class="row mb-8">
-											<!--begin::Col-->
-											<div class="col-xl-3">
-												<div class="fs-6 fw-bold mt-2 mb-3">Manage Budget</div>
-											</div>
-											<!--end::Col-->
-											<!--begin::Col-->
-											<div class="col-xl-9">
-												<!--begin::Dialer-->
-												<div class="position-relative w-md-300px" data-kt-dialer="true" data-kt-dialer-min="1000" data-kt-dialer-max="50000" data-kt-dialer-step="1000" data-kt-dialer-prefix="$" data-kt-dialer-decimals="2">
-													<!--begin::Decrease control-->
-													<button type="button" class="btn btn-icon btn-active-color-gray-700 position-absolute translate-middle-y top-50 start-0" data-kt-dialer-control="decrease">
-														<!--begin::Svg Icon | path: icons/duotune/general/gen036.svg-->
-														<span class="svg-icon svg-icon-1">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
-																<rect x="6.0104" y="10.9247" width="12" height="2" rx="1" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</button>
-													<!--end::Decrease control-->
-													<!--begin::Input control-->
-													<input type="text" class="form-control form-control-solid border-0 ps-12" data-kt-dialer-control="input" placeholder="Amount" name="manageBudget" readonly="readonly" value="$36,000.00" />
-													<!--end::Input control-->
-													<!--begin::Increase control-->
-													<button type="button" class="btn btn-icon btn-active-color-gray-700 position-absolute translate-middle-y top-50 end-0" data-kt-dialer-control="increase">
-														<!--begin::Svg Icon | path: icons/duotune/general/gen035.svg-->
-														<span class="svg-icon svg-icon-1">
-															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																<rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="currentColor" />
-																<rect x="10.8891" y="17.8033" width="12" height="2" rx="1" transform="rotate(-90 10.8891 17.8033)" fill="currentColor" />
-																<rect x="6.01041" y="10.9247" width="12" height="2" rx="1" fill="currentColor" />
-															</svg>
-														</span>
-														<!--end::Svg Icon-->
-													</button>
-													<!--end::Increase control-->
-												</div>
-												<!--end::Dialer-->
-											</div>
-											<!--end::Col-->
-										</div>
-										<!--end::Row-->
-										<!--begin::Row-->
-										<div class="row mb-8">
-											<!--begin::Col-->
-											<div class="col-xl-3">
-												<div class="fs-6 fw-bold mt-2 mb-3">Overuse Notifications</div>
-											</div>
-											<!--end::Col-->
-											<!--begin::Col-->
-											<div class="col-xl-9">
-												<!--begin::Wrapper-->
-												<div class="d-flex fw-bold h-100">
-													<!--begin::Checkbox-->
-													<div class="form-check form-check-custom form-check-solid me-9">
-														<input class="form-check-input" type="checkbox" value="" id="email" />
-														<label class="form-check-label ms-3" for="email">Email</label>
+											<!--end::Card body-->
+											<!--begin::Card footer-->
+											<div class="card-footer pt-0">
+												<!--begin::Info-->
+												<div class="mb-6">
+													<!--begin::Separator-->
+													<div class="separator separator-solid"></div>
+													<!--end::Separator-->
+													<!--begin::Nav-->
+													<ul class="nav py-3">
+														<!--begin::Item-->
+														<li class="nav-item">
+															<a class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary btn-active-light-primary fw-bold px-4 me-1 collapsible active" data-bs-toggle="collapse" href="#kt_social_feeds_comments_2" aria-expanded="true">
+															<i class="bi bi-chat-square fs-2 me-1"></i>3 Comments</a>
+														</li>
+														<!--end::Item-->
+														<!--begin::Item-->
+														<li class="nav-item">
+															<a href="#" class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary fw-bold px-4 me-1">
+															<i class="bi bi-heart fs-2 me-1"></i>8 Likes</a>
+														</li>
+														<!--end::Item-->
+														<!--begin::Item-->
+														<li class="nav-item">
+															<a href="#" class="nav-link btn btn-sm btn-color-gray-600 btn-active-color-primary fw-bold px-4">
+															<i class="bi bi-bookmark fs-2 me-1"></i>47k Saves</a>
+														</li>
+														<!--end::Item-->
+													</ul>
+													<!--end::Nav-->
+													<!--begin::Separator-->
+													<div class="separator separator-solid mb-1"></div>
+													<!--end::Separator-->
+													<!--begin::Comments-->
+													<div class="collapse show" id="kt_social_feeds_comments_2" style="">
+														<!--begin::Comment-->
+														<div class="d-flex pt-6">
+															<!--begin::Avatar-->
+															<div class="symbol symbol-45px me-5">
+																<img src="../../assets/media/avatars/300-13.jpg" alt="">
+															</div>
+															<!--end::Avatar-->
+															<!--begin::Wrapper-->
+															<div class="d-flex flex-column flex-row-fluid">
+																<!--begin::Info-->
+																<div class="d-flex align-items-center flex-wrap mb-0">
+																	<!--begin::Name-->
+																	<a href="#" class="text-gray-800 text-hover-primary fw-bold me-6">Mr. Anderson</a>
+																	<!--end::Name-->
+																	<!--begin::Date-->
+																	<span class="text-gray-400 fw-semibold fs-7 me-5">1 Day ago</span>
+																	<!--end::Date-->
+																	<!--begin::Reply-->
+																	<a href="#" class="ms-auto text-gray-400 text-hover-primary fw-semibold fs-7">Reply</a>
+																	<!--end::Reply-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Text-->
+																<span class="text-gray-800 fs-7 fw-normal pt-1">Sure, Let me review it.</span>
+																<!--end::Text-->
+															</div>
+															<!--end::Wrapper-->
+														</div>
+														<!--end::Comment-->
+														<!--begin::Comment-->
+														<div class="d-flex pt-6">
+															<!--begin::Avatar-->
+															<div class="symbol symbol-45px me-5">
+																<img src="../../assets/media/avatars/300-2.jpg" alt="">
+															</div>
+															<!--end::Avatar-->
+															<!--begin::Wrapper-->
+															<div class="d-flex flex-column flex-row-fluid">
+																<!--begin::Info-->
+																<div class="d-flex align-items-center flex-wrap mb-0">
+																	<!--begin::Name-->
+																	<a href="#" class="text-gray-800 text-hover-primary fw-bold me-6">Mrs. Anderson</a>
+																	<!--end::Name-->
+																	<!--begin::Date-->
+																	<span class="text-gray-400 fw-semibold fs-7 me-5">2 Days ago</span>
+																	<!--end::Date-->
+																	<!--begin::Reply-->
+																	<a href="#" class="ms-auto text-gray-400 text-hover-primary fw-semibold fs-7">Reply</a>
+																	<!--end::Reply-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Text-->
+																<span class="text-gray-800 fs-7 fw-normal pt-1">You missed to send the agreement, Send it.</span>
+																<!--end::Text-->
+															</div>
+															<!--end::Wrapper-->
+														</div>
+														<!--end::Comment-->
+														<!--begin::Comment-->
+														<div class="d-flex pt-6">
+															<!--begin::Avatar-->
+															<div class="symbol symbol-45px me-5">
+																<img src="../../assets/media/avatars/300-20.jpg" alt="">
+															</div>
+															<!--end::Avatar-->
+															<!--begin::Wrapper-->
+															<div class="d-flex flex-column flex-row-fluid">
+																<!--begin::Info-->
+																<div class="d-flex align-items-center flex-wrap mb-0">
+																	<!--begin::Name-->
+																	<a href="#" class="text-gray-800 text-hover-primary fw-bold me-6">Alice Danchik</a>
+																	<!--end::Name-->
+																	<!--begin::Date-->
+																	<span class="text-gray-400 fw-semibold fs-7 me-5">3 Days ago</span>
+																	<!--end::Date-->
+																	<!--begin::Reply-->
+																	<a href="#" class="ms-auto text-gray-400 text-hover-primary fw-semibold fs-7">Reply</a>
+																	<!--end::Reply-->
+																</div>
+																<!--end::Info-->
+																<!--begin::Text-->
+																<span class="text-gray-800 fs-7 fw-normal pt-1">Upload more images</span>
+																<!--end::Text-->
+															</div>
+															<!--end::Wrapper-->
+														</div>
+														<!--end::Comment-->
 													</div>
-													<!--end::Checkbox-->
-													<!--begin::Checkbox-->
-													<div class="form-check form-check-custom form-check-solid">
-														<input class="form-check-input" type="checkbox" value="" id="phone" checked="checked" />
-														<label class="form-check-label ms-3" for="phone">Phone</label>
+													<!--end::Collapse-->
+												</div>
+												<!--end::Info-->
+												<!--begin::Comment form-->
+												<div class="d-flex align-items-center">
+													<!--begin::Author-->
+													<div class="symbol symbol-35px me-3">
+														<img src="../../assets/media/avatars/300-3.jpg" alt="">
 													</div>
-													<!--end::Checkbox-->
+													<!--end::Author-->
+													<!--begin::Input group-->
+													<div class="position-relative w-100">
+														<!--begin::Input-->
+														<textarea type="text" class="form-control form-control-solid border ps-5" rows="1" name="search" value="" data-kt-autosize="true" placeholder="Write your comment.." data-kt-initialized="1" style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 44px;"></textarea>
+														<!--end::Input-->
+														<!--begin::Actions-->
+														<div class="position-absolute top-0 end-0 translate-middle-x mt-1 me-n14">
+															<!--begin::Btn-->
+															<button class="btn btn-icon btn-sm btn-color-gray-500 btn-active-color-primary w-25px p-0">
+																<i class="fonticon-attach fs-2"></i>
+															</button>
+															<!--end::Btn-->
+															<!--begin::Btn-->
+															<button class="btn btn-icon btn-sm btn-color-gray-500 btn-active-color-primary w-25px p-0">
+																<i class="fonticon-smile fs-2"></i>
+															</button>
+															<!--end::Btn-->
+															<!--begin::Btn-->
+															<button class="btn btn-icon btn-sm btn-color-gray-500 btn-active-color-primary w-25px p-0">
+																<i class="fonticon-gallery fs-2"></i>
+															</button>
+															<!--end::Btn-->
+															<!--begin::Btn-->
+															<button class="btn btn-icon btn-sm btn-color-gray-500 btn-active-color-primary w-25px p-0">
+																<i class="fonticon-location fs-2"></i>
+															</button>
+															<!--end::Btn-->
+														</div>
+														<!--end::Actions-->
+													</div>
+													<!--end::Input group-->
 												</div>
-												<!--end::Wrapper-->
+												<!--end::Comment form-->
 											</div>
-											<!--end::Col-->
+											<!--end::Card footer-->
 										</div>
-										<!--end::Row-->
-										<!--begin::Row-->
-										<div class="row">
-											<!--begin::Col-->
-											<div class="col-xl-3">
-												<div class="fs-6 fw-bold mt-2 mb-3">Allow Changes</div>
-											</div>
-											<!--end::Col-->
-											<!--begin::Col-->
-											<div class="col-xl-9">
-												<!--begin::Switch-->
-												<div class="form-check form-switch form-check-custom form-check-solid">
-													<input class="form-check-input" type="checkbox" value="" id="allowchanges" checked="checked" />
-													<label class="form-check-label fw-bold text-gray-400 ms-3" for="allowchanges">Allowed</label>
-												</div>
-												<!--end::Switch-->
-											</div>
-											<!--end::Col-->
-										</div>
-										<!--end::Row-->
 									</div>
 									<!--end::Card body-->
 									<!--begin::Card footer-->
 									<div class="card-footer d-flex justify-content-end py-6">
 										<button type="reset" class="btn btn-light btn-active-light-primary me-2">Discard</button>
-										<button type="submit" class="btn btn-primary">Save Changes</button>
+										<button type="submit" class="btn btn-primary">Comment</button>
 									</div>
 									<!--end::Card footer-->
 								</div>
@@ -550,9 +525,7 @@ include '../includes/head.php';
 						<!--end::Container-->
 					</div>
 					<!--end::Content-->
-					<!--begin::Footer-->
-					<?php include '../includes/footer.php' ?>
-					<!--end::Footer-->
+					
 				</div>
 				<!--end::Wrapper-->
 			</div>

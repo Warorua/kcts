@@ -165,12 +165,12 @@ include '../includes/head.php';
 									<ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bolder">
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6 active" href="project.php">Overview</a>
+											<a class="nav-link text-active-primary py-5 me-6 " href="project.php">Overview</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="targets.php">Project Gallery</a>
+											<a class="nav-link text-active-primary py-5 me-6 active" href="targets.php">Project Gallery</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
