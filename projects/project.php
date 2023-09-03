@@ -175,32 +175,32 @@ include '../includes/head.php';
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="targets.html">Project Gallery</a>
+											<a class="nav-link text-active-primary py-5 me-6" href="targets.php">Project Gallery</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="budget.html">Communication</a>
+											<a class="nav-link text-active-primary py-5 me-6" href="budget.php">Communication</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="users.html">Recommendations</a>
+											<a class="nav-link text-active-primary py-5 me-6" href="users.php">Recommendations</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="files.html">Files</a>
+											<a class="nav-link text-active-primary py-5 me-6" href="files.php">Files</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="activity.html">Activity</a>
+											<a class="nav-link text-active-primary py-5 me-6" href="activity.php">Activity</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="settings.html">Settings</a>
+											<a class="nav-link text-active-primary py-5 me-6" href="settings.php">Settings</a>
 										</li>
 										<!--end::Nav item-->
 									</ul>
