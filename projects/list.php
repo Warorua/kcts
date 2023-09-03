@@ -146,62 +146,13 @@ include '../includes/head.php';
 									</div>
 									<!--end::Budget-->
 								</div>
-								<div class="col-lg-6 col-xxl-4">
-									<!--begin::Clients-->
-									<div class="card h-100">
-										<div class="card-body p-9">
-											<!--begin::Heading-->
-											<div class="fs-2hx fw-bolder">49</div>
-											<div class="fs-4 fw-bold text-gray-400 mb-7">Our Clients</div>
-											<!--end::Heading-->
-											<!--begin::Users group-->
-											<div class="symbol-group symbol-hover mb-9">
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Alan Warden">
-													<span class="symbol-label bg-warning text-inverse-warning fw-bolder">A</span>
-												</div>
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Michael Eberon">
-													<img alt="Pic" src="../assets/media/avatars/300-11.jpg" />
-												</div>
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Michelle Swanston">
-													<img alt="Pic" src="../assets/media/avatars/300-7.jpg" />
-												</div>
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Francis Mitcham">
-													<img alt="Pic" src="../assets/media/avatars/300-20.jpg" />
-												</div>
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Susan Redwood">
-													<span class="symbol-label bg-primary text-inverse-primary fw-bolder">S</span>
-												</div>
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Melody Macy">
-													<img alt="Pic" src="../assets/media/avatars/300-2.jpg" />
-												</div>
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Perry Matthew">
-													<span class="symbol-label bg-info text-inverse-info fw-bolder">P</span>
-												</div>
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Barry Walter">
-													<img alt="Pic" src="../assets/media/avatars/300-12.jpg" />
-												</div>
-												<a href="#" class="symbol symbol-35px symbol-circle" data-bs-toggle="modal" data-bs-target="#kt_modal_view_users">
-													<span class="symbol-label bg-dark text-gray-300 fs-8 fw-bolder">+42</span>
-												</a>
-											</div>
-											<!--end::Users group-->
-											<!--begin::Actions-->
-											<div class="d-flex">
-												<a href="#" class="btn btn-primary btn-sm me-3" data-bs-toggle="modal" data-bs-target="#kt_modal_view_users">All Clients</a>
-												<a href="#" class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#kt_modal_users_search">Invite New</a>
-											</div>
-											<!--end::Actions-->
-										</div>
-									</div>
-									<!--end::Clients-->
-								</div>
 							</div>
 							<!--end::Stats-->
 							<!--begin::Toolbar-->
 							<div class="d-flex flex-wrap flex-stack my-5">
 								<!--begin::Heading-->
 								<h2 class="fs-2 fw-bold my-2">Projects 
-								<span class="fs-6 text-gray-400 ms-1">by Status</span></h2>
+								<span class="fs-6 text-gray-400 ms-1">Lurambi</span></h2>
 								<!--end::Heading-->
 								<!--begin::Controls-->
 								<div class="d-flex flex-wrap my-1">
@@ -230,13 +181,7 @@ include '../includes/head.php';
 										<!--begin::Card header-->
 										<div class="card-header border-0 pt-9">
 											<!--begin::Card Title-->
-											<div class="card-title m-0">
-												<!--begin::Avatar-->
-												<div class="symbol symbol-50px w-50px bg-light">
-													<img src="../assets/media/svg/brand-logos/plurk.svg" alt="image" class="p-3" />
-												</div>
-												<!--end::Avatar-->
-											</div>
+											
 											<!--end::Car Title-->
 											<!--begin::Card toolbar-->
 											<div class="card-toolbar">
@@ -248,16 +193,16 @@ include '../includes/head.php';
 										<!--begin:: Card body-->
 										<div class="card-body p-9">
 											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">Fitnes App</div>
+											<div class="fs-3 fw-bolder text-dark">Agriculture</div>
 											<!--end::Name-->
 											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
+											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Agriculture Livestock Fisheries</p>
 											<!--end::Description-->
 											<!--begin::Info-->
 											<div class="d-flex flex-wrap mb-5">
 												<!--begin::Due-->
 												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">Aug 19, 2022</div>
+													<div class="fs-6 text-gray-800 fw-bolder">Aug 19, 2024</div>
 													<div class="fw-bold text-gray-400">Due Date</div>
 												</div>
 												<!--end::Due-->
@@ -306,13 +251,7 @@ include '../includes/head.php';
 										<!--begin::Card header-->
 										<div class="card-header border-0 pt-9">
 											<!--begin::Card Title-->
-											<div class="card-title m-0">
-												<!--begin::Avatar-->
-												<div class="symbol symbol-50px w-50px bg-light">
-													<img src="../assets/media/svg/brand-logos/disqus.svg" alt="image" class="p-3" />
-												</div>
-												<!--end::Avatar-->
-											</div>
+											
 											<!--end::Car Title-->
 											<!--begin::Card toolbar-->
 											<div class="card-toolbar">
@@ -324,16 +263,16 @@ include '../includes/head.php';
 										<!--begin:: Card body-->
 										<div class="card-body p-9">
 											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">Leaf CRM</div>
+											<div class="fs-3 fw-bolder text-dark">Natural Resource </div>
 											<!--end::Name-->
 											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
+											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Water Environment and Climate change</p>
 											<!--end::Description-->
 											<!--begin::Info-->
 											<div class="d-flex flex-wrap mb-5">
 												<!--begin::Due-->
 												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">May 10, 2021</div>
+													<div class="fs-6 text-gray-800 fw-bolder">May 10, 2024</div>
 													<div class="fw-bold text-gray-400">Due Date</div>
 												</div>
 												<!--end::Due-->
@@ -377,14 +316,8 @@ include '../includes/head.php';
 										<!--begin::Card header-->
 										<div class="card-header border-0 pt-9">
 											<!--begin::Card Title-->
-											<div class="card-title m-0">
-												<!--begin::Avatar-->
-												<div class="symbol symbol-50px w-50px bg-light">
-													<img src="../assets/media/svg/brand-logos/figma-1.svg" alt="image" class="p-3" />
-												</div>
-												<!--end::Avatar-->
-											</div>
-											<!--end::Car Title-->
+											
+											<!--end::Card Title-->
 											<!--begin::Card toolbar-->
 											<div class="card-toolbar">
 												<span class="badge badge-light-success fw-bolder me-auto px-4 py-3">Completed</span>
@@ -395,10 +328,10 @@ include '../includes/head.php';
 										<!--begin:: Card body-->
 										<div class="card-body p-9">
 											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">Atica Banking</div>
+											<div class="fs-3 fw-bolder text-dark">Public Works</div>
 											<!--end::Name-->
 											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
+											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Mumias East School Renovation Initiative</p>
 											<!--end::Description-->
 											<!--begin::Info-->
 											<div class="d-flex flex-wrap mb-5">
@@ -453,14 +386,8 @@ include '../includes/head.php';
 										<!--begin::Card header-->
 										<div class="card-header border-0 pt-9">
 											<!--begin::Card Title-->
-											<div class="card-title m-0">
-												<!--begin::Avatar-->
-												<div class="symbol symbol-50px w-50px bg-light">
-													<img src="../assets/media/svg/brand-logos/sentry-3.svg" alt="image" class="p-3" />
-												</div>
-												<!--end::Avatar-->
-											</div>
-											<!--end::Car Title-->
+											
+											<!--end::Card Title-->
 											<!--begin::Card toolbar-->
 											<div class="card-toolbar">
 												<span class="badge badge-light fw-bolder me-auto px-4 py-3">Pending</span>
@@ -471,16 +398,16 @@ include '../includes/head.php';
 										<!--begin:: Card body-->
 										<div class="card-body p-9">
 											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">Finance Dispatch</div>
+											<div class="fs-3 fw-bolder text-dark">Public Infrastructure</div>
 											<!--end::Name-->
 											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
+											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Malava Youth Sports Complex Development</p>
 											<!--end::Description-->
 											<!--begin::Info-->
 											<div class="d-flex flex-wrap mb-5">
 												<!--begin::Due-->
 												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">Feb 21, 2022</div>
+													<div class="fs-6 text-gray-800 fw-bolder">Feb 21, 2024</div>
 													<div class="fw-bold text-gray-400">Due Date</div>
 												</div>
 												<!--end::Due-->
@@ -524,13 +451,7 @@ include '../includes/head.php';
 										<!--begin::Card header-->
 										<div class="card-header border-0 pt-9">
 											<!--begin::Card Title-->
-											<div class="card-title m-0">
-												<!--begin::Avatar-->
-												<div class="symbol symbol-50px w-50px bg-light">
-													<img src="../assets/media/svg/brand-logos/xing-icon.svg" alt="image" class="p-3" />
-												</div>
-												<!--end::Avatar-->
-											</div>
+											
 											<!--end::Car Title-->
 											<!--begin::Card toolbar-->
 											<div class="card-toolbar">
@@ -542,16 +463,16 @@ include '../includes/head.php';
 										<!--begin:: Card body-->
 										<div class="card-body p-9">
 											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">9 Degree</div>
+											<div class="fs-3 fw-bolder text-dark">Public Administration</div>
 											<!--end::Name-->
 											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
+											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Lugari Solar Power Plant Installation</p>
 											<!--end::Description-->
 											<!--begin::Info-->
 											<div class="d-flex flex-wrap mb-5">
 												<!--begin::Due-->
 												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">Mar 10, 2022</div>
+													<div class="fs-6 text-gray-800 fw-bolder">Mar 10, 2024</div>
 													<div class="fw-bold text-gray-400">Due Date</div>
 												</div>
 												<!--end::Due-->
@@ -600,13 +521,7 @@ include '../includes/head.php';
 										<!--begin::Card header-->
 										<div class="card-header border-0 pt-9">
 											<!--begin::Card Title-->
-											<div class="card-title m-0">
-												<!--begin::Avatar-->
-												<div class="symbol symbol-50px w-50px bg-light">
-													<img src="../assets/media/svg/brand-logos/tvit.svg" alt="image" class="p-3" />
-												</div>
-												<!--end::Avatar-->
-											</div>
+											
 											<!--end::Car Title-->
 											<!--begin::Card toolbar-->
 											<div class="card-toolbar">
@@ -618,16 +533,16 @@ include '../includes/head.php';
 										<!--begin:: Card body-->
 										<div class="card-body p-9">
 											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">GoPro App</div>
+											<div class="fs-3 fw-bolder text-dark">Natural Resources and Climate change</div>
 											<!--end::Name-->
 											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
+											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Butere Environmental Conservation and Beautification Scheme</p>
 											<!--end::Description-->
 											<!--begin::Info-->
 											<div class="d-flex flex-wrap mb-5">
 												<!--begin::Due-->
 												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">Jul 25, 2022</div>
+													<div class="fs-6 text-gray-800 fw-bolder">Jul 25, 2024</div>
 													<div class="fw-bold text-gray-400">Due Date</div>
 												</div>
 												<!--end::Due-->
@@ -671,13 +586,7 @@ include '../includes/head.php';
 										<!--begin::Card header-->
 										<div class="card-header border-0 pt-9">
 											<!--begin::Card Title-->
-											<div class="card-title m-0">
-												<!--begin::Avatar-->
-												<div class="symbol symbol-50px w-50px bg-light">
-													<img src="../assets/media/svg/brand-logos/aven.svg" alt="image" class="p-3" />
-												</div>
-												<!--end::Avatar-->
-											</div>
+											
 											<!--end::Car Title-->
 											<!--begin::Card toolbar-->
 											<div class="card-toolbar">
@@ -689,16 +598,16 @@ include '../includes/head.php';
 										<!--begin:: Card body-->
 										<div class="card-body p-9">
 											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">Buldozer CRM</div>
+											<div class="fs-3 fw-bolder text-dark">Public Works and Infrastructure</div>
 											<!--end::Name-->
 											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
+											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Mumias West Housing Development Program</p>
 											<!--end::Description-->
 											<!--begin::Info-->
 											<div class="d-flex flex-wrap mb-5">
 												<!--begin::Due-->
 												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">Jun 20, 2022</div>
+													<div class="fs-6 text-gray-800 fw-bolder">Jun 20, 2024</div>
 													<div class="fw-bold text-gray-400">Due Date</div>
 												</div>
 												<!--end::Due-->
@@ -747,13 +656,7 @@ include '../includes/head.php';
 										<!--begin::Card header-->
 										<div class="card-header border-0 pt-9">
 											<!--begin::Card Title-->
-											<div class="card-title m-0">
-												<!--begin::Avatar-->
-												<div class="symbol symbol-50px w-50px bg-light">
-													<img src="../assets/media/svg/brand-logos/treva.svg" alt="image" class="p-3" />
-												</div>
-												<!--end::Avatar-->
-											</div>
+											
 											<!--end::Car Title-->
 											<!--begin::Card toolbar-->
 											<div class="card-toolbar">
@@ -765,10 +668,10 @@ include '../includes/head.php';
 										<!--begin:: Card body-->
 										<div class="card-body p-9">
 											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">Aviasales App</div>
+											<div class="fs-3 fw-bolder text-dark">Trade Industrialization</div>
 											<!--end::Name-->
 											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
+											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Navakholo Market Modernization Project</p>
 											<!--end::Description-->
 											<!--begin::Info-->
 											<div class="d-flex flex-wrap mb-5">
@@ -818,13 +721,7 @@ include '../includes/head.php';
 										<!--begin::Card header-->
 										<div class="card-header border-0 pt-9">
 											<!--begin::Card Title-->
-											<div class="card-title m-0">
-												<!--begin::Avatar-->
-												<div class="symbol symbol-50px w-50px bg-light">
-													<img src="../assets/media/svg/brand-logos/kanba.svg" alt="image" class="p-3" />
-												</div>
-												<!--end::Avatar-->
-											</div>
+											
 											<!--end::Car Title-->
 											<!--begin::Card toolbar-->
 											<div class="card-toolbar">
@@ -836,10 +733,10 @@ include '../includes/head.php';
 										<!--begin:: Card body-->
 										<div class="card-body p-9">
 											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">Oppo CRM</div>
+											<div class="fs-3 fw-bolder text-dark">Lands Housing Urban Areas</div>
 											<!--end::Name-->
 											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
+											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Housing Development Program</p>
 											<!--end::Description-->
 											<!--begin::Info-->
 											<div class="d-flex flex-wrap mb-5">
@@ -2248,9 +2145,7 @@ include '../includes/head.php';
 						<!--end::Container-->
 					</div>
 					<!--end::Content-->
-					<!--begin::Footer-->
-					<?php include '../includes/footer.php' ?>
-					<!--end::Footer-->
+					
 				</div>
 				<!--end::Wrapper-->
 			</div>
