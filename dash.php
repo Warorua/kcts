@@ -140,50 +140,6 @@ include './includes/head.php';
 											<!--end::Card-->
 										</div>
 										<!--end::Col-->
-										<!--begin::Col-->
-										<div class="col-6">
-											<!--begin::Card-->
-											<div class="card card-stretch">
-												<!--begin::Link-->
-												<a href="apps/projects/project.html" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10">
-													<!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm002.svg-->
-													<span class="svg-icon svg-icon-3x mb-5">
-														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-															<path d="M21 10H13V11C13 11.6 12.6 12 12 12C11.4 12 11 11.6 11 11V10H3C2.4 10 2 10.4 2 11V13H22V11C22 10.4 21.6 10 21 10Z" fill="currentColor" />
-															<path opacity="0.3" d="M12 12C11.4 12 11 11.6 11 11V3C11 2.4 11.4 2 12 2C12.6 2 13 2.4 13 3V11C13 11.6 12.6 12 12 12Z" fill="currentColor" />
-															<path opacity="0.3" d="M18.1 21H5.9C5.4 21 4.9 20.6 4.8 20.1L3 13H21L19.2 20.1C19.1 20.6 18.6 21 18.1 21ZM13 18V15C13 14.4 12.6 14 12 14C11.4 14 11 14.4 11 15V18C11 18.6 11.4 19 12 19C12.6 19 13 18.6 13 18ZM17 18V15C17 14.4 16.6 14 16 14C15.4 14 15 14.4 15 15V18C15 18.6 15.4 19 16 19C16.6 19 17 18.6 17 18ZM9 18V15C9 14.4 8.6 14 8 14C7.4 14 7 14.4 7 15V18C7 18.6 7.4 19 8 19C8.6 19 9 18.6 9 18Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-													<span class="fs-4 fw-bolder">Data analysis</span>
-												</a>
-												<!--end::Link-->
-											</div>
-											<!--end::Card-->
-										</div>
-										
-										<!--end::Col-->
-										<!--begin::Col-->
-										<div class="col-6">
-											<!--begin::Card-->
-											<div class="card card-stretch">
-												<!--begin::Link-->
-												<a href="apps/projects/users.html" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10">
-													<!--begin::Svg Icon | path: icons/duotune/general/gen002.svg-->
-													<span class="svg-icon svg-icon-3x mb-5">
-														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-															<path opacity="0.3" d="M4.05424 15.1982C8.34524 7.76818 13.5782 3.26318 20.9282 2.01418C21.0729 1.98837 21.2216 1.99789 21.3618 2.04193C21.502 2.08597 21.6294 2.16323 21.7333 2.26712C21.8372 2.37101 21.9144 2.49846 21.9585 2.63863C22.0025 2.7788 22.012 2.92754 21.9862 3.07218C20.7372 10.4222 16.2322 15.6552 8.80224 19.9462L4.05424 15.1982ZM3.81924 17.3372L2.63324 20.4482C2.58427 20.5765 2.5735 20.7163 2.6022 20.8507C2.63091 20.9851 2.69788 21.1082 2.79503 21.2054C2.89218 21.3025 3.01536 21.3695 3.14972 21.3982C3.28408 21.4269 3.42387 21.4161 3.55224 21.3672L6.66524 20.1802L3.81924 17.3372ZM16.5002 5.99818C16.2036 5.99818 15.9136 6.08615 15.6669 6.25097C15.4202 6.41579 15.228 6.65006 15.1144 6.92415C15.0009 7.19824 14.9712 7.49984 15.0291 7.79081C15.0869 8.08178 15.2298 8.34906 15.4396 8.55884C15.6494 8.76862 15.9166 8.91148 16.2076 8.96935C16.4986 9.02723 16.8002 8.99753 17.0743 8.884C17.3484 8.77046 17.5826 8.5782 17.7474 8.33153C17.9123 8.08486 18.0002 7.79485 18.0002 7.49818C18.0002 7.10035 17.8422 6.71882 17.5609 6.43752C17.2796 6.15621 16.8981 5.99818 16.5002 5.99818Z" fill="currentColor" />
-															<path d="M4.05423 15.1982L2.24723 13.3912C2.15505 13.299 2.08547 13.1867 2.04395 13.0632C2.00243 12.9396 1.9901 12.8081 2.00793 12.679C2.02575 12.5498 2.07325 12.4266 2.14669 12.3189C2.22013 12.2112 2.31752 12.1219 2.43123 12.0582L9.15323 8.28918C7.17353 10.3717 5.4607 12.6926 4.05423 15.1982ZM8.80023 19.9442L10.6072 21.7512C10.6994 21.8434 10.8117 21.9129 10.9352 21.9545C11.0588 21.996 11.1903 22.0083 11.3195 21.9905C11.4486 21.9727 11.5718 21.9252 11.6795 21.8517C11.7872 21.7783 11.8765 21.6809 11.9402 21.5672L15.7092 14.8442C13.6269 16.8245 11.3061 18.5377 8.80023 19.9442ZM7.04023 18.1832L12.5832 12.6402C12.7381 12.4759 12.8228 12.2577 12.8195 12.032C12.8161 11.8063 12.725 11.5907 12.5653 11.4311C12.4057 11.2714 12.1901 11.1803 11.9644 11.1769C11.7387 11.1736 11.5205 11.2583 11.3562 11.4132L5.81323 16.9562L7.04023 18.1832Z" fill="currentColor" />
-														</svg>
-													</span>
-													<!--end::Svg Icon-->
-													<span class="fs-4 fw-bolder">System</span>
-												</a>
-												<!--end::Link-->
-											</div>
-											<!--end::Card-->
-										</div>
-										<!--end::Col-->
 									</div>
 									<!--end::Misc Widget 1-->
 									<!--begin::List Widget 4-->
@@ -445,19 +401,6 @@ include './includes/head.php';
 												<span class="card-label fw-bolder fs-3 mb-1">Latest Projects</span>
 												<span class="text-muted mt-1 fw-bold fs-7">More than 100+ new products</span>
 											</h3>
-											<div class="card-toolbar">
-												<ul class="nav">
-													<li class="nav-item">
-														<a class="nav-link btn btn-sm btn-color-muted btn-active btn-active-secondary fw-bolder px-4 me-1 active" data-bs-toggle="tab" href="#kt_table_widget_5_tab_1">Month</a>
-													</li>
-													<li class="nav-item">
-														<a class="nav-link btn btn-sm btn-color-muted btn-active btn-active-secondary fw-bolder px-4 me-1" data-bs-toggle="tab" href="#kt_table_widget_5_tab_2">Week</a>
-													</li>
-													<li class="nav-item">
-														<a class="nav-link btn btn-sm btn-color-muted btn-active btn-active-secondary fw-bolder px-4" data-bs-toggle="tab" href="#kt_table_widget_5_tab_3">Day</a>
-													</li>
-												</ul>
-											</div>
 										</div>
 										<!--end::Header-->
 										<!--begin::Body-->
@@ -894,298 +837,57 @@ include './includes/head.php';
 										<!--end::Body-->
 									</div>
 									<!--end::Tables Widget 5-->
-									<!--begin::Row-->
-									<div class="row g-5 g-xl-8">
-										<!--begin::Col-->
-										<div class="col-xl-6">
-											<!--begin::Mixed Widget 8-->
-											<div class="card card-xl-stretch mb-xl-8">
-												<!--begin::Body-->
-												<div class="card-body">
-													<!--begin::Heading-->
-													<div class="d-flex flex-stack">
-														<!--begin:Info-->
-														<div class="d-flex align-items-center">
-															<!--begin:Image-->
-															<div class="symbol symbol-60px me-5">
-																<span class="symbol-label bg-danger-light">
-																	<img src="assets/media/svg/brand-logos/plurk.svg" class="h-50 align-self-center" alt="" />
-																</span>
-															</div>
-															<!--end:Image-->
-															<!--begin:Title-->
-															<div class="d-flex flex-column flex-grow-1 my-lg-0 my-2 pr-3">
-																<a href="#" class="text-dark fw-bolder text-hover-primary fs-5">Monthly Subscription</a>
-																<span class="text-muted fw-bold">Due: 27 Apr 2020</span>
-															</div>
-															<!--end:Title-->
-														</div>
-														<!--begin:Info-->
-														<!--begin:Menu-->
-														<div class="ms-1">
-															<button type="button" class="btn btn-sm btn-icon btn-color-primary btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-																<!--begin::Svg Icon | path: icons/duotune/general/gen024.svg-->
-																<span class="svg-icon svg-icon-2">
-																	<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																			<rect x="5" y="5" width="5" height="5" rx="1" fill="currentColor" />
-																			<rect x="14" y="5" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-																			<rect x="5" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-																			<rect x="14" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-																		</g>
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-															</button>
-															<!--begin::Menu 2-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<div class="menu-content fs-6 text-dark fw-bolder px-3 py-4">Quick Actions</div>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu separator-->
-																<div class="separator mb-3 opacity-75"></div>
-																<!--end::Menu separator-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3">New Ticket</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3">New Customer</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-start">
-																	<!--begin::Menu item-->
-																	<a href="#" class="menu-link px-3">
-																		<span class="menu-title">New Group</span>
-																		<span class="menu-arrow"></span>
-																	</a>
-																	<!--end::Menu item-->
-																	<!--begin::Menu sub-->
-																	<div class="menu-sub menu-sub-dropdown w-175px py-4">
-																		<!--begin::Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">Admin Group</a>
-																		</div>
-																		<!--end::Menu item-->
-																		<!--begin::Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">Staff Group</a>
-																		</div>
-																		<!--end::Menu item-->
-																		<!--begin::Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">Member Group</a>
-																		</div>
-																		<!--end::Menu item-->
-																	</div>
-																	<!--end::Menu sub-->
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3">New Contact</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu separator-->
-																<div class="separator mt-3 opacity-75"></div>
-																<!--end::Menu separator-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<div class="menu-content px-3 py-3">
-																		<a class="btn btn-primary btn-sm px-4" href="#">Generate Reports</a>
-																	</div>
-																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu 2-->
-														</div>
-														<!--end::Menu-->
-													</div>
-													<!--end::Heading-->
-													<!--begin:Stats-->
-													<div class="d-flex flex-column w-100 mt-12">
-														<span class="text-dark me-2 fw-bolder pb-3">Progress</span>
-														<div class="progress h-5px w-100">
-															<div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-														</div>
-													</div>
-													<!--end:Stats-->
-													<!--begin:Team-->
-													<div class="d-flex flex-column mt-10">
-														<div class="text-dark me-2 fw-bolder pb-4">Team</div>
-														<div class="d-flex">
-															<a href="#" class="symbol symbol-35px me-2" data-bs-toggle="tooltip" title="Ana Stone">
-																<img src="assets/media/avatars/300-6.jpg" alt="" />
-															</a>
-															<a href="#" class="symbol symbol-35px me-2" data-bs-toggle="tooltip" title="Mark Larson">
-																<img src="assets/media/avatars/300-5.jpg" alt="" />
-															</a>
-															<a href="#" class="symbol symbol-35px me-2" data-bs-toggle="tooltip" title="Sam Harris">
-																<img src="assets/media/avatars/300-9.jpg" alt="" />
-															</a>
-															<a href="#" class="symbol symbol-35px" data-bs-toggle="tooltip" title="Alice Micto">
-																<img src="assets/media/avatars/300-10.jpg" alt="" />
-															</a>
-														</div>
-													</div>
-													<!--end:Team-->
+
+									<!-- New section-->
+									<div class="col-lg-12 col-xxl-4">
+									<!--begin::Card-->
+									<div class="card h-100">
+										<!--begin::Card body-->
+										<div class="card-body p-9">
+											<!--begin::Heading-->
+											<div class="fs-2hx fw-bolder">100</div>
+											<div class="fs-4 fw-bold text-gray-400 mb-7">Current Projects</div>
+											<!--end::Heading-->
+											<!--begin::Wrapper-->
+											<div class="d-flex flex-wrap">
+												<!--begin::Chart-->
+												<div class="d-flex flex-center h-100px w-100px me-9 mb-5">
+													<canvas id="kt_project_list_chart"></canvas>
 												</div>
-												<!--end::Body-->
-											</div>
-											<!--end::Mixed Widget 8-->
-										</div>
-										<!--end::Col-->
-										<!--begin::Col-->
-										<div class="col-xl-6">
-											<!--begin::Mixed Widget 8-->
-											<div class="card card-xl-stretch mb-xl-8">
-												<!--begin::Body-->
-												<div class="card-body">
-													<!--begin::Heading-->
-													<div class="d-flex flex-stack">
-														<!--begin:Info-->
-														<div class="d-flex align-items-center">
-															<!--begin:Image-->
-															<div class="symbol symbol-60px me-5">
-																<span class="symbol-label bg-primary-light">
-																	<img src="assets/media/svg/brand-logos/vimeo.svg" class="h-50 align-self-center" alt="" />
-																</span>
-															</div>
-															<!--end:Image-->
-															<!--begin:Title-->
-															<div class="d-flex flex-column flex-grow-1 my-lg-0 my-2 pr-3">
-																<a href="#" class="text-dark fw-bolder text-hover-primary fs-5">Monthly Subscription</a>
-																<span class="text-muted fw-bold">Due: 27 Apr 2020</span>
-															</div>
-															<!--end:Title-->
-														</div>
-														<!--begin:Info-->
-														<!--begin:Menu-->
-														<div class="ms-1">
-															<button type="button" class="btn btn-sm btn-icon btn-color-primary btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-																<!--begin::Svg Icon | path: icons/duotune/general/gen024.svg-->
-																<span class="svg-icon svg-icon-2">
-																	<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																			<rect x="5" y="5" width="5" height="5" rx="1" fill="currentColor" />
-																			<rect x="14" y="5" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-																			<rect x="5" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-																			<rect x="14" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-																		</g>
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-															</button>
-															<!--begin::Menu 2-->
-															<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px" data-kt-menu="true">
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<div class="menu-content fs-6 text-dark fw-bolder px-3 py-4">Quick Actions</div>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu separator-->
-																<div class="separator mb-3 opacity-75"></div>
-																<!--end::Menu separator-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3">New Ticket</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3">New Customer</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-start">
-																	<!--begin::Menu item-->
-																	<a href="#" class="menu-link px-3">
-																		<span class="menu-title">New Group</span>
-																		<span class="menu-arrow"></span>
-																	</a>
-																	<!--end::Menu item-->
-																	<!--begin::Menu sub-->
-																	<div class="menu-sub menu-sub-dropdown w-175px py-4">
-																		<!--begin::Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">Admin Group</a>
-																		</div>
-																		<!--end::Menu item-->
-																		<!--begin::Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">Staff Group</a>
-																		</div>
-																		<!--end::Menu item-->
-																		<!--begin::Menu item-->
-																		<div class="menu-item px-3">
-																			<a href="#" class="menu-link px-3">Member Group</a>
-																		</div>
-																		<!--end::Menu item-->
-																	</div>
-																	<!--end::Menu sub-->
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<a href="#" class="menu-link px-3">New Contact</a>
-																</div>
-																<!--end::Menu item-->
-																<!--begin::Menu separator-->
-																<div class="separator mt-3 opacity-75"></div>
-																<!--end::Menu separator-->
-																<!--begin::Menu item-->
-																<div class="menu-item px-3">
-																	<div class="menu-content px-3 py-3">
-																		<a class="btn btn-primary btn-sm px-4" href="#">Generate Reports</a>
-																	</div>
-																</div>
-																<!--end::Menu item-->
-															</div>
-															<!--end::Menu 2-->
-														</div>
-														<!--end::Menu-->
+												<!--end::Chart-->
+												<!--begin::Labels-->
+												<div class="d-flex flex-column justify-content-center flex-row-fluid pe-11 mb-5">
+													<!--begin::Label-->
+													<div class="d-flex fs-6 fw-bold align-items-center mb-3">
+														<div class="bullet bg-primary me-3"></div>
+														<div class="text-gray-400">Active</div>
+														<div class="ms-auto fw-bolder text-gray-700">30</div>
 													</div>
-													<!--end::Heading-->
-													<!--begin:Stats-->
-													<div class="d-flex flex-column w-100 mt-12">
-														<span class="text-dark me-2 fw-bolder pb-3">Progress</span>
-														<div class="progress h-5px w-100">
-															<div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-														</div>
+													<!--end::Label-->
+													<!--begin::Label-->
+													<div class="d-flex fs-6 fw-bold align-items-center mb-3">
+														<div class="bullet bg-success me-3"></div>
+														<div class="text-gray-400">Completed</div>
+														<div class="ms-auto fw-bolder text-gray-700">45</div>
 													</div>
-													<!--end:Stats-->
-													<!--begin:Team-->
-													<div class="d-flex flex-column mt-10">
-														<div class="text-dark me-2 fw-bolder pb-4">Team</div>
-														<div class="d-flex">
-															<a href="#" class="symbol symbol-35px me-2" data-bs-toggle="tooltip" title="Ana Stone">
-																<img src="assets/media/avatars/300-6.jpg" alt="" />
-															</a>
-															<a href="#" class="symbol symbol-35px me-2" data-bs-toggle="tooltip" title="Mark Larson">
-																<img src="assets/media/avatars/300-5.jpg" alt="" />
-															</a>
-															<a href="#" class="symbol symbol-35px me-2" data-bs-toggle="tooltip" title="Sam Harris">
-																<img src="assets/media/avatars/300-9.jpg" alt="" />
-															</a>
-															<a href="#" class="symbol symbol-35px" data-bs-toggle="tooltip" title="Alice Micto">
-																<img src="assets/media/avatars/300-10.jpg" alt="" />
-															</a>
-														</div>
+													<!--end::Label-->
+													<!--begin::Label-->
+													<div class="d-flex fs-6 fw-bold align-items-center">
+														<div class="bullet bg-gray-300 me-3"></div>
+														<div class="text-gray-400">Yet to start</div>
+														<div class="ms-auto fw-bolder text-gray-700">25</div>
 													</div>
-													<!--end:Team-->
+													<!--end::Label-->
 												</div>
-												<!--end::Body-->
+												<!--end::Labels-->
 											</div>
-											<!--end::Mixed Widget 8-->
+											<!--end::Wrapper-->
 										</div>
-										<!--end::Col-->
+										<!--end::Card body-->
 									</div>
-									<!--end::Row-->
+									<!--end::Card-->
+								</div>
+									<!--New Section end-->
 								</div>
 								<!--end::Col-->
 							</div>
@@ -1194,9 +896,6 @@ include './includes/head.php';
 						<!--end::Container-->
 					</div>
 					<!--end::Content-->
-					<!--begin::Footer-->
-					<?php include './includes/footer.php' ?>
-					<!--end::Footer-->
 				</div>
 				<!--end::Wrapper-->
 			</div>
