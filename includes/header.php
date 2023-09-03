@@ -6,7 +6,7 @@ if(!isset($dashHeadDesc)){
     $dashHeadDesc = 'Create a store with #YDR-124-346 code';
 }
 ?>
-<div id="kt_header" class="header py-6 py-lg-0" data-kt-sticky="true" data-kt-sticky-name="header" data-kt-sticky-offset="{lg: '300px'}">
+<div id="kt_header" class="header py-6 py-lg-0" data-kt-sticky="true" data-kt-sticky-name="header" data-kt-sticky-offset="{lg: '300px'} style=" style="background: linear-gradient(to bottom, #4b9539, #63501e);">
     <!--begin::Container-->
     <div class="header-container container-xxl">
         <!--begin::Page title-->
