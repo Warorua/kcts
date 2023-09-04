@@ -246,7 +246,7 @@ include '../includes/head.php';
 																	<!--end::Symbol-->
 																	<!--begin::Info-->
 																	<div class="m-0">
-																		<span class="fw-bold text-gray-400 d-block fs-8">Manager</span>
+																		<span class="fw-bold text-gray-400 d-block fs-8">Contractor</span>
 																		<span class="fw-bolder text-gray-800 fs-7">Robert Fox</span>
 																	</div>
 																	<!--end::Info-->
@@ -283,17 +283,16 @@ include '../includes/head.php';
 														<!--begin::Body-->
 														<div class="mb-6">
 															<!--begin::Text-->
-															<span class="fw-bold text-gray-600 fs-6 mb-8 d-block">Flat cartoony illustrations with vivid unblended colors and asymmetrical beautiful purple hair lady</span>
-															<!--end::Text-->
+                                                            <span class="fw-regular text-gray-600 fs-8 mb-8 d-block">Explore our comprehensive project reports for a detailed overview of ongoing initiatives, procurement details, and progress updates, contributing to the growth and development of Kakamega County.</span>															<!--end::Text-->
 															<!--begin::Stats-->
 															<div class="d-flex">
 																<!--begin::Stat-->
 																<div class="border border-gray-300 border-dashed rounded min-w-100px w-100 py-2 px-4 me-6 mb-3">
 																	<!--begin::Date-->
-																	<span class="fs-6 text-gray-700 fw-bolder">Feb 6, 2021</span>
+																	<span class="fs-6 text-gray-700 fw-bolder">40%</span>
 																	<!--end::Date-->
 																	<!--begin::Label-->
-																	<div class="fw-bold text-gray-400">Due Date</div>
+																	<div class="fw-bold text-gray-400">Project Completion</div>
 																	<!--end::Label-->
 																</div>
 																<!--end::Stat-->
@@ -301,10 +300,10 @@ include '../includes/head.php';
 																<div class="border border-gray-300 border-dashed rounded min-w-100px w-100 py-2 px-4 mb-3">
 																	<!--begin::Number-->
 																	<span class="fs-6 text-gray-700 fw-bolder">$
-																	<span class="ms-n1" data-kt-countup="true" data-kt-countup-value="284,900.00">0</span></span>
+																	<span class="ms-n1" data-kt-countup="true" data-kt-countup-value="60%">0</span></span>
 																	<!--end::Number-->
 																	<!--begin::Label-->
-																	<div class="fw-bold text-gray-400">Budget</div>
+																	<div class="fw-bold text-gray-400">Project Remaining </div>
 																	<!--end::Label-->
 																</div>
 																<!--end::Stat-->
