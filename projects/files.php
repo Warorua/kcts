@@ -49,7 +49,7 @@ include '../includes/head.php';
 						<!--begin::Container-->
 						<div class="container-xxl" id="kt_content_container">
 							<!--begin::Navbar-->
-							<div class="card">
+							<div class="card mb-6 mb-xl-9">
 								<div class="card-body pt-9 pb-0">
 									<!--begin::Details-->
 									<div class="d-flex flex-wrap flex-sm-nowrap mb-6">
@@ -66,103 +66,17 @@ include '../includes/head.php';
 												<div class="d-flex flex-column">
 													<!--begin::Status-->
 													<div class="d-flex align-items-center mb-1">
-														<a href="#" class="text-gray-800 text-hover-primary fs-2 fw-bolder me-3">CRM Dashboard</a>
+														<a href="#" class="text-gray-800 text-hover-primary fs-2 fw-bolder me-3">Project Dashboard</a>
 														<span class="badge badge-light-success me-auto">In Progress</span>
 													</div>
 													<!--end::Status-->
 													<!--begin::Description-->
-													<div class="d-flex flex-wrap fw-bold mb-4 fs-5 text-gray-400">#1 Tool to get started with Web Apps any Kind &amp; size</div>
+													<div class="d-flex flex-wrap fw-bold mb-4 fs-5 text-gray-400">Enhancement of healthcare accessibility in Kakamega County</div>
 													<!--end::Description-->
 												</div>
 												<!--end::Details-->
 												<!--begin::Actions-->
-												<div class="d-flex mb-4">
-													<a href="#" class="btn btn-sm btn-bg-light btn-active-color-primary me-3" data-bs-toggle="modal" data-bs-target="#kt_modal_users_search">Add User</a>
-													<a href="#" class="btn btn-sm btn-primary me-3" data-bs-toggle="modal" data-bs-target="#kt_modal_new_target">Add Target</a>
-													<!--begin::Menu-->
-													<div class="me-0">
-														<button class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
-															<i class="bi bi-three-dots fs-3"></i>
-														</button>
-														<!--begin::Menu 3-->
-														<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
-															<!--begin::Heading-->
-															<div class="menu-item px-3">
-																<div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">Payments</div>
-															</div>
-															<!--end::Heading-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3">Create Invoice</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link flex-stack px-3">Create Payment 
-																<i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Specify a target name for future usage and reference"></i></a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3">
-																<a href="#" class="menu-link px-3">Generate Bill</a>
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-end">
-																<a href="#" class="menu-link px-3">
-																	<span class="menu-title">Subscription</span>
-																	<span class="menu-arrow"></span>
-																</a>
-																<!--begin::Menu sub-->
-																<div class="menu-sub menu-sub-dropdown w-175px py-4">
-																	<!--begin::Menu item-->
-																	<div class="menu-item px-3">
-																		<a href="#" class="menu-link px-3">Plans</a>
-																	</div>
-																	<!--end::Menu item-->
-																	<!--begin::Menu item-->
-																	<div class="menu-item px-3">
-																		<a href="#" class="menu-link px-3">Billing</a>
-																	</div>
-																	<!--end::Menu item-->
-																	<!--begin::Menu item-->
-																	<div class="menu-item px-3">
-																		<a href="#" class="menu-link px-3">Statements</a>
-																	</div>
-																	<!--end::Menu item-->
-																	<!--begin::Menu separator-->
-																	<div class="separator my-2"></div>
-																	<!--end::Menu separator-->
-																	<!--begin::Menu item-->
-																	<div class="menu-item px-3">
-																		<div class="menu-content px-3">
-																			<!--begin::Switch-->
-																			<label class="form-check form-switch form-check-custom form-check-solid">
-																				<!--begin::Input-->
-																				<input class="form-check-input w-30px h-20px" type="checkbox" value="1" checked="checked" name="notifications" />
-																				<!--end::Input-->
-																				<!--end::Label-->
-																				<span class="form-check-label text-muted fs-6">Recuring</span>
-																				<!--end::Label-->
-																			</label>
-																			<!--end::Switch-->
-																		</div>
-																	</div>
-																	<!--end::Menu item-->
-																</div>
-																<!--end::Menu sub-->
-															</div>
-															<!--end::Menu item-->
-															<!--begin::Menu item-->
-															<div class="menu-item px-3 my-1">
-																<a href="#" class="menu-link px-3">Settings</a>
-															</div>
-															<!--end::Menu item-->
-														</div>
-														<!--end::Menu 3-->
-													</div>
-													<!--end::Menu-->
-												</div>
+												
 												<!--end::Actions-->
 											</div>
 											<!--end::Head-->
@@ -174,7 +88,7 @@ include '../includes/head.php';
 													<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-6 mb-3">
 														<!--begin::Number-->
 														<div class="d-flex align-items-center">
-															<div class="fs-4 fw-bolder">29 Jan, 2022</div>
+															<div class="fs-4 fw-bolder">29 Jan, 2024</div>
 														</div>
 														<!--end::Number-->
 														<!--begin::Label-->
@@ -186,19 +100,11 @@ include '../includes/head.php';
 													<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-6 mb-3">
 														<!--begin::Number-->
 														<div class="d-flex align-items-center">
-															<!--begin::Svg Icon | path: icons/duotune/arrows/arr065.svg-->
-															<span class="svg-icon svg-icon-3 svg-icon-danger me-2">
-																<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																	<rect opacity="0.5" x="11" y="18" width="13" height="2" rx="1" transform="rotate(-90 11 18)" fill="currentColor" />
-																	<path d="M11.4343 15.4343L7.25 11.25C6.83579 10.8358 6.16421 10.8358 5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75L11.2929 18.2929C11.6834 18.6834 12.3166 18.6834 12.7071 18.2929L18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25C17.8358 10.8358 17.1642 10.8358 16.75 11.25L12.5657 15.4343C12.2533 15.7467 11.7467 15.7467 11.4343 15.4343Z" fill="currentColor" />
-																</svg>
-															</span>
-															<!--end::Svg Icon-->
-															<div class="fs-4 fw-bolder" data-kt-countup="true" data-kt-countup-value="75">0</div>
+															<div class="fs-4 fw-bolder" data-kt-countup="true" data-kt-countup-value="75">Sub-County</div>
 														</div>
 														<!--end::Number-->
 														<!--begin::Label-->
-														<div class="fw-bold fs-6 text-gray-400">Open Tasks</div>
+														<div class="fw-bold fs-6 text-gray-400">Lurambi</div>
 														<!--end::Label-->
 													</div>
 													<!--end::Stat-->
@@ -227,48 +133,23 @@ include '../includes/head.php';
 												<!--begin::Users-->
 												<div class="symbol-group symbol-hover mb-3">
 													<!--begin::User-->
-													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Alan Warden">
+													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="" data-bs-original-title="Alan Warden">
 														<span class="symbol-label bg-warning text-inverse-warning fw-bolder">A</span>
 													</div>
 													<!--end::User-->
-													<!--begin::User-->
-													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Michael Eberon">
-														<img alt="Pic" src="../assets/media/avatars/300-11.jpg" />
+    												<!--begin::User-->
+													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="" data-bs-original-title="Alan Warden">
+														<span class="symbol-label bg-warning text-inverse-warning fw-bolder">S</span>
 													</div>
 													<!--end::User-->
-													<!--begin::User-->
-													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Michelle Swanston">
-														<img alt="Pic" src="../assets/media/avatars/300-7.jpg" />
-													</div>
-													<!--end::User-->
-													<!--begin::User-->
-													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Francis Mitcham">
-														<img alt="Pic" src="../assets/media/avatars/300-20.jpg" />
-													</div>
-													<!--end::User-->
-													<!--begin::User-->
-													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Susan Redwood">
-														<span class="symbol-label bg-primary text-inverse-primary fw-bolder">S</span>
-													</div>
-													<!--end::User-->
-													<!--begin::User-->
-													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Melody Macy">
-														<img alt="Pic" src="../assets/media/avatars/300-2.jpg" />
-													</div>
-													<!--end::User-->
-													<!--begin::User-->
-													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Perry Matthew">
-														<span class="symbol-label bg-info text-inverse-info fw-bolder">P</span>
-													</div>
-													<!--end::User-->
-													<!--begin::User-->
-													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Barry Walter">
-														<img alt="Pic" src="../assets/media/avatars/300-12.jpg" />
+   													 <!--begin::User-->
+													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="" data-bs-original-title="Alan Warden">
+														<span class="symbol-label bg-warning text-inverse-warning fw-bolder">A</span>
 													</div>
 													<!--end::User-->
 													<!--begin::All users-->
 													<a href="#" class="symbol symbol-35px symbol-circle" data-bs-toggle="modal" data-bs-target="#kt_modal_view_users">
-														<span class="symbol-label bg-dark text-inverse-dark fs-8 fw-bolder" data-bs-toggle="tooltip" data-bs-trigger="hover" title="View more users">+42</span>
+														<span class="symbol-label bg-dark text-inverse-dark fs-8 fw-bolder" data-bs-toggle="tooltip" data-bs-trigger="hover" title="" data-bs-original-title="View more users">+2</span>
 													</a>
 													<!--end::All users-->
 												</div>
@@ -284,37 +165,35 @@ include '../includes/head.php';
 									<ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bolder">
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="project.html">Overview</a>
+											<a class="nav-link text-active-primary py-5 me-6 " href="project.php">Overview</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="targets.html">Targets</a>
+											<a class="nav-link text-active-primary py-5 me-6" href="targets.php">Project Gallery</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="budget.html">Budget</a>
+											<a class="nav-link text-active-primary py-5 me-6" href="budget.php">Communication</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="users.html">Users</a>
+											<a class="nav-link text-active-primary py-5 me-6" href="users.php">Recommendations</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6 active" href="files.html">Files</a>
+											<a class="nav-link text-active-primary py-5 me-6 active" href="files.php">Files</a>
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
-										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="activity.html">Activity</a>
-										</li>
+										
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="settings.html">Settings</a>
+											<a class="nav-link text-active-primary py-5 me-6" href="settings.php">Settings</a>
 										</li>
 										<!--end::Nav item-->
 									</ul>
@@ -326,7 +205,7 @@ include '../includes/head.php';
 							<div class="d-flex flex-wrap flex-stack my-5">
 								<!--begin::Heading-->
 								<h3 class="fw-bolder my-2">Project Files 
-								<span class="fs-6 text-gray-400 fw-bold ms-1">+590</span></h3>
+								<span class="fs-6 text-gray-400 fw-bold ms-1">30+</span></h3>
 								<!--end::Heading-->
 								<!--begin::Controls-->
 								<div class="d-flex my-2">
@@ -364,7 +243,7 @@ include '../includes/head.php';
 												</div>
 												<!--end::Image-->
 												<!--begin::Title-->
-												<div class="fs-5 fw-bolder mb-2">Project Reqs..</div>
+												<div class="fs-5 fw-bolder mb-2">Project Documents</div>
 												<!--end::Title-->
 											</a>
 											<!--end::Name-->
@@ -391,7 +270,7 @@ include '../includes/head.php';
 												</div>
 												<!--end::Image-->
 												<!--begin::Title-->
-												<div class="fs-5 fw-bolder mb-2">CRM App Docs..</div>
+												<div class="fs-5 fw-bolder mb-2">Budget Purposal</div>
 												<!--end::Title-->
 											</a>
 											<!--end::Name-->
@@ -418,7 +297,7 @@ include '../includes/head.php';
 												</div>
 												<!--end::Image-->
 												<!--begin::Title-->
-												<div class="fs-5 fw-bolder mb-2">User CRUD Styles</div>
+												<div class="fs-5 fw-bolder mb-2">Legal Documents</div>
 												<!--end::Title-->
 											</a>
 											<!--end::Name-->
@@ -445,7 +324,7 @@ include '../includes/head.php';
 												</div>
 												<!--end::Image-->
 												<!--begin::Title-->
-												<div class="fs-5 fw-bolder mb-2">Product Logo</div>
+												<div class="fs-5 fw-bolder mb-2">Agreement</div>
 												<!--end::Title-->
 											</a>
 											<!--end::Name-->
@@ -472,7 +351,7 @@ include '../includes/head.php';
 												</div>
 												<!--end::Image-->
 												<!--begin::Title-->
-												<div class="fs-5 fw-bolder mb-2">Orders backup</div>
+												<div class="fs-5 fw-bolder mb-2">Project Details</div>
 												<!--end::Title-->
 											</a>
 											<!--end::Name-->
@@ -499,7 +378,7 @@ include '../includes/head.php';
 												</div>
 												<!--end::Image-->
 												<!--begin::Title-->
-												<div class="fs-5 fw-bolder mb-2">UTAIR CRM API Co..</div>
+												<div class="fs-5 fw-bolder mb-2">Project Presentation</div>
 												<!--end::Title-->
 											</a>
 											<!--end::Name-->
@@ -526,7 +405,7 @@ include '../includes/head.php';
 												</div>
 												<!--end::Image-->
 												<!--begin::Title-->
-												<div class="fs-5 fw-bolder mb-2">Tower Hill App..</div>
+												<div class="fs-5 fw-bolder mb-2">Project flow</div>
 												<!--end::Title-->
 											</a>
 											<!--end::Name-->
@@ -562,9 +441,7 @@ include '../includes/head.php';
 						<!--end::Container-->
 					</div>
 					<!--end::Content-->
-					<!--begin::Footer-->
-					<?php include '../includes/footer.php' ?>
-					<!--end::Footer-->
+					
 				</div>
 				<!--end::Wrapper-->
 			</div>
@@ -575,19 +452,7 @@ include '../includes/head.php';
 		<?php include '../includes/drawers.php' ?>
 		<!--end::Engage drawers-->
 		<!--begin::Engage toolbar-->
-		<div class="engage-toolbar d-flex position-fixed px-5 fw-bolder zindex-2 top-50 end-0 transform-90 mt-20 gap-2">
-			<!--begin::Demos drawer toggle-->
-			<button id="kt_engage_demos_toggle" class="engage-demos-toggle btn btn-flex h-35px bg-body btn-color-gray-700 btn-active-color-gray-900 shadow-sm fs-6 px-4 rounded-top-0" title="Check out 22 more demos" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-dismiss="click" data-bs-trigger="hover">
-				<span id="kt_engage_demos_label">Demos</span>
-			</button>
-			<!--end::Demos drawer toggle-->
-			<!--begin::Help drawer toggle-->
-			<button id="kt_help_toggle" class="engage-help-toggle btn btn-flex h-35px bg-body btn-color-gray-700 btn-active-color-gray-900 shadow-sm px-5 rounded-top-0" title="Learn &amp; Get Inspired" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-dismiss="click" data-bs-trigger="hover">Help</button>
-			<!--end::Help drawer toggle-->
-			<!--begin::Purchase link-->
-			<a href="https://1.envato.market/EA4JP" target="_blank" class="engage-purchase-link btn btn-color-gray-700 bg-body btn-active-color-gray-900' btn-flex h-35px px-5 shadow-sm rounded-top-0">Buy now</a>
-			<!--end::Purchase link-->
-		</div>
+		
 		<!--end::Engage toolbar-->
 		<!--begin::Scrolltop-->
 		<div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">

@@ -98,14 +98,7 @@
                                         <span class="menu-arrow"></span>
                                     </span>
                                     <div class="menu-sub menu-sub-accordion">
-                                        <div class="menu-item">
-                                            <a class="menu-link" href="<?php echo $filePath ?>apps/user-management/roles/list.php">
-                                                <span class="menu-bullet">
-                                                    <span class="bullet bullet-dot"></span>
-                                                </span>
-                                                <span class="menu-title">Roles List</span>
-                                            </a>
-                                        </div>
+                                        
                                         <div class="menu-item">
                                             <a class="menu-link" href="<?php echo $filePath ?>apps/user-management/roles/view.php">
                                                 <span class="menu-bullet">
@@ -160,14 +153,7 @@
                                         <span class="menu-title">Listing</span>
                                     </a>
                                 </div>
-                                <div class="menu-item">
-                                    <a class="menu-link" href="pages/sitemap.php">
-                                        <span class="menu-bullet">
-                                            <span class="bullet bullet-dot"></span>
-                                        </span>
-                                        <span class="menu-title">Sitemap</span>
-                                    </a>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
@@ -243,14 +229,7 @@
                                         <span class="menu-title">Files</span>
                                     </a>
                                 </div>
-                                <div class="menu-item">
-                                    <a class="menu-link" href="<?php echo $filePath ?>projects/activity.php">
-                                        <span class="menu-bullet">
-                                            <span class="bullet bullet-dot"></span>
-                                        </span>
-                                        <span class="menu-title">Activity</span>
-                                    </a>
-                                </div>
+                                
                                 <div class="menu-item">
                                     <a class="menu-link" href="<?php echo $filePath ?>projects/settings.php">
                                         <span class="menu-bullet">
@@ -319,47 +298,16 @@
                 <!--end::Menu separator-->
                 <!--begin::Menu item-->
                 <div class="menu-item px-3">
-                    <a href="#" class="menu-link px-3">New Ticket</a>
+                    <a href="#" class="menu-link px-3">New Project</a>
                 </div>
                 <!--end::Menu item-->
                 <!--begin::Menu item-->
                 <div class="menu-item px-3">
-                    <a href="#" class="menu-link px-3">New Customer</a>
+                    <a href="#" class="menu-link px-3">New Procurement</a>
                 </div>
                 <!--end::Menu item-->
                 <!--begin::Menu item-->
-                <div class="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-start">
-                    <!--begin::Menu item-->
-                    <a href="#" class="menu-link px-3">
-                        <span class="menu-title">New Group</span>
-                        <span class="menu-arrow"></span>
-                    </a>
-                    <!--end::Menu item-->
-                    <!--begin::Menu sub-->
-                    <div class="menu-sub menu-sub-dropdown w-175px py-4">
-                        <!--begin::Menu item-->
-                        <div class="menu-item px-3">
-                            <a href="#" class="menu-link px-3">Admin Group</a>
-                        </div>
-                        <!--end::Menu item-->
-                        <!--begin::Menu item-->
-                        <div class="menu-item px-3">
-                            <a href="#" class="menu-link px-3">Staff Group</a>
-                        </div>
-                        <!--end::Menu item-->
-                        <!--begin::Menu item-->
-                        <div class="menu-item px-3">
-                            <a href="#" class="menu-link px-3">Member Group</a>
-                        </div>
-                        <!--end::Menu item-->
-                    </div>
-                    <!--end::Menu sub-->
-                </div>
-                <!--end::Menu item-->
-                <!--begin::Menu item-->
-                <div class="menu-item px-3">
-                    <a href="#" class="menu-link px-3">New Contact</a>
-                </div>
+                
                 <!--end::Menu item-->
                 <!--begin::Menu separator-->
                 <div class="separator mt-3 opacity-75"></div>
