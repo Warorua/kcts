@@ -47,7 +47,7 @@ include './includes/head.php';
 					<?php include $filePath.'includes/header.php' ?>
 					<!--end::Header-->
 
-                    <div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
+                
 					<!--begin::Header tablet and mobile-->
 				 <div class="header-mobile py-3">
 						<!--begin::Container-->
