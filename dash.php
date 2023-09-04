@@ -45,6 +45,7 @@ include './includes/head.php';
 					
 					<?php include './includes/header.php' ?>
 					<!--end::Header-->
+					
 					<!--begin::Content-->
 					<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
 						<!--begin::Container-->

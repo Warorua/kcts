@@ -98,14 +98,7 @@
                                         <span class="menu-arrow"></span>
                                     </span>
                                     <div class="menu-sub menu-sub-accordion">
-                                        <div class="menu-item">
-                                            <a class="menu-link" href="<?php echo $filePath ?>apps/user-management/roles/list.php">
-                                                <span class="menu-bullet">
-                                                    <span class="bullet bullet-dot"></span>
-                                                </span>
-                                                <span class="menu-title">Roles List</span>
-                                            </a>
-                                        </div>
+                                        
                                         <div class="menu-item">
                                             <a class="menu-link" href="<?php echo $filePath ?>apps/user-management/roles/view.php">
                                                 <span class="menu-bullet">
