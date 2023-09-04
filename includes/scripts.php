@@ -9,15 +9,6 @@
 	var hostUrl = "<?php echo $filePath ?>assets/index.html";
 </script>
 
-<?php
-if (file_exists('../assets/js/scripts.bundle.js')) {
-	$filePath = '../';
-} elseif (file_exists('../../assets/js/scripts.bundle.js')) {
-	$filePath = '../../';
-} else {
-	$filePath = './';
-}
-?>
 
 <!--begin::Global Javascript Bundle(used by all pages)-->
 <script src="<?php echo $filePath ?>assets/plugins/global/plugins.bundle.js"></script>
