@@ -56,28 +56,28 @@
 											<!--begin::Menu item-->
 											<div class="menu-item">
 												<!--begin::Menu link-->
-												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="#how-it-works" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Procurement</a>
+												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="https://techkira.net/v2/login" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Procurement</a>
 												<!--end::Menu link-->
 											</div>
 											<!--end::Menu item-->
 											<!--begin::Menu item-->
 											<div class="menu-item">
 												<!--begin::Menu link-->
-												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="#achievements" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Projects</a>
+												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="https://techkira.net/v2/login" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Projects</a>
 												<!--end::Menu link-->
 											</div>
 											<!--end::Menu item-->
 											<!--begin::Menu item-->
 											<div class="menu-item">
 												<!--begin::Menu link-->
-												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="#team" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Reports</a>
+												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="https://techkira.net/v2/login" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Reports</a>
 												<!--end::Menu link-->
 											</div>
 											<!--end::Menu item-->
 											<!--begin::Menu item-->
 											<div class="menu-item">
 												<!--begin::Menu link-->
-												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="#portfolio" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Sub Counties</a>
+												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="https://techkira.net/v2/login" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Sub Counties</a>
 												<!--end::Menu link-->
 											</div>
 											<!--end::Menu item-->
@@ -117,7 +117,7 @@
        <div class="fs-5 text-white fw-bold">Engage actively with Kakamega County's procurement and projects. Access transparent information, participate in procurement,<br> and track ongoing initiatives. Be a part of accountable development for the community.</div>
 							<!--end::Title-->
 							<!--begin::Action-->
-							<a href="index.html" class="btn btn-primary m-12" style="background-color: #0a0a0a !important;">Learn More</a>
+							<a href="v2/login" class="btn btn-primary m-12" style="background-color: #0a0a0a !important;">Learn More</a>
 							<!--end::Action-->
 						</div>
 						<!--end::Heading-->
@@ -257,7 +257,7 @@
 												<a href="#" class="btn btn-primary fw-semibold me-2" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan" style="
     background-color: #298352;
 ">Sign-Up Now</a>
-												<a href="../apps/support-center/overview.html" class="btn btn-color-white bg-transparent btn-outline fw-semibold" style="border: 1px solid rgba(255, 255, 255, 0.3)">Save for Later</a>
+												<a href="v2/login" class="btn btn-color-white bg-transparent btn-outline fw-semibold" style="border: 1px solid rgba(255, 255, 255, 0.3)">Save for Later</a>
 											</div>
 							<!--end::Description-->
 						
@@ -312,13 +312,13 @@
 										<a class="nav-link text-gray-500 text-active-primary px-3 px-lg-6 active" href="#" data-bs-toggle="tab" data-bs-target="#kt_landing_projects_latest">Latest</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link text-gray-500 text-active-primary px-3 px-lg-6" href="#" data-bs-toggle="tab" data-bs-target="#kt_landing_projects_web_design">Web Design</a>
+										<a class="nav-link text-gray-500 text-active-primary px-3 px-lg-6" href="#" data-bs-toggle="tab" data-bs-target="#kt_landing_projects_web_design">Lands Housing </a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link text-gray-500 text-active-primary px-3 px-lg-6" href="#" data-bs-toggle="tab" data-bs-target="#kt_landing_projects_mobile_apps">Mobile Apps</a>
+										<a class="nav-link text-gray-500 text-active-primary px-3 px-lg-6" href="#" data-bs-toggle="tab" data-bs-target="#kt_landing_projects_mobile_apps">Health Services</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link text-gray-500 text-active-primary px-3 px-lg-6" href="#" data-bs-toggle="tab" data-bs-target="#kt_landing_projects_development">Development</a>
+										<a class="nav-link text-gray-500 text-active-primary px-3 px-lg-6" href="#" data-bs-toggle="tab" data-bs-target="#kt_landing_projects_development">Public Administrator</a>
 									</li>
 								</ul>
 								<!--end::Tabs-->
@@ -694,22 +694,22 @@
 										<h4 class="fw-bolder text-gray-400 mb-6">More for KCTS</h4>
 										<!--end::Subtitle-->
 										<!--begin::Link-->
-										<a href="https://keenthemes.com/faqs" class="text-white opacity-50 text-hover-primary fs-5 mb-6">FAQ</a>
+										<a href="https://techkira.net/index.php" class="text-white opacity-50 text-hover-primary fs-5 mb-6">FAQ</a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="documentation/getting-started.html" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Procurements </a>
+										<a href="https://techkira.net/index.php" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Procurements </a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="https://www.youtube.com/c/KeenThemesTuts/videos" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Projects</a>
+										<a href="https://techkira.net/v2/login" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Projects</a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="documentation/getting-started/changelog.html" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Reports</a>
+										<a href="https://techkira.net/v2/login" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Reports</a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="https://devs.keenthemes.com/" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Support Forum</a>
+										<a href="https://techkira.net/v2/login" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Support Forum</a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="https://keenthemes.com/blog" class="text-white opacity-50 text-hover-primary fs-5">About Us</a>
+										<a href="https://techkira.net/v2/login" class="text-white opacity-50 text-hover-primary fs-5">About Us</a>
 										<!--end::Link-->
 									</div>
 									<!--end::Links-->
