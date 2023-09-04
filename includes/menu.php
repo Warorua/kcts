@@ -72,7 +72,7 @@
                                     </span>
                                     <div class="menu-sub menu-sub-accordion">
                                         <div class="menu-item">
-                                            <a class="menu-link" href="<?php echo $filePath ?>apps/user-management/users/list.php">
+                                            <a class="menu-link" href="<?php echo $filePath ?>userlist.php">
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
@@ -80,7 +80,7 @@
                                             </a>
                                         </div>
                                         <div class="menu-item">
-                                            <a class="menu-link" href="<?php echo $filePath ?>apps/user-management/users/view.php">
+                                            <a class="menu-link" href="<?php echo $filePath ?>userview.php">
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
@@ -100,7 +100,7 @@
                                     <div class="menu-sub menu-sub-accordion">
                                         
                                         <div class="menu-item">
-                                            <a class="menu-link" href="<?php echo $filePath ?>apps/user-management/roles/view.php">
+                                            <a class="menu-link" href="<?php echo $filePath ?>roleview.php">
                                                 <span class="menu-bullet">
                                                     <span class="bullet bullet-dot"></span>
                                                 </span>
@@ -110,7 +110,7 @@
                                     </div>
                                 </div>
                                 <div class="menu-item">
-                                    <a class="menu-link" href="<?php echo $filePath ?>apps/user-management/permissions.php">
+                                    <a class="menu-link" href="<?php echo $filePath ?>userpermission.php">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
