@@ -247,7 +247,7 @@ include '../includes/head.php';
 											<!--begin::Item-->
 											<a class="d-block card-rounded overlay h-lg-100" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-20.jpg">
 												<!--begin::Image-->
-												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style="background-image:url('assets/media/stock/600x600/img-23.jpg')"></div>
+												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style="background-image:url('../assets/media/stock/600x600/img-23.jpg')"></div>
 												<!--end::Image-->
 												<!--begin::Action-->
 												<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -267,7 +267,7 @@ include '../includes/head.php';
 													<!--begin::Item-->
 													<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-22.jpg">
 														<!--begin::Image-->
-														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-22.jpg')"></div>
+														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('../assets/media/stock/600x600/img-22.jpg')"></div>
 														<!--end::Image-->
 														<!--begin::Action-->
 														<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -283,7 +283,7 @@ include '../includes/head.php';
 													<!--begin::Item-->
 													<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-21.jpg">
 														<!--begin::Image-->
-														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-21.jpg')"></div>
+														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('../assets/media/stock/600x600/img-21.jpg')"></div>
 														<!--end::Image-->
 														<!--begin::Action-->
 														<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -299,7 +299,7 @@ include '../includes/head.php';
 											<!--begin::Item-->
 											<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x400/img-20.jpg">
 												<!--begin::Image-->
-												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-20.jpg')"></div>
+												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('../assets/media/stock/600x600/img-20.jpg')"></div>
 												<!--end::Image-->
 												<!--begin::Action-->
 												<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -323,7 +323,7 @@ include '../includes/head.php';
 											<!--begin::Item-->
 											<a class="d-block card-rounded overlay h-lg-100" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-11.jpg">
 												<!--begin::Image-->
-												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style="background-image:url('assets/media/stock/600x600/img-11.jpg')"></div>
+												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style="background-image:url('../assets/media/stock/600x600/img-11.jpg')"></div>
 												<!--end::Image-->
 												<!--begin::Action-->
 												<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -343,7 +343,7 @@ include '../includes/head.php';
 													<!--begin::Item-->
 													<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-12.jpg">
 														<!--begin::Image-->
-														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-12.jpg')"></div>
+														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('../assets/media/stock/600x600/img-12.jpg')"></div>
 														<!--end::Image-->
 														<!--begin::Action-->
 														<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -359,7 +359,7 @@ include '../includes/head.php';
 													<!--begin::Item-->
 													<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-21.jpg">
 														<!--begin::Image-->
-														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-21.jpg')"></div>
+														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('../assets/media/stock/600x600/img-21.jpg')"></div>
 														<!--end::Image-->
 														<!--begin::Action-->
 														<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -375,7 +375,7 @@ include '../includes/head.php';
 											<!--begin::Item-->
 											<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x400/img-20.jpg">
 												<!--begin::Image-->
-												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-20.jpg')"></div>
+												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('../assets/media/stock/600x600/img-20.jpg')"></div>
 												<!--end::Image-->
 												<!--begin::Action-->
 												<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -403,7 +403,7 @@ include '../includes/head.php';
 													<!--begin::Item-->
 													<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-16.jpg">
 														<!--begin::Image-->
-														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-16.jpg')"></div>
+														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('../assets/media/stock/600x600/img-16.jpg')"></div>
 														<!--end::Image-->
 														<!--begin::Action-->
 														<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -419,7 +419,7 @@ include '../includes/head.php';
 													<!--begin::Item-->
 													<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-12.jpg">
 														<!--begin::Image-->
-														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-12.jpg')"></div>
+														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('../assets/media/stock/600x600/img-12.jpg')"></div>
 														<!--end::Image-->
 														<!--begin::Action-->
 														<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -435,7 +435,7 @@ include '../includes/head.php';
 											<!--begin::Item-->
 											<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x400/img-15.jpg">
 												<!--begin::Image-->
-												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-15.jpg')"></div>
+												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('../assets/media/stock/600x600/img-15.jpg')"></div>
 												<!--end::Image-->
 												<!--begin::Action-->
 												<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -451,7 +451,7 @@ include '../includes/head.php';
 											<!--begin::Item-->
 											<a class="d-block card-rounded overlay h-lg-100" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-23.jpg">
 												<!--begin::Image-->
-												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style="background-image:url('assets/media/stock/600x600/img-23.jpg')"></div>
+												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style="background-image:url('../assets/media/stock/600x600/img-23.jpg')"></div>
 												<!--end::Image-->
 												<!--begin::Action-->
 												<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -475,7 +475,7 @@ include '../includes/head.php';
 											<!--begin::Item-->
 											<a class="d-block card-rounded overlay h-lg-100" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-15.jpg">
 												<!--begin::Image-->
-												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style="background-image:url('assets/media/stock/600x600/img-15.jpg')"></div>
+												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style="background-image:url('../assets/media/stock/600x600/img-15.jpg')"></div>
 												<!--end::Image-->
 												<!--begin::Action-->
 												<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -495,7 +495,7 @@ include '../includes/head.php';
 													<!--begin::Item-->
 													<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-22.jpg">
 														<!--begin::Image-->
-														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-22.jpg')"></div>
+														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('../assets/media/stock/600x600/img-22.jpg')"></div>
 														<!--end::Image-->
 														<!--begin::Action-->
 														<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -511,7 +511,7 @@ include '../includes/head.php';
 													<!--begin::Item-->
 													<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-21.jpg">
 														<!--begin::Image-->
-														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-21.jpg')"></div>
+														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('../assets/media/stock/600x600/img-21.jpg')"></div>
 														<!--end::Image-->
 														<!--begin::Action-->
 														<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -527,7 +527,7 @@ include '../includes/head.php';
 											<!--begin::Item-->
 											<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x400/img-14.jpg">
 												<!--begin::Image-->
-												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-14.jpg')"></div>
+												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('../assets/media/stock/600x600/img-14.jpg')"></div>
 												<!--end::Image-->
 												<!--begin::Action-->
 												<div class="overlay-layer card-rounded bg-dark bg-opacity-25">

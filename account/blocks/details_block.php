@@ -40,7 +40,7 @@ if ($user_metrics['data']['verified']) {
                         </span>
                         <!--end::Svg Icon-->
                     </a>
-                    <a href="#" class="btn btn-sm btn-light-success fw-bold ms-2 fs-8 py-1 px-3" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Refill Gas Points</a>
+                    <a href="#" class="btn btn-sm btn-light-success fw-bold ms-2 fs-8 py-1 px-3" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Active</a>
                 </div>
                 <!--end::Name-->
                 <!--begin::Info-->
@@ -100,7 +100,7 @@ if ($user_metrics['data']['verified']) {
                         </svg>
                     </span>
                     <span class="d-flex flex-column align-items-start ms-2">
-                        <span class="fs-3 fw-bold">Tw API</span>
+                        <span class="fs-3 fw-bold">Latest</span>
                         <span class="fs-7"><?php echo $app_msg_txt ?></span>
                     </span>
                 </button>
@@ -112,7 +112,7 @@ if ($user_metrics['data']['verified']) {
                         </svg>
                     </span>
                     <span class="d-flex flex-column align-items-start ms-2">
-                        <span class="fs-3 fw-bold">Gas Balance</span>
+                        <span class="fs-3 fw-bold">Earnings</span>
                         <span class="fs-7">PTS. <span class="badge badge-light-danger"><?php echo number_format($user_points) ?></span></span>
                     </span>
                 </a>
@@ -144,7 +144,7 @@ if ($user_metrics['data']['verified']) {
                         </div>
                         <!--end::Number-->
                         <!--begin::Label-->
-                        <div class="fw-semibold fs-6 text-gray-400">Charge</div>
+                        <div class="fw-semibold fs-6 text-gray-400">In Progress</div>
                         <!--end::Label-->
                     </div>
                     <!--end::Stat-->
@@ -164,7 +164,7 @@ if ($user_metrics['data']['verified']) {
                         </div>
                         <!--end::Number-->
                         <!--begin::Label-->
-                        <div class="fw-semibold fs-6 text-gray-400">TAltitude</div>
+                        <div class="fw-semibold fs-6 text-gray-400">Pending</div>
                         <!--end::Label-->
                     </div>
                     <!--end::Stat-->
@@ -185,7 +185,7 @@ if ($user_metrics['data']['verified']) {
                         </div>
                         <!--end::Number-->
                         <!--begin::Label-->
-                        <div class="fw-semibold fs-6 text-gray-400">DCount</div>
+                        <div class="fw-semibold fs-6 text-gray-400">Completed</div>
                         <!--end::Label-->
                     </div>
                     <!--end::Stat-->
@@ -232,8 +232,8 @@ if ($user_metrics['data']['verified']) {
             ?>
             <div class="d-flex align-items-center w-200px w-sm-300px flex-column mt-3">
                 <div class="d-flex justify-content-between w-100 mt-auto mb-2">
-                    <span class="fw-semibold fs-6 text-gray-400">Profile
-                        Completion</span>
+                    <span class="fw-semibold fs-6 text-gray-400">Projects
+                        Completed</span>
                     <span class="fw-bold fs-6"><?php echo $prf_points_perc ?>%</span>
                 </div>
                 <div class="h-5px mx-3 w-100 bg-light mb-3">
