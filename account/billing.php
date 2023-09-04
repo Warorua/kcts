@@ -104,7 +104,7 @@ $dashHeadDesc = $user_firstname."'s profile dashboard";
 											<!--begin::Content-->
 											<div class="fw-semibold">
 												<h4 class="text-gray-900 fw-bold">We need your attention!</h4>
-												<div class="fs-6 text-gray-700">Your payment was declined. To start using tools, please 
+												<div class="fs-6 text-gray-700">Your payment was pending. To proceed further, please 
 												<a href="#" class="fw-bold" data-bs-toggle="modal" data-bs-target="#kt_modal_new_card">Add Payment Method</a>.</div>
 											</div>
 											<!--end::Content-->
@@ -117,17 +117,17 @@ $dashHeadDesc = $user_firstname."'s profile dashboard";
 										<!--begin::Col-->
 										<div class="col-lg-7">
 											<!--begin::Heading-->
-											<h3 class="mb-2">Active until Dec 09, 2022</h3>
-											<p class="fs-6 text-gray-600 fw-semibold mb-6 mb-lg-15">We will send you a notification upon Subscription expiration</p>
+											<h3 class="mb-2">Active until Dec 09, 2023</h3>
+											<p class="fs-6 text-gray-600 fw-semibold mb-6 mb-lg-15">We will send you a confirmation email to keep you up-to-date</p>
 											<!--end::Heading-->
 											<!--begin::Info-->
-											<div class="fs-5 mb-2">
-												<span class="text-gray-800 fw-bold me-1">$24.99</span>
+										   <div class="fs-5 mb-2">
+												<span class="text-gray-800 fw-bold me-1">5 Projects</span>
 												<span class="text-gray-600 fw-semibold">Per Month</span>
-											</div>
+											</div> 
 											<!--end::Info-->
 											<!--begin::Notice-->
-											<div class="fs-6 text-gray-600 fw-semibold">Extended Pro Package. Up to 100 Agents & 25 Projects</div>
+											<div class="fs-6 text-gray-600 fw-semibold">Extended Pro Package. Up to 20 Procurements & 50 Projects</div>
 											<!--end::Notice-->
 										</div>
 										<!--end::Col-->
@@ -135,8 +135,8 @@ $dashHeadDesc = $user_firstname."'s profile dashboard";
 										<div class="col-lg-5">
 											<!--begin::Heading-->
 											<div class="d-flex text-muted fw-bold fs-5 mb-3">
-												<span class="flex-grow-1 text-gray-800">Users</span>
-												<span class="text-gray-800">86 of 100 Used</span>
+												<span class="flex-grow-1 text-gray-800">Pending Projects</span>
+												<span class="text-gray-800">86 of 100</span>
 											</div>
 											<!--end::Heading-->
 											<!--begin::Progress-->
@@ -145,7 +145,7 @@ $dashHeadDesc = $user_firstname."'s profile dashboard";
 											</div>
 											<!--end::Progress-->
 											<!--begin::Description-->
-											<div class="fs-6 text-gray-600 fw-semibold mb-10">14 Users remaining until your plan requires update</div>
+											<div class="fs-6 text-gray-600 fw-semibold mb-10">Unlock more features to take part in big projects.</div>
 											<!--end::Description-->
 											<!--begin::Action-->
 											<div class="d-flex justify-content-end pb-0 px-0">
@@ -178,7 +178,7 @@ $dashHeadDesc = $user_firstname."'s profile dashboard";
 												</svg>
 											</span>
 											<!--end::Svg Icon-->
-											<input type="text" data-kt-ecommerce-order-filter="search" class="form-control form-control-solid w-250px ps-14" placeholder="Search Order" />
+											<input type="text" data-kt-ecommerce-order-filter="search" class="form-control form-control-solid w-250px ps-14" placeholder="Search Project" />
 										</div>
 										<!--end::Search-->
 									</div>
@@ -233,8 +233,8 @@ $dashHeadDesc = $user_firstname."'s profile dashboard";
 														<input class="form-check-input" type="checkbox" data-kt-check="true" data-kt-check-target="#kt_ecommerce_sales_table .form-check-input" value="1" />
 													</div>
 												</th>
-												<th class="min-w-100px">Order ID</th>
-												<th class="min-w-175px">Customer</th>
+												<th class="min-w-100px">Project ID</th>
+												<th class="min-w-175px">Contractor</th>
 												<th class="text-end min-w-70px">Status</th>
 												<th class="text-end min-w-100px">Total</th>
 												<th class="text-end min-w-100px">Processing Fee</th>
