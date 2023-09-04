@@ -1,9 +1,15 @@
 <?php
 $start_time = microtime(true);
-if (file_exists('../vendor/autoload.php')) {
+if (file_exists('../includes/head.php')) {
 	$filePath = '../';
-} elseif (file_exists('../../vendor/autoload.php')) {
+} elseif (file_exists('../../includes/head.php')) {
 	$filePath = '../../';
+}elseif (file_exists('../../../includes/head.php')) {
+	$filePath = '../../../';
+}elseif (file_exists('../../../../includes/head.php')) {
+	$filePath = '../../../../';
+}elseif (file_exists('../../../../../includes/head.php')) {
+	$filePath = '../../../../../';
 } else {
 	$filePath = './';
 }

@@ -13,7 +13,6 @@ if (file_exists('../includes/head.php')) {
 	$filePath = './';
 }
 include $filePath.'includes/head.php';
-
 ?>
 	<!--end::Head-->
 	<!--begin::Body-->
