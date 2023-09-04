@@ -109,10 +109,10 @@
 						<!--begin::Heading-->
 						<div class="text-center mb-5 mb-lg-10 py-10 py-lg-20">
 							<!--begin::Title-->
-							<h1 class="text-white lh-base fw-bolder fs-2x fs-lg-3x mb-15">Build An Outstanding Solutions 
-							<br>with 
+							<h1 class="text-white lh-base fw-bolder fs-2x fs-lg-3x mb-15">Welcome To 
+							<br>KAKAMEGA 
 							<span style="background: linear-gradient(to right, #12CE5D 0%, #FFD80C 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
-								<span id="kt_landing_hero_text">The Best Theme Ever</span>
+								<span id="kt_landing_hero_text">COUNTY DEVELOPMENT TRACKING SYSTEM </span>
 							</span></h1>
        <div class="fs-5 text-white fw-bold">Engage actively with Kakamega County's procurement and projects. Access transparent information, participate in procurement,<br> and track ongoing initiatives. Be a part of accountable development for the community.</div>
 							<!--end::Title-->
