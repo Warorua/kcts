@@ -194,9 +194,7 @@ include '../includes/head.php';
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
-										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="activity.php">Activity</a>
-										</li>
+										
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">
@@ -292,7 +290,7 @@ include '../includes/head.php';
 														</div>
 														<!--end::User-->
 														<!--begin::Text-->
-														<div class="p-5 rounded bg-light-primary text-dark fw-semibold mw-lg-400px text-end" data-kt-element="message-text">Hey there, we’re just writing to let you know that you’ve been subscribed to a repository on GitHub.</div>
+														<div class="p-5 rounded bg-light-primary text-dark fw-semibold mw-lg-400px text-end" data-kt-element="message-text">Hey there, we’re just writing to let you know that you’ve been added to a KCTS.</div>
 														<!--end::Text-->
 													</div>
 													<!--end::Wrapper-->
@@ -344,7 +342,7 @@ include '../includes/head.php';
 														</div>
 														<!--end::User-->
 														<!--begin::Text-->
-														<div class="p-5 rounded bg-light-primary text-dark fw-semibold mw-lg-400px text-end" data-kt-element="message-text">You’ll receive notifications for all issues, pull requests!</div>
+														<div class="p-5 rounded bg-light-primary text-dark fw-semibold mw-lg-400px text-end" data-kt-element="message-text">You’ll receive notifications for all counties, projects and Procurements!</div>
 														<!--end::Text-->
 													</div>
 													<!--end::Wrapper-->
@@ -370,8 +368,7 @@ include '../includes/head.php';
 														</div>
 														<!--end::User-->
 														<!--begin::Text-->
-														<div class="p-5 rounded bg-light-info text-dark fw-semibold mw-lg-400px text-start" data-kt-element="message-text">You can unwatch this repository immediately by clicking here: 
-														<a href="https://keenthemes.com/">Keenthemes.com</a></div>
+														<div class="p-5 rounded bg-light-info text-dark fw-semibold mw-lg-400px text-start" data-kt-element="message-text">You can ask any questions </div>
 														<!--end::Text-->
 													</div>
 													<!--end::Wrapper-->
@@ -397,7 +394,7 @@ include '../includes/head.php';
 														</div>
 														<!--end::User-->
 														<!--begin::Text-->
-														<div class="p-5 rounded bg-light-primary text-dark fw-semibold mw-lg-400px text-end" data-kt-element="message-text">Most purchased Business courses during this sale!</div>
+														<div class="p-5 rounded bg-light-primary text-dark fw-semibold mw-lg-400px text-end" data-kt-element="message-text">Most successful projects during this season!</div>
 														<!--end::Text-->
 													</div>
 													<!--end::Wrapper-->
@@ -423,7 +420,7 @@ include '../includes/head.php';
 														</div>
 														<!--end::User-->
 														<!--begin::Text-->
-														<div class="p-5 rounded bg-light-info text-dark fw-semibold mw-lg-400px text-start" data-kt-element="message-text">Company BBQ to celebrate the last quater achievements and goals. Food and drinks provided</div>
+														<div class="p-5 rounded bg-light-info text-dark fw-semibold mw-lg-400px text-start" data-kt-element="message-text">Checl out the latest reports that are generated against Agriculture Livestock Fisheries and cooperatives </div>
 														<!--end::Text-->
 													</div>
 													<!--end::Wrapper-->
@@ -475,7 +472,7 @@ include '../includes/head.php';
 														</div>
 														<!--end::User-->
 														<!--begin::Text-->
-														<div class="p-5 rounded bg-light-info text-dark fw-semibold mw-lg-400px text-start" data-kt-element="message-text">Right before vacation season we have the next Big Deal for you.</div>
+														<div class="p-5 rounded bg-light-info text-dark fw-semibold mw-lg-400px text-start" data-kt-element="message-text">Sure</div>
 														<!--end::Text-->
 													</div>
 													<!--end::Wrapper-->

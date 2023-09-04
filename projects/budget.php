@@ -60,7 +60,7 @@ include '../includes/head.php';
 									<div class="d-flex flex-wrap flex-sm-nowrap mb-6">
 										<!--begin::Image-->
 										<div class="d-flex flex-center flex-shrink-0 bg-light rounded w-100px h-100px w-lg-150px h-lg-150px me-7 mb-4">
-											<img class="mw-50px mw-lg-75px" src="../assets/media/svg/brand-logos/volicity-9.svg" alt="image">
+											<img class="mw-50px mw-lg-75px" src="../assets/media/svg/brand-logos/volicity-9.svg" alt="image" />
 										</div>
 										<!--end::Image-->
 										<!--begin::Wrapper-->
@@ -194,9 +194,7 @@ include '../includes/head.php';
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
-										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="activity.php">Activity</a>
-										</li>
+										
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">

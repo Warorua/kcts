@@ -194,9 +194,7 @@ include '../includes/head.php';
 										</li>
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
-										<li class="nav-item">
-											<a class="nav-link text-active-primary py-5 me-6" href="activity.php">Activity</a>
-										</li>
+										
 										<!--end::Nav item-->
 										<!--begin::Nav item-->
 										<li class="nav-item">

@@ -60,7 +60,7 @@ include './includes/head.php';
 											<!--begin::Card-->
 											<div class="card card-stretch">
 												<!--begin::Link-->
-												<a href="account/overview.html" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10">
+												<a href="users/list.php" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10">
 													<!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm007.svg-->
 													<span class="svg-icon svg-icon-3x mb-5">
 														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -82,7 +82,7 @@ include './includes/head.php';
 											<!--begin::Card-->
 											<div class="card card-stretch">
 												<!--begin::Link-->
-												<a href="account/statements.html" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10">
+												<a href="procurement/proc1.php" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10">
 													<!--begin::Svg Icon | path: icons/duotune/technology/teh008.svg-->
 													<span class="svg-icon svg-icon-3x mb-5">
 														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -103,7 +103,7 @@ include './includes/head.php';
 											<!--begin::Card-->
 											<div class="card card-stretch">
 												<!--begin::Link-->
-												<a href="account/referrals.html" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10">
+												<a href="projects/list.php" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10">
 													<!--begin::Svg Icon | path: icons/duotune/technology/teh004.svg-->
 													<span class="svg-icon svg-icon-3x mb-5">
 														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -124,7 +124,7 @@ include './includes/head.php';
 											<!--begin::Card-->
 											<div class="card card-stretch">
 												<!--begin::Link-->
-												<a href="apps/customers/view.html" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10">
+												<a href="report/report1.php" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10">
 													<!--begin::Svg Icon | path: icons/duotune/abstract/abs025.svg-->
 													<span class="svg-icon svg-icon-3x mb-5">
 														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
