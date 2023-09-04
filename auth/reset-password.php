@@ -25,11 +25,6 @@ include '../includes/plain_head.php';
 		}
 	</script>
 	<!--end::Theme mode setup on page load-->
-	<!--Begin::Google Tag Manager (noscript) -->
-	<noscript>
-		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDKZXTL" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-	</noscript>
-	<!--End::Google Tag Manager (noscript) -->
 	<!--begin::Main-->
 	<!--begin::Root-->
 	<div class="d-flex flex-column flex-root">
@@ -72,7 +67,7 @@ include '../includes/plain_head.php';
 					<!--begin::Body-->
 					<div class="py-20">
 						<!--begin::Form-->
-						<form class="form w-100" novalidate="novalidate" id="kt_password_reset_form" action="reset.php" method="POST">
+						<form class="form w-100" novalidate="novalidate" id="kt_password_reset_form" action="reset" method="POST">
 							<!--begin::Heading-->
 							<div class="text-start mb-10">
 								<!--begin::Title-->
