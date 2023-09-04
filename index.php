@@ -663,22 +663,22 @@
 								<!--begin::Block-->
 								<div class="rounded landing-dark-border p-9 mb-10">
 									<!--begin::Title-->
-									<h2 class="text-white">Would you need a Custom License?</h2>
+									<h2 class="text-white">Would you need a KCTS?</h2>
 									<!--end::Title-->
 									<!--begin::Text-->
 									<span class="fw-normal fs-4 text-gray-700">Email us to 
-									<a href="https://keenthemes.com/support" class="text-white opacity-50 text-hover-primary">support@keenthemes.com</a></span>
+									<a href="https://keenthemes.com/support" class="text-white opacity-50 text-hover-primary">support@KCTS.com</a></span>
 									<!--end::Text-->
 								</div>
 								<!--end::Block-->
 								<!--begin::Block-->
 								<div class="rounded landing-dark-border p-9">
 									<!--begin::Title-->
-									<h2 class="text-white">How About a Custom Project?</h2>
+									<h2 class="text-white">Don't miss big opportunities ! </h2>
 									<!--end::Title-->
 									<!--begin::Text-->
-									<span class="fw-normal fs-4 text-gray-700">Use Our Custom Development Service. 
-									<a href="pages/user-profile/overview.html" class="text-white opacity-50 text-hover-primary">Click to Get a Quote</a></span>
+									<span class="fw-normal fs-4 text-gray-700">Use KCTS Platform. 
+									<a href="pages/user-profile/overview.html" class="text-white opacity-50 text-hover-primary">Click to Get access of major project!</a></span>
 									<!--end::Text-->
 								</div>
 								<!--end::Block-->
@@ -691,25 +691,25 @@
 									<!--begin::Links-->
 									<div class="d-flex fw-bold flex-column me-20">
 										<!--begin::Subtitle-->
-										<h4 class="fw-bolder text-gray-400 mb-6">More for Metronic</h4>
+										<h4 class="fw-bolder text-gray-400 mb-6">More for KCTS</h4>
 										<!--end::Subtitle-->
 										<!--begin::Link-->
 										<a href="https://keenthemes.com/faqs" class="text-white opacity-50 text-hover-primary fs-5 mb-6">FAQ</a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="documentation/getting-started.html" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Documentaions</a>
+										<a href="documentation/getting-started.html" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Procurements </a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="https://www.youtube.com/c/KeenThemesTuts/videos" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Video Tuts</a>
+										<a href="https://www.youtube.com/c/KeenThemesTuts/videos" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Projects</a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="documentation/getting-started/changelog.html" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Changelog</a>
+										<a href="documentation/getting-started/changelog.html" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Reports</a>
 										<!--end::Link-->
 										<!--begin::Link-->
 										<a href="https://devs.keenthemes.com/" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Support Forum</a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="https://keenthemes.com/blog" class="text-white opacity-50 text-hover-primary fs-5">Blog</a>
+										<a href="https://keenthemes.com/blog" class="text-white opacity-50 text-hover-primary fs-5">About Us</a>
 										<!--end::Link-->
 									</div>
 									<!--end::Links-->
@@ -736,18 +736,7 @@
 											<span class="text-white opacity-50 text-hover-primary fs-5 mb-6">Twitter</span>
 										</a>
 										<!--end::Link-->
-										<!--begin::Link-->
-										<a href="https://dribbble.com/keenthemes" class="mb-6">
-											<img src="assets/media/svg/brand-logos/dribbble-icon-1.svg" class="h-20px me-2" alt="" />
-											<span class="text-white opacity-50 text-hover-primary fs-5 mb-6">Dribbble</span>
-										</a>
-										<!--end::Link-->
-										<!--begin::Link-->
-										<a href="https://www.instagram.com/keenthemes" class="mb-6">
-											<img src="assets/media/svg/brand-logos/instagram-2-1.svg" class="h-20px me-2" alt="" />
-											<span class="text-white opacity-50 text-hover-primary fs-5 mb-6">Instagram</span>
-										</a>
-										<!--end::Link-->
+										
 									</div>
 									<!--end::Links-->
 								</div>
