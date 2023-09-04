@@ -1,5 +1,18 @@
 <?php
-include './includes/head.php';
+if (file_exists('../includes/head.php')) {
+	$filePath = '../';
+} elseif (file_exists('../../includes/head.php')) {
+	$filePath = '../../';
+}elseif (file_exists('../../../includes/head.php')) {
+	$filePath = '../../../';
+}elseif (file_exists('../../../../includes/head.php')) {
+	$filePath = '../../../../';
+}elseif (file_exists('../../../../../includes/head.php')) {
+	$filePath = '../../../../../';
+} else {
+	$filePath = './';
+}
+$filePath.'includes/head.php';
 ?>
 	<!--end::Head-->
 	<!--begin::Body-->
@@ -10,7 +23,7 @@ include './includes/head.php';
 			<!--begin::Page-->
 			<div class="page d-flex flex-row flex-column-fluid">
 				<!--begin::Aside-->
-				<?php include './includes/menu.php' ?>
+				<?php $filePath.'includes/menu.php' ?>
 				<!--end::Aside-->
 				<!--begin::Wrapper-->
 				<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
@@ -43,7 +56,7 @@ include './includes/head.php';
 					<!--end::Header tablet and mobile-->
 					<!--begin::Header-->
 					
-					<?php include './includes/header.php' ?>
+					<?php $filePath.'includes/header.php' ?>
 					<!--end::Header-->
 
                     <div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
@@ -2196,7 +2209,7 @@ include './includes/head.php';
 		</div>
 		<!--end::Root-->
 		<!--begin::Drawers-->
-		<?php include './includes/drawers.php' ?>
+		<?php $filePath.'includes/drawers.php' ?>
 		<!--end::Engage drawers-->
 		<!--begin::Engage toolbar-->
 
@@ -2214,10 +2227,10 @@ include './includes/head.php';
 		</div>
 		<!--end::Scrolltop-->
 		<!--begin::Modals-->
-		<?php include './includes/modals.php' ?>
+		<?php $filePath.'includes/modals.php' ?>
 		<!--end::Modals-->
 		<!--begin::Javascript-->
-		<?php include './includes/scripts.php' ?>
+		<?php $filePath.'includes/scripts.php' ?>
 		<!--end::Javascript-->
 	</body>
 	<!--end::Body-->

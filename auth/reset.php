@@ -67,7 +67,7 @@
                                             <!--begin:Logo-->
                                             <div style="margin-bottom: 10px">
                                                 <a href="https://techkira.net/" rel="noopener" target="_blank">
-                                                    <img alt="Logo" src="https://techkira.net/assets/media/logos/logo_full_bold.png" style="height: 55px" />
+                                                    <img alt="Logo" src="https://techkira.net/assets/media/logos/logo-3.png" style="height: 55px" />
                                                 </a>
                                             </div>
                                             <!--end:Logo-->
