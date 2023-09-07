@@ -244,7 +244,7 @@ if (is_int($last_segment)) {
 									<!--end:::Tab item-->
 									<!--begin:::Tab item-->
 									<li class="nav-item">
-										<a class="nav-link text-active-primary pb-4" data-kt-countup-tabs="true" data-bs-toggle="tab" href="#kt_user_view_overview_security">Security</a>
+										<a class="nav-link text-active-primary pb-4" data-kt-countup-tabs="true" data-bs-toggle="tab" href="#kt_user_view_overview_security">Profile</a>
 									</li>
 									<!--end:::Tab item-->
 									<!--begin:::Tab item-->

@@ -839,6 +839,15 @@ function systemRoles($query = "")
     return $sc;
 }
 
+function systemProjects(){
+  global $conn;
+  $stmt = $conn->prepare("SELECT * FROM projects ORDER BY id ASC");
+  $stmt->execute();
+  $sc = $stmt->fetchAll();
+
+  return $sc;
+}
+
 function shout($text)
 {
   $data = '<script>alert("' . $text . '")</script>';
