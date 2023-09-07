@@ -14,7 +14,12 @@
 <?php
 include '../includes/db.php';
 $id = $_GET['id'];
-$io = $_GET['stats'];
+if(!isset($_GET['stats'])){
+	$io = 1;
+}else{
+	$io = $_GET['stats'];
+}
+
 $emp_query = mysqli_query($conn2,"SELECT *,CONCAT(last_name,', ',first_name, ' ',midname) as name,projects.io as stats from projects left join project_team on projects.tid = project_team.tid left join employee on project_team.eid = employee.eid where id= '$id'");
 $row= mysqli_fetch_assoc($emp_query);
 

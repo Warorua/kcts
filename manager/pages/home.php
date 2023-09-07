@@ -20,10 +20,10 @@
 			while($row = mysqli_fetch_assoc($query)){
 				?>
 				<div class="col-sm-4 project-item">
-				<a href="index.php?page=project_detail&id=<?php echo $row['project_id'] ?>&action=view details" style="color:black">
+				<a href="index.php?page=project_detail&id=<?php echo $row['id'] ?>&action=view details" style="color:black">
 				<center><img src="../images/<?php echo $row["site_pic"] ?>" width="180px" height="230px" alt=""></center>
 				<br>
-				<center><label style="text-transform:capitalize"><?php echo $row['project'] ?></label></center></a>
+				<center><label style="text-transform:capitalize"><?php echo $row['settings_name'] ?></label></center></a>
 				</div>
 			<?php } ?>
 		</div>
@@ -43,7 +43,7 @@
 			if($d2 >= $d1 && date("Ymd",strtotime($row1['deadline'])) > $d2 ){
 			?>
 			
-			<a href="index.php?page=project_detail&id=<?php echo $row1['project_id'] ?>&action=upcoming deadline" style="color:black">
+			<a href="index.php?page=project_detail&id=<?php echo $row1['id'] ?>&action=upcoming deadline" style="color:black">
 				<div class="panel panel-primary">
 					<div class="panel-heading">
 						Deadline Soon
