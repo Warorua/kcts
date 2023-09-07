@@ -49,7 +49,7 @@
 						Deadline Soon
 					</div>
 					<div class="panel-body">
-						<center><p><b><?php echo ucfirst($row1['project']) ?></b></p></center>
+						<center><p><b><?php echo ucfirst($row1['settings_name']) ?></b></p></center>
 						<p><i>Deadline:</i><b><?php echo date("F d, Y",strtotime($row1['deadline'])) ?></b></p>
 					</div>
 				</div>
@@ -60,7 +60,7 @@
 						Deadline Soon
 					</div>
 					<div class="panel-body">
-						<center><p><b><?php echo ucfirst($row1['project']) ?></b></p></center>
+						<center><p><b><?php echo ucfirst($row1['settings_name']) ?></b></p></center>
 						<p><i>Overdue since:</i><b><?php echo date("F d, Y",strtotime($row1['deadline'])) ?></b></p>
 					</div>
 				</div>

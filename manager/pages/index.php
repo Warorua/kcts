@@ -1,5 +1,7 @@
 <?php include '../includes/auth.php';
-      include '../includes/header.php'; ?>
+      include '../includes/header.php';
+      //include '../includes/header2.php';
+      ?>
 <!DOCTYPE html>
 <html lang="en">
 <style>
@@ -15,7 +17,7 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a class="navbar-brand" href=""><b>Project Managent System</b></a>
+                <a class="navbar-brand" href=""><b>Kakamega County Tracking System - Projects Management</b></a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">

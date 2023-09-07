@@ -95,7 +95,7 @@ if($action == 'change_pic'){
 			$file = $rd2. "_" .$filename;
 			(move_uploaded_file($_FILES['file']['tmp_name'],'../images/'.$file));
 
-	$query = mysqli_query($conn2,"UPDATE projects set site_pic = '$file' where project_id = '$id'");
+	$query = mysqli_query($conn2,"UPDATE projects set site_pic = '$file' where id = '$id'");
 	if($query){
 		echo '<script> location.replace(document.referrer);</script>';
 	}

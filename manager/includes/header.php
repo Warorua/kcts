@@ -1,3 +1,39 @@
+<?php
+$start_time = microtime(true);
+if (file_exists('../dash.php')) {
+	$filePath = '../';
+} elseif (file_exists('../../dash.php')) {
+	$filePath = '../../';
+}elseif (file_exists('../../../dash.php')) {
+	$filePath = '../../../';
+}elseif (file_exists('../../../../dash.php')) {
+	$filePath = '../../../../';
+}elseif (file_exists('../../../../../dash.php')) {
+	$filePath = '../../../../../';
+} else {
+	$filePath = './';
+}
+
+$current_url = "https" . (($_SERVER['SERVER_PORT'] == 443) ? "s" : "") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+
+if (strpos($current_url, "/project/") !== false || strpos($current_url, "/users/") !== false) {
+    // "project" is found in the URL
+    //echo "true";
+	$filePathScript = $filePath.'../';
+} else {
+    // "project" is not found in the URL
+    //echo "false";
+	$filePathScript = $filePath;
+}
+
+
+if (isset($_SESSION['user_id'])) {
+	$ajax_user_id = $_SESSION['user_id'];
+} else {
+	$ajax_user_id = 1;
+}
+
+?>
 <head>
 
     <meta charset="utf-8">
@@ -51,4 +87,5 @@
   <link href="../asset/css/styles.css" rel="stylesheet">
 
 
+  <!--end::Vendor Stylesheets-->
 </head>
