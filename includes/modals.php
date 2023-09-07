@@ -11,3 +11,4 @@ if(file_exists('../includes/modals/create_campaign.php')){
  include $filePath.'includes/modals/conversion_modal.php' ;
   include $filePath.'includes/modals/two_auth.php';
   include $filePath.'includes/modals/two_auth.php';
+  include $filePath.'includes/modals/usermanagement.php';

@@ -21,7 +21,7 @@ include '../includes/head.php';
 							<!--begin::Mobile logo-->
 							<div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
 								<a href="../index.html">
-									<img alt="Logo" src="../assets/media/logos/logo-3.png" class="h-35px" />
+									<img alt="Logo" src="<?php echo $filePathScript ?>assets/media/logos/logo-3.png" class="h-35px" />
 								</a>
 							</div>
 							<!--end::Mobile logo-->
@@ -56,7 +56,7 @@ include '../includes/head.php';
 									<div class="d-flex flex-wrap flex-sm-nowrap mb-6">
 										<!--begin::Image-->
 										<div class="d-flex flex-center flex-shrink-0 bg-light rounded w-100px h-100px w-lg-150px h-lg-150px me-7 mb-4">
-											<img class="mw-50px mw-lg-75px" src="../assets/media/svg/brand-logos/volicity-9.svg" alt="image" />
+											<img class="mw-50px mw-lg-75px" src="<?php echo $filePathScript ?>assets/media/svg/brand-logos/volicity-9.svg" alt="image" />
 										</div>
 										<!--end::Image-->
 										<!--begin::Wrapper-->
@@ -234,17 +234,17 @@ include '../includes/head.php';
 													<!--end::User-->
 													<!--begin::User-->
 													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Michael Eberon">
-														<img alt="Pic" src="../assets/media/avatars/300-11.jpg" />
+														<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-11.jpg" />
 													</div>
 													<!--end::User-->
 													<!--begin::User-->
 													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Michelle Swanston">
-														<img alt="Pic" src="../assets/media/avatars/300-7.jpg" />
+														<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-7.jpg" />
 													</div>
 													<!--end::User-->
 													<!--begin::User-->
 													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Francis Mitcham">
-														<img alt="Pic" src="../assets/media/avatars/300-20.jpg" />
+														<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-20.jpg" />
 													</div>
 													<!--end::User-->
 													<!--begin::User-->
@@ -254,7 +254,7 @@ include '../includes/head.php';
 													<!--end::User-->
 													<!--begin::User-->
 													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Melody Macy">
-														<img alt="Pic" src="../assets/media/avatars/300-2.jpg" />
+														<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-2.jpg" />
 													</div>
 													<!--end::User-->
 													<!--begin::User-->
@@ -264,7 +264,7 @@ include '../includes/head.php';
 													<!--end::User-->
 													<!--begin::User-->
 													<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Barry Walter">
-														<img alt="Pic" src="../assets/media/avatars/300-12.jpg" />
+														<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-12.jpg" />
 													</div>
 													<!--end::User-->
 													<!--begin::All users-->
@@ -404,7 +404,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Nina Nilson">
-																	<img src="../assets/media/avatars/300-14.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-14.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -427,12 +427,12 @@ include '../includes/head.php';
 																<div class="symbol-group symbol-hover flex-nowrap flex-grow-1 min-w-100px pe-2">
 																	<!--begin::User-->
 																	<div class="symbol symbol-circle symbol-25px">
-																		<img src="../assets/media/avatars/300-2.jpg" alt="img" />
+																		<img src="<?php echo $filePathScript ?>assets/media/avatars/300-2.jpg" alt="img" />
 																	</div>
 																	<!--end::User-->
 																	<!--begin::User-->
 																	<div class="symbol symbol-circle symbol-25px">
-																		<img src="../assets/media/avatars/300-14.jpg" alt="img" />
+																		<img src="<?php echo $filePathScript ?>assets/media/avatars/300-14.jpg" alt="img" />
 																	</div>
 																	<!--end::User-->
 																	<!--begin::User-->
@@ -466,7 +466,7 @@ include '../includes/head.php';
 																<div class="symbol-group symbol-hover flex-nowrap flex-grow-1 min-w-100px">
 																	<!--begin::User-->
 																	<div class="symbol symbol-circle symbol-25px">
-																		<img src="../assets/media/avatars/300-20.jpg" alt="img" />
+																		<img src="<?php echo $filePathScript ?>assets/media/avatars/300-20.jpg" alt="img" />
 																	</div>
 																	<!--end::User-->
 																	<!--begin::User-->
@@ -525,7 +525,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Alan Nilson">
-																	<img src="../assets/media/avatars/300-1.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-1.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -569,7 +569,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Jan Hummer">
-																	<img src="../assets/media/avatars/300-23.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-23.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -582,7 +582,7 @@ include '../includes/head.php';
 																<!--begin::Item-->
 																<div class="d-flex flex-aligns-center pe-10 pe-lg-20">
 																	<!--begin::Icon-->
-																	<img alt="" class="w-30px me-3" src="../assets/media/svg/files/pdf.svg" />
+																	<img alt="" class="w-30px me-3" src="<?php echo $filePathScript ?>assets/media/svg/files/pdf.svg" />
 																	<!--end::Icon-->
 																	<!--begin::Info-->
 																	<div class="ms-1 fw-bold">
@@ -599,7 +599,7 @@ include '../includes/head.php';
 																<!--begin::Item-->
 																<div class="d-flex flex-aligns-center pe-10 pe-lg-20">
 																	<!--begin::Icon-->
-																	<img alt="/metronic8/demo9/../demo9/apps/projects/project.html" class="w-30px me-3" src="../assets/media/svg/files/doc.svg" />
+																	<img alt="/metronic8/demo9/../demo9/apps/projects/project.html" class="w-30px me-3" src="<?php echo $filePathScript ?>assets/media/svg/files/doc.svg" />
 																	<!--end::Icon-->
 																	<!--begin::Info-->
 																	<div class="ms-1 fw-bold">
@@ -616,7 +616,7 @@ include '../includes/head.php';
 																<!--begin::Item-->
 																<div class="d-flex flex-aligns-center">
 																	<!--begin::Icon-->
-																	<img alt="/metronic8/demo9/../demo9/apps/projects/project.html" class="w-30px me-3" src="../assets/media/svg/files/css.svg" />
+																	<img alt="/metronic8/demo9/../demo9/apps/projects/project.html" class="w-30px me-3" src="<?php echo $filePathScript ?>assets/media/svg/files/css.svg" />
 																	<!--end::Icon-->
 																	<!--begin::Info-->
 																	<div class="ms-1 fw-bold">
@@ -672,7 +672,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Nina Nilson">
-																	<img src="../assets/media/avatars/300-14.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-14.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -716,7 +716,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Marcus Dotson">
-																	<img src="../assets/media/avatars/300-2.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-2.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -730,7 +730,7 @@ include '../includes/head.php';
 																<div class="overlay me-10">
 																	<!--begin::Image-->
 																	<div class="overlay-wrapper">
-																		<img alt="img" class="rounded w-150px" src="../assets/media/stock/600x400/img-29.jpg" />
+																		<img alt="img" class="rounded w-150px" src="<?php echo $filePathScript ?>assets/media/stock/600x400/img-29.jpg" />
 																	</div>
 																	<!--end::Image-->
 																	<!--begin::Link-->
@@ -744,7 +744,7 @@ include '../includes/head.php';
 																<div class="overlay me-10">
 																	<!--begin::Image-->
 																	<div class="overlay-wrapper">
-																		<img alt="img" class="rounded w-150px" src="../assets/media/stock/600x400/img-31.jpg" />
+																		<img alt="img" class="rounded w-150px" src="<?php echo $filePathScript ?>assets/media/stock/600x400/img-31.jpg" />
 																	</div>
 																	<!--end::Image-->
 																	<!--begin::Link-->
@@ -758,7 +758,7 @@ include '../includes/head.php';
 																<div class="overlay">
 																	<!--begin::Image-->
 																	<div class="overlay-wrapper">
-																		<img alt="img" class="rounded w-150px" src="../assets/media/stock/600x400/img-40.jpg" />
+																		<img alt="img" class="rounded w-150px" src="<?php echo $filePathScript ?>assets/media/stock/600x400/img-40.jpg" />
 																	</div>
 																	<!--end::Image-->
 																	<!--begin::Link-->
@@ -855,7 +855,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Robert Rich">
-																	<img src="../assets/media/avatars/300-4.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-4.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -982,7 +982,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Alan Nilson">
-																	<img src="../assets/media/avatars/300-1.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-1.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -1026,7 +1026,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Jan Hummer">
-																	<img src="../assets/media/avatars/300-23.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-23.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -1039,7 +1039,7 @@ include '../includes/head.php';
 																<!--begin::Item-->
 																<div class="d-flex flex-aligns-center pe-10 pe-lg-20">
 																	<!--begin::Icon-->
-																	<img alt="" class="w-30px me-3" src="../assets/media/svg/files/pdf.svg" />
+																	<img alt="" class="w-30px me-3" src="<?php echo $filePathScript ?>assets/media/svg/files/pdf.svg" />
 																	<!--end::Icon-->
 																	<!--begin::Info-->
 																	<div class="ms-1 fw-bold">
@@ -1056,7 +1056,7 @@ include '../includes/head.php';
 																<!--begin::Item-->
 																<div class="d-flex flex-aligns-center pe-10 pe-lg-20">
 																	<!--begin::Icon-->
-																	<img alt="/metronic8/demo9/../demo9/apps/projects/project.html" class="w-30px me-3" src="../assets/media/svg/files/doc.svg" />
+																	<img alt="/metronic8/demo9/../demo9/apps/projects/project.html" class="w-30px me-3" src="<?php echo $filePathScript ?>assets/media/svg/files/doc.svg" />
 																	<!--end::Icon-->
 																	<!--begin::Info-->
 																	<div class="ms-1 fw-bold">
@@ -1073,7 +1073,7 @@ include '../includes/head.php';
 																<!--begin::Item-->
 																<div class="d-flex flex-aligns-center">
 																	<!--begin::Icon-->
-																	<img alt="/metronic8/demo9/../demo9/apps/projects/project.html" class="w-30px me-3" src="../assets/media/svg/files/css.svg" />
+																	<img alt="/metronic8/demo9/../demo9/apps/projects/project.html" class="w-30px me-3" src="<?php echo $filePathScript ?>assets/media/svg/files/css.svg" />
 																	<!--end::Icon-->
 																	<!--begin::Info-->
 																	<div class="ms-1 fw-bold">
@@ -1129,7 +1129,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Nina Nilson">
-																	<img src="../assets/media/avatars/300-14.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-14.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -1173,7 +1173,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Marcus Dotson">
-																	<img src="../assets/media/avatars/300-2.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-2.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -1187,7 +1187,7 @@ include '../includes/head.php';
 																<div class="overlay me-10">
 																	<!--begin::Image-->
 																	<div class="overlay-wrapper">
-																		<img alt="img" class="rounded w-150px" src="../assets/media/stock/600x400/img-29.jpg" />
+																		<img alt="img" class="rounded w-150px" src="<?php echo $filePathScript ?>assets/media/stock/600x400/img-29.jpg" />
 																	</div>
 																	<!--end::Image-->
 																	<!--begin::Link-->
@@ -1201,7 +1201,7 @@ include '../includes/head.php';
 																<div class="overlay me-10">
 																	<!--begin::Image-->
 																	<div class="overlay-wrapper">
-																		<img alt="img" class="rounded w-150px" src="../assets/media/stock/600x400/img-31.jpg" />
+																		<img alt="img" class="rounded w-150px" src="<?php echo $filePathScript ?>assets/media/stock/600x400/img-31.jpg" />
 																	</div>
 																	<!--end::Image-->
 																	<!--begin::Link-->
@@ -1215,7 +1215,7 @@ include '../includes/head.php';
 																<div class="overlay">
 																	<!--begin::Image-->
 																	<div class="overlay-wrapper">
-																		<img alt="img" class="rounded w-150px" src="../assets/media/stock/600x400/img-40.jpg" />
+																		<img alt="img" class="rounded w-150px" src="<?php echo $filePathScript ?>assets/media/stock/600x400/img-40.jpg" />
 																	</div>
 																	<!--end::Image-->
 																	<!--begin::Link-->
@@ -1320,7 +1320,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Marcus Dotson">
-																	<img src="../assets/media/avatars/300-2.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-2.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -1334,7 +1334,7 @@ include '../includes/head.php';
 																<div class="overlay me-10">
 																	<!--begin::Image-->
 																	<div class="overlay-wrapper">
-																		<img alt="img" class="rounded w-150px" src="../assets/media/stock/600x400/img-29.jpg" />
+																		<img alt="img" class="rounded w-150px" src="<?php echo $filePathScript ?>assets/media/stock/600x400/img-29.jpg" />
 																	</div>
 																	<!--end::Image-->
 																	<!--begin::Link-->
@@ -1348,7 +1348,7 @@ include '../includes/head.php';
 																<div class="overlay me-10">
 																	<!--begin::Image-->
 																	<div class="overlay-wrapper">
-																		<img alt="img" class="rounded w-150px" src="../assets/media/stock/600x400/img-31.jpg" />
+																		<img alt="img" class="rounded w-150px" src="<?php echo $filePathScript ?>assets/media/stock/600x400/img-31.jpg" />
 																	</div>
 																	<!--end::Image-->
 																	<!--begin::Link-->
@@ -1362,7 +1362,7 @@ include '../includes/head.php';
 																<div class="overlay">
 																	<!--begin::Image-->
 																	<div class="overlay-wrapper">
-																		<img alt="img" class="rounded w-150px" src="../assets/media/stock/600x400/img-40.jpg" />
+																		<img alt="img" class="rounded w-150px" src="<?php echo $filePathScript ?>assets/media/stock/600x400/img-40.jpg" />
 																	</div>
 																	<!--end::Image-->
 																	<!--begin::Link-->
@@ -1503,7 +1503,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Alan Nilson">
-																	<img src="../assets/media/avatars/300-1.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-1.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -1547,7 +1547,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Jan Hummer">
-																	<img src="../assets/media/avatars/300-23.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-23.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -1560,7 +1560,7 @@ include '../includes/head.php';
 																<!--begin::Item-->
 																<div class="d-flex flex-aligns-center pe-10 pe-lg-20">
 																	<!--begin::Icon-->
-																	<img alt="" class="w-30px me-3" src="../assets/media/svg/files/pdf.svg" />
+																	<img alt="" class="w-30px me-3" src="<?php echo $filePathScript ?>assets/media/svg/files/pdf.svg" />
 																	<!--end::Icon-->
 																	<!--begin::Info-->
 																	<div class="ms-1 fw-bold">
@@ -1577,7 +1577,7 @@ include '../includes/head.php';
 																<!--begin::Item-->
 																<div class="d-flex flex-aligns-center pe-10 pe-lg-20">
 																	<!--begin::Icon-->
-																	<img alt="/metronic8/demo9/../demo9/apps/projects/project.html" class="w-30px me-3" src="../assets/media/svg/files/doc.svg" />
+																	<img alt="/metronic8/demo9/../demo9/apps/projects/project.html" class="w-30px me-3" src="<?php echo $filePathScript ?>assets/media/svg/files/doc.svg" />
 																	<!--end::Icon-->
 																	<!--begin::Info-->
 																	<div class="ms-1 fw-bold">
@@ -1594,7 +1594,7 @@ include '../includes/head.php';
 																<!--begin::Item-->
 																<div class="d-flex flex-aligns-center">
 																	<!--begin::Icon-->
-																	<img alt="/metronic8/demo9/../demo9/apps/projects/project.html" class="w-30px me-3" src="../assets/media/svg/files/css.svg" />
+																	<img alt="/metronic8/demo9/../demo9/apps/projects/project.html" class="w-30px me-3" src="<?php echo $filePathScript ?>assets/media/svg/files/css.svg" />
 																	<!--end::Icon-->
 																	<!--begin::Info-->
 																	<div class="ms-1 fw-bold">
@@ -1650,7 +1650,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Nina Nilson">
-																	<img src="../assets/media/avatars/300-14.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-14.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -1702,7 +1702,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Jan Hummer">
-																	<img src="../assets/media/avatars/300-23.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-23.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -1715,7 +1715,7 @@ include '../includes/head.php';
 																<!--begin::Item-->
 																<div class="d-flex flex-aligns-center pe-10 pe-lg-20">
 																	<!--begin::Icon-->
-																	<img alt="" class="w-30px me-3" src="../assets/media/svg/files/pdf.svg" />
+																	<img alt="" class="w-30px me-3" src="<?php echo $filePathScript ?>assets/media/svg/files/pdf.svg" />
 																	<!--end::Icon-->
 																	<!--begin::Info-->
 																	<div class="ms-1 fw-bold">
@@ -1732,7 +1732,7 @@ include '../includes/head.php';
 																<!--begin::Item-->
 																<div class="d-flex flex-aligns-center pe-10 pe-lg-20">
 																	<!--begin::Icon-->
-																	<img alt="/metronic8/demo9/../demo9/apps/projects/project.html" class="w-30px me-3" src="../assets/media/svg/files/doc.svg" />
+																	<img alt="/metronic8/demo9/../demo9/apps/projects/project.html" class="w-30px me-3" src="<?php echo $filePathScript ?>assets/media/svg/files/doc.svg" />
 																	<!--end::Icon-->
 																	<!--begin::Info-->
 																	<div class="ms-1 fw-bold">
@@ -1749,7 +1749,7 @@ include '../includes/head.php';
 																<!--begin::Item-->
 																<div class="d-flex flex-aligns-center">
 																	<!--begin::Icon-->
-																	<img alt="/metronic8/demo9/../demo9/apps/projects/project.html" class="w-30px me-3" src="../assets/media/svg/files/css.svg" />
+																	<img alt="/metronic8/demo9/../demo9/apps/projects/project.html" class="w-30px me-3" src="<?php echo $filePathScript ?>assets/media/svg/files/css.svg" />
 																	<!--end::Icon-->
 																	<!--begin::Info-->
 																	<div class="ms-1 fw-bold">
@@ -1805,7 +1805,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Nina Nilson">
-																	<img src="../assets/media/avatars/300-14.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-14.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -1849,7 +1849,7 @@ include '../includes/head.php';
 																<!--end::Info-->
 																<!--begin::User-->
 																<div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Marcus Dotson">
-																	<img src="../assets/media/avatars/300-2.jpg" alt="img" />
+																	<img src="<?php echo $filePathScript ?>assets/media/avatars/300-2.jpg" alt="img" />
 																</div>
 																<!--end::User-->
 															</div>
@@ -1863,7 +1863,7 @@ include '../includes/head.php';
 																<div class="overlay me-10">
 																	<!--begin::Image-->
 																	<div class="overlay-wrapper">
-																		<img alt="img" class="rounded w-150px" src="../assets/media/stock/600x400/img-29.jpg" />
+																		<img alt="img" class="rounded w-150px" src="<?php echo $filePathScript ?>assets/media/stock/600x400/img-29.jpg" />
 																	</div>
 																	<!--end::Image-->
 																	<!--begin::Link-->
@@ -1877,7 +1877,7 @@ include '../includes/head.php';
 																<div class="overlay me-10">
 																	<!--begin::Image-->
 																	<div class="overlay-wrapper">
-																		<img alt="img" class="rounded w-150px" src="../assets/media/stock/600x400/img-31.jpg" />
+																		<img alt="img" class="rounded w-150px" src="<?php echo $filePathScript ?>assets/media/stock/600x400/img-31.jpg" />
 																	</div>
 																	<!--end::Image-->
 																	<!--begin::Link-->
@@ -1891,7 +1891,7 @@ include '../includes/head.php';
 																<div class="overlay">
 																	<!--begin::Image-->
 																	<div class="overlay-wrapper">
-																		<img alt="img" class="rounded w-150px" src="../assets/media/stock/600x400/img-40.jpg" />
+																		<img alt="img" class="rounded w-150px" src="<?php echo $filePathScript ?>assets/media/stock/600x400/img-40.jpg" />
 																	</div>
 																	<!--end::Image-->
 																	<!--begin::Link-->

@@ -12,22 +12,6 @@ var KTModalCreateProjectSettings = function () {
 	// Private functions
 	var initForm = function() {
 		// Project logo
-		// For more info about Dropzone plugin visit:  https://www.dropzonejs.com/#usage
-		var myDropzone = new Dropzone("#kt_modal_create_project_settings_logo", { 
-			url: "https://keenthemes.com/scripts/void.php", // Set the url for your upload script location
-            paramName: "file", // The name that will be used to transfer the file
-            maxFiles: 10,
-            maxFilesize: 10, // MB
-            addRemoveLinks: true,
-            accept: function(file, done) {
-                if (file.name == "justinbieber.jpg") {
-                    done("Naha, you don't.");
-                } else {
-                    done();
-                }
-            }
-		});  
-
 		// Due date. For more info, please visit the official plugin site: https://flatpickr.js.org/
 		var releaseDate = $(form.querySelector('[name="settings_release_date"]'));
 		releaseDate.flatpickr({
@@ -58,7 +42,14 @@ var KTModalCreateProjectSettings = function () {
 					'settings_customer': {
 						validators: {
 							notEmpty: {
-								message: 'Customer is required'
+								message: 'Project manager is required'
+							}
+						}
+					},
+					'sub_county': {
+						validators: {
+							notEmpty: {
+								message: 'Sub County is required'
 							}
 						}
 					},

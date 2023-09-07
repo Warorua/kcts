@@ -1,3 +1,17 @@
+<?php include $filePath . 'includes/modals/create_project.php' ?>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-app.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-project/type.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-project/budget.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-project/settings.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-project/team.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-project/targets.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-project/files.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-project/complete.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-project/main.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/users-search.js"></script>
+
+
 <!--begin::Amd charts Javascript(used by this page)-->
 <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
 <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
@@ -6,78 +20,78 @@
 <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
 
 <script>
-	var hostUrl = "<?php echo $filePath ?>assets/index.html";
+	var hostUrl = "<?php echo $filePathScript ?>assets/index.html";
 </script>
 
 
 <!--begin::Global Javascript Bundle(used by all pages)-->
-<script src="<?php echo $filePath ?>assets/plugins/global/plugins.bundle.js"></script>
-<script src="<?php echo $filePath ?>assets/js/scripts.bundle.js"></script>
+<script src="<?php echo $filePathScript ?>assets/plugins/global/plugins.bundle.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/scripts.bundle.js"></script>
 <!--end::Global Javascript Bundle-->
 <!--begin::Vendors Javascript(used by this page)-->
-<script src="<?php echo $filePath ?>assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
-<script src="<?php echo $filePath ?>assets/plugins/custom/datatables/datatables.bundle.js"></script>
-<script src="<?php echo $filePath ?>assets/plugins/custom/leaflet/leaflet.bundle.js"></script>
+<script src="<?php echo $filePathScript ?>assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+<script src="<?php echo $filePathScript ?>assets/plugins/custom/datatables/datatables.bundle.js"></script>
+<script src="<?php echo $filePathScript ?>assets/plugins/custom/leaflet/leaflet.bundle.js"></script>
 <!--end::Vendors Javascript-->
 <!--begin::Custom Javascript(account overview page)-->
-<script src="<?php echo $filePath ?>assets/js/custom/pages/general/contact.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/apps/user-management/users/list/table.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/apps/user-management/users/list/export-users.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/apps/user-management/users/list/add.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/pages/user-profile/followers.js"></script>
-<script src="<?php echo $filePath ?>assets/js/widgets.bundle.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/widgets.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/apps/chat/chat.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-project/type.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-project/budget.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-project/settings.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-project/team.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-project/targets.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-project/files.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-project/complete.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-project/main.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-app.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/offer-a-deal/type.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/offer-a-deal/details.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/offer-a-deal/finance.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/offer-a-deal/complete.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/offer-a-deal/main.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/users-search.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/pages/social/feeds.js"></script>
-<script src="<?php echo $filePath ?>assets/plugins/custom/fslightbox/fslightbox.bundle.js"></script>
-<script src="<?php echo $filePath ?>assets/plugins/custom/typedjs/typedjs.bundle.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/apps/ecommerce/sales/listing.js"></script>
-<script src="<?php echo $filePath ?>assets/plugins/custom/formrepeater/formrepeater.bundle.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/pages/general/contact.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/apps/user-management/users/list/table.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/apps/user-management/users/list/export-users.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/apps/user-management/users/list/add.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/pages/user-profile/followers.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/widgets.bundle.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/widgets.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/apps/chat/chat.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-project/type.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-project/budget.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-project/settings.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-project/team.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-project/targets.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-project/files.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-project/complete.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-project/main.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-app.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/offer-a-deal/type.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/offer-a-deal/details.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/offer-a-deal/finance.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/offer-a-deal/complete.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/offer-a-deal/main.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/users-search.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/pages/social/feeds.js"></script>
+<script src="<?php echo $filePathScript ?>assets/plugins/custom/fslightbox/fslightbox.bundle.js"></script>
+<script src="<?php echo $filePathScript ?>assets/plugins/custom/typedjs/typedjs.bundle.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/apps/ecommerce/sales/listing.js"></script>
+<script src="<?php echo $filePathScript ?>assets/plugins/custom/formrepeater/formrepeater.bundle.js"></script>
 <!--end::Custom Javascript-->
 
 <!--begin::Custom Javascript(account.setting by this page)-->
-<script src="<?php echo $filePath ?>assets/js/custom/account/settings/signin-methods.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/account/settings/profile-details.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/account/settings/deactivate-account.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/two-factor-authentication.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/account/settings/signin-methods.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/account/settings/profile-details.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/account/settings/deactivate-account.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/two-factor-authentication.js"></script>
 
 
-<script src="<?php echo $filePath ?>assets/js/widgets.bundle.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/widgets.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/apps/chat/chat.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/intro.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/create-app.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/users-search.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/widgets.bundle.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/widgets.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/apps/chat/chat.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/intro.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/create-app.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/users-search.js"></script>
 <!--begin::Custom Javascript(account.security by this page)-->
-<script src="<?php echo $filePath ?>assets/js/custom/account/security/security-summary.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/account/security/license-usage.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/account/security/security-summary.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/account/security/license-usage.js"></script>
 
 <!--begin::Custom Javascript(account.billing by this page)-->
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/new-card.js"></script>
-<script src="<?php echo $filePath ?>assets/js/custom/utilities/modals/new-address.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/new-card.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/utilities/modals/new-address.js"></script>
 
 <!--begin::Custom Javascript(account.referrals by this page)-->
-<script src="<?php echo $filePath ?>assets/js/custom/account/referrals/referral-program.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/account/referrals/referral-program.js"></script>
 
 <!--begin::Custom Javascript(account.logs by this page)-->
-<script src="<?php echo $filePath ?>assets/js/custom/account/api-keys/api-keys.js"></script>
+<script src="<?php echo $filePathScript ?>assets/js/custom/account/api-keys/api-keys.js"></script>
 
 
 
@@ -1242,5 +1256,17 @@ $dm_perc = ($dm * 100) / 1000;
 
 	$('a[href="..<?php echo str_replace('/twitter', '', $_SERVER['REQUEST_URI']) ?>"]').addClass('active');
 </script>
-<?php include $filePath. 'includes/alert.php' ?>
+<script>
+        $(document).ready(function() {
+            $("label[for='scSelect1']").click(function() {
+                $("#subCountiesProjectElement").show();
+            });
+
+            $("label[for='scSelect2']").click(function() {
+                $("#subCountiesProjectElement").hide();
+            });
+        });
+    </script>
+
+<?php include $filePath . 'includes/alert.php' ?>
 <script src="https://checkout.flutterwave.com/v3.js"></script>

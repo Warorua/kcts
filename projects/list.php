@@ -21,7 +21,7 @@ include '../includes/head.php';
 							<!--begin::Mobile logo-->
 							<div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
 								<a href="../index.html">
-									<img alt="Logo" src="../assets/media/logos/logo-3.png" class="h-35px" />
+									<img alt="Logo" src="<?php echo $filePathScript ?>assets/media/logos/logo-3.png" class="h-35px" />
 								</a>
 							</div>
 							<!--end::Mobile logo-->
@@ -174,10 +174,30 @@ include '../includes/head.php';
 							<!--end::Toolbar-->
 							<!--begin::Row-->
 							<div class="row g-6 g-xl-9">
-								<!--begin::Col-->
+								<?php
+								$projects = systemProjects();
+								foreach($projects as $row){
+									if($row['status'] == 0){
+										$projectStatusBadge = '<span class="badge badge-light fw-bolder me-auto px-4 py-3">Pending</span>';
+									}elseif($row['status'] ==1){
+										$projectStatusBadge = '<span class="badge badge-light-primary fw-bolder me-auto px-4 py-3">In Progress</span>';
+									}elseif($row['status'] == 2){
+										$projectStatusBadge = '<span class="badge badge-light-success fw-bolder me-auto px-4 py-3">Completed</span>';
+									}elseif($row['status'] ==3){
+										$projectStatusBadge = '<span class="badge badge-light-danger fw-bolder me-auto px-4 py-3">Overdue</span>';
+									}elseif($row['status'] == 4){
+										$projectStatusBadge = '<span class="badge badge-light-warning fw-bolder me-auto px-4 py-3">Paused</span>';
+									}elseif($row['status'] == 5){
+										$projectStatusBadge = '<span class="badge badge-light-danger fw-bolder me-auto px-4 py-3">Stopped</span>';
+									}else{
+										$projectStatusBadge = '<span class="badge badge-light-danger fw-bolder me-auto px-4 py-3">ERROR</span>';
+									}
+
+									echo '
+									<!--begin::Col-->
 								<div class="col-md-6 col-xl-4">
 									<!--begin::Card-->
-									<a href="project.php" class="card border-hover-primary">
+									<a href="'.$filePathScript.'project/overview/'.$row['id'].'" class="card border-hover-primary">
 										<!--begin::Card header-->
 										<div class="card-header border-0 pt-9">
 											<!--begin::Card Title-->
@@ -185,7 +205,7 @@ include '../includes/head.php';
 											<!--end::Car Title-->
 											<!--begin::Card toolbar-->
 											<div class="card-toolbar">
-												<span class="badge badge-light-primary fw-bolder me-auto px-4 py-3">In Progress</span>
+												'.$projectStatusBadge.'
 											</div>
 											<!--end::Card toolbar-->
 										</div>
@@ -193,47 +213,47 @@ include '../includes/head.php';
 										<!--begin:: Card body-->
 										<div class="card-body p-9">
 											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">Agriculture</div>
+											<div class="fs-3 fw-bolder text-dark">'.$row['settings_name'].'</div>
 											<!--end::Name-->
 											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Agriculture Livestock Fisheries</p>
+											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">'.$row['settings_description'].'</p>
 											<!--end::Description-->
 											<!--begin::Info-->
 											<div class="d-flex flex-wrap mb-5">
 												<!--begin::Due-->
 												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">Aug 19, 2024</div>
+													<div class="fs-6 text-gray-800 fw-bolder">'.$row['settings_release_date'].'</div>
 													<div class="fw-bold text-gray-400">Due Date</div>
 												</div>
 												<!--end::Due-->
 												<!--begin::Budget-->
 												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">$284,900.00</div>
+													<div class="fs-6 text-gray-800 fw-bolder">'.$row['budget_setup'].'</div>
 													<div class="fw-bold text-gray-400">Budget</div>
 												</div>
 												<!--end::Budget-->
 											</div>
 											<!--end::Info-->
 											<!--begin::Progress-->
-											<div class="h-4px w-100 bg-light mb-5" data-bs-toggle="tooltip" title="This project 50% completed">
-												<div class="bg-primary rounded h-4px" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+											<div class="h-4px w-100 bg-light mb-5" data-bs-toggle="tooltip" title="This project 1% completed">
+												<div class="bg-primary rounded h-4px" role="progressbar" style="width: 1%" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 											<!--end::Progress-->
 											<!--begin::Users-->
 											<div class="symbol-group symbol-hover">
 												<!--begin::User-->
 												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Emma Smith">
-													<img alt="Pic" src="../assets/media/avatars/300-6.jpg" />
+													'.userProfileHolder('emma').'
 												</div>
 												<!--begin::User-->
 												<!--begin::User-->
 												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Rudy Stone">
-													<img alt="Pic" src="../assets/media/avatars/300-1.jpg" />
+													'.userProfileHolder('Rudy').'
 												</div>
 												<!--begin::User-->
 												<!--begin::User-->
 												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Susan Redwood">
-													<span class="symbol-label bg-primary text-inverse-primary fw-bolder">S</span>
+													'.userProfileHolder('susan').'
 												</div>
 												<!--begin::User-->
 											</div>
@@ -244,546 +264,10 @@ include '../includes/head.php';
 									<!--end::Card-->
 								</div>
 								<!--end::Col-->
-								<!--begin::Col-->
-								<div class="col-md-6 col-xl-4">
-									<!--begin::Card-->
-									<a href="project.php" class="card border-hover-primary">
-										<!--begin::Card header-->
-										<div class="card-header border-0 pt-9">
-											<!--begin::Card Title-->
-											
-											<!--end::Car Title-->
-											<!--begin::Card toolbar-->
-											<div class="card-toolbar">
-												<span class="badge badge-light fw-bolder me-auto px-4 py-3">Pending</span>
-											</div>
-											<!--end::Card toolbar-->
-										</div>
-										<!--end:: Card header-->
-										<!--begin:: Card body-->
-										<div class="card-body p-9">
-											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">Natural Resource </div>
-											<!--end::Name-->
-											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Water Environment and Climate change</p>
-											<!--end::Description-->
-											<!--begin::Info-->
-											<div class="d-flex flex-wrap mb-5">
-												<!--begin::Due-->
-												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">May 10, 2024</div>
-													<div class="fw-bold text-gray-400">Due Date</div>
-												</div>
-												<!--end::Due-->
-												<!--begin::Budget-->
-												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">$36,400.00</div>
-													<div class="fw-bold text-gray-400">Budget</div>
-												</div>
-												<!--end::Budget-->
-											</div>
-											<!--end::Info-->
-											<!--begin::Progress-->
-											<div class="h-4px w-100 bg-light mb-5" data-bs-toggle="tooltip" title="This project 30% completed">
-												<div class="bg-info rounded h-4px" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-											<!--end::Progress-->
-											<!--begin::Users-->
-											<div class="symbol-group symbol-hover">
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Alan Warden">
-													<span class="symbol-label bg-warning text-inverse-warning fw-bolder">A</span>
-												</div>
-												<!--begin::User-->
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Brian Cox">
-													<img alt="Pic" src="../assets/media/avatars/300-5.jpg" />
-												</div>
-												<!--begin::User-->
-											</div>
-											<!--end::Users-->
-										</div>
-										<!--end:: Card body-->
-									</a>
-									<!--end::Card-->
-								</div>
-								<!--end::Col-->
-								<!--begin::Col-->
-								<div class="col-md-6 col-xl-4">
-									<!--begin::Card-->
-									<a href="project.php" class="card border-hover-primary">
-										<!--begin::Card header-->
-										<div class="card-header border-0 pt-9">
-											<!--begin::Card Title-->
-											
-											<!--end::Card Title-->
-											<!--begin::Card toolbar-->
-											<div class="card-toolbar">
-												<span class="badge badge-light-success fw-bolder me-auto px-4 py-3">Completed</span>
-											</div>
-											<!--end::Card toolbar-->
-										</div>
-										<!--end:: Card header-->
-										<!--begin:: Card body-->
-										<div class="card-body p-9">
-											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">Public Works</div>
-											<!--end::Name-->
-											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Mumias East School Renovation Initiative</p>
-											<!--end::Description-->
-											<!--begin::Info-->
-											<div class="d-flex flex-wrap mb-5">
-												<!--begin::Due-->
-												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">Mar 14, 2021</div>
-													<div class="fw-bold text-gray-400">Due Date</div>
-												</div>
-												<!--end::Due-->
-												<!--begin::Budget-->
-												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">$605,100.00</div>
-													<div class="fw-bold text-gray-400">Budget</div>
-												</div>
-												<!--end::Budget-->
-											</div>
-											<!--end::Info-->
-											<!--begin::Progress-->
-											<div class="h-4px w-100 bg-light mb-5" data-bs-toggle="tooltip" title="This project 100% completed">
-												<div class="bg-success rounded h-4px" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-											<!--end::Progress-->
-											<!--begin::Users-->
-											<div class="symbol-group symbol-hover">
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Mad Macy">
-													<img alt="Pic" src="../assets/media/avatars/300-2.jpg" />
-												</div>
-												<!--begin::User-->
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Cris Willson">
-													<img alt="Pic" src="../assets/media/avatars/300-9.jpg" />
-												</div>
-												<!--begin::User-->
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Mike Garcie">
-													<span class="symbol-label bg-info text-inverse-info fw-bolder">M</span>
-												</div>
-												<!--begin::User-->
-											</div>
-											<!--end::Users-->
-										</div>
-										<!--end:: Card body-->
-									</a>
-									<!--end::Card-->
-								</div>
-								<!--end::Col-->
-								<!--begin::Col-->
-								<div class="col-md-6 col-xl-4">
-									<!--begin::Card-->
-									<a href="project.php" class="card border-hover-primary">
-										<!--begin::Card header-->
-										<div class="card-header border-0 pt-9">
-											<!--begin::Card Title-->
-											
-											<!--end::Card Title-->
-											<!--begin::Card toolbar-->
-											<div class="card-toolbar">
-												<span class="badge badge-light fw-bolder me-auto px-4 py-3">Pending</span>
-											</div>
-											<!--end::Card toolbar-->
-										</div>
-										<!--end:: Card header-->
-										<!--begin:: Card body-->
-										<div class="card-body p-9">
-											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">Public Infrastructure</div>
-											<!--end::Name-->
-											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Malava Youth Sports Complex Development</p>
-											<!--end::Description-->
-											<!--begin::Info-->
-											<div class="d-flex flex-wrap mb-5">
-												<!--begin::Due-->
-												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">Feb 21, 2024</div>
-													<div class="fw-bold text-gray-400">Due Date</div>
-												</div>
-												<!--end::Due-->
-												<!--begin::Budget-->
-												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">$284,900.00</div>
-													<div class="fw-bold text-gray-400">Budget</div>
-												</div>
-												<!--end::Budget-->
-											</div>
-											<!--end::Info-->
-											<!--begin::Progress-->
-											<div class="h-4px w-100 bg-light mb-5" data-bs-toggle="tooltip" title="This project 60% completed">
-												<div class="bg-info rounded h-4px" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-											<!--end::Progress-->
-											<!--begin::Users-->
-											<div class="symbol-group symbol-hover">
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Nich Warden">
-													<span class="symbol-label bg-warning text-inverse-warning fw-bolder">N</span>
-												</div>
-												<!--begin::User-->
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Rob Otto">
-													<span class="symbol-label bg-success text-inverse-success fw-bolder">R</span>
-												</div>
-												<!--begin::User-->
-											</div>
-											<!--end::Users-->
-										</div>
-										<!--end:: Card body-->
-									</a>
-									<!--end::Card-->
-								</div>
-								<!--end::Col-->
-								<!--begin::Col-->
-								<div class="col-md-6 col-xl-4">
-									<!--begin::Card-->
-									<a href="project.php" class="card border-hover-primary">
-										<!--begin::Card header-->
-										<div class="card-header border-0 pt-9">
-											<!--begin::Card Title-->
-											
-											<!--end::Car Title-->
-											<!--begin::Card toolbar-->
-											<div class="card-toolbar">
-												<span class="badge badge-light-primary fw-bolder me-auto px-4 py-3">In Progress</span>
-											</div>
-											<!--end::Card toolbar-->
-										</div>
-										<!--end:: Card header-->
-										<!--begin:: Card body-->
-										<div class="card-body p-9">
-											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">Public Administration</div>
-											<!--end::Name-->
-											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Lugari Solar Power Plant Installation</p>
-											<!--end::Description-->
-											<!--begin::Info-->
-											<div class="d-flex flex-wrap mb-5">
-												<!--begin::Due-->
-												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">Mar 10, 2024</div>
-													<div class="fw-bold text-gray-400">Due Date</div>
-												</div>
-												<!--end::Due-->
-												<!--begin::Budget-->
-												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">$284,900.00</div>
-													<div class="fw-bold text-gray-400">Budget</div>
-												</div>
-												<!--end::Budget-->
-											</div>
-											<!--end::Info-->
-											<!--begin::Progress-->
-											<div class="h-4px w-100 bg-light mb-5" data-bs-toggle="tooltip" title="This project 40% completed">
-												<div class="bg-primary rounded h-4px" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-											<!--end::Progress-->
-											<!--begin::Users-->
-											<div class="symbol-group symbol-hover">
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Francis Mitcham">
-													<img alt="Pic" src="../assets/media/avatars/300-20.jpg" />
-												</div>
-												<!--begin::User-->
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Michelle Swanston">
-													<img alt="Pic" src="../assets/media/avatars/300-7.jpg" />
-												</div>
-												<!--begin::User-->
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Susan Redwood">
-													<span class="symbol-label bg-primary text-inverse-primary fw-bolder">S</span>
-												</div>
-												<!--begin::User-->
-											</div>
-											<!--end::Users-->
-										</div>
-										<!--end:: Card body-->
-									</a>
-									<!--end::Card-->
-								</div>
-								<!--end::Col-->
-								<!--begin::Col-->
-								<div class="col-md-6 col-xl-4">
-									<!--begin::Card-->
-									<a href="project.php" class="card border-hover-primary">
-										<!--begin::Card header-->
-										<div class="card-header border-0 pt-9">
-											<!--begin::Card Title-->
-											
-											<!--end::Car Title-->
-											<!--begin::Card toolbar-->
-											<div class="card-toolbar">
-												<span class="badge badge-light-primary fw-bolder me-auto px-4 py-3">In Progress</span>
-											</div>
-											<!--end::Card toolbar-->
-										</div>
-										<!--end:: Card header-->
-										<!--begin:: Card body-->
-										<div class="card-body p-9">
-											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">Natural Resources and Climate change</div>
-											<!--end::Name-->
-											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Butere Environmental Conservation and Beautification Scheme</p>
-											<!--end::Description-->
-											<!--begin::Info-->
-											<div class="d-flex flex-wrap mb-5">
-												<!--begin::Due-->
-												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">Jul 25, 2024</div>
-													<div class="fw-bold text-gray-400">Due Date</div>
-												</div>
-												<!--end::Due-->
-												<!--begin::Budget-->
-												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">$284,900.00</div>
-													<div class="fw-bold text-gray-400">Budget</div>
-												</div>
-												<!--end::Budget-->
-											</div>
-											<!--end::Info-->
-											<!--begin::Progress-->
-											<div class="h-4px w-100 bg-light mb-5" data-bs-toggle="tooltip" title="This project 70% completed">
-												<div class="bg-primary rounded h-4px" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-											<!--end::Progress-->
-											<!--begin::Users-->
-											<div class="symbol-group symbol-hover">
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Melody Macy">
-													<img alt="Pic" src="../assets/media/avatars/300-2.jpg" />
-												</div>
-												<!--begin::User-->
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Robin Watterman">
-													<span class="symbol-label bg-success text-inverse-success fw-bolder">R</span>
-												</div>
-												<!--begin::User-->
-											</div>
-											<!--end::Users-->
-										</div>
-										<!--end:: Card body-->
-									</a>
-									<!--end::Card-->
-								</div>
-								<!--end::Col-->
-								<!--begin::Col-->
-								<div class="col-md-6 col-xl-4">
-									<!--begin::Card-->
-									<a href="project.php" class="card border-hover-primary">
-										<!--begin::Card header-->
-										<div class="card-header border-0 pt-9">
-											<!--begin::Card Title-->
-											
-											<!--end::Car Title-->
-											<!--begin::Card toolbar-->
-											<div class="card-toolbar">
-												<span class="badge badge-light-primary fw-bolder me-auto px-4 py-3">In Progress</span>
-											</div>
-											<!--end::Card toolbar-->
-										</div>
-										<!--end:: Card header-->
-										<!--begin:: Card body-->
-										<div class="card-body p-9">
-											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">Public Works and Infrastructure</div>
-											<!--end::Name-->
-											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Mumias West Housing Development Program</p>
-											<!--end::Description-->
-											<!--begin::Info-->
-											<div class="d-flex flex-wrap mb-5">
-												<!--begin::Due-->
-												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">Jun 20, 2024</div>
-													<div class="fw-bold text-gray-400">Due Date</div>
-												</div>
-												<!--end::Due-->
-												<!--begin::Budget-->
-												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">$284,900.00</div>
-													<div class="fw-bold text-gray-400">Budget</div>
-												</div>
-												<!--end::Budget-->
-											</div>
-											<!--end::Info-->
-											<!--begin::Progress-->
-											<div class="h-4px w-100 bg-light mb-5" data-bs-toggle="tooltip" title="This project 70% completed">
-												<div class="bg-primary rounded h-4px" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-											<!--end::Progress-->
-											<!--begin::Users-->
-											<div class="symbol-group symbol-hover">
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Melody Macy">
-													<img alt="Pic" src="../assets/media/avatars/300-2.jpg" />
-												</div>
-												<!--begin::User-->
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="John Mixin">
-													<img alt="Pic" src="../assets/media/avatars/300-14.jpg" />
-												</div>
-												<!--begin::User-->
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Emma Smith">
-													<span class="symbol-label bg-primary text-inverse-primary fw-bolder">S</span>
-												</div>
-												<!--begin::User-->
-											</div>
-											<!--end::Users-->
-										</div>
-										<!--end:: Card body-->
-									</a>
-									<!--end::Card-->
-								</div>
-								<!--end::Col-->
-								<!--begin::Col-->
-								<div class="col-md-6 col-xl-4">
-									<!--begin::Card-->
-									<a href="project.php" class="card border-hover-primary">
-										<!--begin::Card header-->
-										<div class="card-header border-0 pt-9">
-											<!--begin::Card Title-->
-											
-											<!--end::Car Title-->
-											<!--begin::Card toolbar-->
-											<div class="card-toolbar">
-												<span class="badge badge-light-danger fw-bolder me-auto px-4 py-3">Overdue</span>
-											</div>
-											<!--end::Card toolbar-->
-										</div>
-										<!--end:: Card header-->
-										<!--begin:: Card body-->
-										<div class="card-body p-9">
-											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">Trade Industrialization</div>
-											<!--end::Name-->
-											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Navakholo Market Modernization Project</p>
-											<!--end::Description-->
-											<!--begin::Info-->
-											<div class="d-flex flex-wrap mb-5">
-												<!--begin::Due-->
-												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">Dec 20, 2022</div>
-													<div class="fw-bold text-gray-400">Due Date</div>
-												</div>
-												<!--end::Due-->
-												<!--begin::Budget-->
-												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">$284,900.00</div>
-													<div class="fw-bold text-gray-400">Budget</div>
-												</div>
-												<!--end::Budget-->
-											</div>
-											<!--end::Info-->
-											<!--begin::Progress-->
-											<div class="h-4px w-100 bg-light mb-5" data-bs-toggle="tooltip" title="This project 10% completed">
-												<div class="bg-danger rounded h-4px" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-											<!--end::Progress-->
-											<!--begin::Users-->
-											<div class="symbol-group symbol-hover">
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Alan Warden">
-													<span class="symbol-label bg-warning text-inverse-warning fw-bolder">A</span>
-												</div>
-												<!--begin::User-->
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Brian Cox">
-													<img alt="Pic" src="../assets/media/avatars/300-5.jpg" />
-												</div>
-												<!--begin::User-->
-											</div>
-											<!--end::Users-->
-										</div>
-										<!--end:: Card body-->
-									</a>
-									<!--end::Card-->
-								</div>
-								<!--end::Col-->
-								<!--begin::Col-->
-								<div class="col-md-6 col-xl-4">
-									<!--begin::Card-->
-									<a href="project.php" class="card border-hover-primary">
-										<!--begin::Card header-->
-										<div class="card-header border-0 pt-9">
-											<!--begin::Card Title-->
-											
-											<!--end::Car Title-->
-											<!--begin::Card toolbar-->
-											<div class="card-toolbar">
-												<span class="badge badge-light-success fw-bolder me-auto px-4 py-3">Completed</span>
-											</div>
-											<!--end::Card toolbar-->
-										</div>
-										<!--end:: Card header-->
-										<!--begin:: Card body-->
-										<div class="card-body p-9">
-											<!--begin::Name-->
-											<div class="fs-3 fw-bolder text-dark">Lands Housing Urban Areas</div>
-											<!--end::Name-->
-											<!--begin::Description-->
-											<p class="text-gray-400 fw-bold fs-5 mt-1 mb-7">Housing Development Program</p>
-											<!--end::Description-->
-											<!--begin::Info-->
-											<div class="d-flex flex-wrap mb-5">
-												<!--begin::Due-->
-												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-7 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">Aug 19, 2022</div>
-													<div class="fw-bold text-gray-400">Due Date</div>
-												</div>
-												<!--end::Due-->
-												<!--begin::Budget-->
-												<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 mb-3">
-													<div class="fs-6 text-gray-800 fw-bolder">$284,900.00</div>
-													<div class="fw-bold text-gray-400">Budget</div>
-												</div>
-												<!--end::Budget-->
-											</div>
-											<!--end::Info-->
-											<!--begin::Progress-->
-											<div class="h-4px w-100 bg-light mb-5" data-bs-toggle="tooltip" title="This project 100% completed">
-												<div class="bg-success rounded h-4px" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-											</div>
-											<!--end::Progress-->
-											<!--begin::Users-->
-											<div class="symbol-group symbol-hover">
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Nick Macy">
-													<img alt="Pic" src="../assets/media/avatars/300-2.jpg" />
-												</div>
-												<!--begin::User-->
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Sean Paul">
-													<img alt="Pic" src="../assets/media/avatars/300-9.jpg" />
-												</div>
-												<!--begin::User-->
-												<!--begin::User-->
-												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Mike Collin">
-													<span class="symbol-label bg-info text-inverse-info fw-bolder">M</span>
-												</div>
-												<!--begin::User-->
-											</div>
-											<!--end::Users-->
-										</div>
-										<!--end:: Card body-->
-									</a>
-									<!--end::Card-->
-								</div>
-								<!--end::Col-->
+									';
+								}
+								?>
+								
 							</div>
 							<!--end::Row-->
 							<!--begin::Pagination-->
@@ -869,7 +353,7 @@ include '../includes/head.php';
 														<div class="d-flex align-items-center">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-35px symbol-circle">
-																<img alt="Pic" src="../assets/media/avatars/300-6.jpg" />
+																<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-6.jpg" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Details-->
@@ -937,7 +421,7 @@ include '../includes/head.php';
 														<div class="d-flex align-items-center">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-35px symbol-circle">
-																<img alt="Pic" src="../assets/media/avatars/300-1.jpg" />
+																<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-1.jpg" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Details-->
@@ -971,7 +455,7 @@ include '../includes/head.php';
 														<div class="d-flex align-items-center">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-35px symbol-circle">
-																<img alt="Pic" src="../assets/media/avatars/300-5.jpg" />
+																<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-5.jpg" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Details-->
@@ -1005,7 +489,7 @@ include '../includes/head.php';
 														<div class="d-flex align-items-center">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-35px symbol-circle">
-																<img alt="Pic" src="../assets/media/avatars/300-25.jpg" />
+																<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-25.jpg" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Details-->
@@ -1073,7 +557,7 @@ include '../includes/head.php';
 														<div class="d-flex align-items-center">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-35px symbol-circle">
-																<img alt="Pic" src="../assets/media/avatars/300-9.jpg" />
+																<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-9.jpg" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Details-->
@@ -1175,7 +659,7 @@ include '../includes/head.php';
 														<div class="d-flex align-items-center">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-35px symbol-circle">
-																<img alt="Pic" src="../assets/media/avatars/300-23.jpg" />
+																<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-23.jpg" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Details-->
@@ -1243,7 +727,7 @@ include '../includes/head.php';
 														<div class="d-flex align-items-center">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-35px symbol-circle">
-																<img alt="Pic" src="../assets/media/avatars/300-12.jpg" />
+																<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-12.jpg" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Details-->
@@ -1415,7 +899,7 @@ include '../includes/head.php';
 															<a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
 																<!--begin::Avatar-->
 																<div class="symbol symbol-35px symbol-circle me-5">
-																	<img alt="Pic" src="../assets/media/avatars/300-6.jpg" />
+																	<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-6.jpg" />
 																</div>
 																<!--end::Avatar-->
 																<!--begin::Info-->
@@ -1445,7 +929,7 @@ include '../includes/head.php';
 															<a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
 																<!--begin::Avatar-->
 																<div class="symbol symbol-35px symbol-circle me-5">
-																	<img alt="Pic" src="../assets/media/avatars/300-1.jpg" />
+																	<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-1.jpg" />
 																</div>
 																<!--end::Avatar-->
 																<!--begin::Info-->
@@ -1460,7 +944,7 @@ include '../includes/head.php';
 															<a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
 																<!--begin::Avatar-->
 																<div class="symbol symbol-35px symbol-circle me-5">
-																	<img alt="Pic" src="../assets/media/avatars/300-5.jpg" />
+																	<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-5.jpg" />
 																</div>
 																<!--end::Avatar-->
 																<!--begin::Info-->
@@ -1475,7 +959,7 @@ include '../includes/head.php';
 															<a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
 																<!--begin::Avatar-->
 																<div class="symbol symbol-35px symbol-circle me-5">
-																	<img alt="Pic" src="../assets/media/avatars/300-25.jpg" />
+																	<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-25.jpg" />
 																</div>
 																<!--end::Avatar-->
 																<!--begin::Info-->
@@ -1505,7 +989,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-6.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-6.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -1577,7 +1061,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-1.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-1.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -1613,7 +1097,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-5.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-5.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -1649,7 +1133,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-25.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-25.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -1721,7 +1205,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-9.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-9.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -1829,7 +1313,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-23.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-23.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -1901,7 +1385,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-12.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-12.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -1973,7 +1457,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-13.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-13.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -2045,7 +1529,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-21.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-21.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -2123,7 +1607,7 @@ include '../includes/head.php';
 														<!--end::Message-->
 														<!--begin::Illustration-->
 														<div class="text-center px-5">
-															<img src="../assets/media/illustrations/sigma-1/1.png" alt="" class="w-100 h-200px h-sm-325px" />
+															<img src="<?php echo $filePathScript ?>assets/media/illustrations/sigma-1/1.png" alt="" class="w-100 h-200px h-sm-325px" />
 														</div>
 														<!--end::Illustration-->
 													</div>

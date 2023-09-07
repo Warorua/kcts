@@ -17,6 +17,8 @@ if (file_exists('../includes/functions.php')) {
   include_once '../../includes/functions.php';
 } elseif (file_exists('../../../includes/functions.php')) {
   include_once '../../../includes/functions.php';
+}else{
+  include_once './includes/functions.php';
 }
 
 

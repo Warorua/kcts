@@ -1,18 +1,32 @@
 <?php
 $start_time = microtime(true);
-if (file_exists('../includes/head.php')) {
+if (file_exists('../dash.php')) {
 	$filePath = '../';
-} elseif (file_exists('../../includes/head.php')) {
+} elseif (file_exists('../../dash.php')) {
 	$filePath = '../../';
-}elseif (file_exists('../../../includes/head.php')) {
+}elseif (file_exists('../../../dash.php')) {
 	$filePath = '../../../';
-}elseif (file_exists('../../../../includes/head.php')) {
+}elseif (file_exists('../../../../dash.php')) {
 	$filePath = '../../../../';
-}elseif (file_exists('../../../../../includes/head.php')) {
+}elseif (file_exists('../../../../../dash.php')) {
 	$filePath = '../../../../../';
 } else {
 	$filePath = './';
 }
+
+$current_url = "https" . (($_SERVER['SERVER_PORT'] == 443) ? "s" : "") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+
+if (strpos($current_url, "/project/") !== false || strpos($current_url, "/users/") !== false) {
+    // "project" is found in the URL
+    //echo "true";
+	$filePathScript = $filePath.'../';
+} else {
+    // "project" is not found in the URL
+    //echo "false";
+	$filePathScript = $filePath;
+}
+
+
 
 include $filePath . 'includes/conn.php';
 include $filePath . 'includes/session.php';
@@ -46,29 +60,29 @@ if (isset($_SESSION['user_id'])) {
 	<meta property="og:url" content="https://techkira.net" />
 	<meta property="og:site_name" content="KCTS | Kakamega County Tracking System" />
 	<link rel="canonical" href="https://kakamega.techkira.net" />
-	<link rel="shortcut icon" href="<?php echo $filePath ?>assets/media/logos/logo-3.png" />
+	<link rel="shortcut icon" href="<?php echo $filePathScript ?>assets/media/logos/logo-3.png" />
 	<!--begin::Fonts-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
 	<!--end::Fonts-->
 	<!--begin::Page Vendor Stylesheets(used by this page)-->
-	<link href="<?php echo $filePath ?>assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
-	<link href="<?php echo $filePath ?>assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $filePathScript ?>assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $filePathScript ?>assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
 	<!--end::Page Vendor Stylesheets-->
 	<!--begin::Global Stylesheets Bundle(used by all pages)-->
-	<link href="<?php echo $filePath ?>assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
-	<link href="<?php echo $filePath ?>assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $filePathScript ?>assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $filePathScript ?>assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 	<!--end::Global Stylesheets Bundle-->
 	<!--begin::Fonts-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
 	<!--end::Fonts-->
 	<!--begin::Vendor Stylesheets(used by this page)-->
-	<link href="<?php echo $filePath ?>assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
-	<link href="<?php echo $filePath ?>assets/plugins/custom/vis-timeline/vis-timeline.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $filePathScript ?>assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $filePathScript ?>assets/plugins/custom/vis-timeline/vis-timeline.bundle.css" rel="stylesheet" type="text/css" />
 
 	<!--end::Vendor Stylesheets-->
 	<!--begin::Global Stylesheets Bundle(used by all pages)-->
-	<link href="<?php echo $filePath ?>assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
-	<link href="<?php echo $filePath ?>assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $filePathScript ?>assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo $filePathScript ?>assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 	<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
 
 	<!--end::Global Stylesheets Bundle-->
