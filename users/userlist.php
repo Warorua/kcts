@@ -493,6 +493,12 @@ include '../includes/head.php';
                                             } else {
                                                 $role_badge = searchEntity(systemRoles(), $row['role'], 'title');
                                             }
+                                            $stmt = $conn->prepare("SELECT time FROM logs WHERE user_id=:user_id ORDER BY id DESC LIMIT 1");
+                                            $stmt->execute(['user_id'=>$row['id']]);
+                                            $lastLogin = $stmt->fetch();
+                                            if(!isset($lastLogin['time'])){
+                                                $lastLogin['time'] = date('Y-M-d h:i:s');
+                                            }
                                             
                                             echo '
                                             <!--begin::Table row-->
@@ -528,7 +534,7 @@ include '../includes/head.php';
                                             <!--end::Role=-->
                                             <!--begin::Last login=-->
                                             <td>
-                                                <div class="badge badge-light fw-bolder">Yesterday</div>
+                                                <div class="badge badge-light fw-bolder">'.timeDiff($lastLogin['time'],date('Y-M-d h:i:s')).'</div>
                                             </td>
                                             <!--end::Last login=-->
                                             <!--begin::Two step=-->

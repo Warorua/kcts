@@ -266,7 +266,7 @@ if (!isset($_GET['bot_id'])) {
 	$stmt->execute();
 	
   }
-//*/
+  //*/
 
 		$stmt = $conn->prepare('SHOW COLUMNS IN system_cookies');
 		$stmt->execute();
