@@ -21,11 +21,23 @@ while ($progress = $prog->fetch_assoc()) {
     $row_prog = $prog3->fetch_assoc();
     if ($prog && $prog->num_rows > 0) {
 
+
+        if(isset($count)){
+            $count =$count;
+        }else{
+            $count= 50;
+        }
+
+
         if ($row_prog['total_prog'] <= 50) {
             $color = 'rgba(251, 159, 118, 0.53)';
         } elseif ($count > 50) {
             $color = 'rgba(120, 151, 239, 0.53)';
+        }else{
+            $color = 'rgba(120, 151, 239, 0.53)';
         }
+
+
         $array[$id][] = '{"progress":' . '"' . $row_prog['total_prog'] . '"' . ',' . '"name":"' . ucfirst($name) . '"' . ',' . '"color":"' . $color . '"}';
     } else {
         $array[] = '{"progress":"0","name":"0"}';

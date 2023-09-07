@@ -27,7 +27,7 @@ if($action == 'user'){
 }
 if($action == 'user2'){
 	$uid = $_POST['uid'];
-	$query20= mysqli_query($conn2,"SELECT * FROM users where uid ='$uid'");
+	$query20= mysqli_query($conn2,"SELECT * FROM users where id ='$uid'");
 	$row20 = mysqli_fetch_assoc($query20);
 	$cpass = $_POST['current'];
 	
@@ -35,8 +35,8 @@ if($action == 'user2'){
 	$npass = $_POST['npass'];
 	if($cpass == $row20['password']){
 	
-	if($query = mysqli_query($conn2,"UPDATE users SET username = '$user',
-													password = '$npass' where uid = '$uid' ")){
+	if($query = mysqli_query($conn2,"UPDATE users SET email = '$user',
+													password = '$npass' where id = '$uid' ")){
 		echo '<script>$("#msg20").show("SlideDown");
 		$("#msg21").hide();
 	 var delay = 2000;
@@ -225,5 +225,3 @@ if($action == 'attendance'){
 		</script>';
 	}
 }
-?>
-

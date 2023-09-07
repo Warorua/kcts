@@ -4,7 +4,7 @@
 <table id="teams" class="table table-bordered">
 	<thead>
 		<tr>
-			<th class="col-md-2 text-center">FOREMAN</th>
+			<th class="col-md-2 text-center">Manager</th>
 			<th class="col-md-2 text-center">MEMBER/s</th>
 			<th class="col-md-1 text-center">Status</th>
 			<th width="10%" class="text-center"></th>
