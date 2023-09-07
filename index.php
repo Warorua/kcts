@@ -56,28 +56,28 @@
 											<!--begin::Menu item-->
 											<div class="menu-item">
 												<!--begin::Menu link-->
-												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="#how-it-works" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Procurement</a>
+												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="https://techkira.net/v2/login" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Procurement</a>
 												<!--end::Menu link-->
 											</div>
 											<!--end::Menu item-->
 											<!--begin::Menu item-->
 											<div class="menu-item">
 												<!--begin::Menu link-->
-												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="#achievements" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Projects</a>
+												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="https://techkira.net/v2/login" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Projects</a>
 												<!--end::Menu link-->
 											</div>
 											<!--end::Menu item-->
 											<!--begin::Menu item-->
 											<div class="menu-item">
 												<!--begin::Menu link-->
-												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="#team" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Reports</a>
+												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="https://techkira.net/v2/login" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Reports</a>
 												<!--end::Menu link-->
 											</div>
 											<!--end::Menu item-->
 											<!--begin::Menu item-->
 											<div class="menu-item">
 												<!--begin::Menu link-->
-												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="#portfolio" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Sub Counties</a>
+												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="https://techkira.net/v2/login" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Sub Counties</a>
 												<!--end::Menu link-->
 											</div>
 											<!--end::Menu item-->
@@ -117,7 +117,7 @@
        <div class="fs-5 text-white fw-bold">Engage actively with Kakamega County's procurement and projects. Access transparent information, participate in procurement,<br> and track ongoing initiatives. Be a part of accountable development for the community.</div>
 							<!--end::Title-->
 							<!--begin::Action-->
-							<a href="index.html" class="btn btn-primary m-12" style="background-color: #0a0a0a !important;">Learn More</a>
+							<a href="v2/login" class="btn btn-primary m-12" style="background-color: #0a0a0a !important;">Learn More</a>
 							<!--end::Action-->
 						</div>
 						<!--end::Heading-->
@@ -257,7 +257,7 @@
 												<a href="#" class="btn btn-primary fw-semibold me-2" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan" style="
     background-color: #298352;
 ">Sign-Up Now</a>
-												<a href="../apps/support-center/overview.html" class="btn btn-color-white bg-transparent btn-outline fw-semibold" style="border: 1px solid rgba(255, 255, 255, 0.3)">Save for Later</a>
+												<a href="v2/login" class="btn btn-color-white bg-transparent btn-outline fw-semibold" style="border: 1px solid rgba(255, 255, 255, 0.3)">Save for Later</a>
 											</div>
 							<!--end::Description-->
 						
@@ -286,11 +286,527 @@
 				<!--end::Curve bottom-->
 			</div>
 			<!--end::Statistics Section-->
-			<!--begin::Team Section-->
-			
-			<!--end::Team Section-->
+			<!--begin::Map Section-->
+			<div class="mt-sm-n10">
+				<!--begin::Curve top-->
+				
+				<!--end::Curve top-->
+				<!--begin::Wrapper-->
+				<div class="pb-2 pt-18 landing-dark-bg" style="background-color: white !important;">
+					<!--begin::Container-->
+					<div class="container">
+    <div class="row g-5 g-xl-10 mb-5 mb-xl-10">
+								<!--begin::Col-->
+								
+								<!--end::Col-->
+								<!--begin::Col-->
+																	<!--begin::Video widget 2-->
+									<div class="text-center mt-15 mb-18" id="achievements" data-kt-scroll-offset="{default: 100, lg: 150}">
+							<!--begin::Title-->
+							<div>
+					<!--begin::Card-->
+					<div class="" style="filter: drop-shadow(0px 0px 40px rgba(68, 81, 96, 0.08))">
+						<!--begin::Card body-->
+						<div class="">
+							<!--begin::Heading-->
+							<div class="text-center mb-5 mb-lg-10">
+								<!--begin::Title-->
+								<h3 class="fs-2hx text-dark mb-5" id="portfolio" data-kt-scroll-offset="{default: 100, lg: 150}">Counties</h3>
+								<!--end::Title-->
+							</div>
+							<!--end::Heading-->
+							<!--begin::Tabs wrapper-->
+							
+							<!--end::Tabs wrapper-->
+							<!--begin::Tabs content-->
+							<div class="tab-content">
+								<!--begin::Tab pane-->
+								<div class="tab-pane fade show active" id="kt_landing_projects_latest">
+									<!--begin::Row-->
+									<div class="row g-10">
+										<!--begin::Col-->
+										<div class="col-md-6 col-xl-5">
+									<!--begin::Card-->
+									<a class="card border-hover-primary">
+										<!--begin::Card header-->
+										
+										<!--end:: Card header-->
+										<!--begin:: Card body-->
+										<div class="card-body p-8">
+											<!--begin::Name-->
+											
+											<!--end::Name-->
+											<!--begin::Description-->
+											
+											<!--end::Description-->
+											<!--begin::Info-->
+											<div class="d-flex flex-wrap mb-5">
+												<!--begin::Due-->
+												<div class="border border-gray-300 border-solid round m-1 " style=" padding: 17px; width: 179px;">
+													<div class="fs-6 text-gray-800 fw-bold" style="
+														text-align: center;
+														vertical-align: middle;
+														line-height: 40px;">LURAMBI</div>
+													
+												</div>
+            
+            								<div class="border border-gray-300 border-solid round m-1 " style="padding: 17px; width: 179px;">
+												<div class="fs-6 text-gray-800 fw-bold" style="text-align: center;vertical-align: middle;line-height: 40px;">SHINYALU</div>
+													
+												</div>
+
+            
+            
+												<div class="border border-gray-300 border-solid round m-1 " style="
+													padding: 17px;
+													width: 179px;
+												">
+													<div class="fs-6 text-gray-800 fw-bold" style="
+													text-align: center;
+													vertical-align: middle;
+													line-height: 40px;">IKOLOMANI</div>
+																									
+												</div>
+												<div class="border border-gray-300 border-solid round m-1 " style="
+													padding: 17px;
+													width: 179px;">
+													<div class="fs-6 text-gray-800 fw-bold" style="
+													text-align: center;
+													vertical-align: middle;
+													line-height: 40px;">KHWISERO</div>
+													
+												</div>
+												<div class="border border-gray-300 border-solid round m-1 " style="
+													padding: 17px;
+													width: 179px;
+												">
+																									<div class="fs-6 text-gray-800 fw-bold" style="
+													text-align: center;
+													vertical-align: middle;
+													line-height: 40px;
+												">MUMIAS EAST
+
+												</div>
+													
+												</div>
+												<div class="border border-gray-300 border-solid round m-1 " style="
+													padding: 17px;
+													width: 179px;
+												">
+																									<div class="fs-6 text-gray-800 fw-bold" style="
+													text-align: center;
+													vertical-align: middle;
+													line-height: 40px;
+												">MUMIAS WEST
+
+												</div>
+																									
+																								</div>
+												<div class="border border-gray-300 border-solid round m-1 " style="
+													padding: 17px;
+													width: 179px;
+												">
+																									<div class="fs-6 text-gray-800 fw-bold" style="
+													text-align: center;
+													vertical-align: middle;
+													line-height: 40px;
+												">MATUNGU</div>
+																									
+																								</div>
+												<div class="border border-gray-300 border-solid round m-1 " style="
+													padding: 17px;
+													width: 179px;
+												">
+																									<div class="fs-6 text-gray-800 fw-bold" style="
+													text-align: center;
+													vertical-align: middle;
+													line-height: 40px;
+												">LUGARI</div>
+																									
+																								</div><div class="border border-gray-300 border-solid round m-1 " style="
+													padding: 17px;
+													width: 179px;
+												">
+																									<div class="fs-6 text-gray-800 fw-bold" style="
+													text-align: center;
+													vertical-align: middle;
+													line-height: 40px;
+												">MALAVA</div>
+																									
+																								</div>
+															<div class="border border-gray-300 border-solid round m-1 " style="
+													padding: 17px;
+													width: 179px;
+												">
+																									<div class="fs-6 text-gray-800 fw-bold" style="
+													text-align: center;
+													vertical-align: middle;
+													line-height: 40px;
+												">NAVAKHOLO</div>
+																									
+																								</div><div class="border border-gray-300 border-solid round m-1 " style="
+													padding: 17px;
+													width: 179px;
+												">
+																									<div class="fs-6 text-gray-800 fw-bold" style="
+													text-align: center;
+													vertical-align: middle;
+													line-height: 40px;
+												">LIKUYANI
+
+												</div>
+																									
+																								</div><div class="border border-gray-300 border-solid round m-1 " style="
+													padding: 17px;
+													width: 179px;
+												">
+																									<div class="fs-6 text-gray-800 fw-bold" style="
+													text-align: center;
+													vertical-align: middle;
+													line-height: 40px;
+												">BUTERE</div>
+
+												<div class="mb-xl-10 m-10">
+												<a href="#" class="btn btn-primary fw-semibold me-2" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan" style="background-color: #298352;">Sign-Up Now</a>
+												<a href="v2/login" class="btn btn-color-primary bg-transparent btn-outline fw-semibold" style="border: 1px solid rgb(41 131 82);">Save for Later</a>
+											</div>
+													
+												</div>
+												<!--end::Due-->
+												<!--begin::Budget-->
+												
+												<!--end::Budget-->
+											</div>
+											<!--end::Info-->
+											<!--begin::Progress-->
+											
+											<!--end::Progress-->
+											<!--begin::Users-->
+											
+											<!--end::Users-->
+										</div>
+										<!--end:: Card body-->
+									</a>
+									<!--end::Card-->
+								</div>
+
+        <div class="col-md-6 col-xl-7">
+									<!--begin::Card-->
+									<a class="card border-hover-primary">
+										<!--begin::Card header-->
+										
+										<!--end:: Card header-->
+										<!--begin:: Card body-->
+										<div class="card-body " style="
+    height: 670px;
+    background-image: url(assets/map.png;);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+">
+											<!--begin::Name-->
+											
+											<!--end::Name-->
+											<!--begin::Description-->
+											
+											<!--end::Description-->
+											<!--begin::Info-->
+											<div class="d-flex flex-wrap mb-5">
+												<!--begin::Due-->
+												
+												<!--end::Due-->
+												<!--begin::Budget-->
+												
+												<!--end::Budget-->
+											</div>
+											<!--end::Info-->
+											<!--begin::Progress-->
+											
+											<!--end::Progress-->
+											<!--begin::Users-->
+											
+											<!--end::Users-->
+										</div>
+										<!--end:: Card body-->
+									</a>
+									<!--end::Card-->
+								</div>
+										<!--end::Col-->
+										<!--begin::Col-->
+										
+										<!--end::Col-->
+									</div>
+									<!--end::Row-->
+								</div>
+								<!--end::Tab pane-->
+								<!--begin::Tab pane-->
+								<div class="tab-pane fade" id="kt_landing_projects_web_design">
+									<!--begin::Row-->
+									<div class="row g-10">
+										<!--begin::Col-->
+										<div class="col-lg-6">
+											<!--begin::Item-->
+											<a class="d-block card-rounded overlay h-lg-100" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-11.jpg">
+												<!--begin::Image-->
+												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style="background-image:url('assets/media/stock/600x600/img-11.jpg')"></div>
+												<!--end::Image-->
+												<!--begin::Action-->
+												<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
+													<i class="bi bi-eye-fill fs-3x text-white"></i>
+												</div>
+												<!--end::Action-->
+											</a>
+											<!--end::Item-->
+										</div>
+										<!--end::Col-->
+										<!--begin::Col-->
+										<div class="col-lg-6">
+											<!--begin::Row-->
+											<div class="row g-10 mb-10">
+												<!--begin::Col-->
+												<div class="col-lg-6">
+													<!--begin::Item-->
+													<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-12.jpg">
+														<!--begin::Image-->
+														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-12.jpg')"></div>
+														<!--end::Image-->
+														<!--begin::Action-->
+														<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
+															<i class="bi bi-eye-fill fs-3x text-white"></i>
+														</div>
+														<!--end::Action-->
+													</a>
+													<!--end::Item-->
+												</div>
+												<!--end::Col-->
+												<!--begin::Col-->
+												<div class="col-lg-6">
+													<!--begin::Item-->
+													<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-21.jpg">
+														<!--begin::Image-->
+														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-21.jpg')"></div>
+														<!--end::Image-->
+														<!--begin::Action-->
+														<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
+															<i class="bi bi-eye-fill fs-3x text-white"></i>
+														</div>
+														<!--end::Action-->
+													</a>
+													<!--end::Item-->
+												</div>
+												<!--end::Col-->
+											</div>
+											<!--end::Row-->
+											<!--begin::Item-->
+											<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x400/img-20.jpg">
+												<!--begin::Image-->
+												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-20.jpg')"></div>
+												<!--end::Image-->
+												<!--begin::Action-->
+												<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
+													<i class="bi bi-eye-fill fs-3x text-white"></i>
+												</div>
+												<!--end::Action-->
+											</a>
+											<!--end::Item-->
+										</div>
+										<!--end::Col-->
+									</div>
+									<!--end::Row-->
+								</div>
+								<!--end::Tab pane-->
+								<!--begin::Tab pane-->
+								<div class="tab-pane fade" id="kt_landing_projects_mobile_apps">
+									<!--begin::Row-->
+									<div class="row g-10">
+										<!--begin::Col-->
+										<div class="col-lg-6">
+											<!--begin::Row-->
+											<div class="row g-10 mb-10">
+												<!--begin::Col-->
+												<div class="col-lg-6">
+													<!--begin::Item-->
+													<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-16.jpg">
+														<!--begin::Image-->
+														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-16.jpg')"></div>
+														<!--end::Image-->
+														<!--begin::Action-->
+														<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
+															<i class="bi bi-eye-fill fs-3x text-white"></i>
+														</div>
+														<!--end::Action-->
+													</a>
+													<!--end::Item-->
+												</div>
+												<!--end::Col-->
+												<!--begin::Col-->
+												<div class="col-lg-6">
+													<!--begin::Item-->
+													<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-12.jpg">
+														<!--begin::Image-->
+														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-12.jpg')"></div>
+														<!--end::Image-->
+														<!--begin::Action-->
+														<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
+															<i class="bi bi-eye-fill fs-3x text-white"></i>
+														</div>
+														<!--end::Action-->
+													</a>
+													<!--end::Item-->
+												</div>
+												<!--end::Col-->
+											</div>
+											<!--end::Row-->
+											<!--begin::Item-->
+											<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x400/img-15.jpg">
+												<!--begin::Image-->
+												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-15.jpg')"></div>
+												<!--end::Image-->
+												<!--begin::Action-->
+												<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
+													<i class="bi bi-eye-fill fs-3x text-white"></i>
+												</div>
+												<!--end::Action-->
+											</a>
+											<!--end::Item-->
+										</div>
+										<!--end::Col-->
+										<!--begin::Col-->
+										<div class="col-lg-6">
+											<!--begin::Item-->
+											<a class="d-block card-rounded overlay h-lg-100" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-23.jpg">
+												<!--begin::Image-->
+												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style="background-image:url('assets/media/stock/600x600/img-23.jpg')"></div>
+												<!--end::Image-->
+												<!--begin::Action-->
+												<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
+													<i class="bi bi-eye-fill fs-3x text-white"></i>
+												</div>
+												<!--end::Action-->
+											</a>
+											<!--end::Item-->
+										</div>
+										<!--end::Col-->
+									</div>
+									<!--end::Row-->
+								</div>
+								<!--end::Tab pane-->
+								<!--begin::Tab pane-->
+								<div class="tab-pane fade" id="kt_landing_projects_development">
+									<!--begin::Row-->
+									<div class="row g-10">
+										<!--begin::Col-->
+										<div class="col-lg-6">
+											<!--begin::Item-->
+											<a class="d-block card-rounded overlay h-lg-100" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-15.jpg">
+												<!--begin::Image-->
+												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-lg-100 min-h-250px" style="background-image:url('assets/media/stock/600x600/img-15.jpg')"></div>
+												<!--end::Image-->
+												<!--begin::Action-->
+												<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
+													<i class="bi bi-eye-fill fs-3x text-white"></i>
+												</div>
+												<!--end::Action-->
+											</a>
+											<!--end::Item-->
+										</div>
+										<!--end::Col-->
+										<!--begin::Col-->
+										<div class="col-lg-6">
+											<!--begin::Row-->
+											<div class="row g-10 mb-10">
+												<!--begin::Col-->
+												<div class="col-lg-6">
+													<!--begin::Item-->
+													<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-22.jpg">
+														<!--begin::Image-->
+														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-22.jpg')"></div>
+														<!--end::Image-->
+														<!--begin::Action-->
+														<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
+															<i class="bi bi-eye-fill fs-3x text-white"></i>
+														</div>
+														<!--end::Action-->
+													</a>
+													<!--end::Item-->
+												</div>
+												<!--end::Col-->
+												<!--begin::Col-->
+												<div class="col-lg-6">
+													<!--begin::Item-->
+													<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x600/img-21.jpg">
+														<!--begin::Image-->
+														<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-21.jpg')"></div>
+														<!--end::Image-->
+														<!--begin::Action-->
+														<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
+															<i class="bi bi-eye-fill fs-3x text-white"></i>
+														</div>
+														<!--end::Action-->
+													</a>
+													<!--end::Item-->
+												</div>
+												<!--end::Col-->
+											</div>
+											<!--end::Row-->
+											<!--begin::Item-->
+											<a class="d-block card-rounded overlay" data-fslightbox="lightbox-projects" href="assets/media/stock/600x400/img-14.jpg">
+												<!--begin::Image-->
+												<div class="overlay-wrapper bgi-no-repeat bgi-position-center bgi-size-cover card-rounded h-250px" style="background-image:url('assets/media/stock/600x600/img-14.jpg')"></div>
+												<!--end::Image-->
+												<!--begin::Action-->
+												<div class="overlay-layer card-rounded bg-dark bg-opacity-25">
+													<i class="bi bi-eye-fill fs-3x text-white"></i>
+												</div>
+												<!--end::Action-->
+											</a>
+											<!--end::Item-->
+										</div>
+										<!--end::Col-->
+									</div>
+									<!--end::Row-->
+								</div>
+								<!--end::Tab pane-->
+							</div>
+							<!--end::Tabs content-->
+						</div>
+						<!--end::Card body-->
+					</div>
+					<!--end::Card-->
+				</div>
+							<!--end::Title-->
+							<!--begin::Description-->
+							
+
+							<!--end::Description-->
+						
+									<!--end::Video widget 2-->
+								</div>
+								<!--end::Col-->
+							</div>
+						<!--begin::Heading-->
+						
+						<!--end::Heading-->
+						<!--begin::Statistics-->
+						
+						<!--end::Statistics-->
+						<!--begin::Testimonial-->
+						
+						<!--end::Testimonial-->
+						<!--begin::Author-->
+						
+						<!--end::Author-->
+					</div>
+					<!--end::Container-->
+				</div>
+				<!--end::Wrapper-->
+				<!--begin::Curve bottom-->
+				
+				<!--end::Curve bottom-->
+			</div>
+			<!--end::Map Section-->
 			<!--begin::Projects Section-->
-			<div class="mb-lg-n15 position-relative z-index-2">
+			<div class="mb-lg-n15 position-relative z-index-2 mt-10">
 				<!--begin::Container-->
 				<div class="container">
 					<!--begin::Card-->
@@ -312,13 +828,13 @@
 										<a class="nav-link text-gray-500 text-active-primary px-3 px-lg-6 active" href="#" data-bs-toggle="tab" data-bs-target="#kt_landing_projects_latest">Latest</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link text-gray-500 text-active-primary px-3 px-lg-6" href="#" data-bs-toggle="tab" data-bs-target="#kt_landing_projects_web_design">Web Design</a>
+										<a class="nav-link text-gray-500 text-active-primary px-3 px-lg-6" href="#" data-bs-toggle="tab" data-bs-target="#kt_landing_projects_web_design">Lands Housing </a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link text-gray-500 text-active-primary px-3 px-lg-6" href="#" data-bs-toggle="tab" data-bs-target="#kt_landing_projects_mobile_apps">Mobile Apps</a>
+										<a class="nav-link text-gray-500 text-active-primary px-3 px-lg-6" href="#" data-bs-toggle="tab" data-bs-target="#kt_landing_projects_mobile_apps">Health Services</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link text-gray-500 text-active-primary px-3 px-lg-6" href="#" data-bs-toggle="tab" data-bs-target="#kt_landing_projects_development">Development</a>
+										<a class="nav-link text-gray-500 text-active-primary px-3 px-lg-6" href="#" data-bs-toggle="tab" data-bs-target="#kt_landing_projects_development">Public Administrator</a>
 									</li>
 								</ul>
 								<!--end::Tabs-->
@@ -694,22 +1210,22 @@
 										<h4 class="fw-bolder text-gray-400 mb-6">More for KCTS</h4>
 										<!--end::Subtitle-->
 										<!--begin::Link-->
-										<a href="https://keenthemes.com/faqs" class="text-white opacity-50 text-hover-primary fs-5 mb-6">FAQ</a>
+										<a href="https://techkira.net/index.php" class="text-white opacity-50 text-hover-primary fs-5 mb-6">FAQ</a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="documentation/getting-started.html" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Procurements </a>
+										<a href="https://techkira.net/index.php" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Procurements </a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="https://www.youtube.com/c/KeenThemesTuts/videos" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Projects</a>
+										<a href="https://techkira.net/v2/login" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Projects</a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="documentation/getting-started/changelog.html" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Reports</a>
+										<a href="https://techkira.net/v2/login" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Reports</a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="https://devs.keenthemes.com/" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Support Forum</a>
+										<a href="https://techkira.net/v2/login" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Support Forum</a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="https://keenthemes.com/blog" class="text-white opacity-50 text-hover-primary fs-5">About Us</a>
+										<a href="https://techkira.net/v2/login" class="text-white opacity-50 text-hover-primary fs-5">About Us</a>
 										<!--end::Link-->
 									</div>
 									<!--end::Links-->
