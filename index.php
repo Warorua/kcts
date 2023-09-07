@@ -230,7 +230,7 @@
 				<!--end::Container-->
 			</div>
 			<!--end::How It Works Section-->
-			<!--begin::Statistics Section-->
+			<!--begin::Map Section-->
 			<div class="mt-sm-n10">
 				<!--begin::Curve top-->
 				
@@ -325,185 +325,175 @@
 									<!--begin::Row-->
 									<div class="row g-10">
 										<!--begin::Col-->
-										<div class="col-md-6 col-xl-5">
+										
+
+        <div class="col-md-4 col-xl-5">
+    <div class="row g-5 mt-1">
+        
+            
+
+            
+<div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:10px;">
+    <div class="fs-6 text-gray-800 fw-bold" style="
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+">LURAMBI</div>
+													
+												</div><div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:10px;">
+    <div class="fs-6 text-gray-800 fw-bold" style="
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+">LURAMBI</div>
+													
+												</div>
+
+    </div>
+
+<div class="row g-5 mt-1">
+        
+            
+
+            
+<div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:10px;">
+    <div class="fs-6 text-gray-800 fw-bold" style="
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+">LURAMBI</div>
+													
+												</div><div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:5px;">
+    <div class="fs-6 text-gray-800 fw-bold" style="
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+">LURAMBI</div>
+													
+												</div>
+
+    </div><div class="row g-5 mt-1">
+        
+            
+
+            
+<div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:10px;">
+    <div class="fs-6 text-gray-800 fw-bold" style="
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+">LURAMBI</div>
+													
+												</div><div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:5px;">
+    <div class="fs-6 text-gray-800 fw-bold" style="
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+">LURAMBI</div>
+													
+												</div>
+
+    </div>
+
+
+
+
+
+
+
+<div class="row g-5 mt-1">
+        
+            
+
+            
+<div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:10px;">
+    <div class="fs-6 text-gray-800 fw-bold" style="
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+">LURAMBI</div>
+													
+												</div><div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:5px;">
+    <div class="fs-6 text-gray-800 fw-bold" style="
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+">LURAMBI</div>
+													
+												</div>
+
+    </div><div class="row g-5 mt-1">
+        
+            
+
+            
+<div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:10px;">
+    <div class="fs-6 text-gray-800 fw-bold" style="
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+">LURAMBI</div>
+													
+												</div><div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:5px;">
+    <div class="fs-6 text-gray-800 fw-bold" style="
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+">LURAMBI</div>
+													
+												</div>
+
+    </div><div class="row g-5 mt-1">
+        
+            
+
+            
+<div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:10px;">
+    <div class="fs-6 text-gray-800 fw-bold" style="
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+">LURAMBI</div>
+													
+												</div><div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:5px;">
+    <div class="fs-6 text-gray-800 fw-bold" style="
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+">LURAMBI</div>
+													
+												</div>
+
+    </div>
+    <div class="row g-5 mt-1">
+        
+            
+
+<a href="#" class="btn btn-primary fw-semibold me-2" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan" style="
+    background-color: #298352;
+">Sign-Up Now</a>
+
+    <a href="v2/login" class="btn btn-color-primary bg-transparent btn-outline fw-semibold" style="border: 1px solid rgb(41 131 82);">Save for Later</a>
+											</div>
+            
+
+
+    
+</div>
+<div class="col-md-6 col-xl-7">
 									<!--begin::Card-->
 									<a class="card border-hover-primary">
 										<!--begin::Card header-->
 										
 										<!--end:: Card header-->
 										<!--begin:: Card body-->
-										<div class="card-body p-8">
-											<!--begin::Name-->
-											
-											<!--end::Name-->
-											<!--begin::Description-->
-											
-											<!--end::Description-->
-											<!--begin::Info-->
-											<div class="d-flex flex-wrap mb-5">
-												<!--begin::Due-->
-												<div class="border border-gray-300 border-solid round m-1 " style=" padding: 17px; width: 179px;">
-													<div class="fs-6 text-gray-800 fw-bold" style="
-														text-align: center;
-														vertical-align: middle;
-														line-height: 40px;">LURAMBI</div>
-													
-												</div>
-            
-            								<div class="border border-gray-300 border-solid round m-1 " style="padding: 17px; width: 179px;">
-												<div class="fs-6 text-gray-800 fw-bold" style="text-align: center;vertical-align: middle;line-height: 40px;">SHINYALU</div>
-													
-												</div>
-
-            
-            
-												<div class="border border-gray-300 border-solid round m-1 " style="
-													padding: 17px;
-													width: 179px;
-												">
-													<div class="fs-6 text-gray-800 fw-bold" style="
-													text-align: center;
-													vertical-align: middle;
-													line-height: 40px;">IKOLOMANI</div>
-																									
-												</div>
-												<div class="border border-gray-300 border-solid round m-1 " style="
-													padding: 17px;
-													width: 179px;">
-													<div class="fs-6 text-gray-800 fw-bold" style="
-													text-align: center;
-													vertical-align: middle;
-													line-height: 40px;">KHWISERO</div>
-													
-												</div>
-												<div class="border border-gray-300 border-solid round m-1 " style="
-													padding: 17px;
-													width: 179px;
-												">
-																									<div class="fs-6 text-gray-800 fw-bold" style="
-													text-align: center;
-													vertical-align: middle;
-													line-height: 40px;
-												">MUMIAS EAST
-
-												</div>
-													
-												</div>
-												<div class="border border-gray-300 border-solid round m-1 " style="
-													padding: 17px;
-													width: 179px;
-												">
-																									<div class="fs-6 text-gray-800 fw-bold" style="
-													text-align: center;
-													vertical-align: middle;
-													line-height: 40px;
-												">MUMIAS WEST
-
-												</div>
-																									
-																								</div>
-												<div class="border border-gray-300 border-solid round m-1 " style="
-													padding: 17px;
-													width: 179px;
-												">
-																									<div class="fs-6 text-gray-800 fw-bold" style="
-													text-align: center;
-													vertical-align: middle;
-													line-height: 40px;
-												">MATUNGU</div>
-																									
-																								</div>
-												<div class="border border-gray-300 border-solid round m-1 " style="
-													padding: 17px;
-													width: 179px;
-												">
-																									<div class="fs-6 text-gray-800 fw-bold" style="
-													text-align: center;
-													vertical-align: middle;
-													line-height: 40px;
-												">LUGARI</div>
-																									
-																								</div><div class="border border-gray-300 border-solid round m-1 " style="
-													padding: 17px;
-													width: 179px;
-												">
-																									<div class="fs-6 text-gray-800 fw-bold" style="
-													text-align: center;
-													vertical-align: middle;
-													line-height: 40px;
-												">MALAVA</div>
-																									
-																								</div>
-															<div class="border border-gray-300 border-solid round m-1 " style="
-													padding: 17px;
-													width: 179px;
-												">
-																									<div class="fs-6 text-gray-800 fw-bold" style="
-													text-align: center;
-													vertical-align: middle;
-													line-height: 40px;
-												">NAVAKHOLO</div>
-																									
-																								</div><div class="border border-gray-300 border-solid round m-1 " style="
-													padding: 17px;
-													width: 179px;
-												">
-																									<div class="fs-6 text-gray-800 fw-bold" style="
-													text-align: center;
-													vertical-align: middle;
-													line-height: 40px;
-												">LIKUYANI
-
-												</div>
-																									
-																								</div><div class="border border-gray-300 border-solid round m-1 " style="
-													padding: 17px;
-													width: 179px;
-												">
-																									<div class="fs-6 text-gray-800 fw-bold" style="
-													text-align: center;
-													vertical-align: middle;
-													line-height: 40px;
-												">BUTERE</div>
-
-												<div class="mb-xl-10 m-10">
-												<a href="#" class="btn btn-primary fw-semibold me-2" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan" style="background-color: #298352;">Sign-Up Now</a>
-												<a href="v2/login" class="btn btn-color-primary bg-transparent btn-outline fw-semibold" style="border: 1px solid rgb(41 131 82);">Save for Later</a>
-											</div>
-													
-												</div>
-												<!--end::Due-->
-												<!--begin::Budget-->
-												
-												<!--end::Budget-->
-											</div>
-											<!--end::Info-->
-											<!--begin::Progress-->
-											
-											<!--end::Progress-->
-											<!--begin::Users-->
-											
-											<!--end::Users-->
-										</div>
-										<!--end:: Card body-->
-									</a>
-									<!--end::Card-->
-								</div>
-
-        <div class="col-md-6 col-xl-7">
-									<!--begin::Card-->
-									<a class="card border-hover-primary">
-										<!--begin::Card header-->
-										
-										<!--end:: Card header-->
-										<!--begin:: Card body-->
-										<div class="card-body " style="
-    height: 670px;
+										<div style="
+    height: 650px;
     background-image: url(assets/map.png;);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-">
+" class="card-body ">
 											<!--begin::Name-->
 											
 											<!--end::Name-->
@@ -804,7 +794,11 @@
 				
 				<!--end::Curve bottom-->
 			</div>
+			
 			<!--end::Map Section-->
+
+
+
 			<!--begin::Projects Section-->
 			<div class="mb-lg-n15 position-relative z-index-2 mt-10">
 				<!--begin::Container-->
