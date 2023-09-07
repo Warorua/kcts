@@ -12,7 +12,7 @@ $id = $row['eid'];
 	<div class="row">
 	<div class="col-md-4">
 		<div class="form-group">
-			<div class="col-sm-2"><label for="">Foreman:</label></div>
+			<div class="col-sm-2"><label for="">Project Manager:</label></div>
 			<div class="col-sm-10">
 			<select name="fid" id="" class="form-control chosen-select" data-placeholder="Select Employee">
 			<option value="<?php echo $row['eid'] ?>"><?php echo ucwords($row['name']) ?></option>

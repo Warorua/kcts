@@ -199,7 +199,7 @@
             </div>
 
             <div class="form-group" id="form-login">
-              <label class="col-sm-4 control-label">Foreman:</label>
+              <label class="col-sm-4 control-label">Project Manager:</label>
               <div class="col-sm-8">
                 <select class="form-control" id="tid" name="tid" type="text" onchange="mem_list()" required>
                   <option></option>

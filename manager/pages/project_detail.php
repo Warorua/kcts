@@ -59,7 +59,7 @@ $row= mysqli_fetch_assoc($emp_query);
 	</div>
 	
 	<div class="row form-group">
-		<label class="control-label">Foreman:</label>
+		<label class="control-label">Project Manager:</label>
 		<label class="control-label"><?php echo $row['name'] ?></label>
 	</div>
 	</div>
