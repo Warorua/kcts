@@ -21,7 +21,7 @@ include '../includes/head.php';
 							<!--begin::Mobile logo-->
 							<div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
 								<a href="../index.html">
-									<img alt="Logo" src="../assets/media/logos/logo-3.png" class="h-35px" />
+									<img alt="Logo" src="<?php echo $filePathScript ?>assets/media/logos/logo-3.png" class="h-35px" />
 								</a>
 							</div>
 							<!--end::Mobile logo-->
@@ -223,12 +223,12 @@ include '../includes/head.php';
 											<div class="symbol-group symbol-hover">
 												<!--begin::User-->
 												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Emma Smith">
-													<img alt="Pic" src="../assets/media/avatars/300-6.jpg" />
+													<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-6.jpg" />
 												</div>
 												<!--begin::User-->
 												<!--begin::User-->
 												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Rudy Stone">
-													<img alt="Pic" src="../assets/media/avatars/300-1.jpg" />
+													<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-1.jpg" />
 												</div>
 												<!--begin::User-->
 												<!--begin::User-->
@@ -298,7 +298,7 @@ include '../includes/head.php';
 												<!--begin::User-->
 												<!--begin::User-->
 												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Brian Cox">
-													<img alt="Pic" src="../assets/media/avatars/300-5.jpg" />
+													<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-5.jpg" />
 												</div>
 												<!--begin::User-->
 											</div>
@@ -358,12 +358,12 @@ include '../includes/head.php';
 											<div class="symbol-group symbol-hover">
 												<!--begin::User-->
 												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Mad Macy">
-													<img alt="Pic" src="../assets/media/avatars/300-2.jpg" />
+													<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-2.jpg" />
 												</div>
 												<!--begin::User-->
 												<!--begin::User-->
 												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Cris Willson">
-													<img alt="Pic" src="../assets/media/avatars/300-9.jpg" />
+													<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-9.jpg" />
 												</div>
 												<!--begin::User-->
 												<!--begin::User-->
@@ -493,12 +493,12 @@ include '../includes/head.php';
 											<div class="symbol-group symbol-hover">
 												<!--begin::User-->
 												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Francis Mitcham">
-													<img alt="Pic" src="../assets/media/avatars/300-20.jpg" />
+													<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-20.jpg" />
 												</div>
 												<!--begin::User-->
 												<!--begin::User-->
 												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Michelle Swanston">
-													<img alt="Pic" src="../assets/media/avatars/300-7.jpg" />
+													<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-7.jpg" />
 												</div>
 												<!--begin::User-->
 												<!--begin::User-->
@@ -563,7 +563,7 @@ include '../includes/head.php';
 											<div class="symbol-group symbol-hover">
 												<!--begin::User-->
 												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Melody Macy">
-													<img alt="Pic" src="../assets/media/avatars/300-2.jpg" />
+													<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-2.jpg" />
 												</div>
 												<!--begin::User-->
 												<!--begin::User-->
@@ -628,12 +628,12 @@ include '../includes/head.php';
 											<div class="symbol-group symbol-hover">
 												<!--begin::User-->
 												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Melody Macy">
-													<img alt="Pic" src="../assets/media/avatars/300-2.jpg" />
+													<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-2.jpg" />
 												</div>
 												<!--begin::User-->
 												<!--begin::User-->
 												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="John Mixin">
-													<img alt="Pic" src="../assets/media/avatars/300-14.jpg" />
+													<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-14.jpg" />
 												</div>
 												<!--begin::User-->
 												<!--begin::User-->
@@ -703,7 +703,7 @@ include '../includes/head.php';
 												<!--begin::User-->
 												<!--begin::User-->
 												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Brian Cox">
-													<img alt="Pic" src="../assets/media/avatars/300-5.jpg" />
+													<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-5.jpg" />
 												</div>
 												<!--begin::User-->
 											</div>
@@ -763,12 +763,12 @@ include '../includes/head.php';
 											<div class="symbol-group symbol-hover">
 												<!--begin::User-->
 												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Nick Macy">
-													<img alt="Pic" src="../assets/media/avatars/300-2.jpg" />
+													<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-2.jpg" />
 												</div>
 												<!--begin::User-->
 												<!--begin::User-->
 												<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Sean Paul">
-													<img alt="Pic" src="../assets/media/avatars/300-9.jpg" />
+													<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-9.jpg" />
 												</div>
 												<!--begin::User-->
 												<!--begin::User-->
@@ -869,7 +869,7 @@ include '../includes/head.php';
 														<div class="d-flex align-items-center">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-35px symbol-circle">
-																<img alt="Pic" src="../assets/media/avatars/300-6.jpg" />
+																<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-6.jpg" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Details-->
@@ -937,7 +937,7 @@ include '../includes/head.php';
 														<div class="d-flex align-items-center">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-35px symbol-circle">
-																<img alt="Pic" src="../assets/media/avatars/300-1.jpg" />
+																<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-1.jpg" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Details-->
@@ -971,7 +971,7 @@ include '../includes/head.php';
 														<div class="d-flex align-items-center">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-35px symbol-circle">
-																<img alt="Pic" src="../assets/media/avatars/300-5.jpg" />
+																<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-5.jpg" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Details-->
@@ -1005,7 +1005,7 @@ include '../includes/head.php';
 														<div class="d-flex align-items-center">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-35px symbol-circle">
-																<img alt="Pic" src="../assets/media/avatars/300-25.jpg" />
+																<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-25.jpg" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Details-->
@@ -1073,7 +1073,7 @@ include '../includes/head.php';
 														<div class="d-flex align-items-center">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-35px symbol-circle">
-																<img alt="Pic" src="../assets/media/avatars/300-9.jpg" />
+																<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-9.jpg" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Details-->
@@ -1175,7 +1175,7 @@ include '../includes/head.php';
 														<div class="d-flex align-items-center">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-35px symbol-circle">
-																<img alt="Pic" src="../assets/media/avatars/300-23.jpg" />
+																<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-23.jpg" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Details-->
@@ -1243,7 +1243,7 @@ include '../includes/head.php';
 														<div class="d-flex align-items-center">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-35px symbol-circle">
-																<img alt="Pic" src="../assets/media/avatars/300-12.jpg" />
+																<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-12.jpg" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Details-->
@@ -1415,7 +1415,7 @@ include '../includes/head.php';
 															<a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
 																<!--begin::Avatar-->
 																<div class="symbol symbol-35px symbol-circle me-5">
-																	<img alt="Pic" src="../assets/media/avatars/300-6.jpg" />
+																	<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-6.jpg" />
 																</div>
 																<!--end::Avatar-->
 																<!--begin::Info-->
@@ -1445,7 +1445,7 @@ include '../includes/head.php';
 															<a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
 																<!--begin::Avatar-->
 																<div class="symbol symbol-35px symbol-circle me-5">
-																	<img alt="Pic" src="../assets/media/avatars/300-1.jpg" />
+																	<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-1.jpg" />
 																</div>
 																<!--end::Avatar-->
 																<!--begin::Info-->
@@ -1460,7 +1460,7 @@ include '../includes/head.php';
 															<a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
 																<!--begin::Avatar-->
 																<div class="symbol symbol-35px symbol-circle me-5">
-																	<img alt="Pic" src="../assets/media/avatars/300-5.jpg" />
+																	<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-5.jpg" />
 																</div>
 																<!--end::Avatar-->
 																<!--begin::Info-->
@@ -1475,7 +1475,7 @@ include '../includes/head.php';
 															<a href="#" class="d-flex align-items-center p-3 rounded bg-state-light bg-state-opacity-50 mb-1">
 																<!--begin::Avatar-->
 																<div class="symbol symbol-35px symbol-circle me-5">
-																	<img alt="Pic" src="../assets/media/avatars/300-25.jpg" />
+																	<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-25.jpg" />
 																</div>
 																<!--end::Avatar-->
 																<!--begin::Info-->
@@ -1505,7 +1505,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-6.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-6.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -1577,7 +1577,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-1.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-1.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -1613,7 +1613,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-5.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-5.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -1649,7 +1649,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-25.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-25.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -1721,7 +1721,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-9.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-9.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -1829,7 +1829,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-23.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-23.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -1901,7 +1901,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-12.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-12.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -1973,7 +1973,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-13.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-13.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -2045,7 +2045,7 @@ include '../includes/head.php';
 																	<!--end::Checkbox-->
 																	<!--begin::Avatar-->
 																	<div class="symbol symbol-35px symbol-circle">
-																		<img alt="Pic" src="../assets/media/avatars/300-21.jpg" />
+																		<img alt="Pic" src="<?php echo $filePathScript ?>assets/media/avatars/300-21.jpg" />
 																	</div>
 																	<!--end::Avatar-->
 																	<!--begin::Details-->
@@ -2123,7 +2123,7 @@ include '../includes/head.php';
 														<!--end::Message-->
 														<!--begin::Illustration-->
 														<div class="text-center px-5">
-															<img src="../assets/media/illustrations/sigma-1/1.png" alt="" class="w-100 h-200px h-sm-325px" />
+															<img src="<?php echo $filePathScript ?>assets/media/illustrations/sigma-1/1.png" alt="" class="w-100 h-200px h-sm-325px" />
 														</div>
 														<!--end::Illustration-->
 													</div>

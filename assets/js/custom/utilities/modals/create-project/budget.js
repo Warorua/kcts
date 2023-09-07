@@ -22,10 +22,10 @@ var KTModalCreateProjectBudget = function () {
 								message: 'Budget amount is required'
 							},
 							callback: {
-								message: 'The budget amount must be greater than $100',
+								message: 'The budget amount must be greater than KES10000',
 								callback: function(input) {
 									var currency = input.value;
-									currency = currency.replace(/[$,]+/g,"");
+									currency = currency.replace(/[KES,]+/g,"");
 
 									if (parseFloat(currency) < 100) {
 										return false;

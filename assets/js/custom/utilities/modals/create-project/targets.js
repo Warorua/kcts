@@ -49,14 +49,14 @@ var KTModalCreateProjectTargets = function () {
 					'target_title': {
 						validators: {
 							notEmpty: {
-								message: 'Target title is required'
+								message: 'Milestone title is required'
 							}
 						}
 					},
 					'target_assign': {
 						validators: {
 							notEmpty: {
-								message: 'Customer is required'
+								message: 'Milestone manager is required'
 							}
 						}
 					},
@@ -70,14 +70,14 @@ var KTModalCreateProjectTargets = function () {
 					'target_tags': {
 						validators: {
 							notEmpty: {
-								message: 'Target tags are required'
+								message: 'Milestone tags are required'
 							}
 						}
 					},
 					'target_allow': {
 						validators: {
 							notEmpty: {
-								message: 'Allowing target is required'
+								message: 'Allowing milestone is required'
 							}
 						}
 					},

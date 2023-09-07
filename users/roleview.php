@@ -54,8 +54,8 @@ include './includes/head.php';
 						<div class="container d-flex flex-stack">
 							<!--begin::Mobile logo-->
 							<div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
-								<a href="../../../index.html">
-									<img alt="Logo" src="../../../assets/media/logos/logo-demo9.svg" class="h-35px">
+								<a href="<?php echo $filePathScript ?>index.html">
+									<img alt="Logo" src="<?php echo $filePathScript ?>assets/media/logos/logo-demo9.svg" class="h-35px">
 								</a>
 							</div>
 							<!--end::Mobile logo-->
@@ -672,7 +672,7 @@ include './includes/head.php';
 															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
 																<a href="../users/view.html">
 																	<div class="symbol-label">
-																		<img src="../../../assets/media/avatars/300-5.jpg" alt="Sean Bean" class="w-100">
+																		<img src="<?php echo $filePathScript ?>assets/media/avatars/300-5.jpg" alt="Sean Bean" class="w-100">
 																	</div>
 																</a>
 															</div>
@@ -731,7 +731,7 @@ include './includes/head.php';
 															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
 																<a href="../users/view.html">
 																	<div class="symbol-label">
-																		<img src="../../../assets/media/avatars/300-9.jpg" alt="Francis Mitcham" class="w-100">
+																		<img src="<?php echo $filePathScript ?>assets/media/avatars/300-9.jpg" alt="Francis Mitcham" class="w-100">
 																	</div>
 																</a>
 															</div>
@@ -847,7 +847,7 @@ include './includes/head.php';
 															<div class="symbol symbol-circle symbol-50px overflow-hidden me-3">
 																<a href="../users/view.html">
 																	<div class="symbol-label">
-																		<img src="../../../assets/media/avatars/300-12.jpg" alt="Ana Crown" class="w-100">
+																		<img src="<?php echo $filePathScript ?>assets/media/avatars/300-12.jpg" alt="Ana Crown" class="w-100">
 																	</div>
 																</a>
 															</div>

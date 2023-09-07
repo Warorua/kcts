@@ -68,5 +68,21 @@ RewriteRule ^v3/subscribe public/app_subscribe.php [NC,L]
 RewriteRule ^v3/refer public/refer_a_new_user.php [NC,L]
 RewriteRule ^v3/contacts public/contact.php [NC,L]
 
+# To make the link https://localhost/kever/list_data.php?name=alex appear as https://localhost/kever/list_data/alex,
+RewriteRule ^projects/list projects/list.php [NC,L]
+RewriteRule ^project/overview/(.*)$ projects/project.php?pid=$1 [L]
+RewriteRule ^project/targets/(.*)$ projects/targets.php?pid=$1 [L]
+RewriteRule ^project/budget/(.*)$ projects/budget.php?pid=$1 [L]
+RewriteRule ^project/users/(.*)$ projects/users.php?pid=$1 [L]
+RewriteRule ^project/files/(.*)$ projects/files.php?pid=$1 [L]
+RewriteRule ^project/settings/(.*)$ projects/settings.php?pid=$1 [L]
+
+RewriteRule ^user/list users/userlist.php [NC,L]
+RewriteRule ^users/view/(.*)$ users/userview.php?pid=$1 [L]
+RewriteRule ^users/role/(.*)$ users/roleview.php?pid=$1 [L]
+RewriteRule ^users/permissions/(.*)$ users/userpermission.php?pid=$1 [L]
+RewriteRule ^users/settings/(.*)$ users/settings.php?pid=$1 [L]
+
+
 php_value max_execution_time 120000
 

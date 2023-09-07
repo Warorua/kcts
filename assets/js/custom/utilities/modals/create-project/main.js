@@ -46,9 +46,9 @@ KTUtil.onDOMContentLoaded(function () {
 	KTModalCreateProjectType.init();
 	KTModalCreateProjectBudget.init();
 	KTModalCreateProjectSettings.init();
-	KTModalCreateProjectTeam.init();
+	//KTModalCreateProjectTeam.init();
 	KTModalCreateProjectTargets.init();
-	KTModalCreateProjectFiles.init();
+	//KTModalCreateProjectFiles.init();
 	KTModalCreateProjectComplete.init();
 });
 

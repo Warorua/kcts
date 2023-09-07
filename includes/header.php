@@ -77,7 +77,7 @@ if(!isset($dashHeadDesc)){
                                     <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
                                         <!--begin::Symbol-->
                                         <div class="symbol symbol-40px me-4">
-                                            <img src="<?php echo $filePath ?>assets/media/avatars/300-6.jpg" alt="" />
+                                            <img src="<?php echo $filePathScript ?>assets/media/avatars/300-6.jpg" alt="" />
                                         </div>
                                         <!--end::Symbol-->
                                         <!--begin::Title-->
@@ -92,7 +92,7 @@ if(!isset($dashHeadDesc)){
                                     <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
                                         <!--begin::Symbol-->
                                         <div class="symbol symbol-40px me-4">
-                                            <img src="<?php echo $filePath ?>assets/media/avatars/300-2.jpg" alt="" />
+                                            <img src="<?php echo $filePathScript ?>assets/media/avatars/300-2.jpg" alt="" />
                                         </div>
                                         <!--end::Symbol-->
                                         <!--begin::Title-->
@@ -107,7 +107,7 @@ if(!isset($dashHeadDesc)){
                                     <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
                                         <!--begin::Symbol-->
                                         <div class="symbol symbol-40px me-4">
-                                            <img src="<?php echo $filePath ?>assets/media/avatars/300-9.jpg" alt="" />
+                                            <img src="<?php echo $filePathScript ?>assets/media/avatars/300-9.jpg" alt="" />
                                         </div>
                                         <!--end::Symbol-->
                                         <!--begin::Title-->
@@ -122,7 +122,7 @@ if(!isset($dashHeadDesc)){
                                     <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
                                         <!--begin::Symbol-->
                                         <div class="symbol symbol-40px me-4">
-                                            <img src="<?php echo $filePath ?>assets/media/avatars/300-14.jpg" alt="" />
+                                            <img src="<?php echo $filePathScript ?>assets/media/avatars/300-14.jpg" alt="" />
                                         </div>
                                         <!--end::Symbol-->
                                         <!--begin::Title-->
@@ -137,7 +137,7 @@ if(!isset($dashHeadDesc)){
                                     <a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
                                         <!--begin::Symbol-->
                                         <div class="symbol symbol-40px me-4">
-                                            <img src="<?php echo $filePath ?>assets/media/avatars/300-11.jpg" alt="" />
+                                            <img src="<?php echo $filePathScript ?>assets/media/avatars/300-11.jpg" alt="" />
                                         </div>
                                         <!--end::Symbol-->
                                         <!--begin::Title-->
@@ -156,7 +156,7 @@ if(!isset($dashHeadDesc)){
                                         <!--begin::Symbol-->
                                         <div class="symbol symbol-40px me-4">
                                             <span class="symbol-label bg-light">
-                                                <img class="w-20px h-20px" src="<?php echo $filePath ?>assets/media/svg/brand-logos/volicity-9.svg" alt="" />
+                                                <img class="w-20px h-20px" src="<?php echo $filePathScript ?>assets/media/svg/brand-logos/volicity-9.svg" alt="" />
                                             </span>
                                         </div>
                                         <!--end::Symbol-->
@@ -173,7 +173,7 @@ if(!isset($dashHeadDesc)){
                                         <!--begin::Symbol-->
                                         <div class="symbol symbol-40px me-4">
                                             <span class="symbol-label bg-light">
-                                                <img class="w-20px h-20px" src="<?php echo $filePath ?>assets/media/svg/brand-logos/tvit.svg" alt="" />
+                                                <img class="w-20px h-20px" src="<?php echo $filePathScript ?>assets/media/svg/brand-logos/tvit.svg" alt="" />
                                             </span>
                                         </div>
                                         <!--end::Symbol-->
@@ -190,7 +190,7 @@ if(!isset($dashHeadDesc)){
                                         <!--begin::Symbol-->
                                         <div class="symbol symbol-40px me-4">
                                             <span class="symbol-label bg-light">
-                                                <img class="w-20px h-20px" src="<?php echo $filePath ?>assets/media/svg/misc/infography.svg" alt="" />
+                                                <img class="w-20px h-20px" src="<?php echo $filePathScript ?>assets/media/svg/misc/infography.svg" alt="" />
                                             </span>
                                         </div>
                                         <!--end::Symbol-->
@@ -207,7 +207,7 @@ if(!isset($dashHeadDesc)){
                                         <!--begin::Symbol-->
                                         <div class="symbol symbol-40px me-4">
                                             <span class="symbol-label bg-light">
-                                                <img class="w-20px h-20px" src="<?php echo $filePath ?>assets/media/svg/brand-logos/leaf.svg" alt="" />
+                                                <img class="w-20px h-20px" src="<?php echo $filePathScript ?>assets/media/svg/brand-logos/leaf.svg" alt="" />
                                             </span>
                                         </div>
                                         <!--end::Symbol-->
@@ -224,7 +224,7 @@ if(!isset($dashHeadDesc)){
                                         <!--begin::Symbol-->
                                         <div class="symbol symbol-40px me-4">
                                             <span class="symbol-label bg-light">
-                                                <img class="w-20px h-20px" src="<?php echo $filePath ?>assets/media/svg/brand-logos/tower.svg" alt="" />
+                                                <img class="w-20px h-20px" src="<?php echo $filePathScript ?>assets/media/svg/brand-logos/tower.svg" alt="" />
                                             </span>
                                         </div>
                                         <!--end::Symbol-->
@@ -1053,7 +1053,7 @@ if(!isset($dashHeadDesc)){
                                     <!--end::Section-->
                                     <!--begin::Illustration-->
                                     <div class="text-center px-4">
-                                        <img class="mw-100 mh-200px" alt="image" src="<?php echo $filePath ?>assets/media/illustrations/sigma-1/1.png" />
+                                        <img class="mw-100 mh-200px" alt="image" src="<?php echo $filePathScript ?>assets/media/illustrations/sigma-1/1.png" />
                                     </div>
                                     <!--end::Illustration-->
                                 </div>
@@ -1329,7 +1329,7 @@ if(!isset($dashHeadDesc)){
                         <!--end::Menu separator-->
                         <!--begin::Menu item-->
                         <div class="menu-item px-5">
-                            <a href="<?php echo $filePath ?>account/overview.php" class="menu-link px-5">My Profile</a>
+                            <a href="<?php echo $filePathScript ?>account/overview.php" class="menu-link px-5">My Profile</a>
                         </div>
                         <!--end::Menu item-->
                         <!--begin::Menu item-->
@@ -1352,22 +1352,22 @@ if(!isset($dashHeadDesc)){
                             <div class="menu-sub menu-sub-dropdown w-175px py-4">
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-3">
-                                    <a href="<?php echo $filePath ?>account/referrals.php" class="menu-link px-5">Referrals</a>
+                                    <a href="<?php echo $filePathScript ?>account/referrals.php" class="menu-link px-5">Referrals</a>
                                 </div>
                                 <!--end::Menu item-->
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-3">
-                                    <a href="<?php echo $filePath ?>account/billing.php" class="menu-link px-5">Billing</a>
+                                    <a href="<?php echo $filePathScript ?>account/billing.php" class="menu-link px-5">Billing</a>
                                 </div>
                                 <!--end::Menu item-->
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-3">
-                                    <a href="<?php echo $filePath ?>account/statements.php" class="menu-link px-5">Payments</a>
+                                    <a href="<?php echo $filePathScript ?>account/statements.php" class="menu-link px-5">Payments</a>
                                 </div>
                                 <!--end::Menu item-->
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-3">
-                                    <a href="<?php echo $filePath ?>account/statements.php" class="menu-link d-flex flex-stack px-5">Statements
+                                    <a href="<?php echo $filePathScript ?>account/statements.php" class="menu-link d-flex flex-stack px-5">Statements
                                         <i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="View your statements"></i></a>
                                 </div>
                                 <!--end::Menu item-->
@@ -1390,7 +1390,7 @@ if(!isset($dashHeadDesc)){
                         <!--end::Menu item-->
                         <!--begin::Menu item-->
                         <div class="menu-item px-5">
-                            <a href="<?php echo $filePath ?>account/statements.php" class="menu-link px-5">My Statements</a>
+                            <a href="<?php echo $filePathScript ?>account/statements.php" class="menu-link px-5">My Statements</a>
                         </div>
                         <!--end::Menu item-->
                         <!--begin::Menu separator-->
@@ -1401,47 +1401,47 @@ if(!isset($dashHeadDesc)){
                             <a href="#" class="menu-link px-5">
                                 <span class="menu-title position-relative">Language
                                     <span class="fs-8 rounded bg-light px-3 py-2 position-absolute translate-middle-y top-50 end-0">English
-                                        <img class="w-15px h-15px rounded-1 ms-2" src="<?php echo $filePath ?>assets/media/flags/united-states.svg" alt="" /></span></span>
+                                        <img class="w-15px h-15px rounded-1 ms-2" src="<?php echo $filePathScript ?>assets/media/flags/united-states.svg" alt="" /></span></span>
                             </a>
                             <!--begin::Menu sub-->
                             <div class="menu-sub menu-sub-dropdown w-175px py-4">
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-3">
-                                    <a href="<?php echo $filePath ?>account/settings.php" class="menu-link d-flex px-5 active">
+                                    <a href="<?php echo $filePathScript ?>account/settings.php" class="menu-link d-flex px-5 active">
                                         <span class="symbol symbol-20px me-4">
-                                            <img class="rounded-1" src="<?php echo $filePath ?>assets/media/flags/united-states.svg" alt="" />
+                                            <img class="rounded-1" src="<?php echo $filePathScript ?>assets/media/flags/united-states.svg" alt="" />
                                         </span>English</a>
                                 </div>
                                 <!--end::Menu item-->
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-3">
-                                    <a href="<?php echo $filePath ?>account/settings.php" class="menu-link d-flex px-5">
+                                    <a href="<?php echo $filePathScript ?>account/settings.php" class="menu-link d-flex px-5">
                                         <span class="symbol symbol-20px me-4">
-                                            <img class="rounded-1" src="<?php echo $filePath ?>assets/media/flags/spain.svg" alt="" />
+                                            <img class="rounded-1" src="<?php echo $filePathScript ?>assets/media/flags/spain.svg" alt="" />
                                         </span>Spanish</a>
                                 </div>
                                 <!--end::Menu item-->
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-3">
-                                    <a href="<?php echo $filePath ?>account/settings.php" class="menu-link d-flex px-5">
+                                    <a href="<?php echo $filePathScript ?>account/settings.php" class="menu-link d-flex px-5">
                                         <span class="symbol symbol-20px me-4">
-                                            <img class="rounded-1" src="<?php echo $filePath ?>assets/media/flags/germany.svg" alt="" />
+                                            <img class="rounded-1" src="<?php echo $filePathScript ?>assets/media/flags/germany.svg" alt="" />
                                         </span>German</a>
                                 </div>
                                 <!--end::Menu item-->
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-3">
-                                    <a href="<?php echo $filePath ?>account/settings.php" class="menu-link d-flex px-5">
+                                    <a href="<?php echo $filePathScript ?>account/settings.php" class="menu-link d-flex px-5">
                                         <span class="symbol symbol-20px me-4">
-                                            <img class="rounded-1" src="<?php echo $filePath ?>assets/media/flags/japan.svg" alt="" />
+                                            <img class="rounded-1" src="<?php echo $filePathScript ?>assets/media/flags/japan.svg" alt="" />
                                         </span>Japanese</a>
                                 </div>
                                 <!--end::Menu item-->
                                 <!--begin::Menu item-->
                                 <div class="menu-item px-3">
-                                    <a href="<?php echo $filePath ?>account/settings.php" class="menu-link d-flex px-5">
+                                    <a href="<?php echo $filePathScript ?>account/settings.php" class="menu-link d-flex px-5">
                                         <span class="symbol symbol-20px me-4">
-                                            <img class="rounded-1" src="<?php echo $filePath ?>assets/media/flags/france.svg" alt="" />
+                                            <img class="rounded-1" src="<?php echo $filePathScript ?>assets/media/flags/france.svg" alt="" />
                                         </span>French</a>
                                 </div>
                                 <!--end::Menu item-->
@@ -1451,12 +1451,12 @@ if(!isset($dashHeadDesc)){
                         <!--end::Menu item-->
                         <!--begin::Menu item-->
                         <div class="menu-item px-5 my-1">
-                            <a href="<?php echo $filePath ?>account/settings.php" class="menu-link px-5">Account Settings</a>
+                            <a href="<?php echo $filePathScript ?>account/settings.php" class="menu-link px-5">Account Settings</a>
                         </div>
                         <!--end::Menu item-->
                         <!--begin::Menu item-->
                         <div class="menu-item px-5">
-                            <a href="authentication/flows/basic/sign-in.php" class="menu-link px-5">Sign Out</a>
+                            <a href="<?php echo $filePathScript ?>includes/logout.php" class="menu-link px-5">Sign Out</a>
                         </div>
                         <!--end::Menu item-->
                         <!--begin::Menu separator-->
@@ -1512,7 +1512,7 @@ if(!isset($dashHeadDesc)){
                 </div>
                 <!--end::Theme mode-->
                 <!--begin::Item-->
-                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">New Goal</a>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_project">New Project</a>
                 <!--end::Item-->
             </div>
             <!--end::Action-->
