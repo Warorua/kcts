@@ -345,7 +345,7 @@
     text-align: center;
     vertical-align: middle;
     line-height: 40px;
-">LURAMBI</div>
+">SHINYALU</div>
 													
 												</div>
 
@@ -361,14 +361,14 @@
     text-align: center;
     vertical-align: middle;
     line-height: 40px;
-">LURAMBI</div>
+">IKOLOMANI</div>
 													
 												</div><div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:5px;">
     <div class="fs-6 text-gray-800 fw-bold" style="
     text-align: center;
     vertical-align: middle;
     line-height: 40px;
-">LURAMBI</div>
+">KHWISERO</div>
 													
 												</div>
 
@@ -382,14 +382,14 @@
     text-align: center;
     vertical-align: middle;
     line-height: 40px;
-">LURAMBI</div>
+">MUMIAS EAST</div>
 													
 												</div><div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:5px;">
     <div class="fs-6 text-gray-800 fw-bold" style="
     text-align: center;
     vertical-align: middle;
     line-height: 40px;
-">LURAMBI</div>
+">MUMIAS WEST</div>
 													
 												</div>
 
@@ -411,14 +411,14 @@
     text-align: center;
     vertical-align: middle;
     line-height: 40px;
-">LURAMBI</div>
+">MATUNGU</div>
 													
 												</div><div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:5px;">
     <div class="fs-6 text-gray-800 fw-bold" style="
     text-align: center;
     vertical-align: middle;
     line-height: 40px;
-">LURAMBI</div>
+">NAVAKHOLO</div>
 													
 												</div>
 
@@ -432,14 +432,14 @@
     text-align: center;
     vertical-align: middle;
     line-height: 40px;
-">LURAMBI</div>
+">MALAVA</div>
 													
 												</div><div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:5px;">
     <div class="fs-6 text-gray-800 fw-bold" style="
     text-align: center;
     vertical-align: middle;
     line-height: 40px;
-">LURAMBI</div>
+">LUGARI</div>
 													
 												</div>
 
@@ -453,14 +453,14 @@
     text-align: center;
     vertical-align: middle;
     line-height: 40px;
-">LURAMBI</div>
+">LIKUYANI</div>
 													
 												</div><div class=" col-sm-6 border border-gray-300 border-solid round  " style="padding:17px; width:179px; margin-right:5px;">
     <div class="fs-6 text-gray-800 fw-bold" style="
     text-align: center;
     vertical-align: middle;
     line-height: 40px;
-">LURAMBI</div>
+">BUTERE</div>
 													
 												</div>
 
@@ -794,7 +794,7 @@
 				
 				<!--end::Curve bottom-->
 			</div>
-			
+
 			<!--end::Map Section-->
 
 
