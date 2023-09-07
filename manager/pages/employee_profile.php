@@ -10,7 +10,7 @@
 <?php
 include '../includes/db.php';
 $id = $_GET['id'];
-$emp_query = mysqli_query($conn2,"SELECT *,CONCAT(lastname,', ',firstname,' ',midname) as name from employee natural join position  where eid= '$id'");
+$emp_query = mysqli_query($conn2,"SELECT *,CONCAT(last_name,', ',first_name,' ',midname) as name from employee natural join position  where eid= '$id'");
 $row= mysqli_fetch_assoc($emp_query);
 $d1 = date("Y",strtotime($row['bday']));
 $d2 = date("Y");

@@ -1,6 +1,6 @@
 <?php include '../includes/db.php';
 
-$query = mysqli_query($conn2,"SELECT eid,concat(lastname,', ',firstname,' ',midname) as name FROM employee where eid = '".$_GET['id']."' ");
+$query = mysqli_query($conn2,"SELECT eid,concat(last_name,', ',first_name,' ',midname) as name FROM employee where eid = '".$_GET['id']."' ");
 $row = mysqli_fetch_assoc($query);
 $id = $row['eid'];
 $name = $row['name'];

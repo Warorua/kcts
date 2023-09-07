@@ -2734,7 +2734,7 @@ class TCPDF_STATIC {
 
 	/**
 	 * Split string by a regular expression.
-	 * This is a wrapper for the preg_split function to avoid the bug: https://bugs.php.net/bug.php?id=45850
+	 * This is a wrapper for the preg_split function to avoid the bug: https://bugs.KES.net/bug.php?id=45850
 	 * @param $pattern (string) The regular expression pattern to search for without the modifiers, as a string.
 	 * @param $modifiers (string) The modifiers part of the pattern,
 	 * @param $subject (string) The input string.

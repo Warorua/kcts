@@ -22,7 +22,7 @@ $user_id = '';
 	while($row = mysqli_fetch_assoc($query)){
 		if($count > 0) {
 			session_regenerate_id();
-			$name = $row['firstname'] . ' ' . $row['lastname'];
+			$name = $row['first_name'] . ' ' . $row['last_name'];
 
 			$_SESSION['ID'] = $row['eid'];
 			$_SESSION['UID'] = $row['uid'];
@@ -70,8 +70,8 @@ try {
 							header('location: ./two-steps.php');
 						} else {
 							$_SESSION['user_id'] = $row['id'];
-							$_SESSION['info'] = 'Hello, ' . $row['firstname'];
-							$name = $row['firstname'] . ' ' . $row['lastname'];
+							$_SESSION['info'] = 'Hello, ' . $row['first_name'];
+							$name = $row['first_name'] . ' ' . $row['last_name'];
 							$_SESSION['ID'] = $row['id'];
 							$_SESSION['UID'] = $row['id'];
 							$_SESSION['TYPE'] = $row['type'];

@@ -210,14 +210,14 @@
           <label class="col-sm-4 control-label">Last Name:</label>
           <div class="col-sm-8">
           <input type="hidden" name="id" value="<?php echo $_GET['id'] ?>">
-            <input class="form-control" style="text-transform:capitalize" id="" name="lname" type="text" value="<?php echo $emp_row['lastname'] ?>"  required>
+            <input class="form-control" style="text-transform:capitalize" id="" name="lname" type="text" value="<?php echo $emp_row['last_name'] ?>"  required>
           </div>
         </div>
    
       <div class="form-group" id="form-login">
           <label class="col-sm-4 control-label">First Name:</label>
           <div class="col-sm-8">
-            <input class="form-control" style="text-transform:capitalize" id="" name="fname" type="text" value="<?php echo $emp_row['firstname'] ?>"  required>
+            <input class="form-control" style="text-transform:capitalize" id="" name="fname" type="text" value="<?php echo $emp_row['first_name'] ?>"  required>
           </div>
         </div> 
 
@@ -339,7 +339,7 @@
    <?php
    $id=$_GET['id'];
 
-   $query_proj = mysqli_query($conn2,"SELECT *,CONCAT(lastname,', ',firstname,' ',midname) as name,projects.io as status from projects left join project_team on projects.tid = project_team.tid left join employee on project_team.eid = employee.eid  where project_id = '$id' ");
+   $query_proj = mysqli_query($conn2,"SELECT *,CONCAT(last_name,', ',first_name,' ',midname) as name,projects.io as status from projects left join project_team on projects.tid = project_team.tid left join employee on project_team.eid = employee.eid  where id = '$id' ");
    $prow=mysqli_fetch_assoc($query_proj);
     ?>
     <div class="form-horizontal">
@@ -392,7 +392,7 @@
       <div class="form-group" id="form-login">
           <label class="col-sm-4 control-label">Cost:</label>
           <div class="col-sm-6">
-            <input class="form-control" style="text-align:right" id="cc" name="cost" type="text" placeholder="Php." value="<?php echo $prow['budget_setup'] ?>">
+            <input class="form-control" style="text-align:right" id="cc" name="cost" type="text" placeholder="KES." value="<?php echo $prow['budget_setup'] ?>">
           </div>
         </div>
 
@@ -417,7 +417,7 @@
             <option value="<?php echo $prow['tid'] ?>"> <?php echo $prow['name'] ?></option>
             <?php
             include '../includes/db.php';
-              $pos_query = mysqli_query($conn2,"SELECT *,Concat(lastname,', ',firstname,' ',midname) as name FROM project_team left join employee on project_team.eid = employee.eid where project_team.eid != '".$prow['eid']."' order by name ASC");
+              $pos_query = mysqli_query($conn2,"SELECT *,Concat(last_name,', ',first_name,' ',midname) as name FROM project_team left join employee on project_team.eid = employee.eid where project_team.eid != '".$prow['eid']."' order by name ASC");
               while($pos_row = mysqli_fetch_assoc($pos_query)){
              ?>
             <option style="text-transform:capitalize" value="<?php echo $pos_row['tid'] ?>"><?php echo $pos_row['name'] ?></option>

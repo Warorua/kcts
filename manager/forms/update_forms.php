@@ -115,8 +115,8 @@ if($action == 'employee'){
 	$ps =$_POST['ps'];
 
 
-	$query = mysqli_query($conn2,"UPDATE employee SET lastname = '$lname',
-													firstname = '$fname',
+	$query = mysqli_query($conn2,"UPDATE employee SET last_name = '$lname',
+													first_name = '$fname',
 													midname = '$mname',
 													bday = '$bday',
 													contact_no = '$cn',

@@ -4,9 +4,9 @@ include '../includes/db.php';
 
 $pname= $_GET['name'];
 if($pname == ''){
-	$sql = mysqli_query($conn2,"SELECT *,CONCAT(lastname,', ',firstname, ' ',midname) as name from projects left join project_team on projects.tid = project_team.tid left join employee on project_team.eid = employee.eid order by deadline ASC");;
+	$sql = mysqli_query($conn2,"SELECT *,CONCAT(last_name,', ',first_name, ' ',midname) as name from projects left join project_team on projects.tid = project_team.tid left join employee on project_team.eid = employee.eid order by deadline ASC");;
 }else{
-	$sql =mysqli_query($conn2,"SELECT *,CONCAT(lastname,', ',firstname, ' ',midname) as name from projects left join project_team on projects.tid = project_team.tid left join employee on project_team.eid = employee.eid where  project like '%".$pname."%' order by deadline ASC");
+	$sql =mysqli_query($conn2,"SELECT *,CONCAT(last_name,', ',first_name, ' ',midname) as name from projects left join project_team on projects.tid = project_team.tid left join employee on project_team.eid = employee.eid where  project like '%".$pname."%' order by deadline ASC");
 
 	
 }

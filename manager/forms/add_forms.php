@@ -107,7 +107,7 @@ if($action == 'employee'){
 
 	$query = mysqli_query($conn2,"INSERT INTO employee (last_name,first_name,midname,bday,contact_no,address,pid,status,gender,ecode,e_pic,io,date_added)
 		VALUES('$lname','$fname','$mname','$bday','$cn','$address','$position','$status','$gender','$ecode','$file','1',NOW())");
-	$last_id = mysqli_insert_id($conn);
+	$last_id = mysqli_insert_id($conn2);
 	if($query){
 		echo '<script>$("#suc_msg").show("slidedown");
 		 var delay = 1500;
@@ -154,7 +154,7 @@ if($action == 'team'){
 	$fid = $_POST['fid'];
 
 	$q1 = mysqli_query($conn2,"INSERT INTO project_team (eid,date_added,pio) VALUES('$fid',now(),'1')");
-	$id = mysqli_insert_id($conn);
+	$id = mysqli_insert_id($conn2);
 	if(isset($_POST['mid'])){
 		$mid = $_POST['mid'];
 		$mc=count($mid);

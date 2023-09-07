@@ -88,7 +88,7 @@ if (!empty($page)) {
   <?php
     include '../includes/db.php';
    
-      $query2=  mysqli_query($conn2, "SELECT *,CONCAT(lastname,', ',firstname,' ',midname) as name,users.io as status FROM users natural join employee where id = '".$_SESSION['UID']."' ");
+      $query2=  mysqli_query($conn2, "SELECT *,CONCAT(last_name,', ',first_name,' ',midname) as name,users.io as status FROM users natural join employee where id = '".$_SESSION['UID']."' ");
        $row2 = mysqli_fetch_assoc($query2);  
     ?>
   <div id="retCode1"><div class="alert alert-success" id="msg20"><i class="fa fa-check"></i> Data successfully updated. </div></div>

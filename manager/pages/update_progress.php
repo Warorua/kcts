@@ -47,7 +47,7 @@ $row= mysqli_fetch_assoc($emp_query);
 
 	<div class="row">
 		<div class="col-sm-4 text-right"><label class="control-label">Project Cost:</label></div>
-		<div class="col-sm-8 text-left"><label class="control-label"><?php echo  $row['budget_setup'] . ' Php.' ?></label></div>
+		<div class="col-sm-8 text-left"><label class="control-label"><?php echo  $row['budget_setup'] . ' KES.' ?></label></div>
 	</div>
 	
 	<div class="row">

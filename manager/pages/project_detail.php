@@ -50,7 +50,7 @@ $row= mysqli_fetch_assoc($emp_query);
 
 	<div class="row form-group">
 		<label class="control-label">Project Cost:</label>
-		<label class="control-label"><?php echo  $row['budget_setup'] . ' Php.' ?></label>
+		<label class="control-label"><?php echo  $row['budget_setup'] . ' KES.' ?></label>
 	</div>
 	
 	<div class="row form-group">

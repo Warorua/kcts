@@ -180,7 +180,7 @@
             <div class="form-group" id="form-login">
               <label class="col-sm-4 control-label">Cost:</label>
               <div class="col-sm-6">
-                <input class="form-control" style="text-align:right" id="cc" name="cost" type="text" placeholder="Php.">
+                <input class="form-control" style="text-align:right" id="cc" name="cost" type="text" placeholder="KES.">
               </div>
             </div>
 

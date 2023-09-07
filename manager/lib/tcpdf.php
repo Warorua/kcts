@@ -10987,14 +10987,14 @@ class TCPDF {
 		}
 		if ($mode > 1) { // AES
 			if (!extension_loaded('mcrypt')) {
-				$this->Error('AES encryption requires mcrypt library (http://www.php.net/manual/en/mcrypt.requirements.php).');
+				$this->Error('AES encryption requires mcrypt library (http://www.KES.net/manual/en/mcrypt.requirements.php).');
 			}
 			if (mcrypt_get_cipher_name(MCRYPT_RIJNDAEL_128) === false) {
 				$this->Error('AES encryption requires MCRYPT_RIJNDAEL_128 cypher.');
 			}
 			if (($mode == 3) AND !function_exists('hash')) {
 				// the Hash extension requires no external libraries and is enabled by default as of PHP 5.1.2.
-				$this->Error('AES 256 encryption requires HASH Message Digest Framework (http://www.php.net/manual/en/book.hash.php).');
+				$this->Error('AES 256 encryption requires HASH Message Digest Framework (http://www.KES.net/manual/en/book.hash.php).');
 			}
 		}
 		if ($owner_pass === null) {

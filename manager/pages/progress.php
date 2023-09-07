@@ -22,7 +22,7 @@ include '../includes/db.php';
 <div class="col-md-12">
 <div id="prog_body">
 <?php 
- $sql = mysqli_query($conn2,"SELECT *,CONCAT(lastname,', ',firstname, ' ',midname) as name from projects left join project_team on projects.tid = project_team.tid left join employee on project_team.eid = employee.eid  order by deadline ASC");
+ $sql = mysqli_query($conn2,"SELECT *,CONCAT(last_name,', ',first_name, ' ',midname) as name from projects left join project_team on projects.tid = project_team.tid left join employee on project_team.eid = employee.eid  order by deadline ASC");
  while($proj = mysqli_fetch_assoc($sql)){
  	$id= $proj['project_id'];
 ?>
