@@ -489,7 +489,7 @@
 										<!--begin:: Card body-->
 										<div style="
     height: 650px;
-    background-image: url(assets/map.png;);
+    background-image: url(assets/media/map.png;);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
