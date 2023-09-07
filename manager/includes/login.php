@@ -7,8 +7,9 @@ $errmsg_arr = array();
 $errflag = false;
 
 include('./db.php');
-include('./functions.php');
+
 include('./conn2.php');
+include('./functions.php');
 $user = $_POST['user'];
 $pass = $_POST['pass'];
 $mode = 'C0';
@@ -70,8 +71,8 @@ try {
 							header('location: ./two-steps.php');
 						} else {
 							$_SESSION['user_id'] = $row['id'];
-							$_SESSION['info'] = 'Hello, ' . $row['first_name'];
-							$name = $row['first_name'] . ' ' . $row['last_name'];
+							$_SESSION['info'] = 'Hello, ' . $row['firstname'];
+							$name = $row['firstname'] . ' ' . $row['lastname'];
 							$_SESSION['ID'] = $row['id'];
 							$_SESSION['UID'] = $row['id'];
 							$_SESSION['TYPE'] = $row['type'];
