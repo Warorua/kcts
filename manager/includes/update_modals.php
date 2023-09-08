@@ -194,18 +194,21 @@ include '../includes/conn2.php';
       <form method="POST" id='update_employee'>
         <div class="modal-body">
           <?php
-          function empRow($id)
-          {
-            global $conn;
-            $stmt = $conn->prepare("SELECT * from employee natural join position where eid = :eid");
-            $stmt->execute(['eid' => $id]);
-            $emp_row = $stmt->fetch();
-            if (is_array($emp_row)) {
-              return $emp_row;
-            } else {
-              empRow("2");
+          if (!function_exists('empRow')) {
+            function empRow($id)
+            {
+              global $conn;
+              $stmt = $conn->prepare("SELECT * from employee natural join position where eid = :eid");
+              $stmt->execute(['eid' => $id]);
+              $emp_row = $stmt->fetch();
+              if (is_array($emp_row)) {
+                return $emp_row;
+              } else {
+                empRow("2");
+              }
             }
           }
+
           $emp_row = empRow($_GET['id']);
           echo json_encode($emp_row);
           ?>
@@ -307,7 +310,7 @@ include '../includes/conn2.php';
                   ?>
                     <option style="text-transform:capitalize" value="<?php echo $pos_row['pid'] ?>"><?php echo $pos_row['position'] ?></option>
                   <?php } ?>
-                  
+
                 </select>
               </div>
             </div>
