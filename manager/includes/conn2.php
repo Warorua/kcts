@@ -62,4 +62,13 @@ $pdo = new Database();
 
 $conn = $pdo->open();
 
+// Check the session status
+if (session_status() === PHP_SESSION_ACTIVE) {
+    // Session is active
+   // echo "Session is active";
+} else {
+    // Session is not active
+    //echo "Session is not active";
+	session_start();
+}
 //session_start();
