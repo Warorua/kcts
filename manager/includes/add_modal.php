@@ -1,4 +1,8 @@
 <!-- New Employee Modal -->
+<?php
+include '../includes/db.php';
+include '../includes/conn2.php';
+?>
 <div id="new_employee" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
   <div class="modal-dialog">
     <div class="modal-content modal-md">
@@ -155,11 +159,14 @@
               <div class="col-sm-8">
                 <select type="text" class="form-control input-sm" style="text-transform:capitalize" autocomplete="off" name="p_type" id="p_type" onchange="div_field()" required />
                 <option id="p_typ"></option>
-                <option value="1">Building</option>
-                <option value="2">House</option>
-                <option value="3">Highways</option>
-                <option value="4">Grand Stand</option>
-                <option value="5">Covered Court</option>
+                <?php
+                $stmt = $conn->prepare("SELECT * FROM project_types ORDER BY title ASC");
+                $stmt->execute();
+                $projectTypes = $stmt->fetchAll();
+                foreach ($projectTypes as $row) {
+                  echo '<option value="' . $row['id'] . '">' . $row['title'] . '</option>';
+                }
+                ?>
                 </select>
               </div>
             </div>

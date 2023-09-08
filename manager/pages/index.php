@@ -1,6 +1,7 @@
 <?php include '../includes/auth.php';
 include '../includes/header.php';
 //include '../includes/header2.php';
+include '../includes/conn2.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
