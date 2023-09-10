@@ -1,6 +1,6 @@
 <?php
-$dashHeadTitle = 'Procurements';
-$dashHeadDesc = 'Kakamega County Procurements';
+$dashHeadTitle = 'Sub-Counties';
+$dashHeadDesc = 'Kakamega County Sub-Counties';
 include '../includes/head.php';
 ?>
 <!--end::Head-->
@@ -59,8 +59,8 @@ include '../includes/head.php';
                                 <!--begin::List Widget 3-->
                                 <div class="card card-xl-stretch mb-5 mb-xl-8">
                                     <!--begin::Header-->
-                                    <div class="card-header border-0">
-                                        <h3 class="card-title fw-bolder text-dark">Procurements</h3>
+                                    <div class="card-header border-0 mb-10">
+                                        <h3 class="card-title fw-bolder text-dark">Select Sub-county</h3>
                                         <div class="card-toolbar">
                                             <!--begin::Menu-->
                                             <button type="button" class="btn btn-sm btn-icon btn-color-primary btn-active-light-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
@@ -68,10 +68,10 @@ include '../includes/head.php';
                                                 <span class="svg-icon svg-icon-2">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
                                                         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                            <rect x="5" y="5" width="5" height="5" rx="1" fill="currentColor" />
-                                                            <rect x="14" y="5" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-                                                            <rect x="5" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
-                                                            <rect x="14" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3" />
+                                                            <rect x="5" y="5" width="5" height="5" rx="1" fill="currentColor"></rect>
+                                                            <rect x="14" y="5" width="5" height="5" rx="1" fill="currentColor" opacity="0.3"></rect>
+                                                            <rect x="5" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3"></rect>
+                                                            <rect x="14" y="14" width="5" height="5" rx="1" fill="currentColor" opacity="0.3"></rect>
                                                         </g>
                                                     </svg>
                                                 </span>
@@ -92,7 +92,7 @@ include '../includes/head.php';
                                                 <!--begin::Menu item-->
                                                 <div class="menu-item px-3">
                                                     <a href="#" class="menu-link flex-stack px-3">Create Payment
-                                                        <i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Specify a target name for future usage and reference"></i></a>
+                                                        <i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="" data-bs-original-title="Specify a target name for future usage and reference" aria-label="Specify a target name for future usage and reference"></i></a>
                                                 </div>
                                                 <!--end::Menu item-->
                                                 <!--begin::Menu item-->
@@ -132,7 +132,7 @@ include '../includes/head.php';
                                                                 <!--begin::Switch-->
                                                                 <label class="form-check form-switch form-check-custom form-check-solid">
                                                                     <!--begin::Input-->
-                                                                    <input class="form-check-input w-30px h-20px" type="checkbox" value="1" checked="checked" name="notifications" />
+                                                                    <input class="form-check-input w-30px h-20px" type="checkbox" value="1" checked="checked" name="notifications">
                                                                     <!--end::Input-->
                                                                     <!--end::Label-->
                                                                     <span class="form-check-label text-muted fs-6">Recuring</span>
@@ -158,122 +158,105 @@ include '../includes/head.php';
                                     </div>
                                     <!--end::Header-->
                                     <!--begin::Body-->
-                                    <div class="card-body pt-2">
-                                        <!--begin::Item-->
-                                        <div class="d-flex align-items-center mb-8">
-                                            <!--begin::Bullet-->
-                                            <span class="bullet bullet-vertical h-40px bg-success"></span>
-                                            <!--end::Bullet-->
-                                            <!--begin::Checkbox-->
-                                            <div class="form-check form-check-custom form-check-solid mx-5">
-                                                <input class="form-check-input" type="checkbox" value="" />
-                                            </div>
-                                            <!--end::Checkbox-->
-                                            <!--begin::Description-->
-                                            <div class="flex-grow-1">
-                                                <a href="../procurement/proccounty.php" class="text-gray-800 text-hover-primary fw-bolder fs-6">Agriculture Livestock Fisheries and cooperatives</a>
-                                                <span class="text-muted fw-bold d-block">Due in 2 Days</span>
-                                            </div>
-                                            <!--end::Description-->
-                                            <span class="badge badge-light-success fs-8 fw-bolder">3 Projects</span>
-                                        </div>
-                                        <!--end:Item-->
-                                        <!--begin::Item-->
-                                        <div class="d-flex align-items-center mb-8">
-                                            <!--begin::Bullet-->
-                                            <span class="bullet bullet-vertical h-40px bg-primary"></span>
-                                            <!--end::Bullet-->
-                                            <!--begin::Checkbox-->
-                                            <div class="form-check form-check-custom form-check-solid mx-5">
-                                                <input class="form-check-input" type="checkbox" value="" />
-                                            </div>
-                                            <!--end::Checkbox-->
-                                            <!--begin::Description-->
-                                            <div class="flex-grow-1">
-                                                <a href="../procurement/proccounty.php" class="text-gray-800 text-hover-primary fw-bolder fs-6">Lands Housing Urban Areas and Physical Planning</a>
-                                                <span class="text-muted fw-bold d-block">Due in 3 Days</span>
-                                            </div>
-                                            <!--end::Description-->
-                                            <span class="badge badge-light-primary fs-8 fw-bolder">3 Projects</span>
-                                        </div>
-                                        <!--end:Item-->
-                                        <!--begin::Item-->
-                                        <div class="d-flex align-items-center mb-8">
-                                            <!--begin::Bullet-->
-                                            <span class="bullet bullet-vertical h-40px bg-warning"></span>
-                                            <!--end::Bullet-->
-                                            <!--begin::Checkbox-->
-                                            <div class="form-check form-check-custom form-check-solid mx-5">
-                                                <input class="form-check-input" type="checkbox" value="" />
-                                            </div>
-                                            <!--end::Checkbox-->
-                                            <!--begin::Description-->
-                                            <div class="flex-grow-1">
-                                                <a href="../procurement/proccounty.php#" class="text-gray-800 text-hover-primary fw-bolder fs-6">Social service sport youth gender culture</a>
-                                                <span class="text-muted fw-bold d-block">Due in 5 Days</span>
-                                            </div>
-                                            <!--end::Description-->
-                                            <span class="badge badge-light-warning fs-8 fw-bolder">3 Projects</span>
-                                        </div>
-                                        <!--end:Item-->
-                                        <!--begin::Item-->
-                                        <div class="d-flex align-items-center mb-8">
-                                            <!--begin::Bullet-->
-                                            <span class="bullet bullet-vertical h-40px bg-primary"></span>
-                                            <!--end::Bullet-->
-                                            <!--begin::Checkbox-->
-                                            <div class="form-check form-check-custom form-check-solid mx-5">
-                                                <input class="form-check-input" type="checkbox" value="" />
-                                            </div>
-                                            <!--end::Checkbox-->
-                                            <!--begin::Description-->
-                                            <div class="flex-grow-1">
-                                                <a href="../procurement/proccounty.php" class="text-gray-800 text-hover-primary fw-bolder fs-6">Health Services</a>
-                                                <span class="text-muted fw-bold d-block">Due in 2 Days</span>
-                                            </div>
-                                            <!--end::Description-->
-                                            <span class="badge badge-light-primary fs-8 fw-bolder">3 Projects</span>
-                                        </div>
-                                        <!--end:Item-->
-                                        <!--begin::Item-->
-                                        <div class="d-flex align-items-center mb-8">
-                                            <!--begin::Bullet-->
-                                            <span class="bullet bullet-vertical h-40px bg-danger"></span>
-                                            <!--end::Bullet-->
-                                            <!--begin::Checkbox-->
-                                            <div class="form-check form-check-custom form-check-solid mx-5">
-                                                <input class="form-check-input" type="checkbox" value="" />
-                                            </div>
-                                            <!--end::Checkbox-->
-                                            <!--begin::Description-->
-                                            <div class="flex-grow-1">
-                                                <a href="../procurement/proccounty.php" class="text-gray-800 text-hover-primary fw-bolder fs-6">Trade Industrialization and Tourism</a>
-                                                <span class="text-muted fw-bold d-block">Due in 12 Days</span>
-                                            </div>
-                                            <!--end::Description-->
-                                            <span class="badge badge-light-danger fs-8 fw-bolder">3 Projects</span>
-                                        </div>
-                                        <!--end:Item-->
-                                        <!--begin::Item-->
-                                        <div class="d-flex align-items-center">
-                                            <!--begin::Bullet-->
-                                            <span class="bullet bullet-vertical h-40px bg-success"></span>
-                                            <!--end::Bullet-->
-                                            <!--begin::Checkbox-->
-                                            <div class="form-check form-check-custom form-check-solid mx-5">
-                                                <input class="form-check-input" type="checkbox" value="" />
-                                            </div>
-                                            <!--end::Checkbox-->
-                                            <!--begin::Description-->
-                                            <div class="flex-grow-1">
-                                                <a href="../procurement/proccounty.php" class="text-gray-800 text-hover-primary fw-bolder fs-6">Water Environment Natural Resources and Climate change</a>
-                                                <span class="text-muted fw-bold d-block">Due in 1 week</span>
-                                            </div>
-                                            <!--end::Description-->
-                                            <span class="badge badge-light-success fs-8 fw-bolder">3 Projects</span>
-                                        </div>
-                                        <!--end:Item-->
-                                    </div>
+                                    <div class="card-p mt-n20 position-relative">
+                                    <a href="../projects/list.php">	<!--begin::Row-->
+												<div class="row g-0">
+													<!--begin::Col-->
+													
+
+                                                 <div class="col px-6 py-8 rounded-2 me-7 mb-7" style="background: #fff8dd;color: #f1c92e !important;">
+														<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
+														<div class="fs-2 fw-bold text-800 mb-10">Lurambi</div>
+														<!--end::Svg Icon-->
+														<p class=" fw-semibold fs-6 " style="padding-left: 120px;">6 Projects</p>
+													</div><div class="col px-6 py-8 rounded-2 me-7 mb-7" style="background: #f5e7f9;color: #9c6fa9 !important;">
+														<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
+														<div class="fs-2 fw-bold text-800 mb-10">SHINYALU</div>
+														<!--end::Svg Icon-->
+														<p class=" fw-semibold fs-6 " style="padding-left: 120px;">10 Projects</p>
+													</div><div class="col px-6 py-8 rounded-2 me-7 mb-7" style="background: #dce8fb;color: #3a367e !important;">
+														<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
+														<div class="fs-2 fw-bold text-800 mb-10">IKOLOMANI</div>
+														<!--end::Svg Icon-->
+														<p class=" fw-semibold fs-6 " style="padding-left: 120px;">20 Projects</p>
+													</div>
+													<!--end::Col-->
+													<!--begin::Col-->
+													<div class="col px-6 py-8 rounded-2 me-7 mb-7" style="background: #F1FAFF;color: #4b7187 !important;">
+														<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
+														<div class="fs-2 fw-bold text-800 mb-10">KHWISERO</div>
+														<!--end::Svg Icon-->
+														<p class=" fw-semibold fs-6 " style="padding-left: 120px;">0 Projects</p>
+													</div>
+													<!--end::Col-->
+												</div>
+
+
+
+                                                <div class="row g-0">
+													<!--begin::Col-->
+													
+
+                                                    <div class="col px-6 py-8 rounded-2 me-7 mb-7" style="background: #ffddeb;color: #ad3968 !important;">
+														<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
+														<div class="fs-2 fw-bold text-800 mb-10">MUMIAS EAST</div>
+														<!--end::Svg Icon-->
+														<p class=" fw-semibold fs-6 " style="padding-left: 120px;">25 Projects</p>
+													</div><div class="col px-6 py-8 rounded-2 me-7 mb-7" style="background: #e8f9e7;color: #43a53d !important;">
+														<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
+														<div class="fs-2 fw-bold text-800 mb-10">MUMIAS WEST</div>
+														<!--end::Svg Icon-->
+														<p class=" fw-semibold fs-6 " style="padding-left: 120px;">15 Projects</p>
+													</div><div class="col px-6 py-8 rounded-2 me-7 mb-7" style="background: #fbe6dc; color: #8b3b15 !important;">
+														<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
+														<div class="fs-2 fw-bold text-800 mb-10">MATUNGU</div>
+														<!--end::Svg Icon-->
+														<p class=" fw-semibold fs-6 " style="padding-left: 120px;">40 Projects</p>
+													</div>
+													<!--end::Col-->
+													<!--begin::Col-->
+													<div class="col px-6 py-8 rounded-2 me-7 mb-7" style="background: #faf1ff;color: #6c2395 !important;">
+														<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
+														<div class="fs-2 fw-bold text-800 mb-10">NAVAKHOLO</div>
+														<!--end::Svg Icon-->
+														<p class=" fw-semibold fs-6 " style="padding-left: 120px;">14 Projects</p>
+													</div>
+													<!--end::Col-->
+												</div>
+                                            
+                                                <div class="row g-0">
+													<!--begin::Col-->
+                                                    <div class="col px-6 py-8 rounded-2 me-7 mb-7" style="background: #ddffff; color: #0c7e7e !important;">
+														<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
+														<div class="fs-2 fw-bold text-800 mb-10">MALAVA</div>
+														<!--end::Svg Icon-->
+														<p class=" fw-semibold fs-6 " style="padding-left: 120px;">30 Projects</p>
+													</div><div class="col px-6 py-8 rounded-2 me-7 mb-7" style="background: #e7eef9;color: #406197 !important;">
+														<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
+														<div class="fs-2 fw-bold text-800 mb-10">LUGARI</div>
+														<!--end::Svg Icon-->
+														<p class=" fw-semibold fs-6 " style="padding-left: 120px;">2 Projects</p>
+													</div><div class="col px-6 py-8 rounded-2 me-7 mb-7" style="background: #fbf9dc;color: #8f882a !important;">
+														<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
+														<div class="fs-2 fw-bold text-800 mb-10">LIKUYANI</div>
+														<!--end::Svg Icon-->
+														<p class=" fw-semibold fs-6 " style="padding-left: 120px;">10 Projects</p>
+													</div>
+													<!--end::Col-->
+													<!--begin::Col-->
+													<div class="col px-6 py-8 rounded-2 me-7 mb-7" style=" background: #f4fff1; color: #419d29 !important;">
+														<!--begin::Svg Icon | path: icons/duotune/general/gen032.svg-->
+														<div class="fs-2 fw-bold text-800 mb-10">BUTERE</div>
+														<!--end::Svg Icon-->
+														<p class=" fw-semibold fs-6 " style="padding-left: 120px;">4 Projects</p>
+													</div>
+													<!--end::Col-->
+												</div>
+												
+												
+                                                </a>	
+												<!--end::Row-->
+											</div>
                                     <!--end::Body-->
                                 </div>
                                 <!--end:List Widget 3-->
