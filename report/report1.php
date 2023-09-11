@@ -209,7 +209,7 @@ include '../includes/head.php';
                                                         <div class="card card-flush border-0 h-md-100">
 										<!--begin::Body-->
 										<div class="card-body py-9">
-											<!--begin::Row-->
+										<a href="../report/projectsreport.php">	<!--begin::Row-->
 											<div class="row gx-9 h-100">
 												<!--begin::Col-->
 												<div class="col-sm-6 mb-10 mb-sm-0">
@@ -345,6 +345,7 @@ include '../includes/head.php';
 												</div>
 												<!--end::Col-->
 											</div>
+                                            </a>
 											<!--end::Row-->
 										</div>
 										<!--end::Body-->
