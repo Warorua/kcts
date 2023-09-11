@@ -7,11 +7,14 @@ include '../includes/conn2.php';
 <html lang="en">
 <style>
   #page-wrapper {
-    background-color: rgb(241, 241, 241) !important;
+    background-color: #4B9539 !important;
+  }
+  .navbar, .nav, .nav.li {
+    background-color: #39702c !important;
   }
 </style>
 
-<body style="background-color:rgba(241, 241, 241, 0.9) !important">
+<body style="background-color:#38702cae !important">
 
   <div id="wrapper">
 
@@ -103,7 +106,7 @@ include '../includes/conn2.php';
             <form id="update_user_form2" method="POST">
               <div class="form-group">
 
-                <input type="hidden" value="<?php echo $row2['uid'] ?>" name="uid">
+                <input type="hidden" value="<?php echo $row2['id'] ?>" name="uid">
 
               </div>
           </div>
@@ -234,7 +237,7 @@ include '../includes/conn2.php';
 
         <div class="modal-header">
           <h4 class="modal-title" id='head'>
-            <i class=""></i> Foreman Portfolio Records
+            <i class=""></i> Project Manager Portfolio Records
           </h4>
           <div id="retCode1"></div>
         </div>

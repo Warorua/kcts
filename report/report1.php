@@ -197,15 +197,15 @@ include '../includes/head.php';
                                                 </ul>
                                                 <div class="tab-content" id="myTabContent">
                                                     <?php
-                                                    foreach ($subCounties as $id => $sc) {
-                                                        if ($id == 0) {
+                                                    foreach ($subCounties as $ids => $scs) {
+                                                        if ($ids == 0) {
                                                             $actdec = 'show active';
                                                         } else {
                                                             $actdec = '';
                                                         }
 
                                                         for($i=0;$i<=5;$i++){
-                                                                echo '<div class="tab-pane fade '.$actdec.'" id="kt_vtab_pane_' . $id . '" role="tabpanel">
+                                                                echo '<div class="tab-pane fade '.$actdec.'" id="kt_vtab_pane_' . $ids . '" role="tabpanel">
                                                         <div class="card card-flush border-0 h-md-100">
 										<!--begin::Body-->
 										<div class="card-body py-9">
@@ -229,7 +229,7 @@ include '../includes/head.php';
 																<!--begin::Title-->
 																<div class="flex-shrink-0 me-5">
 																	<span class="text-gray-400 fs-7 fw-bolder me-2 d-block lh-1 pb-1">Featured</span>
-																	<span class="text-gray-800 fs-1 fw-bolder">'.$sc.'</span>
+																	<span class="text-gray-800 fs-1 fw-bolder">'.$scs.'</span>
 																</div>
 																<!--end::Title-->
 																<span class="badge badge-light-primary flex-shrink-0 align-self-center py-3 px-4 fs-7">In Process</span>
