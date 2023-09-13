@@ -209,13 +209,13 @@ include '../includes/head.php';
                                                         <div class="card card-flush border-0 h-md-100">
 										<!--begin::Body-->
 										<div class="card-body py-9">
-										<a href="../report/projectsreport.php">	<!--begin::Row-->
+											<!--begin::Row-->
 											<div class="row gx-9 h-100">
 												<!--begin::Col-->
 												<div class="col-sm-6 mb-10 mb-sm-0">
-													<!--begin::Image-->
+                                                <a href="../report/projectsreport.php"> <!--begin::Image-->
 													<div class="bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-400px min-h-sm-100 h-100" style="background-size: 100% 100%;background-image:url('."../assets/media/stock/600x600/img-".rand(9,46).".jpg".');"></div>
-													<!--end::Image-->
+													<!--end::Image--> </a>
 												</div>
 												<!--end::Col-->
 												<!--begin::Col-->
@@ -345,7 +345,7 @@ include '../includes/head.php';
 												</div>
 												<!--end::Col-->
 											</div>
-                                            </a>
+                                            
 											<!--end::Row-->
 										</div>
 										<!--end::Body-->
