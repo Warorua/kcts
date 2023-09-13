@@ -3,7 +3,7 @@ if(!isset($dashHeadTitle)){
     $dashHeadTitle = 'Dashboard';
 }
 if(!isset($dashHeadDesc)){
-    $dashHeadDesc = 'Welcome to KCTS';
+    $dashHeadDesc = 'Welcome to Kakamega County Tracking Development System';
 }
 ?>
 <div id="kt_header" class="header py-6 py-lg-0" data-kt-sticky="true" data-kt-sticky-name="header" data-kt-sticky-offset="{lg: '300px'} style=" style="background: linear-gradient(to bottom, #4b9539, #63501e);">

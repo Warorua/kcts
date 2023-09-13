@@ -49,7 +49,7 @@ if (isset($_SESSION['user_id'])) {
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Kejanie.com -->
 
 <head>
-	<title>KCTS | Kakamega County Tracking System</title>
+	<title>KCTS | Kakamega County Tracking Development System</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="Explore government projects, procurement activities, and insightful reports from various counties in one convenient platform. Stay informed and engaged with our comprehensive information hub." />
 	<meta name="keywords" content="" />

@@ -1,6 +1,6 @@
 <?php
 $dashHeadTitle = 'Project Reports - Procurement';
-$dashHeadDesc = 'Kakamega County Reports';
+$dashHeadDesc = 'Kakamega County Tracking Development System';
 include '../includes/head.php';
 ?>
 <!--end::Head-->
