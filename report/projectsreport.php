@@ -751,7 +751,7 @@ include '../includes/head.php';
 												<!--begin::Col-->
 												<div class="col-sm-6 mb-10 mb-sm-0">
 													<!--begin::Image-->
-													<div class="bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-400px min-h-sm-100 h-100" style="background-size: 100% 100%;background-image:url(../assets/media/stock/600x600/img-45.jpg);"></div>
+													<div class="bgi-no-repeat bgi-position-center bgi-size-cover card-rounded min-h-400px min-h-sm-100 h-100" style="background-size: 100% 100%;background-image:url(../assets/media/stock/600x600/img-38.jpg);"></div>
 													<!--end::Image-->
 												</div>
 												<!--end::Col-->
