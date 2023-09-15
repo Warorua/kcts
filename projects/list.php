@@ -202,7 +202,7 @@ include '../includes/head.php';
 													</svg>
 												</span>
 												<!--end::Svg Icon-->
-												<input type="text" class="form-control form-control-solid ps-10" name="search" value="" placeholder="Search County">
+												<input type="text" class="form-control form-control-solid ps-10" name="search" value="" placeholder="Search Sub-County">
 											</div>
 											<!--end::Input group-->
 											<!--begin:Action-->
