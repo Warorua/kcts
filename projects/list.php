@@ -50,7 +50,7 @@ include '../includes/head.php';
 						<div class="container-xxl" id="kt_content_container">
 							<!--begin::Stats-->
 							<div class="row g-6 g-xl-9">
-								<div class="col-lg-6 col-xxl-4">
+								<div class="col-lg-12 col-xxl-4">
 									<!--begin::Card-->
 									<div class="card h-100">
 										<!--begin::Card body-->
@@ -98,56 +98,57 @@ include '../includes/head.php';
 									</div>
 									<!--end::Card-->
 								</div>
-								<div class="col-lg-6 col-xxl-4">
-									<!--begin::Budget-->
+								
+							<!-- <div class="col-lg-6 col-xxl-4">
+									
 									<div class="card h-100">
-										<div class="card-body p-9">
+										<div class="card-body p-9"> 
 											<div class="fs-2hx fw-bolder">$3,290.00</div>
 											<div class="fs-4 fw-bold text-gray-400 mb-7">Project Finance</div>
 											<div class="fs-6 d-flex justify-content-between mb-4">
 												<div class="fw-bold">Avg. Project Budget</div>
 												<div class="d-flex fw-bolder">
-												<!--begin::Svg Icon | path: icons/duotune/arrows/arr007.svg-->
+												
 												<span class="svg-icon svg-icon-3 me-1 svg-icon-success">
 													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 														<path d="M13.4 10L5.3 18.1C4.9 18.5 4.9 19.1 5.3 19.5C5.7 19.9 6.29999 19.9 6.69999 19.5L14.8 11.4L13.4 10Z" fill="currentColor" />
 														<path opacity="0.3" d="M19.8 16.3L8.5 5H18.8C19.4 5 19.8 5.4 19.8 6V16.3Z" fill="currentColor" />
 													</svg>
 												</span>
-												<!--end::Svg Icon-->$6,570</div>
+												$6,570</div>
 											</div>
 											<div class="separator separator-dashed"></div>
 											<div class="fs-6 d-flex justify-content-between my-4">
 												<div class="fw-bold">Lowest Project Check</div>
 												<div class="d-flex fw-bolder">
-												<!--begin::Svg Icon | path: icons/duotune/arrows/arr006.svg-->
+												
 												<span class="svg-icon svg-icon-3 me-1 svg-icon-danger">
 													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 														<path d="M13.4 14.8L5.3 6.69999C4.9 6.29999 4.9 5.7 5.3 5.3C5.7 4.9 6.29999 4.9 6.69999 5.3L14.8 13.4L13.4 14.8Z" fill="currentColor" />
 														<path opacity="0.3" d="M19.8 8.5L8.5 19.8H18.8C19.4 19.8 19.8 19.4 19.8 18.8V8.5Z" fill="currentColor" />
 													</svg>
 												</span>
-												<!--end::Svg Icon-->$408</div>
+												$408</div>
 											</div>
 											<div class="separator separator-dashed"></div>
 											<div class="fs-6 d-flex justify-content-between mt-4">
 												<div class="fw-bold">Ambassador Page</div>
 												<div class="d-flex fw-bolder">
-												<!--begin::Svg Icon | path: icons/duotune/arrows/arr007.svg-->
+												
 												<span class="svg-icon svg-icon-3 me-1 svg-icon-success">
 													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 														<path d="M13.4 10L5.3 18.1C4.9 18.5 4.9 19.1 5.3 19.5C5.7 19.9 6.29999 19.9 6.69999 19.5L14.8 11.4L13.4 10Z" fill="currentColor" />
 														<path opacity="0.3" d="M19.8 16.3L8.5 5H18.8C19.4 5 19.8 5.4 19.8 6V16.3Z" fill="currentColor" />
 													</svg>
 												</span>
-												<!--end::Svg Icon-->$920</div>
+												$920</div>
 											</div>
 										</div>
 									</div>
-									<!--end::Budget-->
-								</div>
+									
+								</div> -->
 							</div>
-							<!--end::Stats-->
+							
 							<!--begin::Toolbar-->
 							<div class="d-flex flex-wrap flex-stack my-5">
 								<!--begin::Heading-->
