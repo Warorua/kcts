@@ -327,7 +327,7 @@ include '../includes/head.php';
 															</div>
 															<!--end::Users group-->
 															<!--begin::Actions-->
-															<a href="../apps/projects/project.html" class="text-primary opacity-75-hover fs-6 fw-bold">View Project 
+															<a href="../project/overview/4" class="text-primary opacity-75-hover fs-6 fw-bold">View Project 
 															<!--begin::Svg Icon | path: icons/duotune/arrows/arr095.svg-->
 															<span class="svg-icon svg-icon-4 svg-icon-gray-800 ms-1">
 																<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
