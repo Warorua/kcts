@@ -171,7 +171,7 @@ include '../includes/head.php';
                                             <!--end::Checkbox-->
                                             <!--begin::Description-->
                                             <div class="flex-grow-1">
-                                                <a href="../procurement/proccounty.php" class="text-gray-800 text-hover-primary fw-bolder fs-6">Agriculture Livestock Fisheries and cooperatives</a>
+                                                <a href="../procurement/proccounty.php" class="text-gray-800 text-hover-primary fw-bolder fs-6"> MINISTRY OF Agriculture Livestock Fisheries and cooperatives</a>
                                                 <span class="text-muted fw-bold d-block">Due in 2 Days</span>
                                             </div>
                                             <!--end::Description-->
@@ -190,7 +190,7 @@ include '../includes/head.php';
                                             <!--end::Checkbox-->
                                             <!--begin::Description-->
                                             <div class="flex-grow-1">
-                                                <a href="../procurement/proccounty.php" class="text-gray-800 text-hover-primary fw-bolder fs-6">Lands Housing Urban Areas and Physical Planning</a>
+                                                <a href="../procurement/proccounty.php" class="text-gray-800 text-hover-primary fw-bolder fs-6">MINISTRY OF PUBLIC SERVICE AND ADMINISTRATION</a>
                                                 <span class="text-muted fw-bold d-block">Due in 3 Days</span>
                                             </div>
                                             <!--end::Description-->
@@ -209,7 +209,7 @@ include '../includes/head.php';
                                             <!--end::Checkbox-->
                                             <!--begin::Description-->
                                             <div class="flex-grow-1">
-                                                <a href="../procurement/proccounty.php#" class="text-gray-800 text-hover-primary fw-bolder fs-6">Social service sport youth gender culture</a>
+                                                <a href="../procurement/proccounty.php#" class="text-gray-800 text-hover-primary fw-bolder fs-6">MINISTRY OF LANDS, HOUSING, URBAN AREAS & PHYSICAL PLANNING</a>
                                                 <span class="text-muted fw-bold d-block">Due in 5 Days</span>
                                             </div>
                                             <!--end::Description-->
@@ -228,7 +228,7 @@ include '../includes/head.php';
                                             <!--end::Checkbox-->
                                             <!--begin::Description-->
                                             <div class="flex-grow-1">
-                                                <a href="../procurement/proccounty.php" class="text-gray-800 text-hover-primary fw-bolder fs-6">Health Services</a>
+                                                <a href="../procurement/proccounty.php" class="text-gray-800 text-hover-primary fw-bolder fs-6">MINISTRY OF Health Services</a>
                                                 <span class="text-muted fw-bold d-block">Due in 2 Days</span>
                                             </div>
                                             <!--end::Description-->
@@ -247,7 +247,7 @@ include '../includes/head.php';
                                             <!--end::Checkbox-->
                                             <!--begin::Description-->
                                             <div class="flex-grow-1">
-                                                <a href="../procurement/proccounty.php" class="text-gray-800 text-hover-primary fw-bolder fs-6">Trade Industrialization and Tourism</a>
+                                                <a href="../procurement/proccounty.php" class="text-gray-800 text-hover-primary fw-bolder fs-6">MINISTRY OF TRADE, INDUSTRIALIZATION AND TOURISM</a>
                                                 <span class="text-muted fw-bold d-block">Due in 12 Days</span>
                                             </div>
                                             <!--end::Description-->
@@ -266,7 +266,7 @@ include '../includes/head.php';
                                             <!--end::Checkbox-->
                                             <!--begin::Description-->
                                             <div class="flex-grow-1">
-                                                <a href="../procurement/proccounty.php" class="text-gray-800 text-hover-primary fw-bolder fs-6">Water Environment Natural Resources and Climate change</a>
+                                                <a href="../procurement/proccounty.php" class="text-gray-800 text-hover-primary fw-bolder fs-6">MINISTRY OF WATER ENVIRONMENT & NATURAL RESOURCES</a>
                                                 <span class="text-muted fw-bold d-block">Due in 1 week</span>
                                             </div>
                                             <!--end::Description-->
