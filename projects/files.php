@@ -168,7 +168,7 @@ if (is_int($last_segment)) {
 											</div>
 											<!--end::Image-->
 											<!--begin::Title-->
-											<div class="fs-5 fw-bolder mb-2">Project Documents</div>
+											<div class="fs-5 fw-bolder mb-2">ADDENDUM No.2 SECOND KENYA INFORMAL SETTLEMENTS IMPROVEMENT PROJECT (KISIP 2) LOT 1 BQs</div>
 											<!--end::Title-->
 										</a>
 										<!--end::Name-->
@@ -195,7 +195,7 @@ if (is_int($last_segment)) {
 											</div>
 											<!--end::Image-->
 											<!--begin::Title-->
-											<div class="fs-5 fw-bolder mb-2">Budget Purposal</div>
+											<div class="fs-5 fw-bolder mb-2">ADDENDUM No.2 SECOND KENYA INFORMAL SETTLEMENTS IMPROVEMENT PROJECT (KISIP 2) LOT 2 BQs</div>
 											<!--end::Title-->
 										</a>
 										<!--end::Name-->
@@ -222,7 +222,7 @@ if (is_int($last_segment)) {
 											</div>
 											<!--end::Image-->
 											<!--begin::Title-->
-											<div class="fs-5 fw-bolder mb-2">Legal Documents</div>
+											<div class="fs-5 fw-bolder mb-2">ADDENDUM No.2 SECOND KENYA INFORMAL SETTLEMENTS IMPROVEMENT PROJECT (KISIP 2) CLARIFICATION NO.2  </div>
 											<!--end::Title-->
 										</a>
 										<!--end::Name-->
@@ -249,7 +249,7 @@ if (is_int($last_segment)) {
 											</div>
 											<!--end::Image-->
 											<!--begin::Title-->
-											<div class="fs-5 fw-bolder mb-2">Agreement</div>
+											<div class="fs-5 fw-bolder mb-2">PROVISION OF CONTRACTED SECURITY SERVICES 15-09-2023</div>
 											<!--end::Title-->
 										</a>
 										<!--end::Name-->
@@ -276,7 +276,7 @@ if (is_int($last_segment)) {
 											</div>
 											<!--end::Image-->
 											<!--begin::Title-->
-											<div class="fs-5 fw-bolder mb-2">Project Details</div>
+											<div class="fs-5 fw-bolder mb-2">SUPPLY & DELIVERY OF LABORATORY REAGENTS FOR KAKAMEGA COUNTY GENERAL HOSPITAL 15-09-2023</div>
 											<!--end::Title-->
 										</a>
 										<!--end::Name-->
@@ -303,7 +303,7 @@ if (is_int($last_segment)) {
 											</div>
 											<!--end::Image-->
 											<!--begin::Title-->
-											<div class="fs-5 fw-bolder mb-2">Project Presentation</div>
+											<div class="fs-5 fw-bolder mb-2">RE-ADVERTISMENT PROVISION OF COMPREHENSIVE MEDICAL COVER FOR SENIOR MANAGEMENT 15-09-2023 </div>
 											<!--end::Title-->
 										</a>
 										<!--end::Name-->
@@ -330,7 +330,7 @@ if (is_int($last_segment)) {
 											</div>
 											<!--end::Image-->
 											<!--begin::Title-->
-											<div class="fs-5 fw-bolder mb-2">Project flow</div>
+											<div class="fs-5 fw-bolder mb-2">ADDENDUM No.2 SECOND KENYA INFORMAL SETTLEMENTS IMPROVEMENT PROJECT (KISIP 2) </div>
 											<!--end::Title-->
 										</a>
 										<!--end::Name-->
