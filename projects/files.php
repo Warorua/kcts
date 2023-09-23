@@ -161,7 +161,7 @@ if (is_int($last_segment)) {
 									<!--begin::Card body-->
 									<div class="card-body d-flex justify-content-center text-center flex-column p-8">
 										<!--begin::Name-->
-										<a href="../file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
+										<a href="" class="text-gray-800 text-hover-primary d-flex flex-column">
 											<!--begin::Image-->
 											<div class="symbol symbol-60px mb-5">
 												<img src="<?php echo $filePathScript ?>assets/media/svg/files/pdf.svg" alt="" />
@@ -202,7 +202,7 @@ if (is_int($last_segment)) {
 									<!--begin::Card body-->
 									<div class="card-body d-flex justify-content-center text-center flex-column p-8">
 										<!--begin::Name-->
-										<a href="../file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
+										<a href="" class="text-gray-800 text-hover-primary d-flex flex-column">
 											<!--begin::Image-->
 											<div class="symbol symbol-60px mb-5">
 												<img src="<?php echo $filePathScript ?>assets/media/svg/files/doc.svg" alt="" />
@@ -243,7 +243,7 @@ if (is_int($last_segment)) {
 									<!--begin::Card body-->
 									<div class="card-body d-flex justify-content-center text-center flex-column p-8">
 										<!--begin::Name-->
-										<a href="../file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
+										<a href="" class="text-gray-800 text-hover-primary d-flex flex-column">
 											<!--begin::Image-->
 											<div class="symbol symbol-60px mb-5">
 												<img src="<?php echo $filePathScript ?>assets/media/svg/files/css.svg" alt="" />
@@ -284,7 +284,7 @@ if (is_int($last_segment)) {
 									<!--begin::Card body-->
 									<div class="card-body d-flex justify-content-center text-center flex-column p-8">
 										<!--begin::Name-->
-										<a href="../file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
+										<a href="" class="text-gray-800 text-hover-primary d-flex flex-column">
 											<!--begin::Image-->
 											<div class="symbol symbol-60px mb-5">
 												<img src="<?php echo $filePathScript ?>assets/media/svg/files/ai.svg" alt="" />
@@ -325,7 +325,7 @@ if (is_int($last_segment)) {
 									<!--begin::Card body-->
 									<div class="card-body d-flex justify-content-center text-center flex-column p-8">
 										<!--begin::Name-->
-										<a href="../file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
+										<a href="" class="text-gray-800 text-hover-primary d-flex flex-column">
 											<!--begin::Image-->
 											<div class="symbol symbol-60px mb-5">
 												<img src="<?php echo $filePathScript ?>assets/media/svg/files/sql.svg" alt="" />
@@ -366,7 +366,7 @@ if (is_int($last_segment)) {
 									<!--begin::Card body-->
 									<div class="card-body d-flex justify-content-center text-center flex-column p-8">
 										<!--begin::Name-->
-										<a href="../file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
+										<a href="" class="text-gray-800 text-hover-primary d-flex flex-column">
 											<!--begin::Image-->
 											<div class="symbol symbol-60px mb-5">
 												<img src="<?php echo $filePathScript ?>assets/media/svg/files/xml.svg" alt="" />
@@ -407,7 +407,7 @@ if (is_int($last_segment)) {
 									<!--begin::Card body-->
 									<div class="card-body d-flex justify-content-center text-center flex-column p-8">
 										<!--begin::Name-->
-										<a href="../file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
+										<a href="" class="text-gray-800 text-hover-primary d-flex flex-column">
 											<!--begin::Image-->
 											<div class="symbol symbol-60px mb-5">
 												<img src="<?php echo $filePathScript ?>assets/media/svg/files/tif.svg" alt="" />
