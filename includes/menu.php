@@ -173,72 +173,15 @@
                     </span>
                     <div class="menu-sub menu-sub-dropdown w-225px w-lg-250px px-1 py-4">
                         <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                            <span class="menu-link">
-                                <span class="menu-bullet">
-                                    <span class="bullet bullet-dot"></span>
-                                </span>
-                                <span class="menu-title">Projects</span>
-                                <span class="menu-arrow"></span>
-                            </span>
-                            <div class="menu-sub menu-sub-accordion">
-                                <div class="menu-item">
-                                    <a class="menu-link" href="<?php echo $filePathScript ?>projects/list">
+                        <div class="menu-item">
+                                    <a class="menu-link active" href="../projects/list">
                                         <span class="menu-bullet">
                                             <span class="bullet bullet-dot"></span>
                                         </span>
-                                        <span class="menu-title">My Projects</span>
+                                        <span class="menu-title">Projects</span>
                                     </a>
                                 </div>
-                                <div class="menu-item">
-                                    <a class="menu-link" href="<?php echo $filePathScript ?>projects/project.php">
-                                        <span class="menu-bullet">
-                                            <span class="bullet bullet-dot"></span>
-                                        </span>
-                                        <span class="menu-title">View Project</span>
-                                    </a>
-                                </div>
-                                <div class="menu-item">
-                                    <a class="menu-link" href="<?php echo $filePathScript ?>projects/targets.php">
-                                        <span class="menu-bullet">
-                                            <span class="bullet bullet-dot"></span>
-                                        </span>
-                                        <span class="menu-title">Targets</span>
-                                    </a>
-                                </div>
-                                <div class="menu-item">
-                                    <a class="menu-link" href="<?php echo $filePathScript ?>projects/budget.php">
-                                        <span class="menu-bullet">
-                                            <span class="bullet bullet-dot"></span>
-                                        </span>
-                                        <span class="menu-title">Budget</span>
-                                    </a>
-                                </div>
-                                <div class="menu-item">
-                                    <a class="menu-link" href="<?php echo $filePathScript ?>projects/users.php">
-                                        <span class="menu-bullet">
-                                            <span class="bullet bullet-dot"></span>
-                                        </span>
-                                        <span class="menu-title">Users</span>
-                                    </a>
-                                </div>
-                                <div class="menu-item">
-                                    <a class="menu-link" href="<?php echo $filePathScript ?>projects/files.php">
-                                        <span class="menu-bullet">
-                                            <span class="bullet bullet-dot"></span>
-                                        </span>
-                                        <span class="menu-title">Files</span>
-                                    </a>
-                                </div>
-                                
-                                <div class="menu-item">
-                                    <a class="menu-link" href="<?php echo $filePathScript ?>projects/settings.php">
-                                        <span class="menu-bullet">
-                                            <span class="bullet bullet-dot"></span>
-                                        </span>
-                                        <span class="menu-title">Settings</span>
-                                    </a>
-                                </div>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>

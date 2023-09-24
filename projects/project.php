@@ -336,7 +336,7 @@ if (is_int($last_segment)) {
 												<!--end::Icon-->
 												<!--begin::Details-->
 												<div class="fw-bold">
-													<a class="fs-6 fw-bolder text-dark text-hover-primary" href="#">Budget Purposal</a>
+													<a class="fs-6 fw-bolder text-dark text-hover-primary" href="#">ADDENDUM No.2 SECOND KENYA INFORMAL SETTLEMENTS IMPROVEMENT PROJECT (KISIP 2) LOT 1 BQs</a>
 													<div class="text-gray-400">2 days ago
 													</div>
 												</div>
@@ -352,7 +352,7 @@ if (is_int($last_segment)) {
 												<!--end::Icon-->
 												<!--begin::Details-->
 												<div class="fw-bold">
-													<a class="fs-6 fw-bolder text-dark text-hover-primary" href="#">Revise Purposal document</a>
+													<a class="fs-6 fw-bolder text-dark text-hover-primary" href="#">SUPPLY & DELIVERY OF LABORATORY REAGENTS FOR KAKAMEGA COUNTY GENERAL HOSPITAL 15-09-2023</a>
 													<div class="text-gray-400"> 5 days ago
 													</div>
 												</div>
@@ -368,7 +368,7 @@ if (is_int($last_segment)) {
 												<!--end::Icon-->
 												<!--begin::Details-->
 												<div class="fw-bold">
-													<a class="fs-6 fw-bolder text-dark text-hover-primary" href="#">Legal Document</a>
+													<a class="fs-6 fw-bolder text-dark text-hover-primary" href="#">PROVISION OF CONTRACTED SECURITY SERVICES 15-09-2023</a>
 													<div class="text-gray-400">2-Aug-2023
 													</div>
 												</div>
@@ -384,7 +384,7 @@ if (is_int($last_segment)) {
 												<!--end::Icon-->
 												<!--begin::Details-->
 												<div class="fw-bold">
-													<a class="fs-6 fw-bolder text-dark text-hover-primary" href="#">Tender Agreement</a>
+													<a class="fs-6 fw-bolder text-dark text-hover-primary" href="#">TENDER NOTICE ADDENDUM 25-08-2023</a>
 													<div class="text-gray-400">1 day ago
 													</div>
 												</div>
