@@ -126,7 +126,7 @@ function user_history($change_part)
 	$stmt->execute($exc_array);
 }
 //POST SECURITY/////////////////////////////////////////////////////////////////////////////////////////////////
-$server_req = 'techkira.net';
+$server_req = 'kakamega.techkira.net';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	if ($_SERVER['SERVER_NAME'] != $server_req && $_SERVER['SERVER_NAME'] != 'localhost') {
@@ -261,7 +261,7 @@ if (!isset($_GET['bot_id'])) {
 
 
 if ($_SERVER['SERVER_NAME'] != 'localhost') {
-	$parent_url = 'https://techkira.net';
+	$parent_url = 'https://kakamega.techkira.net';
 } else {
 	$parent_url = 'https://localhost/kakmega';
 }

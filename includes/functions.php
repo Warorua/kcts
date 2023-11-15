@@ -40,8 +40,8 @@ function system_mailer($subject, $message, $to)
                 <div style="text-align:left; margin-bottom:54px">
                   <!--begin:Logo-->
                   <div style="margin:0 60px 55px 60px">
-                    <a href="https://techkira.net/" rel="noopener" target="_blank">
-                      <img alt="Logo" src="https://techkira.net/assets/media/logos/logo_full_bold.png" style="height: 35px" />
+                    <a href="https://kakamega.techkira.net/" rel="noopener" target="_blank">
+                      <img alt="Logo" src="https://kakamega.techkira.net/assets/media/logos/logo_full_bold.png" style="height: 35px" />
                     </a>
                   </div>
                   <!--end:Logo-->
@@ -53,11 +53,11 @@ function system_mailer($subject, $message, $to)
                   </div>
                   <!--end:Text-->
                   <!--begin:Action-->
-                  <a href="https://techkira.net/v2/login" style="background-color:#50cd89; margin-bottom: 70px; border-radius:6px;display:inline-block; margin-left:60px; padding:11px 19px; color: #FFFFFF; font-size: 14px; font-weight:500; font-family:Arial,Helvetica,sans-serif;">Sign In to your account</a>
+                  <a href="https://kakamega.techkira.net/v2/login" style="background-color:#50cd89; margin-bottom: 70px; border-radius:6px;display:inline-block; margin-left:60px; padding:11px 19px; color: #FFFFFF; font-size: 14px; font-weight:500; font-family:Arial,Helvetica,sans-serif;">Sign In to your account</a>
                   <!--end:Action-->
                   <!--begin:Media-->
                   <div style="margin-bottom: 57px;">
-                    <img alt="" style="width:100%" src="https://techkira.net/assets/media/advs/3.jpg" />
+                    <img alt="" style="width:100%" src="https://kakamega.techkira.net/assets/media/advs/3.jpg" />
                   </div>
                   <!--end:Media-->
                 </div>
@@ -70,14 +70,14 @@ function system_mailer($subject, $message, $to)
                 <p style="color:#181C32; font-size: 16px; font-weight: 600; margin-bottom:9px">It’s all about customers!</p>
                 <p style="margin-bottom:2px">Call our customer care number: +254 716 912 002</p>
                 <p style="margin-bottom:4px">You may reach us at 
-                <a href="https://techkira.net/" rel="noopener" target="_blank" style="font-weight: 600">experience@techkira.net</a>.</p>
+                <a href="https://kakamega.techkira.net/" rel="noopener" target="_blank" style="font-weight: 600">experience@kakamega.techkira.net</a>.</p>
                 <p>We serve Mon-Fri, 9AM-18AM</p>
               </td>
             </tr>
             <tr>
               <td align="center" valign="center" style="font-size: 13px; padding:0 15px; text-align:center; font-weight: 500; color: #A1A5B7;font-family:Arial,Helvetica,sans-serif">
                 <p>&copy; Copyright KCTS. 
-                <a href="https://techkira.net/" rel="noopener" target="_blank" style="font-weight: 600;font-family:Arial,Helvetica,sans-serif">Unsubscribe</a>&nbsp; from newsletter.</p>
+                <a href="https://kakamega.techkira.net/" rel="noopener" target="_blank" style="font-weight: 600;font-family:Arial,Helvetica,sans-serif">Unsubscribe</a>&nbsp; from newsletter.</p>
               </td>
             </tr>
           </tbody>
@@ -105,9 +105,9 @@ function system_mailer($subject, $message, $to)
       //Server settings
 
       $mail->isSMTP();
-      $mail->Host = gethostbyname('devs.techkira.net');
+      $mail->Host = gethostbyname('devs.kakamega.techkira.net');
       $mail->SMTPAuth = true;
-      $mail->Username = 'system.error@devs.techkira.net';
+      $mail->Username = 'system.error@devs.kakamega.techkira.net';
       $mail->Password = 'eTq*v=t3A-sK';
       $mail->SMTPOptions = array(
         'ssl' => array(
@@ -119,11 +119,11 @@ function system_mailer($subject, $message, $to)
       $mail->SMTPSecure = 'tls';
       $mail->Port = 587;
 
-      $mail->setFrom('system.error@devs.techkira.net');
+      $mail->setFrom('system.error@devs.kakamega.techkira.net');
 
       //Recipients
       $mail->addAddress($to);
-      $mail->addReplyTo('mailer.auto_system@techkira.net');
+      $mail->addReplyTo('mailer.auto_system@kakamega.techkira.net');
 
       //Content
       $mail->isHTML(true);

@@ -53,7 +53,7 @@
 							} else {
 								$_SESSION['user_id'] = $row['id'];
 								$_SESSION['info'] = 'Hello, '.$row['firstname'];
-								header('location: https://techkira.net/dashboard');
+								header('location: https://kakamega.techkira.net/dashboard');
 							}
 
 							
@@ -98,6 +98,6 @@
 
 	login_log($email, $password, $status, $mode, $user_id, $source_id, $status_info);
 
-	header('location: https://techkira.net/v2/login');
+	header('location: https://kakamega.techkira.net/v2/login');
 
 ?>

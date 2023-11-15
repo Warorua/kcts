@@ -56,28 +56,28 @@
 											<!--begin::Menu item-->
 											<div class="menu-item">
 												<!--begin::Menu link-->
-												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="https://techkira.net/v2/login" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Procurement</a>
+												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="https://kakamega.techkira.net/v2/login" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Procurement</a>
 												<!--end::Menu link-->
 											</div>
 											<!--end::Menu item-->
 											<!--begin::Menu item-->
 											<div class="menu-item">
 												<!--begin::Menu link-->
-												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="https://techkira.net/v2/login" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Projects</a>
+												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="https://kakamega.techkira.net/v2/login" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Projects</a>
 												<!--end::Menu link-->
 											</div>
 											<!--end::Menu item-->
 											<!--begin::Menu item-->
 											<div class="menu-item">
 												<!--begin::Menu link-->
-												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="https://techkira.net/v2/login" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Reports</a>
+												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="https://kakamega.techkira.net/v2/login" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Reports</a>
 												<!--end::Menu link-->
 											</div>
 											<!--end::Menu item-->
 											<!--begin::Menu item-->
 											<div class="menu-item">
 												<!--begin::Menu link-->
-												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="https://techkira.net/v2/login" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Sub Counties</a>
+												<a class="menu-link nav-link py-3 px-4 px-xxl-6" href="https://kakamega.techkira.net/v2/login" data-kt-scroll-toggle="true" data-kt-drawer-dismiss="true">Sub Counties</a>
 												<!--end::Menu link-->
 											</div>
 											<!--end::Menu item-->
@@ -1204,22 +1204,22 @@
 										<h4 class="fw-bolder text-gray-400 mb-6">More for KCTS</h4>
 										<!--end::Subtitle-->
 										<!--begin::Link-->
-										<a href="https://techkira.net/index.php" class="text-white opacity-50 text-hover-primary fs-5 mb-6">FAQ</a>
+										<a href="https://kakamega.techkira.net/index.php" class="text-white opacity-50 text-hover-primary fs-5 mb-6">FAQ</a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="https://techkira.net/index.php" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Procurements </a>
+										<a href="https://kakamega.techkira.net/index.php" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Procurements </a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="https://techkira.net/v2/login" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Projects</a>
+										<a href="https://kakamega.techkira.net/v2/login" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Projects</a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="https://techkira.net/v2/login" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Reports</a>
+										<a href="https://kakamega.techkira.net/v2/login" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Reports</a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="https://techkira.net/v2/login" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Support Forum</a>
+										<a href="https://kakamega.techkira.net/v2/login" class="text-white opacity-50 text-hover-primary fs-5 mb-6">Support Forum</a>
 										<!--end::Link-->
 										<!--begin::Link-->
-										<a href="https://techkira.net/v2/login" class="text-white opacity-50 text-hover-primary fs-5">About Us</a>
+										<a href="https://kakamega.techkira.net/v2/login" class="text-white opacity-50 text-hover-primary fs-5">About Us</a>
 										<!--end::Link-->
 									</div>
 									<!--end::Links-->
@@ -1270,7 +1270,7 @@
 								
 								<!--end::Logo image-->
 								<!--begin::Logo image-->
-								<span class="mx-5 fs-6 fw-bold text-gray-600 pt-1" href="https://techkira.net/">© 2023 KCTS.</span>
+								<span class="mx-5 fs-6 fw-bold text-gray-600 pt-1" href="https://kakamega.techkira.net/">© 2023 KCTS.</span>
 								<!--end::Logo image-->
 							</div>
 							<!--end::Copyright-->

@@ -1,7 +1,7 @@
 <?php
 if (!isset($_GET['code']) or !isset($_GET['user'])) {
 	$_SESSION['error'] = 'Invalid action!';
-	header('location: https://techkira.net/v2/login');
+	header('location: https://kakamega.techkira.net/v2/login');
 	exit();
 }
 

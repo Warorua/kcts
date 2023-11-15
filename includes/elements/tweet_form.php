@@ -5,7 +5,7 @@
         <div class="card-header justify-content-start align-items-center pt-4">
             <!--begin::Photo-->
             <div class="symbol symbol-45px me-5">
-                <img src="https://techkira.net/assets/media/logos/logo-3.png" class="" alt="" />
+                <img src="https://kakamega.techkira.net/assets/media/logos/logo-3.png" class="" alt="" />
             </div>
             <!--end::Photo-->
             <span class="text-gray-400 fw-semibold fs-6">What’s on your mind, <?php echo $user['firstname'] ?>?</span>

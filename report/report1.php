@@ -205,8 +205,8 @@ include '../includes/head.php';
                                                         }
 
                                                         for($i=0;$i<=5;$i++){
-                                                                echo '<div class="tab-pane fade '.$actdec.'" id="kt_vtab_pane_' . $ids . '" role="tabpanel">
-                                                        <div class="card card-flush border-0 h-md-100">
+                                   echo '<div class="tab-pane fade '.$actdec.'" id="kt_vtab_pane_' . $ids . '" role="tabpanel">
+                                     <div class="card card-flush border-0 h-md-100">
 										<!--begin::Body-->
 										<div class="card-body py-9">
 											<!--begin::Row-->
@@ -327,7 +327,7 @@ include '../includes/head.php';
 															</div>
 															<!--end::Users group-->
 															<!--begin::Actions-->
-															<a href="../project/overview/4" class="text-primary opacity-75-hover fs-6 fw-bold">View Project 
+															<a href="#" class="text-primary opacity-75-hover fs-6 fw-bold">View Project 
 															<!--begin::Svg Icon | path: icons/duotune/arrows/arr095.svg-->
 															<span class="svg-icon svg-icon-4 svg-icon-gray-800 ms-1">
 																<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

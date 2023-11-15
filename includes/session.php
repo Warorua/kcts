@@ -10,7 +10,7 @@ if(isset($_GET['bot_id'])){
 
 }elseif(!isset($_SESSION['user_id'])){
     $_SESSION['error'] = 'User not logged in!';
-   header('location:https://techkira.net/v2/login ');
+   header('location:https://kakamega.techkira.net/v2/login ');
 }else{
     $conn = $pdo->open();
     $stmt = $conn->prepare("SELECT * FROM users WHERE id=:id");

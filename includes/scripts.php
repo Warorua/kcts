@@ -547,7 +547,7 @@ $dm_perc = ($dm * 100) / 1000;
 			customizations: {
 				title: "KCTS",
 				description: "Refill your gas points",
-				logo: "https://techkira.net/assets/media/logos/icon.png",
+				logo: "https://kakamega.techkira.net/assets/media/logos/icon.png",
 			},
 		});
 	}

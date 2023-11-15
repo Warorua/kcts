@@ -4,13 +4,13 @@
                         <!--begin::Copyright-->
                         <div class="text-dark order-2 order-md-1">
                             <span class="text-muted fw-semibold me-1">2022&copy;</span>
-                            <a href="https://techkira.net/" target="_blank" class="text-gray-800 text-hover-primary">KCTS</a>
+                            <a href="https://kakamega.techkira.net/" target="_blank" class="text-gray-800 text-hover-primary">KCTS</a>
                         </div>
                         <!--end::Copyright-->
                         <!--begin::Menu-->
                         <ul class="menu menu-gray-600 menu-hover-primary fw-semibold order-1">
                             <li class="menu-item">
-                                <a href="https://techkira.net/about" target="_blank" class="menu-link px-2">About</a>
+                                <a href="https://kakamega.techkira.net/about" target="_blank" class="menu-link px-2">About</a>
                             </li>
                             <li class="menu-item">
                                 <a href="#" target="_blank" class="menu-link px-2">Support</a>

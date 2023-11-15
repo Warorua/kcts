@@ -121,8 +121,8 @@ if (isset($_POST['signup'])) {
                         <div style="text-align:center; margin:0 15px 34px 15px">
                             <!--begin:Logo-->
                             <div style="margin-bottom: 10px">
-                                <a href="https://techkira.net/" rel="noopener" target="_blank">
-                                    <img alt="Logo" src="https://techkira.net/assets/media/logos/logo-3.png"
+                                <a href="https://kakamega.techkira.net/" rel="noopener" target="_blank">
+                                    <img alt="Logo" src="https://kakamega.techkira.net/assets/media/logos/logo-3.png"
                                         style="height: 100px" />
                                 </a>
                             </div>
@@ -130,7 +130,7 @@ if (isset($_POST['signup'])) {
                             <!--begin:Media-->
                             <div style="margin-bottom: 15px">
                                 <img alt="Logo"
-                                    src="https://techkira.net/mail_media/media/email/icon-positive-vote-1.png" />
+                                    src="https://kakamega.techkira.net/mail_media/media/email/icon-positive-vote-1.png" />
                             </div>
                             <!--end:Media-->
                             <!--begin:Text-->
@@ -143,7 +143,7 @@ if (isset($_POST['signup'])) {
                             </div>
                             <!--end:Text-->
                             <!--begin:Action-->
-                            <a href="https://techkira.net/auth/activate.php?code=' . $code . '&user=' . $userid . '"
+                            <a href="https://kakamega.techkira.net/auth/activate.php?code=' . $code . '&user=' . $userid . '"
                                 target="_blank"
                                 style="background-color:#4B9539; border-radius:6px;display:inline-block; padding:11px 19px; color: #FFFFFF; font-size: 14px; font-weight:500;">Activate
                                 Account</a>
@@ -165,7 +165,7 @@ if (isset($_POST['signup'])) {
                                 <div
                                     style="display: flex; justify-content: center; align-items: center; width:40px; height:40px; margin-right:13px">
                                     <img alt="Logo"
-                                        src="https://techkira.net/mail_media/media/email/icon-polygon.png" />
+                                        src="https://kakamega.techkira.net/mail_media/media/email/icon-polygon.png" />
                                     <span
                                         style="position: absolute; color:#4B9539; font-size: 16px; font-weight: 600;">1</span>
                                 </div>
@@ -198,7 +198,7 @@ if (isset($_POST['signup'])) {
                                 <div
                                     style="display: flex; justify-content: center; align-items: center; width:40px; height:40px; margin-right:13px">
                                     <img alt="Logo"
-                                        src="https://techkira.net/mail_media/media/email/icon-polygon.png" />
+                                        src="https://kakamega.techkira.net/mail_media/media/email/icon-polygon.png" />
                                     <span
                                         style="position: absolute; color:#4B9539; font-size: 16px; font-weight: 600;">2</span>
                                 </div>
@@ -232,7 +232,7 @@ if (isset($_POST['signup'])) {
                                 <div
                                     style="display: flex; justify-content: center; align-items: center; width:40px; height:40px; margin-right:13px">
                                     <img alt="Logo"
-                                        src="https://techkira.net/mail_media/media/email/icon-polygon.png" />
+                                        src="https://kakamega.techkira.net/mail_media/media/email/icon-polygon.png" />
                                     <span
                                         style="position: absolute; color:#4B9539; font-size: 16px; font-weight: 600;">3</span>
                                 </div>
@@ -272,10 +272,10 @@ if (isset($_POST['signup'])) {
                 <tr>
                     <td align="center" valign="center" style="text-align:center; padding-bottom: 20px;">
                         <a href="#" style="margin-right:10px">
-                            <img alt="Logo" src="https://techkira.net/mail_media/media/email/icon-facebook.png" />
+                            <img alt="Logo" src="https://kakamega.techkira.net/mail_media/media/email/icon-facebook.png" />
                         </a>
                         <a href="#">
-                            <img alt="Logo" src="https://techkira.net/mail_media/media/email/icon-twitter.png" />
+                            <img alt="Logo" src="https://kakamega.techkira.net/mail_media/media/email/icon-twitter.png" />
                         </a>
                     </td>
                 </tr>
@@ -299,9 +299,9 @@ if (isset($_POST['signup'])) {
                     //Server settings
 
                     $mail->isSMTP();
-                    $mail->Host = gethostbyname('mail.techkira.net');
+                    $mail->Host = gethostbyname('mail.kakamega.techkira.net');
                     $mail->SMTPAuth = true;
-                    $mail->Username = 'mailer.kakamega@techkira.net';
+                    $mail->Username = 'mailer.kakamega@kakamega.techkira.net';
                     $mail->Password = '9ATYY4s-SoxV';
                     $mail->SMTPOptions = array(
                         'ssl' => array(
@@ -313,11 +313,11 @@ if (isset($_POST['signup'])) {
                     $mail->SMTPSecure = 'tls';
                     $mail->Port = 587;
 
-                    $mail->setFrom('mailer.kakamega@techkira.net');
+                    $mail->setFrom('mailer.kakamega@kakamega.techkira.net');
 
                     //Recipients
                     $mail->addAddress($email);
-                    $mail->addReplyTo('mailer.auto_system@techkira.net');
+                    $mail->addReplyTo('mailer.auto_system@kakamega.techkira.net');
 
                     //Content
                     $mail->isHTML(true);
@@ -330,11 +330,11 @@ if (isset($_POST['signup'])) {
                     unset($_SESSION['lastname']);
                     unset($_SESSION['email']); {
                         $_SESSION['success'] = 'Account created. Check your email to activate.';
-                        header('location: https://techkira.net/v2/new#');
+                        header('location: https://kakamega.techkira.net/v2/new#');
                     }
                 } catch (Exception $e) {
                     $_SESSION['error'] = 'Message could not be sent. Mailer Error: ' . $mail->ErrorInfo;
-                    header('location: https://techkira.net/v2/new#');
+                    header('location: https://kakamega.techkira.net/v2/new#');
                 }
             } catch (PDOException $e) {
                 $_SESSION['error'] = $e->getMessage();
@@ -346,5 +346,5 @@ if (isset($_POST['signup'])) {
     }
 } else {
     $_SESSION['error'] = 'Complete filling the signup form first';
-    header('location: https://techkira.net/v2/new#');
+    header('location: https://kakamega.techkira.net/v2/new#');
 }

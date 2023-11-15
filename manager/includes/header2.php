@@ -57,9 +57,9 @@ if (isset($_SESSION['user_id'])) {
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="KCTS | Kakamega County Tracking System" />
-	<meta property="og:url" content="https://techkira.net" />
+	<meta property="og:url" content="https://kakamega.techkira.net" />
 	<meta property="og:site_name" content="KCTS | Kakamega County Tracking System" />
-	<link rel="canonical" href="https://kakamega.techkira.net" />
+	<link rel="canonical" href="https://kakamega.kakamega.techkira.net" />
 	<link rel="shortcut icon" href="<?php echo $filePathScript ?>assets/media/logos/logo-3.png" />
 	<!--begin::Fonts-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />

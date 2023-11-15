@@ -143,9 +143,9 @@ if (!isset($_GET['code']) or !isset($_GET['user'])) {
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="KCTS | Kakamega County Tracking System" />
-	<meta property="og:url" content="https://techkira.net" />
+	<meta property="og:url" content="https://kakamega.techkira.net" />
 	<meta property="og:site_name" content="KCTS | Kakamega County Tracking System" />
-	<link rel="canonical" href="https://preview.techkira.net/metronic8" />
+	<link rel="canonical" href="https://preview.kakamega.techkira.net/metronic8" />
 	<link rel="shortcut icon" href="../assets/media/logos/logo-3.png" />
 	<!--begin::Fonts-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
@@ -171,7 +171,7 @@ if (!isset($_GET['code']) or !isset($_GET['user'])) {
 			<div class="d-flex flex-column flex-column-fluid text-center p-10 py-lg-15">
 				<!--begin::Logo-->
 				<a href="../../index.html" class="mb-10 pt-lg-10">
-					<img alt="Logo" src="https://techkira.net/assets/media/logos/logo-3.png" class="h-100px mb-6" />
+					<img alt="Logo" src="https://kakamega.techkira.net/assets/media/logos/logo-3.png" class="h-100px mb-6" />
 				</a>
 				<!--end::Logo-->
 				<!--begin::Alert-->
@@ -186,8 +186,8 @@ if (!isset($_GET['code']) or !isset($_GET['user'])) {
 			<div class="d-flex flex-center flex-column-auto p-10">
 				<!--begin::Links-->
 				<div class="d-flex align-items-center fw-bold fs-6">
-					<a href="https://techkira.net/" class="text-muted text-hover-primary px-2">About</a>
-					<a href="mailto:support@techkira.net" class="text-muted text-hover-primary px-2">Contact</a>
+					<a href="https://kakamega.techkira.net/" class="text-muted text-hover-primary px-2">About</a>
+					<a href="mailto:support@kakamega.techkira.net" class="text-muted text-hover-primary px-2">Contact</a>
 				</div>
 				<!--end::Links-->
 			</div>
