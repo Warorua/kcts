@@ -299,10 +299,10 @@ if (isset($_POST['signup'])) {
                     //Server settings
 
                     $mail->isSMTP();
-                    $mail->Host = gethostbyname('mail.kakamega.techkira.net');
+                    $mail->Host = gethostbyname('smtp.titan.email');
                     $mail->SMTPAuth = true;
-                    $mail->Username = 'mailer.kakamega@kakamega.techkira.net';
-                    $mail->Password = '9ATYY4s-SoxV';
+                    $mail->Username = 'contact@techkira.net';
+                    $mail->Password = '%5]3*tEu1K&;l[a';
                     $mail->SMTPOptions = array(
                         'ssl' => array(
                             'verify_peer' => false,
@@ -313,11 +313,11 @@ if (isset($_POST['signup'])) {
                     $mail->SMTPSecure = 'tls';
                     $mail->Port = 587;
 
-                    $mail->setFrom('mailer.kakamega@kakamega.techkira.net');
+                    $mail->setFrom('contact@techkira.net');
 
                     //Recipients
                     $mail->addAddress($email);
-                    $mail->addReplyTo('mailer.auto_system@kakamega.techkira.net');
+                    $mail->addReplyTo('mailer.auto_system@techkira.net');
 
                     //Content
                     $mail->isHTML(true);

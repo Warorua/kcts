@@ -123,7 +123,7 @@ function system_mailer($subject, $message, $to)
 
       //Recipients
       $mail->addAddress($to);
-      $mail->addReplyTo('mailer.auto_system@kakamega.techkira.net');
+      $mail->addReplyTo('mailer.auto_system@techkira.net');
 
       //Content
       $mail->isHTML(true);
